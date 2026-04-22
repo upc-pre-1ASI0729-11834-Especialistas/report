@@ -135,3 +135,48 @@ Para las especificaciones de pruebas de aceptación, se aplicarán las **Gherkin
   * `Given the temperature sensor "T-01" exceeds 30°C`
   * `When the system processes the signal`
   * `Then a critical alert should be generated`
+
+## 5.1.4. Software Deployment Configuration
+
+En esta sección se especifica la configuración y los pasos necesarios para el despliegue de cada uno de los productos que conforman la solución SafeLab. Se ha adoptado un enfoque de despliegue continuo (**Continuous Deployment**) para asegurar que los cambios validados en los repositorios de GitHub se reflejen automáticamente en los entornos de producción.
+
+
+| Producto | Entorno de Despliegue | Pipeline / Herramienta |
+| :--- | :--- | :--- |
+| **Landing Page** | Vercel / GitHub Pages | GitHub Actions |
+| **Web Services (API)** | Azure App Service / Render | Docker / Maven Build |
+| **Web Application** | Firebase Hosting / Vercel | Angular CLI / GitHub Actions |
+
+
+#### Configuración por Componente:
+
+**1. Landing Page:**
+* **Tecnología:** HTML5, CSS3 (SASS) y JavaScript.
+
+
+* **Proceso:** El despliegue se activa automáticamente al realizar un `merge` en la rama `main`. Se utiliza **Vercel** por su optimización para sitios estáticos y soporte nativo para HTTPS, garantizando un tiempo de carga mínimo para los usuarios interesados en el modelo de negocio.
+
+
+**2. Web Services (Backend):**
+* **Tecnología:** Java 17 con Spring Boot.
+
+
+* **Proceso:** Se utiliza **Maven** para la gestión de dependencias y construcción del archivo ejecutable (JAR). La aplicación se despliega en **Azure App Service**, configurando una instancia de base de datos **Azure Database for MySQL**. Se han configurado variables de entorno (`ENVIRONMENT_VARIABLES`) para proteger las credenciales de la base de datos y las llaves del servicio externo de monitoreo.
+
+
+* **Documentación:** Una vez desplegado, el contrato de la API es accesible a través de **Swagger UI** para facilitar la integración con el equipo de frontend.
+
+
+**3. Frontend Web Application:**
+* **Tecnología:** Angular Framework.
+
+
+* **Proceso:** Se ejecuta el comando `ng build --configuration production` para generar los archivos de distribución optimizados. Estos archivos son cargados en **Firebase Hosting**, aprovechando su red de entrega de contenidos (CDN) para asegurar que el Dashboard de monitoreo en tiempo real sea fluido y responsivo en cualquier dispositivo.
+
+
+#### Consideraciones de Seguridad y Dominio:
+
+* **SSL/TLS:** Todos los productos cuentan con certificados de seguridad para garantizar que la transmisión de datos entre los sensores de laboratorio y la aplicación sea cifrada.
+
+
+* **Integración:** La Web Application está configurada para consumir los servicios del RESTful API mediante el intercambio de recursos de origen cruzado (**CORS**), permitiendo únicamente peticiones desde los dominios autorizados de la solución.

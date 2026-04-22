@@ -64,3 +64,74 @@ Para mantener un historial de cambios legible y facilitar la generación automá
     * `feat(ordering): add automated order validation policy`
     * `fix(auth): resolve token expiration on mobile devices`
     * `docs(interviews): update stakeholder interview records`
+
+## 5.1.3. Source Code Style Guide & Conventions
+
+Para garantizar la calidad, mantenibilidad y legibilidad del código de SafeLab, el equipo ha adoptado las siguientes convenciones de estilo. Siguiendo los estándares de la industria y las exigencias del curso, todo el código fuente (nombres de variables, clases, métodos y comentarios) se escribirá estrictamente en inglés.
+
+
+#### HTML & CSS
+Se seguirá la **Google HTML/CSS Style Guide**.
+
+
+* **HTML:** Se utilizará una estructura semántica (uso de `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`). La indentación será de 2 espacios. Los atributos de los elementos deben estar en minúsculas y los valores entre comillas dobles.
+
+
+* **CSS:** Se utilizará la metodología **BEM (Block Element Modifier)** para el nombramiento de clases, facilitando el mantenimiento de los componentes de la interfaz.
+
+
+* **Naming Convention:** Se aplicará `kebab-case` para IDs y nombres de clases (ej. `sensor-card`, `alert-status-critical`).
+
+
+* **Colors & Units:** Se priorizará el uso de variables CSS para la paleta de colores corporativa y unidades relativas (`rem`, `em`, `%`) para asegurar que el diseño sea adaptable (responsive).
+
+
+#### JavaScript & TypeScript
+Se seguirá la **Google TypeScript Style Guide**.
+
+
+* **Variables y Funciones:** Se utilizará `camelCase` (ej. `getSensorReading`, `updateLaboratoryStatus`). Los nombres deben ser semánticos; se prefiere `isTemperatureHigh` sobre `tempCheck`.
+
+
+* **Clases e Interfaces:** Se utilizará `PascalCase` (ej. `EnvironmentMonitor`, `ISensorData`). Las interfaces llevarán el prefijo "I" para distinguirlas claramente.
+
+
+* **Estructura:** Se utilizará `const` por defecto y `let` solo si el valor requiere reasignación. Se evitará el uso de `var`. Se implementarán funciones de flecha (**Arrow Functions**) para una sintaxis más limpia.
+
+
+* **Asincronía:** Se utilizará exclusivamente `async/await` para el manejo de peticiones al API, evitando el anidamiento de promesas.
+
+
+#### Java (Backend - Spring Boot)
+Se seguirá la **Google Java Style Guide** y las convenciones oficiales de **Spring Framework**.
+
+
+* **Naming:** `PascalCase` para clases (ej. `LaboratoryController`, `SensorService`) y `camelCase` para métodos y variables (ej. `calculateAverageHumidity`).
+
+
+* **Arquitectura:** Se respetará estrictamente el patrón por capas: Controller, Service, Repository, Entity y DTO (Data Transfer Object).
+
+
+* **API REST:** Los endpoints utilizarán sustantivos en plural y minúsculas (ej. `/api/v1/laboratories`, `/api/v1/sensors/{id}/logs`). Se aplicarán los verbos HTTP de forma correcta (GET para consulta, POST para creación, etc.).
+
+
+* **Annotations:** Se emplearán anotaciones de **Lombok** (como `@Getter`, `@Setter`, `@NoArgsConstructor`) para mantener el código limpio y libre de boilerplate.
+
+
+#### Gherkin
+Para las especificaciones de pruebas de aceptación, se aplicarán las **Gherkin Conventions**.
+
+
+* **Idioma:** Se redactarán en inglés para mantener la consistencia con el código fuente y las mejores prácticas de desarrollo open source.
+
+
+* **Estructura:** Uso de palabras clave: **Scenario:**, **Given**, **When**, **Then**, **And**.
+
+
+* **Claridad:** Los pasos deben describir el comportamiento del negocio.
+
+
+* **Ejemplo:**
+  * `Given the temperature sensor "T-01" exceeds 30°C`
+  * `When the system processes the signal`
+  * `Then a critical alert should be generated`

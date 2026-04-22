@@ -12,3 +12,5 @@ Para el desarrollo de SafeLab, utilizaremos el siguiente conjunto de herramienta
 | Software Development (Frontend) | Visual Studio Code | IDE para el desarrollo de la Web Application (Angular) y el Landing Page. |
 | Version Control | GitHub | Sistema de control de versiones distribuido para el alojamiento y gestión de repositorios. |
 | Documentation (API) | Swagger / OpenAPI | Herramienta para la documentación técnica y pruebas de los endpoints de la API. |
+
+

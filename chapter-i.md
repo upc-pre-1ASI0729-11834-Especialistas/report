@@ -104,4 +104,7 @@ Para delimitar el problema de manera estructurada, aplicamos la técnica The 5 '
     **Con** la implementación de una base de datos persistente e inmutable.<br>
 
 #### **1.2.2.4. Lean UX Canvas**
+
+![LeanUX Canvas](./chapter-i-assets/LeanUX_canvas_SafeLab.png)
+
 ## **1.3. Segmentos Objetivo**

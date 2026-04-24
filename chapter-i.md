@@ -11,6 +11,29 @@ Desde una perspectiva operativa y comercial, SafeLab estructura sus servicios ba
 ### **1.1.2. Perfiles de los Integrantes del Equipo**
 ## **1.2. Solution Profile**
 ### **1.2.1 Antecedentes y Problemática**
+
+La gestión de la cadena de frío en entornos bioclínicos no es únicamente un desafío logístico, sino un pilar crítico para la seguridad del paciente. Cuando los reactivos de diagnóstico, muestras biológicas y vacunas se exponen a excursiones térmicas (fluctuaciones fuera de los rangos normativos de 2 °C a 8 °C), sufren alteraciones moleculares que comprometen drásticamente su eficacia y estabilidad (Kumru et al., 2014). Un reactivo degradado térmicamente que sea utilizado en pruebas de laboratorio puede generar falsos negativos o alterar métricas diagnósticas, representando un riesgo clínico inminente que afecta directamente las decisiones médicas y la salud de los pacientes.
+
+En segundo plano, esta vulnerabilidad operativa se traduce en un impacto financiero severo para las instituciones de salud. La Organización Mundial de la Salud (OMS, 2020) señala que las deficiencias en el control de temperatura obligan al descarte preventivo de lotes enteros de productos biológicos de alto costo. Esta pérdida económica (desperdicio de stock) se agrava por el desgaste humano: el personal invierte un volumen considerable de horas laborales documentando parámetros en bitácoras físicas. Este esfuerzo administrativo resulta ineficiente, ya que no previene el daño del material, sino que apenas lo registra de forma forense y tardía.
+
+La raíz de este problema es bidimensional. Por un lado, existe un factor de infraestructura: las instalaciones de salud a menudo enfrentan cortes de suministro eléctrico o dependen de equipos de refrigeración que carecen de sistemas de respaldo térmico. Por otro lado, y de forma más crítica, los métodos convencionales de monitoreo manual generan "puntos ciegos" en la supervisión. Un análisis sistemático sobre la cadena de frío demuestra que las revisiones esporádicas durante los turnos diurnos dejan al inventario completamente vulnerable durante la madrugada, los fines de semana y los días festivos (Matthias et al., 2007). Es precisamente en estos intervalos de nula vigilancia donde ocurren la mayoría de las fallas irreversibles, obligando al descarte de los insumos ante la incertidumbre del tiempo de exposición.
+
+Para delimitar el problema de manera estructurada, aplicamos la técnica The 5 'W's y 2 'H's:
+
+- **Who (Quién)**: Coordinadores de laboratorio, técnicos de farmacia y personal administrativo responsable de la viabilidad clínica y la gestión presupuestal del inventario biológico.
+
+- **What (Qué)**: Riesgo clínico elevado por la potencial utilización de insumos degradados, sumado a pérdidas económicas significativas debido al descarte obligatorio de reactivos y vacunas tras excursiones térmicas.
+
+- **Where (Dónde)**: Cuartos fríos, refrigeradores de laboratorio y áreas de almacenamiento en farmacias clínicas y hospitalarias.
+
+- **When (Cuándo)**: El riesgo es permanente, pero los incidentes críticos ocurren durante fallas de infraestructura eléctrica y, especialmente, durante los "puntos ciegos" de la supervisión manual (madrugadas, fines de semana y feriados).
+
+- **Why (Por qué)**: Excesiva dependencia de la supervisión humana intermitente mediante bitácoras físicas, combinada con la falta de mecanismos que notifiquen proactivamente el mal funcionamiento del hardware de refrigeración.
+
+- **How (Cómo)**: El personal constata la temperatura visualmente en intervalos de varias horas. Si ocurre un apagón o una falla técnica entre dos lecturas, es imposible determinar con exactitud el tiempo que el reactivo estuvo fuera de rango, lo que invalida su uso clínico.
+
+- **How Much (Cuánto)**: Compromiso incalculable en la fiabilidad diagnóstica de los pacientes, sumado a la pérdida de miles de dólares por lote descartado y cientos de horas-hombre desperdiciadas anualmente en tareas mecánicas de documentación (Kumru et al., 2014; OMS, 2020).
+
 ### **1.2.2 Lean UX Process**
 #### **1.2.2.1. Lean UX Problem Statements**
 #### **1.2.2.2. Lean UX Assumptions**

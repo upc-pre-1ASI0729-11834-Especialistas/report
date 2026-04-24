@@ -128,6 +128,15 @@ Lo que más le importa es la constante comunicación entre el personal, aunque a
 ![User Persona Carlos](./chapter-ii-assets/Carlos%20Mendoza.png)
 
 ### **2.3.2. User Task Matrix**
+
+| # | Tarea | Frecuencia | Importancia |
+| :--- | :--- | :--- | :--- |
+| 1 | Monitoreo rutinario de temperatura | Alta | Alta |
+| 2 | Respuesta ante incidentes de equipo | Baja | Crítica |
+| 3 | Elaboración de reportes de calidad | Media | Alta |
+| 4 | Traspaso de información entre turnos | Alta | Media |
+| 5 | Gestión administrativa de reposición | Muy Baja | Media |
+
 ### **2.3.3. User Journey Mapping**
 ### **2.3.4. Empathy Mapping**
 ## **2.4. Big Picture Event Storming**

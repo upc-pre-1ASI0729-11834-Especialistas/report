@@ -40,6 +40,22 @@ La combinación de ser una marca nueva (debilidad) en un sector altamente descon
 
 ## **2.2. Entrevistas**
 ### **2.2.1. Diseño de entrevistas**
+
+**Segmento: Coordinador**
+
+1. ¿Podrías indicarnos tu nombre, edad, estado civil y en qué distrito resides?
+2. Cuéntanos un poco sobre tí y qué sueles hacer en tu tiempo libre. ¿Cómo te describirías en tres palabras?
+3. ¿Cuál es tu cargo actualmente y cuántos años de experiencia tienes? ¿Tienes un objetivo profesional a corto plazo?
+4. En tu día a día, ¿qué dispositivos tecnológicos utilizas más (smartphone, tablet, laptop), qué sistema operativo y navegador prefieres?
+5. ¿Cómo es actualmente el proceso de monitoreo en tu laboratorio/farmacia en el día a día?
+6. ¿Cuánto tiempo estimas que le dedicas a registrar estas bitácoras y elaborar los reportes?
+7. Háblame de la última vez que tuvieron un evento crítico, como una alta desviación de temperatura o una pérdida de reactivos/vacunas.
+8. ¿Qué es lo que más te frustra o te estresa de tu trabajo actualmente?
+9. Si existiera un sistema ideal para resolver tus problemas, ¿cómo sería?
+10. Si un sistema te enviará una alerta a tu celular de que el refrigerador esté fallando, ¿preferirías solo recibir la notificación o que el sistema intente ejecutar una acción de contingencia?
+11. Para que confíes al 100% en este sistema, ¿qué información o garantías tendría que mostrarte?
+12. ¿Hay algo más sobre tu trabajo que creas que es importante discutir?
+
 ### **2.2.2. Registro de entrevistas**
 ### **2.2.3. Análisis de entrevistas**
 ## **2.3. Needfinding**

@@ -151,3 +151,17 @@ Lo que más le importa es la constante comunicación entre el personal, aunque a
 
 ## **2.4. Big Picture Event Storming**
 ## **2.5. Ubiquitous Language**
+
+| Ubiquitous Term | Definition |
+| :--- | :--- |
+| **Cold Chain** | El proceso continuo e ininterrumpido de almacenamiento a temperatura controlada que garantiza la estabilidad y viabilidad de los insumos en el laboratorio. |
+| **Biological Reagent** | Cualquier sustancia, reactivo clínico, vacuna o muestra de pacientes que requiera refrigeración estricta y sea altamente sensible a las variaciones térmicas. |
+| **Cold Storage Unit** | El contenedor físico (refrigeradora médica, congeladora o cuarto frío) utilizado por el laboratorio para salvaguardar los insumos biológicos. |
+| **IoT Sensor** | El dispositivo de hardware colocado en el interior del equipo de frío encargado de capturar la temperatura en tiempo real y transmitirla de forma inalámbrica a la plataforma. |
+| **Temperature Reading** | El valor métrico exacto de temperatura o humedad capturado por un sensor en una marca de tiempo (timestamp) específica. |
+| **Safe Temperature Threshold** | El rango numérico de temperatura permitido (usualmente entre 2 °C y 8 °C) dentro del cual un insumo biológico mantiene su integridad sin riesgo de daño. |
+| **Thermal Excursion** | Evento crítico que ocurre cuando la temperatura de un equipo se desvía por fuera de su Safe Temperature Threshold, poniendo en riesgo la utilidad del reactivo. |
+| **Spoilage** | La pérdida económica e irreversible (merma o desperdicio) de un lote de insumos biológicos debido a una exposición prolongada a una falla térmica. |
+| **Preventive Alert** | Notificación automática generada por el sistema y enviada al personal de turno cuando la temperatura se acerca peligrosamente a los límites del umbral, antes de que ocurra la merma. |
+| **Incident Log** | El registro inmutable y centralizado de todas las anomalías detectadas, incluyendo los comentarios sobre qué miembro del personal respondió a una alerta y qué acción correctiva tomó. |
+| **Compliance Report** | Documento oficial generado automáticamente que consolida el historial de lecturas y el registro de incidencias en un formato normativo válido para superar auditorías de calidad (ej. ISO 15189, DIGEMID). |

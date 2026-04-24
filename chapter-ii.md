@@ -57,6 +57,41 @@ La combinación de ser una marca nueva (debilidad) en un sector altamente descon
 12. ¿Hay algo más sobre tu trabajo que creas que es importante discutir?
 
 ### **2.2.2. Registro de entrevistas**
+
+Enlace de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919096_upc_edu_pe/IQAuZLuadZQQSr_vJx2yVLziASK5lLgG74-kih5DpGcV-pc
+
+**Segmento: Coordinador**
+
+* **Entrevista 1**: Abdul Muchica
+    * **Inicio**: 00:00
+    * **Duración**: 09:56
+    * **Captura**: <br>![Abdul Muchica](./chapter-ii-assets/Abdul%20Muchica.png)
+    * **Resumen**: Abdul Muchica es un biólogo de 29 años con experiencia en las áreas de microbiología y laboratorio clínico en los hospitales Honorio Delgado y Manuel Nuñez Butron. Se describe a sí mismo como una persona atlética y empática.
+Su trabajo empieza monitoreando refrigeradoras en un banco de sangre, toma la temperatura manualmente usando un termómetro digital independiente de la refrigeradora y registra la hora, la persona responsable y la temperatura en una hoja de papel. Este procedimiento lo realiza tres veces por turno y le toma aproximadamente cinco minutos cada uno. Nos cuenta que a veces los termómetros pueden no ser manipulados correctamente y terminan siendo descalibrados. Lo que lo frustra es que no dispone de mucho espacio dentro del laboratorio, le es difícil manipular sus herramientas, y más aún cuando está en un apuro.
+Le gustaría que los datos con los que trabaja no los tenga que medir y que estén disponibles para él por medio de su celular para más comodidad. Prefiere que, en caso suceda un problema, el sistema se encargue de arreglarlo por sí mismo, aunque expresa escepticismo en el caso de laboratorios con menor presupuesto. Considera de alta importancia, además de tener información sobre las temperaturas de las refrigeradoras, saber el estado de los equipos para prevenir que estos dejen de operar en momentos críticos.
+
+<br>
+
+* **Entrevista 2**: Fabrizio Palomino
+    * **Inicio**: 09:57
+    * **Duración**: 09:20
+    * **Captura**: <br>![Fabrizio Palomino](./chapter-ii-assets/Fabrizio%20Palomino.png)
+    * **Resumen**: Fabrizio Palomino es un biólogo de 24 años con dos años de experiencia en microbiología. Se describe a sí mismo como una persona entusiasta y cooperativa.
+Su trabajo empieza con un control de calidad, revisa refrigeradoras donde guarda reactivos, algunos cuentan con termómetros, otros no. El control es manual, la temperatura y humedad son anotados en un cuaderno y a fin de mes debe generar un reporte con las variaciones de temperatura y averías que los equipos hayan sufrido. Le toma aproximadamente unos 5 minutos cada inspección. Algunos de los equipos no pueden ser examinados correctamente e inevitablemente fallan. Cuando esto sucede, le estresa el proceso de licitación para adquirir uno nuevo, él solo quiere tener un nuevo equipo funcionando lo más antes posible.
+Lo principal que busca en una nueva aplicación es que demuestre confiabilidad, que la aplicación lo informe y esté disponible en todo momento. Prefiere que se envíen alertas siempre que suceda un imprevisto, priorizando al personal que se encuentre de turno en el momento de la falla. Espera que la aplicación muestre variación de temperatura entre periodos, preferiblemente entre semanas y meses.
+
+<br>
+
+* **Entrevista 3**: Efrain Palomino
+    * **Inicio**: 09:57
+    * **Duración**: 09:20
+    * **Captura**: <br>![Fabrizio Palomino](./chapter-ii-assets/Efrain%20Palomino.png)
+    * **Resumen**: Efrain Palomino es un biólogo de 65 años que trabaja en el servicio de laboratorio de EsSalud, tiene 26 años de experiencia en el área de microbiología. Se describe a sí mismo como una persona solidaria y trabajadora.
+Al ingresar a trabajar, lo primero que hace es registrar las temperaturas de sus equipos, lo hace de forma manual, tres veces al día y tarda 35 minutos aproximadamente a lo largo de una semana. Estos registros se archivan diariamente en un “registro de incidencias”. Indica que no ha sufrido ninguna experiencia crítica hasta el momento, lo atribuye a un buen trabajo en equipo. Lo que lo estresa son las fallas administrativas al enfrentar ausencia de insumos y fallos de equipos.
+Lo que más le importa es la constante comunicación entre el personal, aunque actualmente usa WhatsApp, le gustaría que esto se integre formalmente a su trabajo; menciona la necesidad de personalizar alertas para filtrar información y actuar inmediatamente. Requiere que esta app le muestre información de incidentes, estado de insumos y de equipos. Para finalizar, recalca la necesidad de las alarmas para que todo el personal esté informado sobre el estado de su servicio.
+
+<br>
+
 ### **2.2.3. Análisis de entrevistas**
 ## **2.3. Needfinding**
 ### **2.3.1. User Personas**

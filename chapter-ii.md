@@ -141,8 +141,13 @@ Lo que más le importa es la constante comunicación entre el personal, aunque a
 
 **Segmento: Coordinador**
 
-![User Persona Carlos](./chapter-ii-assets/Carlos%20Journey%20Map.png)
+![User Journey Mapping](./chapter-ii-assets/Carlos%20Journey%20Map.png)
 
 ### **2.3.4. Empathy Mapping**
+
+**Segmento: Coordinador**
+
+![User Empathy Mapping](./chapter-ii-assets/Carlos%20Empathy%20map.png)
+
 ## **2.4. Big Picture Event Storming**
 ## **2.5. Ubiquitous Language**

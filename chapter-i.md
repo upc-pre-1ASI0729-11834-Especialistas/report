@@ -81,5 +81,27 @@ Para delimitar el problema de manera estructurada, aplicamos la técnica The 5 '
     - Creemos que una base de datos inmutable es esencial para asegurar la veracidad de la trazabilidad ante inspecciones legales.
 
 #### **1.2.2.3. Lean UX Hypothesis Statements**
+
+- **Creemos que** reduciremos el desperdicio de material biológico en un 95%<br>
+    **Si** los biólogos y coordinadores de laboratorio<br>
+    **Obtienen** la capacidad de anticiparse a fallas térmicas críticas antes de que ocurra el daño<br>
+    **Con** el motor de alertas preventivas en tiempo real configurables por umbrales.<br>
+- **Creemos que** disminuiremos los costos operativos administrativos en un 60%<br>
+    **Si** los coordinadores de operaciones clínicas<br>
+    **Obtienen** la eliminación total del registro manual y la transcripción de datos físicos<br>
+    **Con** el módulo automatizado de generación de reportes normativos en PDF.<br>
+- **Creemos que** lograremos reducir el tiempo de capacitación y adopción a menos de 2 horas por laboratorio<br>
+    **Si** el personal de salud<br>
+    **Obtiene** una curva de aprendizaje inmediata sin depender del departamento de sistemas<br>
+    **Con** el flujo de configuración guiada (onboarding nativo) integrado en la plataforma.<br>
+- **Creemos que** lograremos una retención de clientes superior al 90% anual<br>
+    **Si** los responsables de laboratorio y biólogos<br>
+    **Obtienen** tranquilidad operativa y visibilidad absoluta de su infraestructura 24/7<br>
+    **Con** el Dashboard SPA que centraliza toda la telemetría en una interfaz minimalista.<br>
+- **Creemos que** el éxito en auditorías de trazabilidad será del 100% para nuestros clientes<br>
+    **Si** los gerentes de calidad y entes reguladores<br>
+    **Obtienen** acceso a registros históricos de temperatura inalterables y detallados<br>
+    **Con** la implementación de una base de datos persistente e inmutable.<br>
+
 #### **1.2.2.4. Lean UX Canvas**
 ## **1.3. Segmentos Objetivo**

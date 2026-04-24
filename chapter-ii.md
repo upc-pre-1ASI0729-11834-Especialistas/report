@@ -93,6 +93,33 @@ Lo que más le importa es la constante comunicación entre el personal, aunque a
 <br>
 
 ### **2.2.3. Análisis de entrevistas**
+
+**Segmento: Coordinador**
+
+**Características**
+* **Sexo:** Masculino
+* **Edad:** 24 - 65 años
+* **Dispositivos:** Celular, Laptop
+* **Sistemas Operativos:** Android, Windows
+* **Navegadores:** Chrome
+* **Influencia de Marcas:** Equipo de refrigeración (BioRack, BioBase, Helmer Inc), Insumos (Wiener), Comunicación (WhatsApp)
+
+**Objetivos Comunes**
+* Dejar de depender de procesos manuales al examinar sus equipos e insumos.
+* Tener información detallada de sus equipos.
+* Estandarizar sus controles y protocolos.
+* Obtener rápida respuesta desde el nivel administrativo.
+
+**Motivaciones Comunes**
+* Contar con la seguridad de que sus equipos operan de forma correcta.
+* Tener información que prevenga averías antes de que el equipo deje de funcionar.
+* Contar con nuevos equipos totalmente operativos a la brevedad cuando uno deje de funcionar.
+
+**Frustraciones Comunes**
+* Procesos manuales sujetos a errores.
+* Alcance a información superficial insuficiente.
+* Largos tiempos de espera por procesos burocráticos debido a la falta de estandarización.
+
 ## **2.3. Needfinding**
 ### **2.3.1. User Personas**
 ### **2.3.2. User Task Matrix**

@@ -27,3 +27,9 @@ Para el diseño interno de cada **Bounded Context**, se ha implementado una **Ar
 Este bounded context engloba la gestión completa del ciclo de vida de las incidencias, desde su detección inicial hasta su resolución. Los componentes aquí dibujados coordinan la evaluación de lecturas contra umbrales, clasificación por gravedad y notificaciones multicanal, orquestando las entidades `Alert`, `Incident`, `Threshold` y `Notification`.
 
 ![Bounded Context: Intelligent Alerting & Incident Response](./chapter-iv-assets/Bounded_Context_Intelligent_Alerting_Incident_Response.png)
+
+#### Bounded Context: IoT Telemetry & Environment Monitoring
+
+Este bounded context es el motor de fuerza bruta del sistema, encargado de la ingesta masiva de datos provenientes de los sensores de hardware, la normalización de unidades de medida (ºC, ppm, %) y la provisión del estado Live para los tableros. En este diagrama se incluyen componentes para las entidades de `Sensor`, `Metric`, `Reading` y `EnvironmentalGateway`.
+
+![Bounded Context: IoT Telemetry & Environment Monitoring](./chapter-iv-assets/Bounded_Context_IoT_Telemetry_Environment_Monitoring.png)

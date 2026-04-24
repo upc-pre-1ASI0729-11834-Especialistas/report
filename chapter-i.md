@@ -36,6 +36,13 @@ Para delimitar el problema de manera estructurada, aplicamos la técnica The 5 '
 
 ### **1.2.2 Lean UX Process**
 #### **1.2.2.1. Lean UX Problem Statements**
+
+- **Contexto**: Las instituciones de salud, como laboratorios clínicos y farmacias hospitalarias, dependen de la integridad de inventarios biológicos (reactivos, vacunas y muestras) que requieren un control térmico estricto, generalmente entre 2 °C y 8 °C. La precisión de los diagnósticos médicos y la rentabilidad institucional están directamente ligadas a la estabilidad de estos insumos.
+
+- **Observación del problema**: Se ha identificado que el proceso actual de control de la cadena de frío es mayoritariamente manual y reactivo. Profesionales altamente especializados, como biólogos y químicos, dedican hasta un 25% de su jornada a registrar temperaturas en bitácoras físicas. Este método genera "puntos ciegos" críticos durante las madrugadas y fines de semana, periodos en los que no existe supervisión activa ni capacidad de respuesta ante fallas de infraestructura o cortes eléctricos.
+
+- **Impacto**: Esta deficiencia operativa provoca un elevado riesgo clínico por el uso potencial de insumos degradados y genera pérdidas económicas que pueden alcanzar miles de dólares por cada incidente térmico. Asimismo, la falta de una trazabilidad digital inmutable expone a las instituciones a sanciones legales y regulatorias por parte de entidades como DIGEMID o la FDA, además de comprometer certificaciones de calidad como la ISO 15189 (Kumru et al., 2014; Organización Mundial de la Salud, 2020).
+
 #### **1.2.2.2. Lean UX Assumptions**
 #### **1.2.2.3. Lean UX Hypothesis Statements**
 #### **1.2.2.4. Lean UX Canvas**

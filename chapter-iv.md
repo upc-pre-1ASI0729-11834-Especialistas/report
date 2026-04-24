@@ -163,27 +163,11 @@ Además, cada pantalla dentro de la aplicación web contará con una barra de fi
 
 ### 4.3.1. Landing Page Wireframe
 
-**COMPLETAR CON LAS IMAGENES CORRESPONDIENTES**
-
-![Landing Page - Wireframe 1](assets/chapter-4/landing_wireframe_1.png)
-![Landing Page - Wireframe 2](assets/chapter-4/landing_wireframe_2.png)
-![Landing Page - Wireframe 3](assets/chapter-4/landing_wireframe_3.png)
-![Landing Page - Wireframe 4](assets/chapter-4/landing_wireframe_4.png)
-![Landing Page - Wireframe 5](assets/chapter-4/landing_wireframe_5.png)
-![Landing Page - Wireframe 6](assets/chapter-4/landing_wireframe_6.png)
-![Landing Page - Wireframe 7](assets/chapter-4/landing_wireframe_7.png)
+![Landing Page - Wireframe](assets/chapter-iv/landingwireframe.png)
 
 ### 4.3.2. Landing Page Mock-up
 
-**COMPLETAR CON LAS IMAGENES CORRESPONDIENTES**
-
-![Landing Page - Mockup 1](assets/chapter-4/landing_mockup_1.png)
-![Landing Page - Mockup 2](assets/chapter-4/landing_mockup_2.png)
-![Landing Page - Mockup 3](assets/chapter-4/landing_mockup_3.png)
-![Landing Page - Mockup 4](assets/chapter-4/landing_mockup_4.png)
-![Landing Page - Mockup 5](assets/chapter-4/landing_mockup_5.png)
-![Landing Page - Mockup 6](assets/chapter-4/landing_mockup_6.png)
-![Landing Page - Mockup 7](assets/chapter-4/landing_mockup_7.png)
+![Landing Page - Mockup](assets/chapter-iv/landingmockup.png)
 
 ## 4.4. Web Applications UX/UI Design
 

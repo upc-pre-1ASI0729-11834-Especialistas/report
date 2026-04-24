@@ -20,6 +20,24 @@ Identificar las barreras de entrada (tecnológicas y económicas) que imponen lo
 | **Amenazas** | Desconfianza inicial del sector salud hacia plataformas nuevas o ingreso de un gigante tecnológico al mercado de bajo costo. | Surgimiento de startups ágiles y económicas en mercados locales. | Problemas en cadenas de suministro global de microchips que encarecen su hardware. | Soluciones de nicho que roben a sus clientes del sector salud por tener interfaces más especializadas. |
 
 ### **2.1.2. Estrategias y tácticas frente a competidores**
+
+**Estrategias Ofensivas**<br>
+*Penetración por Hiper-especialización y Bajo Costo*<br>
+Al cruzar nuestra fortaleza de tener una arquitectura de software agnóstica (sin hardware propietario) con el inmenso mercado desatendido en ciudades de menos de 250,000 habitantes, nuestra táctica principal será ofrecer un modelo SaaS puramente enfocado en el flujo clínico. Mientras los competidores obligan a comprar costosos paquetes de sensores cerrados, SafeLab permitirá a los laboratorios medianos digitalizar sus procesos utilizando sensores genéricos locales, democratizando el acceso a la tecnología de calidad y capturando rápidamente este nicho en expansión.
+<br><br>
+**Estrategias Adaptativas**<br>
+*Alianzas Estratégicas de Distribución B2B*<br>
+Para contrarrestar nuestra principal debilidad (la ausencia de hardware propio y el bajo reconocimiento de marca inicial), aprovecharemos la creciente necesidad de digitalización post-pandemia mediante alianzas. La táctica será asociarnos con distribuidores locales de refrigeradoras médicas y proveedores de sensores IoT genéricos, ofreciendo SafeLab como un "valor agregado" o software nativo en sus ventas. Esto nos permite llegar al cliente final a través de un canal que ya goza de confianza, mitigando el costo de adquisición.
+<br><br>
+**Estrategias Defensivas**<br>
+*Diferenciación por Usabilidad Clínica (Self-Onboarding)*<br>
+Ante la amenaza de la desconfianza del sector salud hacia nuevas tecnologías o el posible ingreso de gigantes tecnológicos con soluciones de bajo costo, utilizaremos nuestra agilidad y diseño centrado en el usuario clínico como escudo. La táctica es construir un flujo de onboarding "Plug & Play" y una interfaz (dashboard/reportes PDF) tan milimétricamente adaptada al estrés de las auditorías locales (ej. ISO 15189), que cualquier otra plataforma genérica se perciba como torpe e inadecuada para un biólogo.
+<br><br>
+**Estrategias de Supervivencia**<br>
+*Validación Temprana y Cumplimiento Normativo Estricto*<br>
+La combinación de ser una marca nueva (debilidad) en un sector altamente desconfiado y regulado (amenaza) es el mayor riesgo para la startup. Para sobrevivir a esta barrera, la táctica desde el "Día 1" será la estandarización estricta. El software se diseñará exclusivamente bajo los formatos exigidos por los entes reguladores de salud. Además, se implementarán programas piloto (pruebas Beta gratuitas) en laboratorios clave de ciudades secundarias para generar casos de éxito comprobables y métricas de ROI reales, sustituyendo la falta de reputación inicial por evidencia empírica irrefutable.
+<br>
+
 ## **2.2. Entrevistas**
 ### **2.2.1. Diseño de entrevistas**
 ### **2.2.2. Registro de entrevistas**

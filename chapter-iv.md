@@ -335,6 +335,7 @@ Link:
 ![Context Diagram](assets/chapter-iv/contexto.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
+![Container Diagram](assets/chapter-iv/contenedores.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
 

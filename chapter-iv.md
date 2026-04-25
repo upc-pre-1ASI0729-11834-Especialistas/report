@@ -332,10 +332,8 @@ Link:
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext5.jpg)
 
 ### 4.6.2. Software Architecture Context Diagram
-![Context Diagram](assets/chapter-iv/contexto.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
-![Container Diagram](assets/chapter-iv/contenedores.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
 

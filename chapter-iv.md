@@ -33,3 +33,9 @@ Este bounded context engloba la gestión completa del ciclo de vida de las incid
 Este bounded context es el motor de fuerza bruta del sistema, encargado de la ingesta masiva de datos provenientes de los sensores de hardware, la normalización de unidades de medida (ºC, ppm, %) y la provisión del estado Live para los tableros. En este diagrama se incluyen componentes para las entidades de `Sensor`, `Metric`, `Reading` y `EnvironmentalGateway`.
 
 ![Bounded Context: IoT Telemetry & Environment Monitoring](./chapter-iv-assets/Bounded_Context_IoT_Telemetry_Environment_Monitoring.png)
+
+#### Bounded Context: Lab Asset & Infrastructure Management
+
+Este bounded context asume la responsabilidad de controlar el ciclo de vida de los espacios físicos y el hardware estructural del laboratorio, así como la programación de mantenimientos preventivos y correctivos. Sus diagramas de componentes incluyen la gestión de entidades como `Laboratory`, `Equipment` (Refrigeradores, HVAC), `MaintenanceSchedule` y `Location`.
+
+![Bounded Context: Lab Asset & Infrastructure Management](./chapter-iv-assets/Bounded_Context_Lab_Asset_Infrastructure_Management.png)

@@ -324,11 +324,43 @@ Link:
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
+
+En esta fase, el equipo realizó una inmersión técnica de nivel detallado para refinar el flujo de trabajo de **SafeLab**. A diferencia de la etapa anterior, el *Design-Level Event Storming* permitió identificar no solo qué sucede en el sistema (**Eventos**), sino también quién inicia la acción (**Actores**), qué intención tienen (**Comandos**) y qué reglas rigen el comportamiento del software (**Políticas**).
+
+
+Durante una sesión de diseño enfocada, se estructuraron los elementos siguiendo la lógica de los sub-dominios críticos para una plataforma SaaS de monitoreo clínico. El resultado es un modelo que integra la captura de datos de sensores, la gestión de activos hospitalarios y la automatización inteligente, garantizando que cada interacción esté alineada con el lenguaje ubicuo y los objetivos de "Desperdicio Cero" de la startup.
+
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext.jpg)
+
+---
+
+
+### Explicación de los Bounded Contexts Identificados
+
+A continuación, se detallan los cinco contextos delimitados que componen la arquitectura de la solución:
+
+
+#### 1. IoT Telemetry & Environment Monitoring
+Este contexto actúa como la capa de ingesta de datos. Se encarga de la comunicación directa con el hardware (sensores) y la normalización de las métricas ambientales. Su responsabilidad es garantizar que cada lectura de temperatura o CO2 sea capturada y validada antes de ser procesada por el resto del sistema, gestionando además la salud de la conexión de los dispositivos.
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext11.jpg)
+
+
+#### 2. Lab Asset & Infrastructure Management
+Orientado a la gestión de recursos físicos, este contexto administra el ciclo de vida de las refrigeradoras, congeladores y sistemas de ventilación (HVAC). Su enfoque principal es el mantenimiento preventivo y la organización jerárquica del laboratorio (edificios, pisos y áreas), asegurando que la infraestructura física sea apta para el almacenamiento bioclínico.
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext2.jpg)
+
+
+#### 3. Intelligent Alerting & Incident Response
+Representa el cerebro reactivo de la plataforma. Analiza las anomalías detectadas en la telemetría para clasificar incidentes según su gravedad (*Critical/Warning*). Gestiona la omnicanalidad de las notificaciones hacia el personal de turno y rastrea las acciones de mitigación tomadas por los biólogos, cerrando la brecha entre la falla técnica y la intervención humana.
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext3.jpg)
+
+
+#### 4. Operational Compliance & Activity Logging
+Este contexto de soporte garantiza la integridad legal de la operación. Registra de forma inmutable cada evento relevante del sistema, desde calibraciones de sensores hasta resoluciones de alertas. Su función principal es la generación automatizada de reportes de cumplimiento (*Compliance Reports*) que permitan al laboratorio superar auditorías normativas como la ISO 15189.
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext4.jpg)
+
+#### 5. Smart Automation & Scheduling
+Es el componente proactivo que permite a SafeLab ejecutar acciones correctivas automáticas. Gestiona horarios de funcionamiento y reglas lógicas (por ejemplo, activación de ventilación ante picos de CO2). Este contexto permite que el sistema actúe sobre los actuadores físicos, reduciendo la dependencia de la intervención manual constante.
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext5.jpg)
 
 ### 4.6.2. Software Architecture Context Diagram

@@ -401,5 +401,21 @@ Se destacan las jerarquías de monitoreo ($Laboratory \rightarrow Unidad \righta
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
+### 4.8. Database Design
 
+El diseño de la base de datos de **SafeLab** ha sido normalizado para garantizar la integridad referencial y la eficiencia en la consulta de grandes volúmenes de telemetría. A diferencia del diagrama de clases, este modelo se enfoca en la persistencia de datos mediante el uso de Claves Primarias (**PK**) y Claves Foráneas (**FK**).
+
+
+El modelo está diseñado para soportar la trazabilidad exigida por la norma **ISO 15189**, conectando cada lectura de sensor con su respectivo equipo y, en caso de anomalías, vinculando la alerta directamente con el registro de intervención del usuario. Los registros de auditoría (`audit_logs`) incluyen campos de hash para asegurar que la historia de operaciones no sea alterada, cumpliendo con los estándares de seguridad bioclínica.
+
+
+#### Puntos clave del diseño:
+
+* **Escalabilidad:** Las lecturas de telemetría están indexadas por tiempo y sensor para permitir búsquedas rápidas en grandes conjuntos de datos.
+
+
+* **Integridad:** Las relaciones foráneas aseguran que no existan alertas huérfanas sin una lectura de origen claramente identificada.
+
+
+* **Seguridad:** Los perfiles de usuario y logs están centralizados para facilitar las auditorías de acceso y el cumplimiento normativo.
 ![Database Diagram](assets/chapter-iv/BaseDatosDiagrama.png)

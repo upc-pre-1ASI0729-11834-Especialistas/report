@@ -45,3 +45,9 @@ Este bounded context asume la responsabilidad de controlar el ciclo de vida de l
 Este bounded context actúa como el cerebro auditor del sistema. Registra de manera inmutable el **quién, cuándo y qué** de cada evento operativo para garantizar la trazabilidad requerida por las normas ISO y entidades reguladoras. Sus entidades principales son `ActivityLog`, `AuditReport` y `ComplianceStandard`.
 
 ![Bounded Context: Operational Compliance & Activity Logging](./chapter-iv-assets/Bounded_Context_Operational_Compliance_Activity_Logging.png)
+
+#### Bounded Context: Smart Automation & Scheduling
+
+Este bounded context se encarga de ejecutar acciones mecánicas o lógicas de forma automatizada, basadas en temporizadores o reglas de negocio reactivas. En este diagrama se representa la interacción entre componentes que manejan las entidades `Schedule`, `AutomationRule` y `ActuatorCommand`.
+
+![Bounded Context: Smart Automation & Scheduling](./chapter-iv-assets/Bounded_Context_Smart_Automation_Scheduling.png)

@@ -1,15 +1,322 @@
 
 ## 3.1 User Stories
 
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|-----------------|--------|-------------|-------------------------|---------------------------|
-| US01 | Navegación a secciones principales | Como visitante, quiero acceder a las distintas secciones informativas desde un menú principal para encontrar la información deseada rápidamente. | **Escenario 1: Navegación por anclas** <br/> Dado que el visitante se encuentra en la página inicial,<br/>Cuando selecciona la opción de una sección específica en el menú,<br/>Entonces el sistema lo dirige suavemente hacia la información correspondiente.<br/><br/>**Escenario 2: Retorno al inicio** <br/> Dado que el visitante navega en cualquier sección de la página,<br/>Cuando selecciona el identificador visual de la marca (logo),<br/>Entonces el sistema presenta nuevamente la vista superior de la página. | EP01 |
-| US02 | Navegación en dispositivos móviles | Como visitante desde un dispositivo móvil, quiero disponer de un menú de navegación adaptable para acceder a las secciones sin saturar la pantalla. | **Escenario 1: Despliegue de menú** <br/> Dado que el visitante accede desde un dispositivo móvil,<br/>Cuando interactúa con el control de navegación principal,<br/>Entonces el sistema despliega el contenedor con las alternativas de navegación.<br/><br/>**Escenario 2: Ocultamiento automático** <br/> Dado que el visitante tiene el menú de navegación desplegado,<br/>Cuando elige una alternativa de sección,<br/>Entonces el sistema oculta las opciones automáticamente y dirige al usuario a la sección elegida. | EP01 |
-| US03 | Acceso a solicitud de demostración y características | Como gerente de laboratorio, quiero encontrar opciones directas para solicitar una demostración o ver características desde el primer vistazo para iniciar el proceso de evaluación. | **Escenario 1: Interacción con solicitud de demo** <br/> Dado que el visitante evalúa la sección principal,<br/>Cuando selecciona la opción de solicitar demostración,<br/>Entonces el sistema lo redirige al formulario de contacto o agendamiento.<br/><br/>**Escenario 2: Interacción con características** <br/> Dado que el visitante requiere más información,<br/>Cuando selecciona la opción de ver características,<br/>Entonces el sistema dirige la vista hacia la sección de herramientas de precisión. | EP01 |
-| US04 | Visualización de interfaz del sistema | Como prospecto, quiero ver imágenes representativas de la plataforma en la sección inicial para conocer la apariencia del sistema antes de solicitar información. | **Escenario 1: Transición automática** <br/> Dado que el prospecto explora la sección principal,<br/>Cuando transcurre el tiempo configurado,<br/>Entonces el sistema alterna automáticamente la muestra de las diferentes vistas de la aplicación.<br/><br/>**Escenario 2: Uso de indicadores** <br/> Dado que el prospecto revisa las vistas del sistema,<br/>Cuando interactúa con un indicador específico de la presentación visual,<br/>Entonces el sistema muestra la imagen correspondiente a dicho indicador. | EP01 |
-| US05 | Consulta de herramientas de precisión | Como investigador, quiero consultar el resumen de las funciones principales dispuestas estructuralmente para entender la capacidad técnica de la plataforma. | **Escenario 1: Visualización de información técnica** <br/> Dado que el investigador revisa las características del sistema,<br/>Cuando accede a la sección de herramientas,<br/>Entonces el sistema presenta de forma estructurada el título, la descripción funcional y el identificador gráfico de cada característica.<br/><br/>**Escenario 2: Consistencia visual** <br/> Dado que el investigador visualiza las características,<br/>Cuando lee los contenidos,<br/>Entonces el sistema carga correctamente los elementos gráficos representativos para ilustrar cada punto. | EP01 |
-| US06 | Comparativa de solución | Como jefe de calidad, quiero visualizar una comparativa entre el método tradicional y la plataforma para comprender de inmediato el valor agregado del sistema centralizado. | **Escenario 1: Visualización del problema** <br/> Dado que el jefe de calidad evalúa la propuesta de valor,<br/>Cuando revisa la sección comparativa,<br/>Entonces el sistema expone las deficiencias del método tradicional resaltadas con indicadores de advertencia.<br/><br/>**Escenario 2: Visualización de la solución** <br/> Dado que el jefe de calidad observa la alternativa de la plataforma,<br/>Cuando lee el contenido,<br/>Entonces el sistema expone los beneficios resaltados con indicadores de éxito. | EP01 |
-| US07 | Revisión de testimonios | Como responsable de compras, quiero leer experiencias de otros líderes científicos para ganar confianza en la implementación del software. | **Escenario 1: Elementos del testimonio** <br/> Dado que el responsable de compras explora los casos de éxito,<br/>Cuando accede a la sección de testimonios,<br/>Entonces el sistema expone la calificación, la reseña textual y los datos profesionales del autor.<br/><br/>**Escenario 2: Adaptabilidad responsiva** <br/> Dado que el responsable de compras accede desde un dispositivo de pantalla reducida,<br/>Cuando visualiza los testimonios,<br/>Entonces el sistema ajusta la disposición de las tarjetas para mantener la integridad visual. | EP01 |
-| US08 | Consulta de planes y precios | Como administrador de presupuesto, quiero comparar las opciones de suscripción con sus respectivas funcionalidades para decidir qué plan escala mejor con el laboratorio. | **Escenario 1: Diferenciación de planes** <br/> Dado que el administrador de presupuesto revisa la oferta comercial,<br/>Cuando accede a la sección de precios,<br/>Entonces el sistema detalla el alcance, el costo y el público objetivo de cada plan.<br/><br/>**Escenario 2: Plan destacado** <br/> Dado que el administrador evalúa las opciones,<br/>Cuando visualiza los planes disponibles,<br/>Entonces el sistema resalta visualmente la opción recomendada para captar la atención. | EP01 |
-| US09 | Consulta de información legal y soporte | Como visitante, quiero ubicar las políticas legales y canales de contacto al final de la página para resolver dudas formales o buscar ayuda. | **Escenario 1: Distribución de enlaces** <br/> Dado que el visitante busca información institucional,<br/>Cuando accede a la zona inferior de la página,<br/>Entonces el sistema provee la información organizada categóricamente con accesos directos a políticas, términos y soporte técnico.<br/><br/>**Escenario 2: Derechos de autor** <br/> Dado que el visitante lee la información institucional,<br/>Cuando visualiza el texto de cierre,<br/>Entonces el sistema expone el símbolo de derechos de autor y el año de actualización vigente. | EP01 |
-| US10 | Acceso a portal de usuarios | Como visitante o usuario registrado, quiero disponer de accesos directos hacia el inicio de sesión y registro para ingresar a mi panel de control o crear una nueva cuenta. | **Escenario 1: Ingreso al sistema** <br/> Dado que el usuario cuenta con credenciales activas,<br/>Cuando selecciona la opción de inicio de sesión,<br/>Entonces el sistema lo dirige al entorno de autenticación de la plataforma.<br/><br/>**Escenario 2: Creación de cuenta** <br/> Dado que el visitante requiere una nueva cuenta,<br/>Cuando selecciona la opción de registro,<br/>Entonces el sistema lo dirige al formulario de creación de usuarios. | EP01 |
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Epic / Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Navegación a secciones principales</td>
+      <td>Como visitante, quiero acceder a las distintas secciones informativas desde un menú principal para encontrar la información deseada rápidamente.</td>
+      <td>
+        <b>Escenario 1: Navegación por anclas</b><br>
+        Dado que el visitante se encuentra en la página inicial,<br>
+        Cuando selecciona la opción de una sección específica en el menú,<br>
+        Entonces el sistema lo dirige suavemente hacia la información correspondiente.<br><br>
+        <b>Escenario 2: Retorno al inicio</b><br>
+        Dado que el visitante navega en cualquier sección de la página,<br>
+        Cuando selecciona el logo,<br>
+        Entonces el sistema presenta nuevamente la vista superior de la página.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Navegación en dispositivos móviles</td>
+      <td>Como visitante desde móvil, quiero disponer de un menú adaptable para acceder a las secciones sin saturar la pantalla.</td>
+      <td>
+        <b>Escenario 1:</b> Despliegue de menú<br>
+        <b>Escenario 2:</b> Ocultamiento automático tras seleccionar sección.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Acceso a demo y características</td>
+      <td>Como gerente de laboratorio, quiero solicitar una demo o ver características desde el primer vistazo.</td>
+      <td>
+        <b>Escenario 1:</b> Botón solicitar demo redirige a formulario.<br>
+        <b>Escenario 2:</b> Botón ver características dirige a sección de features.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Visualización de interfaz del sistema</td>
+      <td>Como prospecto, quiero ver imágenes de la plataforma para conocer su apariencia.</td>
+      <td>
+        <b>Escenario 1:</b> Carrusel automático.<br>
+        <b>Escenario 2:</b> Indicadores manuales para cambiar vista.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Consulta de herramientas</td>
+      <td>Como investigador, quiero consultar funciones principales estructuradas.</td>
+      <td>
+        <b>Escenario 1:</b> Mostrar título, descripción e icono de cada feature.<br>
+        <b>Escenario 2:</b> Carga correcta de gráficos.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Comparativa de solución</td>
+      <td>Como jefe de calidad, quiero comparar método tradicional vs plataforma.</td>
+      <td>
+        <b>Escenario 1:</b> Mostrar problemas del método tradicional.<br>
+        <b>Escenario 2:</b> Mostrar beneficios de SafeLab.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Revisión de testimonios</td>
+      <td>Como responsable de compras, quiero leer testimonios para ganar confianza.</td>
+      <td>
+        <b>Escenario 1:</b> Mostrar reseña, calificación y datos del autor.<br>
+        <b>Escenario 2:</b> Adaptabilidad responsive.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td>Consulta de planes y precios</td>
+      <td>Como administrador, quiero comparar planes y funcionalidades.</td>
+      <td>
+        <b>Escenario 1:</b> Mostrar costos y alcance.<br>
+        <b>Escenario 2:</b> Destacar plan recomendado.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Información legal y soporte</td>
+      <td>Como visitante, quiero encontrar políticas y soporte en el footer.</td>
+      <td>
+        <b>Escenario 1:</b> Mostrar enlaces organizados.<br>
+        <b>Escenario 2:</b> Mostrar copyright actualizado.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Acceso a portal de usuarios</td>
+      <td>Como visitante, quiero acceder a login y registro.</td>
+      <td>
+        <b>Escenario 1:</b> Botón login redirige a autenticación.<br>
+        <b>Escenario 2:</b> Botón registro redirige a creación de cuenta.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Visualización del Dashboard</td>
+      <td>Como usuario autenticado, quiero ver un resumen general del estado de mis laboratorios para conocer rápidamente si todo está bajo control.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario ingresa al sistema, cuando accede al dashboard, entonces visualiza métricas clave<br><br>
+        <b>Escenario 2:</b> Dado que existen alertas críticas activas, cuando el dashboard carga, entonces se muestran destacadas visualmente.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Listar laboratorios</td>
+      <td>Como usuario, quiero visualizar todos mis laboratorios en una grilla para acceder rápidamente a su información.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario accede a la sección Laboratories, entonces el sistema muestra tarjetas de cada laboratorio.<br><br>
+        <b>Escenario 2:</b> Dado que no hay laboratorios registrados, cuando el usuario accede a la sección, entonces el sistema muestra un estado vacío con opción de crear uno nuevo.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US13</td>
+      <td>Acceder al detalle de laboratorio</td>
+      <td>Como usuario, quiero ingresar al detalle de un laboratorio para revisar sus sensores y estado.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario selecciona un laboratorio, entonces el sistema abre la pantalla Laboratory Details.<br><br>
+        <b>Escenario 2:</b> Dado que el laboratorio tiene sensores activos, entonces se muuestran métricas en tiempo real.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Visualización de métricas de ambiente</td>
+      <td>Como usuario, quiero ver temperatura, vibraciones y calidad del aire para garantizar condiciones seguras.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que existen sensores activos, cuando el usuario accede al laboratorio, entonces se muestran gráficos y valores actuales.<br><br>
+        <b>Escenario 2:</b> Dado que un sensor está desactivado, cuando se muestra el panel, entonces se señala el estado offline.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Activación de sistemas automatizados</td>
+      <td>Como usuario, quiero activar o desactivar sistemas como ventilación para reaccionar ante cambios en el laboratorio.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario accede al laboratorio, cuando usa el interruptor de ventilación, entonces el sistema cambia el estado correctamente.<br><br>
+        <b>Escenario 2:</b> Dado que el sistema cambia de estado, cuando la acción se completa, entonces se muestra un pop-up de confirmación.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td>Eliminación de laboratorio</td>
+      <td>Como administrador, quiero eliminar laboratorios para mantener la información organizada.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario selecciona eliminar laboratorio, entonces el sistema elimina el registro.<br><br>
+        <b>Escenario 2:</b> Dado que el usuario cancela la acción, cuando cierra el modal, entonces el laboratorio permanece intacto.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US17</td>
+      <td>Visualización de alertas activas</td>
+      <td>Como usuario, quiero revisar alertas activas para actuar rápidamente ante riesgos.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que existen alertas, cuando el usuario accede a Alerts, entonces se muestran en tarjetas destacadas.<br><br>
+        <b>Escenario 2:</b> Dado que no existen alertas, cuando accede a la vista, entonces se muestra mensaje de sistema estable.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US18</td>
+      <td>Gestión del estado de alertas</td>
+      <td>Como usuario, quiero marcar alertas como atendidas para mantener control del incidente.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que una alerta está activa, cuando el usuario la marca como resuelta, entonces cambia su estado.<br><br>
+        <b>Escenario 2:</b> Dado que cambia el estado, cuando la acción se completa, entonces el cambio de estado se registra en el historial.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US19</td>
+      <td>Consulta de historial de eventos</td>
+      <td>Como usuario, quiero revisar el historial para analizar eventos pasados.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario accede a History, entonces se muestran eventos ordenados por fecha.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US20</td>
+      <td>Creación de nuevo laboratorio</td>
+      <td>Como usuario, quiero registrar nuevos laboratorios para comenzar a monitorearlos.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario completa el formulario correctamente, cuando envía la información, entonces el laboratorio se crea.<br><br>
+        <b>Escenario 2:</b> Dado que faltan campos obligatorios, cuando se intenta enviar, entonces el sistema muestra validaciones.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US21</td>
+      <td>Edición de laboratorio</td>
+      <td>Como usuario, quiero editar la información de un laboratorio para mantener los datos actualizados.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario accede al detalle del laboratorio, cuando selecciona editar, entonces puede activar o desactivar los sistemas o sensores disponibles.<br><br>
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US22</td>
+      <td>Búsqueda de laboratorios</td>
+      <td>Como usuario, quiero buscar laboratorios por nombre para encontrarlos rápidamente.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario escribe en la barra de búsqueda, cuando ingresa texto, entonces el sistema filtra los resultados en tiempo real.<br><br>
+        <b>Escenario 2:</b> Dado que no hay coincidencias, cuando finaliza la búsqueda, entonces se muestra un mensaje de resultados vacíos.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US23</td>
+      <td>Filtrado de alertas</td>
+      <td>Como usuario, quiero filtrar alertas por diferentes criterios para priorizar mis necesidades.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario selecciona un filtro de severidad o fecha, cuando aplica el filtro, entonces solo se muestran alertas correspondientes.<br><br>
+        <b>Escenario 2:</b> Dado que elimina el filtro, cuando lo desactiva, entonces se muestran todas las alertas nuevamente.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US24</td>
+      <td>Detalle completo de alerta</td>
+      <td>Como usuario, quiero ver el detalle completo de una alerta para comprender el incidente.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario selecciona una alerta, cuando abre el detalle, entonces visualiza fecha, sensor, laboratorio y descripción.<br><br>
+        <b>Escenario 2:</b> Dado que la alerta tiene acciones registradas, cuando revisa el detalle, entonces ve el historial de acciones.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US25</td>
+      <td>Gestión de notificaciones por correo</td>
+      <td>Como usuario, quiero activar o desactivar las notificaciones por correo para controlar cómo recibo las alertas de los laboratorios.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario accede a la configuración de notificaciones, cuando activa o desactiva el envío por correo, entonces el sistema guarda la preferencia.<br><br>
+        <b>Escenario 2:</b> Dado que ocurre una alerta crítica, cuando el envío por correo está activado, entonces el sistema envía la notificación al email registrado.<br><br>
+        <b>Escenario 3:</b> Dado que el envío por correo está desactivado, cuando ocurre una alerta, entonces el sistema no envía correos.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US26</td>
+      <td>Visualización de tendencias históricas</td>
+      <td>Como usuario, quiero visualizar tendencias de eventos para analizar patrones.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario accede a History, cuando selecciona rango de fechas, entonces el sistema filtra los eventos.<br><br>
+        <b>Escenario 2:</b> Dado que existen datos suficientes, cuando revisa la vista, entonces se muestran gráficos de tendencias.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US27</td>
+      <td>Edición de perfil de usuario</td>
+      <td>Como usuario, quiero editar mi información personal para mantener mis datos actualizados.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario accede a su perfil, cuando modifica nombre, foto o correo, entonces el sistema permite guardar los cambios.<br><br>
+        <b>Escenario 2:</b> Dado que el usuario cambia su correo electrónico, cuando confirma la actualización, entonces el sistema solicita verificación del nuevo correo.<br><br>
+        <b>Escenario 3:</b> Dado que los cambios se guardan correctamente, cuando vuelve a acceder al perfil, entonces visualiza la información actualizada.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US28</td>
+      <td>Notificaciones del sistema en tiempo real</td>
+      <td>Como usuario, quiero recibir notificaciones visuales tras acciones importantes.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario realiza una acción exitosa, cuando el proceso termina, entonces se muestra mensaje de confirmación.<br><br>
+        <b>Escenario 2:</b> Dado que ocurre un error, cuando el sistema falla, entonces se muestra notificación de error.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US29</td>
+      <td>Cierre de sesión</td>
+      <td>Como usuario, quiero cerrar sesión para proteger el acceso a la plataforma.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario selecciona cerrar sesión, cuando confirma, entonces el sistema finaliza la sesión activa.<br><br>
+        <b>Escenario 2:</b> Dado que la sesión finaliza, cuando intenta acceder a rutas privadas, entonces es redirigido al login.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US30</td>
+      <td>Persistencia de sesión</td>
+      <td>Como usuario, quiero mantener mi sesión activa para no iniciar sesión constantemente.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario vuelve al sistema, cuando su sesión es válida, entonces accede directamente al dashboard.<br><br>
+        <b>Escenario 2:</b> Dado que la sesión expira, cuando intenta acceder, entonces el sistema solicita autenticación nuevamente.
+      </td>
+      <td>EP04</td>
+    </tr>
+  </tbody>
+</table>

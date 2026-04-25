@@ -372,9 +372,18 @@ Es el componente proactivo que permite a SafeLab ejecutar acciones correctivas a
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
+
+El diagrama de clases de SafeLab representa la estructura estática del sistema, detallando las entidades fundamentales, sus atributos, comportamientos (métodos) y las relaciones que permiten la lógica de negocio. El diseño se ha organizado siguiendo los límites de los *Bounded Contexts* identificados en el *Event Storming*, asegurando que la implementación técnica respete el lenguaje ubicuo del dominio.
+
+
+Se destacan las jerarquías de monitoreo ($Laboratory \rightarrow Unidad \rightarrow Sensor$) y el desacoplamiento entre la captura de datos y la respuesta ante incidentes, permitiendo que el sistema sea escalable y mantenible.
+
 ![Database Diagram](assets/chapter-iv/UML.png)
 
+---
+
 ### 4.7.2. Class Dictionary
+
 
 ## 4.8. Database Design
 

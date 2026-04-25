@@ -384,6 +384,19 @@ Se destacan las jerarquías de monitoreo ($Laboratory \rightarrow Unidad \righta
 
 ### 4.7.2. Class Dictionary
 
+| Clase | Descripción | Atributos Clave |
+| :--- | :--- | :--- |
+| **Laboratory** | Representa el entorno físico de nivel superior donde se agrupan los activos. | `id`, `name`, `location`, `safetyLevel` |
+| **ColdStorageUnit** | Equipos de refrigeración o HVAC monitoreados por el sistema. | `id`, `serialNumber`, `nextMaintenanceDate` |
+| **Sensor** | Dispositivos IoT encargados de la captura física de parámetros ambientales. | `id`, `sensorType`, `status`, `batteryLevel` |
+| **TelemetryReading** | Registro individual de una métrica capturada en un momento específico. | `id`, `value`, `unit`, `timestamp` |
+| **Alert** | Notificación generada automáticamente cuando una lectura viola un umbral. | `id`, `severity`, `status`, `createdAt` |
+| **Incident** | Registro detallado de la causa y resolución de una alerta crítica. | `id`, `rootCause`, `mitigationAction` |
+| **User** | Actores del sistema con roles definidos (Biólogo, Coordinador). | `id`, `name`, `role`, `email` |
+| **ComplianceReport** | Documento legal generado para auditorías de cumplimiento normativo. | `id`, `generatedAt`, `digitalSignature` |
+| **AuditLog** | Registro inmutable de toda actividad realizada en la plataforma. | `id`, `actionType`, `timestamp`, `hashValue` |
+| **AutomationRule** | Lógica condicional definida para activar actuadores automáticamente. | `id`, `condition`, `thresholdValue` |
+| **Schedule** | Programación horaria para el funcionamiento de equipos de ventilación. | `id`, `startTime`, `endTime`, `daysOfWeek` |
 
 ## 4.8. Database Design
 

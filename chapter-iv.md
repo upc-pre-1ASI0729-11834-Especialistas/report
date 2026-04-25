@@ -39,3 +39,9 @@ Este bounded context es el motor de fuerza bruta del sistema, encargado de la in
 Este bounded context asume la responsabilidad de controlar el ciclo de vida de los espacios físicos y el hardware estructural del laboratorio, así como la programación de mantenimientos preventivos y correctivos. Sus diagramas de componentes incluyen la gestión de entidades como `Laboratory`, `Equipment` (Refrigeradores, HVAC), `MaintenanceSchedule` y `Location`.
 
 ![Bounded Context: Lab Asset & Infrastructure Management](./chapter-iv-assets/Bounded_Context_Lab_Asset_Infrastructure_Management.png)
+
+#### Bounded Context: Operational Compliance & Activity Logging
+
+Este bounded context actúa como el cerebro auditor del sistema. Registra de manera inmutable el **quién, cuándo y qué** de cada evento operativo para garantizar la trazabilidad requerida por las normas ISO y entidades reguladoras. Sus entidades principales son `ActivityLog`, `AuditReport` y `ComplianceStandard`.
+
+![Bounded Context: Operational Compliance & Activity Logging](./chapter-iv-assets/Bounded_Context_Operational_Compliance_Activity_Logging.png)

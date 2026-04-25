@@ -1,3 +1,4 @@
+# Capitulo III: Requirements Specifications
 
 ## 3.1 User Stories
 
@@ -223,6 +224,7 @@
       <td>Como usuario, quiero editar la información de un laboratorio para mantener los datos actualizados.</td>
       <td>
         <b>Escenario 1:</b> Dado que el usuario accede al detalle del laboratorio, cuando selecciona editar, entonces puede activar o desactivar los sistemas o sensores disponibles.<br><br>
+        <b>Escenario 2:</b> Dado que el usuario accede al detalle del laboratorio, cuando accede al  panel de recordatorios, entonces puede programar recordatorios.<br><br>
       </td>
       <td>EP02</td>
     </tr>
@@ -317,6 +319,96 @@
         <b>Escenario 2:</b> Dado que la sesión expira, cuando intenta acceder, entonces el sistema solicita autenticación nuevamente.
       </td>
       <td>EP04</td>
+    </tr>
+  </tbody>
+</table>
+
+## 3.2 Impact Mapping
+
+![Impact Map](assets/chapter-iii/impact-mapping.png)
+
+## 3.3 Product Backlog
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>#Orden</th>
+      <th>ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01</td>
+      <td>US-01</td>
+      <td>Navegación a secciones principales</td>
+      <td>Como visitante, quiero acceder a las distintas secciones informativas desde un menú principal para encontrar la información deseada rápidamente.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>US-02</td>
+      <td>Navegación en dispositivos móviles</td>
+      <td>Como visitante desde móvil, quiero disponer de un menú adaptable para acceder a las secciones sin saturar la pantalla.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>US-03</td>
+      <td>Acceso a demo y características</td>
+      <td>Como gerente de laboratorio, quiero solicitar una demo o ver características desde el primer vistazo.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>04</td>
+      <td>US-04</td>
+      <td>Visualización de interfaz del sistema</td>
+      <td>Como prospecto, quiero ver imágenes de la plataforma para conocer su apariencia.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>05</td>
+      <td>US-05</td>
+      <td>Consulta de herramientas</td>
+      <td>Como investigador, quiero consultar funciones principales estructuradas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>06</td>
+      <td>US-06</td>
+      <td>Comparativa de solución</td>
+      <td>Como jefe de calidad, quiero comparar método tradicional vs plataforma.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>07</td>
+      <td>US-07</td>
+      <td>Revisión de testimonios</td>
+      <td>Como responsable de compras, quiero leer testimonios para ganar confianza.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>08</td>
+      <td>US-08</td>
+      <td>Consulta de planes y precios</td>
+      <td>Como administrador, quiero comparar planes y funcionalidades.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>09</td>
+      <td>US-09</td>
+      <td>Información legal y soporte</td>
+      <td>Como visitante, quiero encontrar políticas y soporte en el footer.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US-10</td>
+      <td>Acceso a portal de usuarios</td>
+      <td>Como visitante, quiero acceder a login y registro.</td>
+      <td>3</td>
     </tr>
   </tbody>
 </table>

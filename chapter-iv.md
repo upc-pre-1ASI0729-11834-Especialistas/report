@@ -325,7 +325,11 @@ Link:
 
 ### 4.6.1. Design-Level Event Storming
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext.jpg)
-
+![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext11.jpg)
+![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext2.jpg)
+![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext3.jpg)
+![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext4.jpg)
+![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext5.jpg)
 
 ### 4.6.2. Software Architecture Context Diagram
 

@@ -372,6 +372,7 @@ Es el componente proactivo que permite a SafeLab ejecutar acciones correctivas a
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
+![Database Diagram](assets/chapter-iv/UML.png)
 
 ### 4.7.2. Class Dictionary
 

@@ -378,3 +378,5 @@ Es el componente proactivo que permite a SafeLab ejecutar acciones correctivas a
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
+
+![Database Diagram](assets/chapter-iv/BaseDatosDiagrama.png)

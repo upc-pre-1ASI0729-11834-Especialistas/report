@@ -151,6 +151,20 @@ Lo que más le importa es la constante comunicación entre el personal, aunque a
 
 ## **2.4. Big Picture Event Storming**
 
+El equipo llevó a cabo una sesión de **Big Picture Event Storming** con el objetivo de obtener una visión holística y compartida del dominio de **SafeLab**. A diferencia de un análisis técnico detallado, este proceso se centró en mapear el "landscape" del negocio, identificando los eventos de dominio más significativos desde que un sensor captura una lectura hasta que se genera un reporte de cumplimiento legal.
+
+
+Durante esta fase, se priorizó la exploración del flujo de trabajo clínico y los puntos críticos de contacto entre el personal de laboratorio y la infraestructura tecnológica. El proceso se dividió en las siguientes etapas:
+
+
+* **Identificación de Eventos de Dominio (Naranja):** Se plasmaron de forma cronológica todos los cambios de estado relevantes en el sistema (por ejemplo, el inicio de una excursión térmica o el reconocimiento de una alerta), utilizando un lenguaje común libre de tecnicismos excesivos.
+
+
+* **Detección de Puntos de Fricción o Pain Points (Rosa):** De manera simultánea, el equipo identificó cuellos de botella, riesgos operativos y vacíos en la supervisión manual, como la fatiga por alarmas o la desconfianza en la integridad de los datos manuales durante los turnos nocturnos.
+
+
+Esta primera aproximación visual permitió al equipo exponer oportunidades de mejora, como la automatización de acciones correctivas, y sentó las bases para delimitar los contextos de la solución, asegurando que la arquitectura de software propuesta responda fielmente a las necesidades críticas de seguridad bioclínica identificadas.
+
 ![Event_Storming](./chapter-ii-assets/2.4.jpg)
 
 ## **2.5. Ubiquitous Language**

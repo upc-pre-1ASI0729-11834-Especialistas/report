@@ -1,4 +1,12 @@
 
+# Capítulo III: Requirements Specification
+
+### Epics
+
+| Epic ID | Título | Descripción |
+|---------|--------|-------------|
+| EP01 | Landing Page | Landing page para la presentación y promoción del sistema SafeLab. |
+
 ## 3.1 User Stories
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |

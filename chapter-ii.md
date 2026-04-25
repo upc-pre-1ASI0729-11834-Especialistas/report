@@ -150,6 +150,9 @@ Lo que más le importa es la constante comunicación entre el personal, aunque a
 ![User Empathy Mapping](./chapter-ii-assets/Carlos%20Empathy%20map.png)
 
 ## **2.4. Big Picture Event Storming**
+
+![Event_Storming](./chapter-ii-assets/2.4.jpg)
+
 ## **2.5. Ubiquitous Language**
 
 | Ubiquitous Term | Definition |

@@ -58,7 +58,7 @@ La combinación de ser una marca nueva (debilidad) en un sector altamente descon
 
 ### **2.2.2. Registro de entrevistas**
 
-Enlace de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919096_upc_edu_pe/IQAuZLuadZQQSr_vJx2yVLziASK5lLgG74-kih5DpGcV-pc
+Enlace de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919096_upc_edu_pe/IQBdqMlL_u9rToY2ZTeE2nSjAQadDXLFwRLG9-oDESdV8MU?e=vSyiF7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 **Segmento: Coordinador**
 

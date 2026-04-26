@@ -1,5 +1,39 @@
 # Capitulo III: Requirements Specifications
 
+## Epics
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Epic ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP01</td>
+      <td>Landing Page</td>
+      <td>Landing page para la presentación y promoción del sistema SafeLab.</td>
+    </tr>
+    <tr>
+      <td>EP02</td>
+      <td>Gestión de Laboratorios</td>
+      <td>Permitir a los usuarios crear, visualizar, administrar y monitorear sus laboratorios junto con sus sensores y sistemas ambientales en tiempo real.</td>
+    </tr>
+    <tr>
+      <td>EP03</td>
+      <td>Gestión de Alertas e Historial</td>
+      <td>Permitir la detección, gestión, seguimiento y análisis de incidentes y alertas generadas por los laboratorios.</td>
+    </tr>
+    <tr>
+      <td>EP04</td>
+      <td>Cuenta, Seguridad y Experiencia del Usuario</td>
+      <td>Gestionar la autenticación, la sesión, las preferencias del usuario y las notificaciones del sistema.</td>
+    </tr>
+  </tbody>
+</table>
+
 ## 3.1 User Stories
 
 <table border="1" cellspacing="0" cellpadding="8">

@@ -25,6 +25,7 @@ Además, su diseño moderno y limpio complementa la estética general de nuestra
 Bautizamos a la aplicación como Safelab, un nombre que transmite seguridad para una plataforma que busca facilitar el monitoreo de laboratorios. El logo de Safelab se compone de un color azul claro que simboliza confianza y profesionalismo, reflejando la misión de nuestro producto de ofrecer una solución segura y confiable para el seguimiento de laboratorios.
 
 ![Safelab Logo](assets/chapter-iv/safelab-logo.png)
+Nota: Elaboración propia.
 
 ### 4.1.2. Web Style Guidelines
 
@@ -181,6 +182,8 @@ Los wireframes de Safelab fueron diseñados con un enfoque **Mobile-First**, gar
 
 ![Landing Page - Wireframe](assets/chapter-iv/landingwireframe.png)
 
+Nota: Elaboración propia en Figma.
+
 ### 4.3.2. Landing Page Mock-up
 
 El paso al Mock-up integra el *Design System* de Safelab, aplicando la paleta de colores azul y violeta para evocar profesionalismo tecnológico.
@@ -196,6 +199,8 @@ El paso al Mock-up integra el *Design System* de Safelab, aplicando la paleta de
 
 ![Landing Page - Mockup](assets/chapter-iv/landingmockup.png)
 
+Nota: Elaboración propia en Figma.
+
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
@@ -203,30 +208,37 @@ El paso al Mock-up integra el *Design System* de Safelab, aplicando la paleta de
 **Login**
 - Descripción: Esta pantalla muestra el formulario para que el usuario ingrese sus credenciales y acceda la pantalla de inicio de la aplicación.
 ![Web Application - Wireframe 1](assets/chapter-iv/wireframe-1.png)
+  Nota: Elaboración propia en Figma.
 
 **Dashboard**
 - Descripción: En esta pantalla se pueden visualizar las métricas más importantes de los sistemas de los laboratorios, como la temperatura, ventilación, detección de elementos extraños, entre otros. Esta información se muestra en gráficos y pequeñas listas para facilitar la comprensión de la información.
 ![Web Application - Wireframe 2](assets/chapter-iv/wireframe-2.png)
+  Nota: Elaboración propia en Figma.
 
 **Laboratorios**
 - Descripción: En esta pantalla se optó por una grilla de tarjetas para visualizar los laboratorios registrados en el sistema, con información resumida de cada uno, como temperatura, ubicación, entre otros.
 ![Web Application - Wireframe 3](assets/chapter-iv/wireframe-3.png)
+  Nota: Elaboración propia en Figma.
 
 **Detalles de Laboratorio**
 - Descripción: En esta pantalla se muestra información detallada de cada laboratorio, con gráficos en tiempo real de las métricas más importantes, como temperatura, ventilación, entre otros. Además, se muestran los indicadores de status del laboratorio, programaciones activas y actividad reciente.
 ![Web Application - Wireframe 4](assets/chapter-iv/wireframe-4.png)
+  Nota: Elaboración propia en Figma.
 
 **Alertas**
 - Descripción: En esta pantalla se muestran las alertas generadas por el sistema. Para mostrarlas, se optó por una columna de tarjetas, donde cada tarjeta representa una alerta, con información resumida como el mensaje de la alerta, su prioridad, entre otros. Para ver la información detallada de la alerta, emerge un panel lateral derecho al hacer clic sobre ella. Además, se incluyen filtros para facilitar la búsqueda de alertas específicas.
 ![Web Application - Wireframe 5](assets/chapter-iv/wireframe-5.png)
+  Nota: Elaboración propia en Figma.
 
 **Historial**
 - Descripción: En esta pantalla se muestra el historial de eventos relacionados con los laboratorios. Para mostrar esta información, se optó por una vista de línea de tiempo, donde cada evento se ordena de forma cronológica, con información resumida del evento. Al hacer clic sobre un evento, emerge un panel lateral derecho con la información detallada del evento. Además, se incluyen filtros para facilitar la búsqueda de eventos específicos.
 ![Web Application - Wireframe 6](assets/chapter-iv/wireframe-6.png)
+  Nota: Elaboración propia en Figma.
 
 **Nuevo Laboratorio**
 - Descripción: En esta pantalla se muestra un formulario para registrar un nuevo laboratorio en el sistema. El formulario se divide en secciones para facilitar su llenado, como información general del laboratorio, sistemas y sensores, entre otros.
 ![Web Application - Wireframe 7](assets/chapter-iv/wireframe-7.png)
+  Nota: Elaboración propia en Figma.
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -234,47 +246,57 @@ El paso al Mock-up integra el *Design System* de Safelab, aplicando la paleta de
 - User Persona: Supervisor de laboratorio
 - User Goal: Como supervisor de laboratorio, deseo registrar un nuevo laboratorio en el sistema. Para ello, debo llenar la información del laboratorio y los detalles de sus sistemas y sensores.
 ![wireflow 1](assets/chapter-iv/wireflow-1.png)
+  Nota: Elaboración propia.
 
 ### **Wireflow 2**
 - User Persona: Supervisor de laboratorio
 - User Goal: Como supervisor de laboratorio, deseo visualizar la información detallada de un laboratorio existente.
 ![wireflow 2](assets/chapter-iv/wireflow-2.png)
+  Nota: Elaboración propia.
 
 ### **Wireflow 3**
 - User Persona: Supervisor de laboratorio
 - User Goal: Como supervisor de laboratorio, deseo revisar las alertas de alta prioridad generadas por el sistema para tomar acciones correctivas. Para ello, debo usar los filtros disponibles.
 ![wireflow 3](assets/chapter-iv/wireflow-3.png)
+  Nota: Elaboración propia.
 
 ### 4.4.3. Web Applications Mock-ups
 
 **Login**
 - Objetivo: Permitir al usuario ingresar sus credenciales y acceder a la aplicación.
 ![Web Application - mockup 1](assets/chapter-iv/mockup-1.png)
+  Nota: Elaboración propia en Figma.
 
 **Dashboard**
 - Objetivo: Mostrar las métricas más importantes de los sistemas de los laboratorios.
 ![Web Application - mockup 2](assets/chapter-iv/mockup-2.png)
+  Nota: Elaboración propia en Figma.
 
 **Laboratorios**
 - Objetivo: Visualizar los laboratorios existentes y registrados en el sistema. Facilitar la búsqueda mediante filtros y presentación de información resumida de cada laboratorio.
 ![Web Application - mockup 3](assets/chapter-iv/mockup-3.png)
+  Nota: Elaboración propia en Figma.
 
 **Detalles de Laboratorio**
 - Objetivo: Mostrar la información detallada de de los sistemas de mantenimiento de cada laboratorio.
 Se muestra la actividad reciente del laboratorio, programaciones activas y los indicadores de status del laboratorio.
 ![Web Application - mockup 4](assets/chapter-iv/mockup-4.png)
+  Nota: Elaboración propia en Figma.
 
 **Alertas**
 - Objetivo: Mostrar las alertas generadas por el sistema y permitir su gestión. Para resolver las alertas se muestra información detallada de cada alerta, como el mensaje, su prioridad, entre otros. Además, se incluyen filtros para facilitar la búsqueda de alertas específicas.
 ![Web Application - mockup 5](assets/chapter-iv/mockup-5.png)
+  Nota: Elaboración propia en Figma.
 
 **Historial**
 - Objetivo: Mostrar el historial de eventos relacionados con los laboratorios. Por defecto, se muestra la información en una vista de línea de tiempo, donde cada evento se ordena de forma cronológica, con información resumida del evento.
 ![Web Application - mockup 6](assets/chapter-iv/mockup-6.png)
+  Nota: Elaboración propia en Figma.
 
 **Nuevo Laboratorio**
 - Descripción: En esta pantalla se muestra un formulario para registrar un nuevo laboratorio en el sistema. El formulario se divide en secciones para facilitar su llenado, como información general del laboratorio, sistemas y sensores, entre otros.
 ![Web Application - mockup 7](assets/chapter-iv/mockup-7.png)
+  Nota: Elaboración propia en Figma.
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
@@ -288,6 +310,7 @@ Se muestra la actividad reciente del laboratorio, programaciones activas y los i
     - El sistema muestra un mensaje de error indicando que el pedido no pudo ser creado.
 
 ![userflow 1](assets/chapter-iv/userflow-1.png)
+Nota: Elaboración propia.
 
 **Userflow 2**
 - User Persona: Supervisor de laboratorio
@@ -298,6 +321,7 @@ Se muestra la actividad reciente del laboratorio, programaciones activas y los i
     - El sistema muestra un pop-up que indica que no se pudo cargar la información del laboratorio.
 
 ![userflow 2](assets/chapter-iv/userflow-2.png)
+Nota: Elaboración propia.
 
 **Userflow 3**
 - User Persona: Supervisor de laboratorio
@@ -308,6 +332,7 @@ Se muestra la actividad reciente del laboratorio, programaciones activas y los i
     - El sistema muestra un pop-up que indica que no se pudieron cargar las alertas filtradas.
 
 ![userflow 3](assets/chapter-iv/userflow-3.png)
+Nota: Elaboración propia.
 
 ## 4.5. Web Applications Prototyping
 
@@ -327,6 +352,7 @@ En esta fase, el equipo realizó una inmersión técnica de nivel detallado para
 Durante una sesión de diseño enfocada, se estructuraron los elementos siguiendo la lógica de los sub-dominios críticos para una plataforma SaaS de monitoreo clínico. El resultado es un modelo que integra la captura de datos de sensores, la gestión de activos hospitalarios y la automatización inteligente, garantizando que cada interacción esté alineada con el lenguaje ubicuo y los objetivos de "Desperdicio Cero" de la startup.
 
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext.jpg)
+Nota: Elaboración propia en Miro.
 
 ---
 
@@ -339,25 +365,27 @@ A continuación, se detallan los cinco contextos delimitados que componen la arq
 #### 1. IoT Telemetry & Environment Monitoring
 Este contexto actúa como la capa de ingesta de datos. Se encarga de la comunicación directa con el hardware (sensores) y la normalización de las métricas ambientales. Su responsabilidad es garantizar que cada lectura de temperatura o CO2 sea capturada y validada antes de ser procesada por el resto del sistema, gestionando además la salud de la conexión de los dispositivos.
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext11.jpg)
-
+Nota: Elaboración propia en Miro.
 
 #### 2. Lab Asset & Infrastructure Management
 Orientado a la gestión de recursos físicos, este contexto administra el ciclo de vida de las refrigeradoras, congeladores y sistemas de ventilación (HVAC). Su enfoque principal es el mantenimiento preventivo y la organización jerárquica del laboratorio (edificios, pisos y áreas), asegurando que la infraestructura física sea apta para el almacenamiento bioclínico.
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext2.jpg)
-
+Nota: Elaboración propia en Miro.
 
 #### 3. Intelligent Alerting & Incident Response
 Representa el cerebro reactivo de la plataforma. Analiza las anomalías detectadas en la telemetría para clasificar incidentes según su gravedad (*Critical/Warning*). Gestiona la omnicanalidad de las notificaciones hacia el personal de turno y rastrea las acciones de mitigación tomadas por los biólogos, cerrando la brecha entre la falla técnica y la intervención humana.
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext3.jpg)
-
+Nota: Elaboración propia en Miro.
 
 #### 4. Operational Compliance & Activity Logging
 Este contexto de soporte garantiza la integridad legal de la operación. Registra de forma inmutable cada evento relevante del sistema, desde calibraciones de sensores hasta resoluciones de alertas. Su función principal es la generación automatizada de reportes de cumplimiento (*Compliance Reports*) que permitan al laboratorio superar auditorías normativas como la ISO 15189.
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext4.jpg)
+Nota: Elaboración propia en Miro.
 
 #### 5. Smart Automation & Scheduling
 Es el componente proactivo que permite a SafeLab ejecutar acciones correctivas automáticas. Gestiona horarios de funcionamiento y reglas lógicas (por ejemplo, activación de ventilación ante picos de CO2). Este contexto permite que el sistema actúe sobre los actuadores físicos, reduciendo la dependencia de la intervención manual constante.
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext5.jpg)
+Nota: Elaboración propia en Miro.
 
 ### 4.6.2. Software Architecture Context Diagram
 
@@ -375,7 +403,7 @@ El diagrama de clases de SafeLab representa la estructura estática del sistema,
 Se destacan las jerarquías de monitoreo ($Laboratory \rightarrow Unidad \rightarrow Sensor$) y el desacoplamiento entre la captura de datos y la respuesta ante incidentes, permitiendo que el sistema sea escalable y mantenible.
 
 ![Class Diagram](assets/chapter-iv/uml.png)
-
+Nota: Elaboración propia en LucidChart.
 ---
 
 ## 4.8. Database Design
@@ -399,3 +427,4 @@ El modelo está diseñado para soportar la trazabilidad exigida por la norma **I
 
 * **Seguridad:** Los perfiles de usuario y logs están centralizados para facilitar las auditorías de acceso y el cumplimiento normativo.
 ![Database Diagram](assets/chapter-iv/BaseDatosDiagrama.png)
+  Nota: Elaboración propia.

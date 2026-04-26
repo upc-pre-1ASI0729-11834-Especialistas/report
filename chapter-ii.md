@@ -126,6 +126,8 @@ Lo que más le importa es la constante comunicación entre el personal, aunque a
 **Segmento: Coordinador**
 
 ![User Persona Carlos](./chapter-ii-assets/Carlos%20Mendoza.png)
+Nota: Elaboración propia.
+
 
 ### **2.3.2. User Task Matrix**
 
@@ -142,12 +144,14 @@ Lo que más le importa es la constante comunicación entre el personal, aunque a
 **Segmento: Coordinador**
 
 ![User Journey Mapping](./chapter-ii-assets/Carlos%20Journey%20Map.png)
+Nota: Elaboración propia.
 
 ### **2.3.4. Empathy Mapping**
 
 **Segmento: Coordinador**
 
 ![User Empathy Mapping](./chapter-ii-assets/Carlos%20Empathy%20map.png)
+Nota: Elaboración propia.
 
 ## **2.4. Big Picture Event Storming**
 
@@ -166,6 +170,7 @@ Durante esta fase, se priorizó la exploración del flujo de trabajo clínico y 
 Esta primera aproximación visual permitió al equipo exponer oportunidades de mejora, como la automatización de acciones correctivas, y sentó las bases para delimitar los contextos de la solución, asegurando que la arquitectura de software propuesta responda fielmente a las necesidades críticas de seguridad bioclínica identificadas.
 
 ![Event_Storming](./chapter-ii-assets/2.4.jpg)
+Nota: Elaboración propia en Miro.
 
 ## **2.5. Ubiquitous Language**
 

@@ -407,6 +407,7 @@ Para delimitar el problema de manera estructurada, aplicamos la técnica The 5 '
 #### **1.2.2.4. Lean UX Canvas**
 
 ![LeanUX Canvas](./assets/chapter-i/LeanUX_canvas_SafeLab.png)
+Nota: Elaboración propia.
 
 ## **1.3. Segmentos Objetivo**
 

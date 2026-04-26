@@ -1,4 +1,4 @@
-# Capitulo III: Requirements Specifications
+# Capitulo III: Requirements Specification
 
 ## Epics
 
@@ -33,14 +33,6 @@
     </tr>
   </tbody>
 </table>
-
-# Capítulo III: Requirements Specification
-
-### Epics
-
-| Epic ID | Título | Descripción |
-|---------|--------|-------------|
-| EP01 | Landing Page | Landing page para la presentación y promoción del sistema SafeLab. |
 
 ## 3.1 User Stories
 

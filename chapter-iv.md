@@ -311,15 +311,11 @@ Se muestra la actividad reciente del laboratorio, programaciones activas y los i
 
 ## 4.5. Web Applications Prototyping
 
-**Desktop Web Application**
-![desktop-web](assets/chapter-iv/evidence-desktop-prototype.png)
+**Landing Page Presentation**
 
-Link:
+![landing page presentation evidence](assets/chapter-iv/landing-page-presentation-evidence.png)
 
-**Mobile Web Application**
-![mobile-web](assets/chapter-iv/evidence-mobile-prototype.png)
-
-Link:
+[Link de la presentación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201817507_upc_edu_pe/IQCmLmkatLNfRodxmcXY4QRUAahuQUi-b5KDhY58uA4VZxE?e=Gj9ceu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## 4.6. Domain-Driven Software Architecture
 

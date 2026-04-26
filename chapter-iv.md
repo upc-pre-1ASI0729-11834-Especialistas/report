@@ -378,7 +378,7 @@ El diagrama de clases de SafeLab representa la estructura estática del sistema,
 
 Se destacan las jerarquías de monitoreo ($Laboratory \rightarrow Unidad \rightarrow Sensor$) y el desacoplamiento entre la captura de datos y la respuesta ante incidentes, permitiendo que el sistema sea escalable y mantenible.
 
-![Database Diagram](assets/chapter-iv/UML.png)
+![Class Diagram](assets/chapter-iv/uml.png)
 
 ---
 

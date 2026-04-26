@@ -219,32 +219,32 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
       <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <strong>Manuel Sanchez</strong><br>
-        TB1: Expongo con efectividad la propuestas del diseño de la aplicación.<br><br>
+        AV1: Expongo con efectividad la propuestas del diseño de la aplicación.<br><br>
         <strong>Jean Arizabal</strong><br>
-        TB1: .<br><br>
+        AV1: Presento la propuesta de solución de forma detallada considerando los antecedentes, el perfil de la solución, el análisis competitivo y el needfinding.<br><br>
         <strong>Esteban Chavez</strong><br>
-        TB1: .<br><br>
+        AV2: Explico detalladamente el event storming, desde el inicio hasta el final, los diagramas, tanto de clase como de base de datos y el diseño de la landing page..<br><br>
         <strong>Jhon Jaramillo</strong><br>
-        TB1: .<br>
+        AV1: Expongo y sustento las decisiones arquitectónicas del proyecto utilizando los diagramas C4, además de presentar el diseño, flujo y propósito de la landing page al equipo..<br>
       </td>
       <td>
-        <strong>TB1:</strong> .<br>
+        <strong>AV1:</strong> Para poder comunicar efectivamente nuestras ideas fue necesario trabajar en nuestra capacidad de expresión y en la claridad de nuestra comunicación.<br>
       </td>
     </tr>
     <tr>
       <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <strong>Manuel Sanchez</strong><br>
-        TB1: Redacto documentos claros y objetivos sobre las historias de usuario de Safelab.<br><br>
+        AV1: Redacto documentos claros y objetivos sobre las historias de usuario de Safelab.<br><br>
         <strong>Jean Arizabal</strong><br>
-        TB1: .<br><br>
+        AV1: Redacto con detenimiento detalles sobre la startup, el perfil de la solución, el análisis competitivo y el needfinding.<br><br>
         <strong>Esteban Chavez</strong><br>
-        TB1: .<br><br>
+        AV1: Escribo claramente la informacion necesaria que cada diagrama, e imagen necesita, de forma sencilla y tecnica, demostrando conocimientos especificos para las diferentes secciones.<br><br>
         <strong>Jhon Jaramillo</strong><br>
-        TB1: .<br>
+        AV1: Redacto historias de usuario claras y detalladas para estructurar la landing page, y documento la arquitectura del sistema elaborando diagramas de contexto y contenedores bajo el modelo C4.<br>
       </td>
       <td>
-        <strong>TB1:</strong> .<br>
+        <strong>AV1: </strong>Para poder comunicar efectivamente nuestras ideas en el reporte fue necesario tener un bien planteada nuestra propuesta.<br>
       </td>
     </tr>
   </tbody>
@@ -265,6 +265,48 @@ El núcleo de nuestra propuesta de valor es una plataforma integral de monitoreo
 Desde una perspectiva operativa y comercial, SafeLab estructura sus servicios bajo un modelo B2B (Business-to-Business) sustentado en una arquitectura SaaS (Software as a Service). Este enfoque nos permite dotar a las instituciones de salud de una solución altamente escalable y de rápida implementación, donde una suscripción corporativa garantiza el acceso ininterrumpido a herramientas de auditoría en tiempo real, reportes automatizados para el cumplimiento normativo y una inmutabilidad total en la retención de datos históricos. La visión a largo plazo de SafeLab es convertirse en el estándar regional para la gestión inteligente de inventarios biológicos, impulsando a las instituciones de salud hacia un modelo operativo guiado por la innovación pragmática y un compromiso innegociable con la cultura del "Desperdicio Cero".
 
 ### **1.1.2. Perfiles de los Integrantes del Equipo**
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Foto</th>
+      <th>Nombre completo</th>
+      <th>Código</th>
+      <th>Carrera</th>
+      <th>Habilidades técnicas y rol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="assets/chapter-i/foto-manuel.png" alt="Manuel Sanchez" width="80"></td>
+      <td>Manuel Sanchez</td>
+      <td>u201817507</td>
+      <td>Ingeniería de Software</td>
+      <td>Desarrollo Fullstack: ASP.NetCORE MVC con Razor. Java básico. React.js</td>
+    </tr>
+    <tr>
+      <td><img src="assets/chapter-i/foto-jean.png" alt="Jean Arizabal" width="80"></td>
+      <td>Jean Arizabal</td>
+      <td>U201919096</td>
+      <td>Ingeniería de Software</td>
+      <td>Desarrollo backend: node.js ASP.net</td>
+    </tr>
+    <tr>
+      <td><img src="assets/chapter-i/foto-esteban.png" alt="Esteban Mendoza" width="80"></td>
+      <td>Esteban Chavez</td>
+      <td>U20241B761</td>
+      <td>Ingeniería de Software</td>
+      <td>Conocimientos y habilidades: C++, html, css, java. Responsable, creativa, y con diferentes conocimientos para el curso. Me destaco por mi creatividad e innovación.</td>
+    </tr>
+    <tr>
+      <td><img src="assets/chapter-i/foto-jhon.png" alt="Jhon Jaramillo" width="80"></td>
+      <td>Jhon Jaramillo</td>
+      <td>U202520310</td>
+      <td>Ingeniería de Software</td>
+      <td>Habilidades técnicas y rol: Desarrollo FullStack</td>
+    </tr>
+  </tbody>
+</table>
 
 ## **1.2. Solution Profile**
 

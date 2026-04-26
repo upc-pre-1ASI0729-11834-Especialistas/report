@@ -25,6 +25,7 @@ Además, su diseño moderno y limpio complementa la estética general de nuestra
 Bautizamos a la aplicación como Safelab, un nombre que transmite seguridad para una plataforma que busca facilitar el monitoreo de laboratorios. El logo de Safelab se compone de un color azul claro que simboliza confianza y profesionalismo, reflejando la misión de nuestro producto de ofrecer una solución segura y confiable para el seguimiento de laboratorios.
 
 ![Safelab Logo](assets/chapter-iv/safelab-logo.png)
+
 Nota: Elaboración propia.
 
 ### 4.1.2. Web Style Guidelines
@@ -160,7 +161,6 @@ Para la plataforma de Safelab implementaremos un sistema de navegación basado e
 
 Además, cada pantalla dentro de la aplicación web contará con una barra de filtros y opciones de navegación adicionales que permitirán a los usuarios refinar su búsqueda y acceder a funcionalidades específicas dentro de cada sección. Por ejemplo, en la sección de Laboratories, los usuarios podrán filtrar por tipo de laboratorio, estado o fecha de creación, mientras que en la sección de Alerts podrán filtrar por prioridad o tipo de alerta.
 
----
 ## 4.3. Landing Page UI Design
 Para el diseño de la interfaz de la Landing Page de Safelab, el equipo ha traducido las necesidades de monitoreo crítico en una experiencia visual que transmite seguridad, limpieza y precisión.
 
@@ -451,32 +451,26 @@ Nota: Elaboración propia en Structurizr.
 
 El diagrama de clases de SafeLab representa la estructura estática del sistema, detallando las entidades fundamentales, sus atributos, comportamientos (métodos) y las relaciones que permiten la lógica de negocio. El diseño se ha organizado siguiendo los límites de los *Bounded Contexts* identificados en el *Event Storming*, asegurando que la implementación técnica respete el lenguaje ubicuo del dominio.
 
-
 Se destacan las jerarquías de monitoreo ($Laboratory \rightarrow Unidad \rightarrow Sensor$) y el desacoplamiento entre la captura de datos y la respuesta ante incidentes, permitiendo que el sistema sea escalable y mantenible.
 
 ![Class Diagram](assets/chapter-iv/uml.png)
 Nota: Elaboración propia en LucidChart.
----
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
-### 4.8. Database Design
 
 El diseño de la base de datos de **SafeLab** ha sido normalizado para garantizar la integridad referencial y la eficiencia en la consulta de grandes volúmenes de telemetría. A diferencia del diagrama de clases, este modelo se enfoca en la persistencia de datos mediante el uso de Claves Primarias (**PK**) y Claves Foráneas (**FK**).
 
-
 El modelo está diseñado para soportar la trazabilidad exigida por la norma **ISO 15189**, conectando cada lectura de sensor con su respectivo equipo y, en caso de anomalías, vinculando la alerta directamente con el registro de intervención del usuario. Los registros de auditoría (`audit_logs`) incluyen campos de hash para asegurar que la historia de operaciones no sea alterada, cumpliendo con los estándares de seguridad bioclínica.
-
 
 #### Puntos clave del diseño:
 
 * **Escalabilidad:** Las lecturas de telemetría están indexadas por tiempo y sensor para permitir búsquedas rápidas en grandes conjuntos de datos.
 
-
 * **Integridad:** Las relaciones foráneas aseguran que no existan alertas huérfanas sin una lectura de origen claramente identificada.
 
-
 * **Seguridad:** Los perfiles de usuario y logs están centralizados para facilitar las auditorías de acceso y el cumplimiento normativo.
+
 ![Database Diagram](assets/chapter-iv/BaseDatosDiagrama.png)
-  Nota: Elaboración propia.
+Nota: Elaboración propia.

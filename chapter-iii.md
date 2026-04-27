@@ -1,4 +1,4 @@
-# Capitulo III: Requirements Specification
+# Capítulo III: Requirements Specification
 
 ## Epics
 

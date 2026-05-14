@@ -54,24 +54,38 @@
     </thead>
     <tbody>
         <tr>
-            <td><strong>1.0</strong></td>
-            <td>2026-04-25</td>
-            <td>
-                - Sanchez Arenas, Manuel Angel<br>
-                - Arizabal Condori, Jean Niels<br>
-                - Chavez Bardales, Esteban Eduardo<br>
-                - Jaramillo Mayta, Jhon Jordy
-            </td>
-        </td>
-        <td>
-            <strong>Se incluye:</strong><br>
-            -Carátula, Registro de versiones, Student Outcome y Contenido de Informe<br>
-            -Capitulo I: Introducción<br>
-            -Capitulo II: Requirements Elicitation & Analysis<br>
-            -Capitulo III: Especificación de Requerimientos<br>
-            -Capitulo IV: Diseño del Producto<br>
-            -Capitulo V: Implementación, Validación y Despliegue del Producto<br>
-        </td>
+          <td><strong>1.0</strong></td>
+          <td>2026-04-25</td>
+          <td>
+              - Sanchez Arenas, Manuel Angel<br>
+              - Arizabal Condori, Jean Niels<br>
+              - Chavez Bardales, Esteban Eduardo<br>
+              - Jaramillo Mayta, Jhon Jordy
+          </td>
+          <td>
+              <strong>Se incluye:</strong><br>
+              -Carátula, Registro de versiones, Student Outcome y Contenido de Informe<br>
+              -Capitulo I: Introducción<br>
+              -Capitulo II: Requirements Elicitation & Analysis<br>
+              -Capitulo III: Especificación de Requerimientos<br>
+              -Capitulo IV: Diseño del Producto<br>
+              -Capitulo V: Implementación, Validación y Despliegue del Producto<br>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>2.0</strong></td>
+          <td>2026-05-14</td>
+          <td>
+              - Sanchez Arenas, Manuel Angel<br>
+              - Arizabal Condori, Jean Niels<br>
+              - Chavez Bardales, Esteban Eduardo<br>
+              - Jaramillo Mayta, Jhon Jordy
+          </td>
+          <td>
+              <strong>Se incluye:</strong><br>
+              -Corrección de Capitulo III: User Stories<br>
+              -Capitulo V: Documentación del Sprint 2 (Sprint Backlog, Deployment Evidence, Software Documentation)<br>
+          </td>
         </tr>
     </tbody>
 </table>
@@ -97,22 +111,22 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
     <tr>
       <td>Manuel Sanchez</td>
       <td>@manuels7a</td>
-      <td>Desarrollo de secciones del capítulo IV relacionadas a la web app. Elboración de User Stories e Impact Mapping</td>
+      <td>Desarrollo de secciones del capítulo V relacionadas a la documentación del Sprint 2 (Desarollo y despliegue de la aplicación web y fake API)</td>
     </tr>
     <tr>
       <td>Jean Niels Arizabal Condori</td>
       <td>@JeanArizabal</td>
-      <td>Evaluación de la competencia. Desarrollo del LeanUX Canvas. Diseño y elaboración de las entrevistas</td>
+      <td>Coordinación de la estructura de la fake API a usar en la aplicación web</td>
     </tr>
     <tr>
       <td>Esteban Eduardo Chavez Bardales</td>
       <td>@ECEB0704</td>
-      <td>Avance de los Event Storming y priorización de segmentación de aportes en ramas</td>
+      <td>Correcciones de las User Stories y Rediseño de los Event Storming para mejorar la calidad de los requerimientos</td>
     </tr>
     <tr>
       <td>Jhon Jordy Jaramillo Mayta</td>
       <td>@Marklnz1</td>
-      <td>Documentación de secciones en relación al desarrollo y despliegue de la Landing Page</td>
+      <td>Desarrollo del Bounded Context Telemetry y Labs. Correcciones de la carpeta Shared.</td>
     </tr>
   </tbody>
 </table>
@@ -198,9 +212,18 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
       - [5.2.1.6 Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7 Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8 Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2 Sprint 2](#522-sprint-2)
+      - [5.2.2.1 Sprint Planning](#5221-sprint-planning-2)
+      - [5.2.2.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3 Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4 Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5 Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
-- [Bibliografia](#bibliografia)
 - [Anexos](#anexos)
+- [Bibliografia](#bibliografia)
 
 ## Student Outcome
 
@@ -219,35 +242,45 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
       <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <strong>Manuel Sanchez</strong><br>
-        AV1: Expongo con efectividad la propuestas del diseño de la aplicación.<br><br>
+        AV1: Expongo con efectividad la propuestas del diseño de la aplicación.<br>
+        AV2: A través de las reuniones de equipo, comparto las ideas y avances del proyecto.<br><br>
         <strong>Jean Arizabal</strong><br>
-        AV1: Presento la propuesta de solución de forma detallada considerando los antecedentes, el perfil de la solución, el análisis competitivo y el needfinding.<br><br>
+        AV1: Presento la propuesta de solución de forma detallada considerando los antecedentes, el perfil de la solución, el análisis competitivo y el needfinding.<br>
+        AV2: Comunico a mi equipo mis ideas para el desarrollo del proyecto y para poder trabajar sin conflictos <br><br>
         <strong>Esteban Chavez</strong><br>
-        AV2: Explico detalladamente el event storming, desde el inicio hasta el final, los diagramas, tanto de clase como de base de datos y el diseño de la landing page..<br><br>
+        AV1: Explico detalladamente el event storming, desde el inicio hasta el final, los diagramas, tanto de clase como de base de datos y el diseño de la landing page.<br>
+        AV2: Explico a mis compañeros las modificaciones y correcciones de los requisitos del proyecto para ajustar el desarrollo de la aplicación.<br><br>
         <strong>Jhon Jaramillo</strong><br>
-        AV1: Expongo y sustento las decisiones arquitectónicas del proyecto utilizando los diagramas C4, además de presentar el diseño, flujo y propósito de la landing page al equipo..<br>
+        AV1: Expongo y sustento las decisiones arquitectónicas del proyecto utilizando los diagramas C4, además de presentar el diseño, flujo y propósito de la landing page al equipo.<br>
+        AV2: Consulto mis dudas con mis compañeros y busco orientación para resolver los desafíos del proyecto.<br><br>
       </td>
       <td>
         <strong>AV1:</strong> Para poder comunicar efectivamente nuestras ideas fue necesario trabajar en nuestra capacidad de expresión y en la claridad de nuestra comunicación.<br>
+        <strong>AV2:</strong> Para poder entregar un producto alineado a los requisitos fue necesario comprender las modificaciones de los requisitos. Para ello, la comunicación entre los miembros del equipo fue fundamental.<br>
       </td>
     </tr>
     <tr>
       <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <strong>Manuel Sanchez</strong><br>
-        AV1: Redacto documentos claros y objetivos sobre las historias de usuario de Safelab.<br><br>
+        AV1: Redacto documentos claros y objetivos sobre las historias de usuario de Safelab.<br>
+        AV2: Redacto la documentación técnica del sprint del proyecto a través de estándares apropiados para su correcta lectura.<br><br>
         <strong>Jean Arizabal</strong><br>
-        AV1: Redacto con detenimiento detalles sobre la startup, el perfil de la solución, el análisis competitivo y el needfinding.<br><br>
+        AV1: Redacto con detenimiento detalles sobre la startup, el perfil de la solución, el análisis competitivo y el needfinding.<br>
+        AV2: Redacto propuestas de corrección para mejorar la calidad del producto. Hago correcciones puntutales para alinear el producto con los requisitos.<br><br>
         <strong>Esteban Chavez</strong><br>
-        AV1: Escribo claramente la informacion necesaria que cada diagrama, e imagen necesita, de forma sencilla y tecnica, demostrando conocimientos especificos para las diferentes secciones.<br><br>
+        AV1: Escribo claramente la informacion necesaria que cada diagrama, e imagen necesita, de forma sencilla y tecnica, demostrando conocimientos especificos para las diferentes secciones.<br>
+        AV2: Recibo el feeback y coordino las correcciones necesarias siguiendo los estándares del informe.<br><br>
         <strong>Jhon Jaramillo</strong><br>
         AV1: Redacto historias de usuario claras y detalladas para estructurar la landing page, y documento la arquitectura del sistema elaborando diagramas de contexto y contenedores bajo el modelo C4.<br>
+        AV2: Documento las decisiones en las reuniones del equipo para asegurar la alineación y el progreso del proyecto.<br><br>
       </td>
       <td>
         <strong>AV1: </strong>Para poder comunicar efectivamente nuestras ideas en el reporte fue necesario tener un bien planteada nuestra propuesta.<br>
+        <strong>AV2: </strong>A través del feedback del informe, logramos optimizar lac comunicación de la propuesta de nuestro producto en el documento.<br>
       </td>
     </tr>
-  </tbody>
+  </tbody>  
 </table>
 
 ---

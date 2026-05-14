@@ -298,6 +298,16 @@ Se muestra la actividad reciente del laboratorio, programaciones activas y los i
 ![Web Application - mockup 7](assets/chapter-iv/mockup-7.png)
   Nota: Elaboración propia en Figma.
 
+**Configuracion**
+- La sección de Settings de Safelab está diseñada como el centro neurálgico de personalización y control del sistema. Su objetivo principal es permitir que los responsables de laboratorio y administradores ajusten la precisión de los instrumentos de medición, gestionen la seguridad de los datos y personalicen la experiencia de usuario.
+![Web Application - mockup 7](assets/chapter-iv/settings1.png)
+![Web Application - mockup 7](assets/chapter-iv/settings2.png)
+![Web Application - mockup 7](assets/chapter-iv/settings3.png)
+![Web Application - mockup 7](assets/chapter-iv/settings4.png)
+
+Nota: Elaboración propia en Figma.
+
+
 ### 4.4.4. Web Applications User Flow Diagrams
 
 **Userflow 1**

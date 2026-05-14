@@ -1,6 +1,6 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 
-# 5.1. Software Configuration Management
+## 5.1. Software Configuration Management
 
 ## 5.1.1. Software Development Environment Configuration
 
@@ -59,7 +59,7 @@ El control de versiones se realizará en GitHub bajo una organización pública.
 
 * **Landing Page Repository:** [https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page](https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page)
 
-### Estrategia de Branching (GitFlow)
+**A. Estrategia de Branching (GitFlow)**
 
 Se implementará el modelo GitFlow para asegurar un ciclo de vida de desarrollo robusto y ordenado:
 
@@ -68,37 +68,37 @@ Se implementará el modelo GitFlow para asegurar un ciclo de vida de desarrollo 
 * **develop branch:** Rama principal de integración donde reside el código más reciente de desarrollo.
 
 * **feature branches:** Ramas temporales para el desarrollo de nuevas User Stories.
-    * Convención: `feature/short-description` (ej. `feature/order-registration`).
+  * Convención: `feature/short-description` (ej. `feature/order-registration`).
 
 * **release branches:** Ramas de preparación para despliegues a producción, permitiendo correcciones menores y preparación de metadatos.
-    * Convención: `release/vX.Y.Z` (siguiendo Semantic Versioning).
+  * Convención: `release/vX.Y.Z` (siguiendo Semantic Versioning).
 
 * **hotfix branches:** Para correcciones críticas inmediatas en la rama main.
-    * Convención: `hotfix/issue-description`.
+  * Convención: `hotfix/issue-description`.
 
-### Mensajes de Commit (Conventional Commits)
+**B. Mensajes de Commit (Conventional Commits)**
 
 Para mantener un historial de cambios legible y facilitar la generación automática de changelogs, se utilizará el estándar de Conventional Commits:
 
 * **Estructura:** `<tipo>(<scope>): <descripción>`
 
 * **Tipos permitidos:**
-    * **feat:** Nueva funcionalidad.
-    * **fix:** Corrección de un error.
-    * **docs:** Cambios solo en la documentación.
-    * **style:** Cambios de formato (espacios, puntos y comas) que no afectan el código.
-    * **refactor:** Cambio de código que no corrige un error ni añade una función.
+  * **feat:** Nueva funcionalidad.
+  * **fix:** Corrección de un error.
+  * **docs:** Cambios solo en la documentación.
+  * **style:** Cambios de formato (espacios, puntos y comas) que no afectan el código.
+  * **refactor:** Cambio de código que no corrige un error ni añade una función.
 
 * **Ejemplos:**
-    * `feat(ordering): add automated order validation policy`
-    * `fix(auth): resolve token expiration on mobile devices`
-    * `docs(interviews): update stakeholder interview records`
+  * `feat(ordering): add automated order validation policy`
+  * `fix(auth): resolve token expiration on mobile devices`
+  * `docs(interviews): update stakeholder interview records`
 
 ## 5.1.3. Source Code Style Guide & Conventions
 
 Para garantizar la calidad, mantenibilidad y legibilidad del código de SafeLab, el equipo ha adoptado las siguientes convenciones de estilo. Siguiendo los estándares de la industria y las exigencias del curso, todo el código fuente (nombres de variables, clases, métodos y comentarios) se escribirá estrictamente en inglés.
 
-#### HTML & CSS
+**A. HTML & CSS**
 Se seguirá la **Google HTML/CSS Style Guide**.
 
 * **HTML:** Se utilizará una estructura semántica (uso de `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`). La indentación será de 2 espacios. Los atributos de los elementos deben estar en minúsculas y los valores entre comillas dobles.
@@ -109,7 +109,7 @@ Se seguirá la **Google HTML/CSS Style Guide**.
 
 * **Colors & Units:** Se priorizará el uso de variables CSS para la paleta de colores corporativa y unidades relativas (`rem`, `em`, `%`) para asegurar que el diseño sea adaptable (responsive).
 
-#### JavaScript & TypeScript
+**B. JavaScript & TypeScript**
 Se seguirá la **Google TypeScript Style Guide**.
 
 * **Variables y Funciones:** Se utilizará `camelCase` (ej. `getSensorReading`, `updateLaboratoryStatus`). Los nombres deben ser semánticos; se prefiere `isTemperatureHigh` sobre `tempCheck`.
@@ -120,7 +120,7 @@ Se seguirá la **Google TypeScript Style Guide**.
 
 * **Asincronía:** Se utilizará exclusivamente `async/await` para el manejo de peticiones al API, evitando el anidamiento de promesas.
 
-#### Java (Backend - Spring Boot)
+**C. Java (Backend - Spring Boot)**
 Se seguirá la **Google Java Style Guide** y las convenciones oficiales de **Spring Framework**.
 
 * **Naming:** `PascalCase` para clases (ej. `LaboratoryController`, `SensorService`) y `camelCase` para métodos y variables (ej. `calculateAverageHumidity`).
@@ -131,7 +131,7 @@ Se seguirá la **Google Java Style Guide** y las convenciones oficiales de **Spr
 
 * **Annotations:** Se emplearán anotaciones de **Lombok** (como `@Getter`, `@Setter`, `@NoArgsConstructor`) para mantener el código limpio y libre de boilerplate.
 
-#### Gherkin
+**D. Gherkin**
 Para las especificaciones de pruebas de aceptación, se aplicarán las **Gherkin Conventions**.
 
 * **Idioma:** Se redactarán en inglés para mantener la consistencia con el código fuente y las mejores prácticas de desarrollo open source.
@@ -176,7 +176,7 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
   </tbody>
 </table>
 
-#### Configuración por Componente:
+**CONFIGURACIÓN POR COMPONENTE:**
 
 **1. Landing Page:**
 * **Tecnología:** HTML5, CSS3 (SASS) y JavaScript.
@@ -195,13 +195,13 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
 
 * **Proceso:** Se ejecuta el comando `ng build --configuration production` para generar los archivos de distribución optimizados. Estos archivos son cargados en **Firebase Hosting**, aprovechando su red de entrega de contenidos (CDN) para asegurar que el Dashboard de monitoreo en tiempo real sea fluido y responsivo en cualquier dispositivo.
 
-#### Consideraciones de Seguridad y Dominio:
+**CONSIDERACIONES DE SEGURIDAD Y DOMINIO:**
 
 * **SSL/TLS:** Todos los productos cuentan con certificados de seguridad para garantizar que la transmisión de datos entre los sensores de laboratorio y la aplicación sea cifrada.
 
 * **Integración:** La Web Application está configurada para consumir los servicios del RESTful API mediante el intercambio de recursos de origen cruzado (**CORS**), permitiendo únicamente peticiones desde los dominios autorizados de la solución.
 
-# 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation
 
 ## 5.2.1. Sprint 1
 
@@ -314,7 +314,6 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
     </tr>
   </tbody>
 </table>
-
 
 ### 5.2.1.3. Sprint Backlog 1
 **Sprint Objective:**
@@ -505,8 +504,6 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
 - WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
 - Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
 
-
-
 ## 5.2.2. Sprint 2
 
 ### 5.2.2.1. Sprint Planning 2
@@ -619,7 +616,6 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
     </tr>
   </tbody>
 </table>
-
 
 ### 5.2.2.3. Sprint Backlog 2
 **Sprint Objective:**
@@ -748,7 +744,7 @@ Implementar las vistas principales (core) de la aplicación web.
   </tbody>
 </table>
 
-### 5.2.1.4. Development Evidence for Sprint Review
+### 5.2.2.4. Development Evidence for Sprint Review
 
 Esta tabla lista los commits realizados durante el sprint, incluyendo el desarrollo de la web app y documentación.
 
@@ -835,7 +831,7 @@ Esta tabla lista los commits realizados durante el sprint, incluyendo el desarro
   </tbody>
 </table>
 
-### 5.2.1.5. Execution Evidence for Sprint Review
+### 5.2.2.5. Execution Evidence for Sprint Review
 
 Las vistas principales de la aplicación web fueron desarrolladas y desplegadas exitosamente. A continuación se presentan las evidencias correspondientes de la implementación.
 
@@ -851,7 +847,7 @@ Las vistas principales de la aplicación web fueron desarrolladas y desplegadas 
 <p><strong>Despliegue de la aplicación:</strong><br>
 <a href="https://frontend-jade-seven-fwvgy3syck.vercel.app/">Safelab Web Application</a></p>
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 Durante este Sprint, el equipo se centró en el desarrollo de las vistas principales de la aplicación web, por lo que no se implementaron ni documentaron endpoints relacionados a Web Services.
 Sin embargo, se establecieron las bases para la integración futura con el backend y con ello el desarrollo de una fake API para simular las interacciones con el sistema, lo que permitirá una documentación detallada de los servicios en los próximos Sprints.
@@ -868,7 +864,7 @@ Sin embargo, se establecieron las bases para la integración futura con el backe
 <p><strong>Despliegue del fake API:</strong><br>
 <a href="https://fake-api-production-0033.up.railway.app/">Safelab Fake API</a></p>
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 El primer despliegue de la web application se realizó exitosamente en Vercel, mientras que la fake API se desplegó en Railway, lo que permitió validar la funcionalidad de la aplicación y su integración con el backend simulado. A continuación se presentan las evidencias de ambos despliegues:
 
@@ -903,7 +899,7 @@ El primer despliegue de la web application se realizó exitosamente en Vercel, m
     <img src="./assets/chapter-v/evidence-fake-api-deployment.png" alt="Fake API Deployment">
 </ul>
 
-### 5.2.1.8. Team Collaboration Insights during Sprint
+### 5.2.2.8. Team Collaboration Insights during Sprint
 
 Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsApp y Google Meet durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de la Web Application y documentación.
 

@@ -111,7 +111,7 @@ Algunas de las etiquetas principales de nuestras secciones serán las siguientes
 - `Filtros de búsqueda`
 - `Indicadores de tipo de evento`
 
-### 4.2.3. SEO Tags and Meta Tag
+### 4.2.3. SEO Tags and Meta Tags
 
 **Landing Page**:
 - Title (SEO Tag): Safelab | Smart Lab Management
@@ -507,7 +507,7 @@ Nota: Elaboración propia.
 
 ## 4.8. Database Design
 
-### 4.8.1. Database Diagram
+### 4.8.1. Database Diagrams
 
 El diseño de la base de datos de **SafeLab** ha sido normalizado para garantizar la integridad referencial y la eficiencia en la consulta de grandes volúmenes de telemetría. A diferencia del diagrama de clases, este modelo se enfoca en la persistencia de datos mediante el uso de Claves Primarias (**PK**) y Claves Foráneas (**FK**).
 

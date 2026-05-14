@@ -173,9 +173,9 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
   - [4.1 Style Guidelines](#41-style-guidelines)
     - [4.1.1 General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2 Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2 Information Architecture](#43-information-architecture)
+  - [4.2 Information Architecture](#42-information-architecture)
     - [4.2.1 Organization Systems](#421-organization-systems)
-    - [4.2.2 Labeling System](#422-labeling-system)
+    - [4.2.2 Labeling Systems](#422-labeling-systems)
     - [4.2.3 SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4 Searching Systems](#424-searching-systems)
     - [4.2.5 Navigation System](#425-navigation-system)
@@ -297,7 +297,7 @@ El núcleo de nuestra propuesta de valor es una plataforma integral de monitoreo
 
 Desde una perspectiva operativa y comercial, SafeLab estructura sus servicios bajo un modelo B2B (Business-to-Business) sustentado en una arquitectura SaaS (Software as a Service). Este enfoque nos permite dotar a las instituciones de salud de una solución altamente escalable y de rápida implementación, donde una suscripción corporativa garantiza el acceso ininterrumpido a herramientas de auditoría en tiempo real, reportes automatizados para el cumplimiento normativo y una inmutabilidad total en la retención de datos históricos. La visión a largo plazo de SafeLab es convertirse en el estándar regional para la gestión inteligente de inventarios biológicos, impulsando a las instituciones de salud hacia un modelo operativo guiado por la innovación pragmática y un compromiso innegociable con la cultura del "Desperdicio Cero".
 
-### **1.1.2. Perfiles de los Integrantes del Equipo**
+### **1.1.2. Perfiles de integrantes del equipo**
 
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>

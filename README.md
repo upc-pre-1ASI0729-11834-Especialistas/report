@@ -54,24 +54,38 @@
     </thead>
     <tbody>
         <tr>
-            <td><strong>1.0</strong></td>
-            <td>2026-04-25</td>
-            <td>
-                - Sanchez Arenas, Manuel Angel<br>
-                - Arizabal Condori, Jean Niels<br>
-                - Chavez Bardales, Esteban Eduardo<br>
-                - Jaramillo Mayta, Jhon Jordy
-            </td>
-        </td>
-        <td>
-            <strong>Se incluye:</strong><br>
-            -Carátula, Registro de versiones, Student Outcome y Contenido de Informe<br>
-            -Capitulo I: Introducción<br>
-            -Capitulo II: Requirements Elicitation & Analysis<br>
-            -Capitulo III: Especificación de Requerimientos<br>
-            -Capitulo IV: Diseño del Producto<br>
-            -Capitulo V: Implementación, Validación y Despliegue del Producto<br>
-        </td>
+          <td><strong>1.0</strong></td>
+          <td>2026-04-25</td>
+          <td>
+              - Sanchez Arenas, Manuel Angel<br>
+              - Arizabal Condori, Jean Niels<br>
+              - Chavez Bardales, Esteban Eduardo<br>
+              - Jaramillo Mayta, Jhon Jordy
+          </td>
+          <td>
+              <strong>Se incluye:</strong><br>
+              -Carátula, Registro de versiones, Student Outcome y Contenido de Informe<br>
+              -Capitulo I: Introducción<br>
+              -Capitulo II: Requirements Elicitation & Analysis<br>
+              -Capitulo III: Especificación de Requerimientos<br>
+              -Capitulo IV: Diseño del Producto<br>
+              -Capitulo V: Implementación, Validación y Despliegue del Producto<br>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>2.0</strong></td>
+          <td>2026-05-14</td>
+          <td>
+              - Sanchez Arenas, Manuel Angel<br>
+              - Arizabal Condori, Jean Niels<br>
+              - Chavez Bardales, Esteban Eduardo<br>
+              - Jaramillo Mayta, Jhon Jordy
+          </td>
+          <td>
+              <strong>Se incluye:</strong><br>
+              -Corrección de Capitulo III: User Stories<br>
+              -Capitulo V: Documentación del Sprint 2 (Sprint Backlog, Deployment Evidence, Software Documentation)<br>
+          </td>
         </tr>
     </tbody>
 </table>
@@ -97,22 +111,22 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
     <tr>
       <td>Manuel Sanchez</td>
       <td>@manuels7a</td>
-      <td>Desarrollo de secciones del capítulo IV relacionadas a la web app. Elboración de User Stories e Impact Mapping</td>
+      <td>Desarrollo de secciones del capítulo V relacionadas a la documentación del Sprint 2 (Desarollo y despliegue de la aplicación web y fake API)</td>
     </tr>
     <tr>
       <td>Jean Niels Arizabal Condori</td>
       <td>@JeanArizabal</td>
-      <td>Evaluación de la competencia. Desarrollo del LeanUX Canvas. Diseño y elaboración de las entrevistas</td>
+      <td>Coordinación de la estructura de la fake API a usar en la aplicación web</td>
     </tr>
     <tr>
       <td>Esteban Eduardo Chavez Bardales</td>
       <td>@ECEB0704</td>
-      <td>Avance de los Event Storming y priorización de segmentación de aportes en ramas</td>
+      <td>Correcciones de las User Stories y Rediseño de los Event Storming para mejorar la calidad de los requerimientos</td>
     </tr>
     <tr>
       <td>Jhon Jordy Jaramillo Mayta</td>
       <td>@Marklnz1</td>
-      <td>Documentación de secciones en relación al desarrollo y despliegue de la Landing Page</td>
+      <td>Desarrollo del Bounded Context Telemetry y Labs. Correcciones de la carpeta Shared.</td>
     </tr>
   </tbody>
 </table>
@@ -159,9 +173,9 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
   - [4.1 Style Guidelines](#41-style-guidelines)
     - [4.1.1 General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2 Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2 Information Architecture](#43-information-architecture)
+  - [4.2 Information Architecture](#42-information-architecture)
     - [4.2.1 Organization Systems](#421-organization-systems)
-    - [4.2.2 Labeling System](#422-labeling-system)
+    - [4.2.2 Labeling Systems](#422-labeling-systems)
     - [4.2.3 SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4 Searching Systems](#424-searching-systems)
     - [4.2.5 Navigation System](#425-navigation-system)
@@ -198,9 +212,18 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
       - [5.2.1.6 Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7 Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8 Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2 Sprint 2](#522-sprint-2)
+      - [5.2.2.1 Sprint Planning](#5221-sprint-planning-2)
+      - [5.2.2.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3 Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4 Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5 Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
-- [Bibliografia](#bibliografia)
 - [Anexos](#anexos)
+- [Bibliografia](#bibliografia)
 
 ## Student Outcome
 
@@ -219,35 +242,45 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
       <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <strong>Manuel Sanchez</strong><br>
-        AV1: Expongo con efectividad la propuestas del diseño de la aplicación.<br><br>
+        AV1: Expongo con efectividad la propuestas del diseño de la aplicación.<br>
+        AV2: A través de las reuniones de equipo, comparto las ideas y avances del proyecto.<br><br>
         <strong>Jean Arizabal</strong><br>
-        AV1: Presento la propuesta de solución de forma detallada considerando los antecedentes, el perfil de la solución, el análisis competitivo y el needfinding.<br><br>
+        AV1: Presento la propuesta de solución de forma detallada considerando los antecedentes, el perfil de la solución, el análisis competitivo y el needfinding.<br>
+        AV2: Comunico a mi equipo mis ideas para el desarrollo del proyecto y para poder trabajar sin conflictos <br><br>
         <strong>Esteban Chavez</strong><br>
-        AV2: Explico detalladamente el event storming, desde el inicio hasta el final, los diagramas, tanto de clase como de base de datos y el diseño de la landing page..<br><br>
+        AV1: Explico detalladamente el event storming, desde el inicio hasta el final, los diagramas, tanto de clase como de base de datos y el diseño de la landing page.<br>
+        AV2: Explico a mis compañeros las modificaciones y correcciones de los requisitos del proyecto para ajustar el desarrollo de la aplicación.<br><br>
         <strong>Jhon Jaramillo</strong><br>
-        AV1: Expongo y sustento las decisiones arquitectónicas del proyecto utilizando los diagramas C4, además de presentar el diseño, flujo y propósito de la landing page al equipo..<br>
+        AV1: Expongo y sustento las decisiones arquitectónicas del proyecto utilizando los diagramas C4, además de presentar el diseño, flujo y propósito de la landing page al equipo.<br>
+        AV2: Consulto mis dudas con mis compañeros y busco orientación para resolver los desafíos del proyecto.<br><br>
       </td>
       <td>
         <strong>AV1:</strong> Para poder comunicar efectivamente nuestras ideas fue necesario trabajar en nuestra capacidad de expresión y en la claridad de nuestra comunicación.<br>
+        <strong>AV2:</strong> Para poder entregar un producto alineado a los requisitos fue necesario comprender las modificaciones de los requisitos. Para ello, la comunicación entre los miembros del equipo fue fundamental.<br>
       </td>
     </tr>
     <tr>
       <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <strong>Manuel Sanchez</strong><br>
-        AV1: Redacto documentos claros y objetivos sobre las historias de usuario de Safelab.<br><br>
+        AV1: Redacto documentos claros y objetivos sobre las historias de usuario de Safelab.<br>
+        AV2: Redacto la documentación técnica del sprint del proyecto a través de estándares apropiados para su correcta lectura.<br><br>
         <strong>Jean Arizabal</strong><br>
-        AV1: Redacto con detenimiento detalles sobre la startup, el perfil de la solución, el análisis competitivo y el needfinding.<br><br>
+        AV1: Redacto con detenimiento detalles sobre la startup, el perfil de la solución, el análisis competitivo y el needfinding.<br>
+        AV2: Redacto propuestas de corrección para mejorar la calidad del producto. Hago correcciones puntutales para alinear el producto con los requisitos.<br><br>
         <strong>Esteban Chavez</strong><br>
-        AV1: Escribo claramente la informacion necesaria que cada diagrama, e imagen necesita, de forma sencilla y tecnica, demostrando conocimientos especificos para las diferentes secciones.<br><br>
+        AV1: Escribo claramente la informacion necesaria que cada diagrama, e imagen necesita, de forma sencilla y tecnica, demostrando conocimientos especificos para las diferentes secciones.<br>
+        AV2: Recibo el feeback y coordino las correcciones necesarias siguiendo los estándares del informe.<br><br>
         <strong>Jhon Jaramillo</strong><br>
         AV1: Redacto historias de usuario claras y detalladas para estructurar la landing page, y documento la arquitectura del sistema elaborando diagramas de contexto y contenedores bajo el modelo C4.<br>
+        AV2: Documento las decisiones en las reuniones del equipo para asegurar la alineación y el progreso del proyecto.<br><br>
       </td>
       <td>
         <strong>AV1: </strong>Para poder comunicar efectivamente nuestras ideas en el reporte fue necesario tener un bien planteada nuestra propuesta.<br>
+        <strong>AV2: </strong>A través del feedback del informe, logramos optimizar lac comunicación de la propuesta de nuestro producto en el documento.<br>
       </td>
     </tr>
-  </tbody>
+  </tbody>  
 </table>
 
 ---
@@ -264,7 +297,7 @@ El núcleo de nuestra propuesta de valor es una plataforma integral de monitoreo
 
 Desde una perspectiva operativa y comercial, SafeLab estructura sus servicios bajo un modelo B2B (Business-to-Business) sustentado en una arquitectura SaaS (Software as a Service). Este enfoque nos permite dotar a las instituciones de salud de una solución altamente escalable y de rápida implementación, donde una suscripción corporativa garantiza el acceso ininterrumpido a herramientas de auditoría en tiempo real, reportes automatizados para el cumplimiento normativo y una inmutabilidad total en la retención de datos históricos. La visión a largo plazo de SafeLab es convertirse en el estándar regional para la gestión inteligente de inventarios biológicos, impulsando a las instituciones de salud hacia un modelo operativo guiado por la innovación pragmática y un compromiso innegociable con la cultura del "Desperdicio Cero".
 
-### **1.1.2. Perfiles de los Integrantes del Equipo**
+### **1.1.2. Perfiles de integrantes del equipo**
 
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
@@ -814,221 +847,486 @@ Nota: Elaboración propia en Miro.
   <tbody>
     <tr>
       <td>US01</td>
-      <td>Navegación a secciones principales</td>
-      <td>Como visitante, quiero acceder a las distintas secciones informativas desde un menú principal para encontrar la información deseada rápidamente.</td>
+      <td>Optimización de la Vigilancia de Activos Críticos</td>
+      <td>Como: Jefe de Calidad / Investigador. Quiero: Consultar las capacidades de monitoreo en tiempo real y los protocolos de alerta del sistema. Para: Asegurar que el laboratorio cuenta con las herramientas necesarias para mantener la integridad de las muestras y cumplir con los estándares de bioseguridad.</td>
       <td>
-        <b>Escenario 1: Navegación por anclas</b><br>
-        Dado que el visitante se encuentra en la página inicial,<br>
-        Cuando selecciona la opción de una sección específica en el menú,<br>
-        Entonces el sistema lo dirige suavemente hacia la información correspondiente.<br><br>
-        <b>Escenario 2: Retorno al inicio</b><br>
-        Dado que el visitante navega en cualquier sección de la página,<br>
-        Cuando selecciona el logo,<br>
-        Entonces el sistema presenta nuevamente la vista superior de la página.
+        <b>Escenario 1 (Happy Path): Visualización de herramientas de control</b><br>
+        Dado que el Jefe de Calidad se encuentra en la sección "Características" de la Landing Page,<br>
+        Cuando revisa las funciones de "Monitoreo 24/7" y "Alertas Inteligentes",<br>
+        Entonces el sistema debe presentar una descripción clara de cómo cada función contribuye a reducir el margen de error humano en la medición de temperatura.<br><br>
+        <b>Escenario 2 (Unhappy Path): Falta de claridad en las especificaciones técnicas</b><br>
+        Dado que el usuario busca información sobre el cumplimiento de una norma específica (ej. ISO 15189) en las características,<br>
+        Cuando la información visualizada es demasiado genérica o no carga correctamente,<br>
+        Entonces el sistema debe facilitar un botón de "Más información" o "Descargar ficha técnica" para evitar que el usuario abandone el sitio por falta de sustento técnico.
       </td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US02</td>
-      <td>Navegación en dispositivos móviles</td>
-      <td>Como visitante desde móvil, quiero disponer de un menú adaptable para acceder a las secciones sin saturar la pantalla.</td>
+      <td>Selección de Capacidades según el Volumen de Activos</td>
+      <td>Como: Administrador de Laboratorio. Quiero: Evaluar y seleccionar un plan de suscripción basado en el número de sensores y unidades de almacenamiento. Para: Garantizar que la infraestructura de software soporte la escala operativa de mi laboratorio sin interrupciones en el monitoreo.</td>
       <td>
-        <b>Escenario 1:</b> Despliegue de menú<br>
-        <b>Escenario 2:</b> Ocultamiento automático tras seleccionar sección.
+        <b>Escenario 1 (Happy Path):</b><br>
+        Dado que el Administrador se encuentra en la sección "Nuestros Planes",<br>
+        Cuando selecciona un plan (Basic, Standard o Enterprise) que cubre su cantidad de equipos,<br>
+        Entonces el sistema debe mostrar el desglose de beneficios técnicos y el botón para iniciar la suscripción.<br><br>
+        <b>Escenario 2 (Unhappy Path):</b><br>
+        Dado que el usuario intenta seleccionar un plan que no se ajusta a las normativas de su región,<br>
+        Cuando hace clic en "Comenzar", el sistema detecta que el laboratorio requiere auditorías ISO no incluidas en ese plan,<br>
+        Entonces el sistema debe sugerir el plan "Enterprise" para asegurar el cumplimiento legal.
       </td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US03</td>
-      <td>Acceso a demo y características</td>
-      <td>Como gerente de laboratorio, quiero solicitar una demo o ver características desde el primer vistazo.</td>
+      <td>Validación Técnica y Solicitud de Información</td>
+      <td>Como: Gerente de Laboratorio. Quiero: Enviar una solicitud de contacto detallando las necesidades específicas de mi cadena de frío. Para: Recibir una asesoría técnica personalizada que valide la compatibilidad de los sensores SafeLab con mis activos biológicos.</td>
       <td>
-        <b>Escenario 1:</b> Botón solicitar demo redirige a formulario.<br>
-        <b>Escenario 2:</b> Botón ver características dirige a sección de features.
+        <b>Escenario 1 (Happy Path):</b><br>
+        Dado que el Gerente completa el formulario de la sección "Contáctanos",<br>
+        Cuando ingresa su nombre, correo corporativo y mensaje técnico,<br>
+        Entonces el sistema debe confirmar el envío exitoso y registrar la solicitud en el CRM de soporte.<br><br>
+        <b>Escenario 2 (Unhappy Path):</b><br>
+        Dado que el usuario ingresa un formato de correo inválido o deja el campo de "Mensaje" vacío,<br>
+        Cuando intenta enviar el formulario,<br>
+        Entonces el sistema debe marcar los campos en rojo y bloquear el envío para evitar registros de contacto incompletos.
       </td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US04</td>
-      <td>Visualización de interfaz del sistema</td>
-      <td>Como prospecto, quiero ver imágenes de la plataforma para conocer su apariencia.</td>
+      <td>Acceso Seguro al Ecosistema de Monitoreo</td>
+      <td>Como: Usuario Registrado (Técnico/Admin). Quiero: Autenticarme mediante el portal de acceso seguro utilizando credenciales gestionadas por IAM. Para: Entrar al Dashboard y gestionar incidentes térmicos de acuerdo a mis permisos asignados.</td>
       <td>
-        <b>Escenario 1:</b> Carrusel automático.<br>
-        <b>Escenario 2:</b> Indicadores manuales para cambiar vista.
+        <b>Escenario 1 (Happy Path):</b><br>
+        Dado que el técnico hace clic en el botón "Iniciar Sesión" del menú principal,<br>
+        Cuando ingresa sus credenciales válidas y el sistema confirma su identidad,<br>
+        Entonces el sistema debe cargar el Dashboard con los datos en tiempo real de sus unidades de almacenamiento.<br><br>
+        <b>Escenario 2 (Unhappy Path):</b><br>
+        Dado que un usuario intenta acceder desde una IP no autorizada o con credenciales erróneas,<br>
+        Cuando presiona "Ingresar",<br>
+        Entonces el sistema debe denegar el acceso y registrar un intento fallido en el Audit Entry para prevenir intrusiones.
       </td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US05</td>
-      <td>Consulta de herramientas</td>
-      <td>Como investigador, quiero consultar funciones principales estructuradas.</td>
+      <td>Monitoreo Térmico en Tiempo Real y Detección de Riesgos</td>
+      <td>Como: Coordinador de Laboratorio quiero visualizar el estado térmico de todas las unidades de almacenamiento en tiempo real y de forma centralizada para detectar desviaciones críticas de temperatura de manera inmediata y prevenir la degradación de los reactivos o muestras biológicas.</td>
       <td>
-        <b>Escenario 1:</b> Mostrar título, descripción e icono de cada feature.<br>
-        <b>Escenario 2:</b> Carga correcta de gráficos.
+        <b>Escenario 1: Monitoreo de Integridad de la Cadena de Frío (Happy Path)</b><br>
+        Dado que el Coordinador ha iniciado sesión y accede al Dashboard principal,<br>
+        Cuando el sistema recibe las lecturas sincronizadas de los sensores instalados,<br>
+        Entonces el sistema debe mostrar los indicadores de temperatura actualizados, señalando si cada unidad se encuentra dentro del Safe Temperature Threshold definido.<br><br>
+        <b>Escenario 2: Priorización visual ante Excursiones Térmicas (Unhappy Path / Alerta)</b><br>
+        Dado que una o más unidades de almacenamiento superan los límites críticos de temperatura,<br>
+        Cuando el Coordinador visualiza el Dashboard,<br>
+        Entonces el sistema debe resaltar visualmente las unidades en riesgo (color rojo/parpadeo) y mostrar el tiempo transcurrido desde que se detectó la anomalía para facilitar la toma de decisiones urgente.
       </td>
-      <td>EP01</td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US06</td>
-      <td>Comparativa de solución</td>
-      <td>Como jefe de calidad, quiero comparar método tradicional vs plataforma.</td>
+      <td>Análisis de Estabilidad Térmica mediante Tendencias Históricas</td>
+      <td>Como: Jefe de Aseguramiento de la Calidad. Quiero: Analizar el gráfico de tendencias de temperatura de las últimas 24 horas. Para: Identificar patrones de comportamiento inestable en los equipos de frío antes de que ocurra una avería total.</td>
       <td>
-        <b>Escenario 1:</b> Mostrar problemas del método tradicional.<br>
-        <b>Escenario 2:</b> Mostrar beneficios de SafeLab.
+        <b>Escenario 1 (Happy Path):</b><br>
+        Dado que el Jefe de Calidad visualiza el gráfico de líneas del Dashboard,<br>
+        Cuando selecciona un rango de tiempo específico,<br>
+        Entonces el sistema debe mostrar la fluctuación de la temperatura comparada con el límite superior e inferior permitido, permitiendo detectar micro-variaciones sospechosas.<br><br>
+        <b>Escenario 2 (Unhappy Path):</b><br>
+        Dado que hay una pérdida de conexión con el sensor durante un periodo,<br>
+        Cuando se genera el gráfico de tendencia,<br>
+        Entonces el sistema debe marcar claramente el "gap" o vacío de información con una alerta de "Datos no confiables", evitando que se tome la falta de datos como una temperatura estable.
       </td>
-      <td>EP01</td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US07</td>
-      <td>Revisión de testimonios</td>
-      <td>Como responsable de compras, quiero leer testimonios para ganar confianza.</td>
+      <td>Identificación de Puntos Críticos vía Mapa de Calor (Heatmap)</td>
+      <td>Como: Técnico de Mantenimiento. Quiero: Visualizar el mapa de calor de las unidades de almacenamiento distribuidas en el laboratorio. Para: Identificar qué zonas o racks específicos están sufriendo mayor estrés térmico y priorizar la revisión física de esos equipos.</td>
       <td>
-        <b>Escenario 1:</b> Mostrar reseña, calificación y datos del autor.<br>
-        <b>Escenario 2:</b> Adaptabilidad responsive.
+        <b>Escenario 1 (Happy Path):</b><br>
+        Dado que el Técnico observa el panel de "Heatmap" en el Dashboard,<br>
+        Cuando una celda cambia a un color de alerta (ej. naranja o rojo intenso),<br>
+        Entonces el sistema debe permitir hacer clic en dicha celda para identificar exactamente el nombre del equipo y su ubicación física (Rack/Estante).<br><br>
+        <b>Escenario 2 (Unhappy Path):</b><br>
+        Dado que todos los sensores reportan temperaturas normales pero el sistema detecta una anomalía de energía en un rack,<br>
+        Cuando se visualiza el Heatmap,<br>
+        Entonces el sistema debe sombrear la zona afectada indicando "Sensor no disponible/Falla eléctrica", impidiendo que el técnico asuma erróneamente que la zona está a temperatura correcta.
       </td>
-      <td>EP01</td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US08</td>
-      <td>Consulta de planes y precios</td>
-      <td>Como administrador, quiero comparar planes y funcionalidades.</td>
+      <td>Trazabilidad de Alertas Críticas Recientes</td>
+      <td>Como: Auditor de Cumplimiento (Compliance Officer). Quiero: Supervisar el log de alertas recientes disparadas por el sistema en el Dashboard. Para: Verificar que cada evento de riesgo térmico tenga una trazabilidad clara y cumpla con los tiempos de respuesta exigidos por la normativa bioclínica.</td>
       <td>
-        <b>Escenario 1:</b> Mostrar costos y alcance.<br>
-        <b>Escenario 2:</b> Destacar plan recomendado.
+        <b>Escenario 1: Visualización de alertas activas (Happy Path)</b><br>
+        Dado que han ocurrido fluctuaciones de temperatura en el laboratorio,<br>
+        Cuando el Auditor revisa el panel de alertas en el Dashboard,<br>
+        Entonces el sistema debe mostrar una lista cronológica indicando el tipo de alerta (ej. Thermal Excursion), la unidad afectada y el nivel de severidad (Low, Medium, High).<br><br>
+        <b>Escenario 2: Alertas sin atención inmediata (Unhappy Path)</b><br>
+        Dado que una alerta crítica aparece en el panel y no ha sido "Reconocida" por un técnico,<br>
+        Cuando transcurre el tiempo límite definido en la Escalation Policy,<br>
+        Entonces el sistema debe marcar la alerta en el Dashboard con un indicador de "Escalamiento Pendiente", notificando visualmente la brecha en el protocolo de seguridad.
       </td>
-      <td>EP01</td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US09</td>
-      <td>Información legal y soporte</td>
-      <td>Como visitante, quiero encontrar políticas y soporte en el footer.</td>
+      <td>Respuesta Rápida ante Alertas desde el Dashboard</td>
+      <td>Como: Técnico de Laboratorio. Quiero: Interactuar con las alertas recientes directamente desde el panel del Dashboard. Para: Iniciar las acciones correctivas de forma inmediata sin navegar por menús complejos, reduciendo el tiempo de exposición al riesgo de las muestras.</td>
       <td>
-        <b>Escenario 1:</b> Mostrar enlaces organizados.<br>
-        <b>Escenario 2:</b> Mostrar copyright actualizado.
+        <b>Escenario 1: Inicio de Acción Correctiva (Happy Path)</b><br>
+        Dado que el Técnico identifica una nueva alerta crítica en el Dashboard,<br>
+        Cuando hace clic sobre la alerta para reconocerla,<br>
+        Entonces el sistema debe abrir una ventana emergente que le permita registrar la Corrective Action inicial (ej. "Revisión de puerta abierta") y cambiar el estado del incidente a "En Proceso".<br><br>
+        <b>Escenario 2: Reconocimiento fallido de alerta (Unhappy Path)</b><br>
+        Dado que el Técnico intenta reconocer una alerta que ya fue asignada a otro usuario,<br>
+        Cuando intenta realizar una acción sobre ella,<br>
+        Entonces el sistema debe mostrar un mensaje de error indicando que el incidente ya está siendo atendido, evitando duplicidad de esfuerzos y registros inconsistentes.
       </td>
-      <td>EP01</td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US10</td>
-      <td>Acceso a portal de usuarios</td>
-      <td>Como visitante, quiero acceder a login y registro.</td>
+      <td>Gestión Preventiva basada en Métricas Ambientales</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Analizar las métricas combinadas (temperatura, vibraciones y humedad) para ejecutar acciones preventivas sobre los equipos de almacenamiento. Para: Mitigar riesgos antes de que ocurra una falla crítica en la cadena de frío y asegurar condiciones óptimas según el tipo de muestra.</td>
       <td>
-        <b>Escenario 1:</b> Botón login redirige a autenticación.<br>
-        <b>Escenario 2:</b> Botón registro redirige a creación de cuenta.
+        <b>Escenario 1: Ajuste de Operación por Estrés Ambiental (Happy Path)</b><br>
+        Dado que el Coordinador observa una correlación entre el aumento de la vibración del equipo y una leve inestabilidad térmica en los gráficos,<br>
+        Cuando el sistema identifica esta tendencia como un riesgo de falla mecánica inminente,<br>
+        Entonces el sistema debe permitir al Coordinador programar una "Acción de Mantenimiento Preventivo" directamente desde el panel de métricas, notificando al equipo técnico.<br><br>
+        <b>Escenario 2: Notificación de Invalidez de Lectura (Unhappy Path)</b><br>
+        Dado que un sensor de ambiente (vibración o humedad) reporta valores fuera de su rango de calibración técnica,<br>
+        Cuando el usuario intenta basar una decisión operativa en dichos datos,<br>
+        Entonces el sistema debe mostrar una advertencia de "Lectura no confiable: Requiere recalibración", bloqueando la capacidad de marcar el estado del laboratorio como "Seguro" hasta que se verifique el sensor.
       </td>
-      <td>EP01</td>
+      <td>EP02</td>
     </tr>
-    <tr>
+        <tr>
       <td>US11</td>
-      <td>Visualización del Dashboard</td>
-      <td>Como usuario autenticado, quiero ver un resumen general del estado de mis laboratorios para conocer rápidamente si todo está bajo control.</td>
+      <td>Gestión Priorizada de Sedes y Laboratorios</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Visualizar la lista de laboratorios con filtros avanzados por estado de criticidad y ubicación. Para: Identificar de inmediato qué sedes presentan anomalías térmicas y priorizar la supervisión en los puntos de mayor riesgo.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario ingresa al sistema, cuando accede al dashboard, entonces visualiza métricas clave<br><br>
-        <b>Escenario 2:</b> Dado que existen alertas críticas activas, cuando el dashboard carga, entonces se muestran destacadas visualmente.
+        <b>Escenario 1 (Happy Path): Filtrado por Estado Crítico</b><br>
+        Dado que el Coordinador se encuentra en la sección de "Laboratories",<br>
+        Cuando aplica el filtro de "Estado: Crítico",<br>
+        Entonces el sistema debe mostrar únicamente aquellos laboratorios que tengan al menos una Thermal Excursion activa, permitiendo una respuesta inmediata.<br><br>
+        <b>Escenario 2 (Unhappy Path): Laboratorio sin conexión de datos</b><br>
+        Dado que un laboratorio ha perdido la conexión con el Gateway de sensores,<br>
+        Cuando el usuario visualiza la grilla de laboratorios,<br>
+        Entonces el sistema debe mostrar el laboratorio con un estado de "Desconectado" y deshabilitar las métricas en tiempo real para evitar la lectura de datos obsoletos.
       </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US12</td>
-      <td>Listar laboratorios</td>
-      <td>Como usuario, quiero visualizar todos mis laboratorios en una grilla para acceder rápidamente a su información.</td>
+      <td>Gestión Operativa y Control de Unidades de Almacenamiento</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Acceder al panel de control detallado de un laboratorio específico para gestionar sus unidades de almacenamiento y sensores. Para: Ejecutar decisiones operativas como el ajuste de umbrales o el mantenimiento preventivo de los equipos de frío.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario accede a la sección Laboratories, entonces el sistema muestra tarjetas de cada laboratorio.<br><br>
-        <b>Escenario 2:</b> Dado que no hay laboratorios registrados, cuando el usuario accede a la sección, entonces el sistema muestra un estado vacío con opción de crear uno nuevo.
+        <b>Escenario 1 (Happy Path): Ajuste de Umbrales de Seguridad</b><br>
+        Dado que el Coordinador está en el detalle del laboratorio,<br>
+        Cuando identifica que una unidad requiere un enfriamiento más estricto y ajusta el Temperature Threshold,<br>
+        Entonces el sistema debe actualizar la política de alertas para ese sensor y registrar el cambio en el Audit Log por temas de cumplimiento.<br><br>
+        <b>Escenario 2 (Unhappy Path): Intento de acción sin permisos suficientes</b><br>
+        Dado que un Técnico intenta modificar los parámetros de configuración global de un laboratorio,<br>
+        Cuando intenta guardar los cambios en la sección de detalles,<br>
+        Entonces el sistema debe denegar la acción, solicitar la validación del Coordinador y mantener los parámetros anteriores para asegurar la integridad de la cadena de frío.
       </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US13</td>
-      <td>Acceder al detalle de laboratorio</td>
-      <td>Como usuario, quiero ingresar al detalle de un laboratorio para revisar sus sensores y estado.</td>
+      <td>Registro y Vinculación Técnica de Sensores</td>
+      <td>Como: Técnico de Laboratorio. Quiero: Registrar y vincular nuevos sensores a unidades de almacenamiento específicas (Racks/Refrigeradores). Para: Expandir la red de monitoreo y asegurar que cada activo biológico tenga un sensor asignado correctamente.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario selecciona un laboratorio, entonces el sistema abre la pantalla Laboratory Details.<br><br>
-        <b>Escenario 2:</b> Dado que el laboratorio tiene sensores activos, entonces se muuestran métricas en tiempo real.
+        <b>Escenario 1:</b><br>
+        Dado que el técnico inicia el proceso de registro,<br>
+        Cuando ingresa un ID de dispositivo nuevo,<br>
+        Entonces el sistema valida que el ID del sensor sea único y lo asocia a la ubicación física seleccionada.<br><br>
+        <b>Escenario 2:</b><br>
+        Dado que el técnico intenta registrar un sensor ya activo,<br>
+        Cuando el sistema detecta que el sensor ya está asignado a otro laboratorio,<br>
+        Entonces el sistema impide la duplicidad y muestra un error de vinculación.
       </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US14</td>
-      <td>Visualización de métricas de ambiente</td>
-      <td>Como usuario, quiero ver temperatura, vibraciones y calidad del aire para garantizar condiciones seguras.</td>
+      <td>Monitoreo de Salud y Calibración de Dispositivos</td>
+      <td>Como: Jefe de Mantenimiento. Quiero: Consultar el estado de batería y la fecha de última calibración de cada sensor. Para: Programar servicios técnicos preventivos y evitar interrupciones en la captura de datos críticos.</td>
       <td>
-        <b>Escenario 1:</b> Dado que existen sensores activos, cuando el usuario accede al laboratorio, entonces se muestran gráficos y valores actuales.<br><br>
-        <b>Escenario 2:</b> Dado que un sensor está desactivado, cuando se muestra el panel, entonces se señala el estado offline.
+        <b>Escenario 1:</b><br>
+        Dado que el sistema monitorea el hardware,<br>
+        Cuando el nivel de energía disminuye significativamente,<br>
+        Entonces el sistema muestra un indicador de batería baja cuando el sensor está por debajo del 15%.<br><br>
+        <b>Escenario 2:</b><br>
+        Dado que el sensor requiere mantenimiento normativo,<br>
+        Cuando el certificado de calibración está vencido,<br>
+        Entonces el sistema marca las lecturas como "No Certificadas" para alertar al departamento de Calidad.
       </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US15</td>
-      <td>Activación de sistemas automatizados</td>
-      <td>Como usuario, quiero activar o desactivar sistemas como ventilación para reaccionar ante cambios en el laboratorio.</td>
+      <td>Activación de Sistemas de Mitigación y Respuesta Automatizada</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Activar o desactivar los sistemas de mitigación (ventilación/refrigeración auxiliar) bajo reglas de validación técnica. Para: Reaccionar de forma segura ante una excursión térmica y estabilizar el ambiente sin comprometer la integridad de otros equipos.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario accede al laboratorio, cuando usa el interruptor de ventilación, entonces el sistema cambia el estado correctamente.<br><br>
-        <b>Escenario 2:</b> Dado que el sistema cambia de estado, cuando la acción se completa, entonces se muestra un pop-up de confirmación.
+        <b>Escenario 1: Activación Sujeta a Reglas de Seguridad (Happy Path)</b><br>
+        Dado que la temperatura de una unidad de almacenamiento ha superado el límite crítico (Thermal Excursion),<br>
+        Cuando el Coordinador intenta activar manualmente el sistema de ventilación de emergencia desde el panel de control,<br>
+        Entonces el sistema debe validar que no existan alertas de "Falla Eléctrica" activas y proceder con la activación, registrando el evento como una "Acción de Mitigación" en el historial de seguridad.<br><br>
+        <b>Escenario 2: Bloqueo por Condición Crítica (Unhappy Path)</b><br>
+        Dado que el laboratorio presenta una alerta de "Humedad Extrema" o "Falla de Sensor de Presión",<br>
+        Cuando el usuario intenta activar el sistema de ventilación,<br>
+        Entonces el sistema debe bloquear la activación y mostrar un mensaje de error: "Activación denegada: Riesgo de contaminación cruzada por falla de filtros/presión", forzando al usuario a resolver la condición crítica primero.
       </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US16</td>
-      <td>Eliminación de laboratorio</td>
-      <td>Como administrador, quiero eliminar laboratorios para mantener la información organizada.</td>
+      <td>Archivado y Custodia de Historial de Laboratorios</td>
+      <td>Como: Administrador de Laboratorio. Quiero: Archivar o dar de baja laboratorios que ya no están operativos. Para: Mantener la organización del sistema sin perder la trazabilidad histórica de los datos térmicos exigida por las auditorías.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario selecciona eliminar laboratorio, entonces el sistema elimina el registro.<br><br>
-        <b>Escenario 2:</b> Dado que el usuario cancela la acción, cuando cierra el modal, entonces el laboratorio permanece intacto.
+        <b>Escenario 1: Archivado Seguro con Retención de Datos (Happy Path)</b><br>
+        Dado que un laboratorio ha cesado sus operaciones,<br>
+        Cuando el Administrador solicita la eliminación/baja del laboratorio,<br>
+        Entonces el sistema no debe borrar los datos permanentemente, sino cambiar su estado a "Archivado", moviendo los registros de incidentes y temperaturas a un repositorio de solo lectura para futuras auditorías.<br><br>
+        <b>Escenario 2: Restricción de Eliminación por Alertas Activas (Unhappy Path)</b><br>
+        Dado que un laboratorio tiene incidentes críticos de "Excursión Térmica" aún abiertos o sin resolución,<br>
+        Cuando el usuario intenta eliminar el laboratorio,<br>
+        Entonces el sistema debe bloquear la acción y mostrar un mensaje de error: "Operación denegada: No se puede eliminar un laboratorio con incidentes críticos pendientes de cierre", garantizando que no se borren evidencias de fallas de seguridad.
       </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US17</td>
-      <td>Visualización de alertas activas</td>
-      <td>Como usuario, quiero revisar alertas activas para actuar rápidamente ante riesgos.</td>
+      <td>Gestión y Resolución de Incidentes Críticos</td>
+      <td>Como: Técnico de Laboratorio / Coordinador. Quiero: Gestionar las alertas activas mediante la ejecución y registro de acciones correctivas. Para: Mitigar el impacto de las excursiones térmicas y asegurar que el incidente sea resuelto bajo los protocolos de bioseguridad.</td>
       <td>
-        <b>Escenario 1:</b> Dado que existen alertas, cuando el usuario accede a Alerts, entonces se muestran en tarjetas destacadas.<br><br>
-        <b>Escenario 2:</b> Dado que no existen alertas, cuando accede a la vista, entonces se muestra mensaje de sistema estable.
+        <b>Escenario 1: Ejecución de Acción Correctiva (Happy Path)</b><br>
+        Dado que existe una alerta activa de severidad "Alta" por temperatura fuera de rango,<br>
+        Cuando el Técnico selecciona la alerta y registra una Corrective Action (ej. "Traslado de muestras a unidad de respaldo"),<br>
+        Entonces el sistema debe cambiar el estado de la alerta a "Resuelto", registrar el sello de tiempo (timestamp) y el usuario responsable, y emitir una notificación de "Ambiente Estabilizado".<br><br>
+        <b>Escenario 2: Bloqueo de Cierre Inadecuado (Unhappy Path)</b><br>
+        Dado que un técnico intenta marcar una alerta como "Resuelta" sin haber ingresado una descripción de la acción tomada,<br>
+        Cuando presiona el botón de confirmar resolución,<br>
+        Entonces el sistema debe impedir el cierre del incidente y mostrar un mensaje de error: "Campo obligatorio: Se requiere evidencia técnica de la acción correctiva para cumplir con la auditoría".
       </td>
-      <td>EP03</td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US18</td>
-      <td>Gestión del estado de alertas</td>
-      <td>Como usuario, quiero marcar alertas como atendidas para mantener control del incidente.</td>
+      <td>Gestión del Ciclo de Vida y Cierre de Incidentes</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Gestionar el estado de las alertas críticas hasta su cierre definitivo. Para: Mantener el control operativo del incidente y asegurar que se ha recuperado la estabilidad térmica en la unidad de almacenamiento.</td>
       <td>
-        <b>Escenario 1:</b> Dado que una alerta está activa, cuando el usuario la marca como resuelta, entonces cambia su estado.<br><br>
-        <b>Escenario 2:</b> Dado que cambia el estado, cuando la acción se completa, entonces el cambio de estado se registra en el historial.
+        <b>Escenario 1: Cierre Formal de Incidente (Happy Path)</b><br>
+        Dado que una alerta de "Excursión Térmica" ha sido atendida y la temperatura ha regresado al rango seguro,<br>
+        Cuando el Coordinador marca el incidente como "Cerrado",<br>
+        Entonces el sistema debe solicitar una confirmación final y cambiar el estado del laboratorio a "Estable", bloqueando cualquier edición posterior sobre ese evento.<br><br>
+        <b>Escenario 2: Registro en el Log de Auditoría (Unhappy Path)</b><br>
+        Dado que se completa el cambio de estado a "Resuelto",<br>
+        Cuando el sistema procesa la actualización,<br>
+        Entonces debe generar automáticamente un asiento inmutable en el historial de auditoría, incluyendo el ID del usuario, el timestamp y la descripción de la resolución.
       </td>
-      <td>EP03</td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US19</td>
-      <td>Consulta de historial de eventos</td>
-      <td>Como usuario, quiero revisar el historial para analizar eventos pasados.</td>
+      <td>Trazabilidad y Auditoría de Cumplimiento Normativo</td>
+      <td>Como: Auditor de Calidad. Quiero: Consultar el historial detallado de eventos, alertas y acciones ejecutadas en el sistema. Para: Generar reportes de cumplimiento para entidades regulatorias (ej. ISO, DIGEMID) y verificar la integridad de la cadena de frío en periodos pasados.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario accede a History, entonces se muestran eventos ordenados por fecha.
+        <b>Escenario 1: Consulta de Trazabilidad Forense (Happy Path)</b><br>
+        Dado que el Auditor accede a la sección de "Auditoría / Historial",<br>
+        Cuando aplica filtros por rango de fecha, sensor específico y técnico responsable,<br>
+        Entonces el sistema debe mostrar la línea de tiempo completa, correlacionando la fluctuación térmica con la respuesta humana y el sello digital de integridad.<br><br>
+        <b>Escenario 2: Verificación de Integridad de Datos (Unhappy Path)</b><br>
+        Dado que el Auditor sospecha de una alteración manual en los registros,<br>
+        Cuando solicita la validación de un bloque de datos históricos,<br>
+        Entonces el sistema debe ejecutar una verificación de firmas digitales y emitir una alerta si detecta que algún registro de temperatura fue modificado después de su captura original.
       </td>
-      <td>EP03</td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US20</td>
-      <td>Creación de nuevo laboratorio</td>
-      <td>Como usuario, quiero registrar nuevos laboratorios para comenzar a monitorearlos.</td>
+      <td>Inicialización de Entornos de Monitoreo (Crear Lab)</td>
+      <td>Como: Administrador de Laboratorio. Quiero: Registrar un nuevo laboratorio configurando sus parámetros técnicos y políticas de seguridad desde el inicio. Para: Establecer una infraestructura de monitoreo que cumpla con los estándares específicos de las muestras que se almacenarán.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario completa el formulario correctamente, cuando envía la información, entonces el laboratorio se crea.<br><br>
-        <b>Escenario 2:</b> Dado que faltan campos obligatorios, cuando se intenta enviar, entonces el sistema muestra validaciones.
+        <b>Escenario 1: Registro con Configuración de Umbrales (Happy Path)</b><br>
+        Dado que el Administrador completa el registro de una nueva sede,<br>
+        Cuando define los Safe Temperature Thresholds (Umbrales de Seguridad) y asigna la Escalation Policy,<br>
+        Entonces el sistema debe validar que los parámetros sean técnicamente coherentes y habilitar el laboratorio para la vinculación de sensores.<br><br>
+        <b>Escenario 2: Rechazo por Incumplimiento de Reglas (Unhappy Path)</b><br>
+        Dado que el Administrador intenta crear un laboratorio sin asignar una política de escalamiento de alertas,<br>
+        Cuando intenta guardar la configuración,<br>
+        Entonces el sistema debe bloquear la creación y mostrar un mensaje de error de dominio: "Regla de Negocio Incumplida: Todo laboratorio de misión crítica debe tener una ruta de escalamiento definida para emergencias térmicas".
       </td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US21</td>
-      <td>Edición de laboratorio</td>
-      <td>Como usuario, quiero editar la información de un laboratorio para mantener los datos actualizados.</td>
+      <td>Actualización de Parámetros Técnicos y Normativos</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Modificar la configuración técnica y los parámetros de seguridad de un laboratorio. Para: Adaptar el monitoreo a nuevos protocolos de bioseguridad o cambios en la infraestructura física de la sede.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario accede al detalle del laboratorio, cuando selecciona editar, entonces puede activar o desactivar los sistemas o sensores disponibles.<br><br>
-        <b>Escenario 2:</b> Dado que el usuario accede al detalle del laboratorio, cuando accede al  panel de recordatorios, entonces puede programar recordatorios.<br><br>
+        <b>Escenario 1: Actualización exitosa de umbrales (Happy Path)</b><br>
+        Dado que el Coordinador necesita restringir el rango de temperatura de un laboratorio de vacunas,<br>
+        Cuando modifica los Safe Temperature Thresholds y guarda los cambios,<br>
+        Entonces el sistema debe aplicar los nuevos límites de inmediato y registrar quién hizo el cambio y por qué en el Audit Log.<br><br>
+        <b>Escenario 2: Intento de configuración insegura (Unhappy Path)</b><br>
+        Dado que el usuario intenta establecer un umbral de alerta que es físicamente imposible para el equipo de frío,<br>
+        Cuando presiona "Guardar",<br>
+        Entonces el sistema debe rechazar la edición y mostrar una advertencia: "Configuración Inválida: El umbral excede la capacidad técnica del hardware asignado".
       </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>US22</td>
+      <td>US24</td>
+      <td>Detección Automática de Excursión Térmica</td>
+      <td>Como: Sistema de Monitoreo Inteligente. Quiero: Analizar las lecturas de los sensores en tiempo real contra los umbrales de seguridad definidos (Safe Thresholds). Para: Identificar automáticamente excursiones térmicas y prevenir el uso de reactivos o muestras cuya integridad haya sido comprometida.</td>
+      <td>
+        <b>Escenario 1 (Happy Path): Detección y Marcado de Riesgo</b><br>
+        Dado que un sensor está vinculado a una unidad con un rango de 2°C a 8°C,<br>
+        Cuando la lectura recibida es de 9°C por un periodo superior al tiempo de tolerancia,<br>
+        Entonces el sistema debe generar automáticamente un evento de Thermal Excursion, cambiar el estado del laboratorio a "Crítico" y disparar la alerta inmediata.<br><br>
+        <b>Escenario 2 (Unhappy Path): Validación de Consistencia de Datos</b><br>
+        Dado que el sistema recibe una lectura físicamente imposible (ej. -100°C) debido a un fallo del sensor,<br>
+        Cuando el motor de análisis procesa el dato,<br>
+        Entonces el sistema no debe marcar una excursión térmica, sino generar una alerta de "Falla Técnica/Sensor Defectuoso" para evitar falsos positivos en el reporte de calidad.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US25</td>
+      <td>Generación de Alertas Preventivas basadas en Tendencias</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Recibir notificaciones preventivas cuando la tendencia de temperatura indique una proximidad al límite crítico. Para: Ejecutar acciones de mitigación antes de que ocurra una pérdida real de material biológico.</td>
+      <td>
+        <b>Escenario 1 (Happy Path): Alerta por Incremento Constante</b><br>
+        Dado que la temperatura se mantiene dentro del rango seguro pero muestra un incremento constante de 0.5°C por hora,<br>
+        Cuando el algoritmo de predicción proyecta que se superará el umbral en menos de 2 horas,<br>
+        Entonces el sistema debe emitir una "Alerta Preventiva" al técnico de turno para que revise el sistema de refrigeración.<br><br>
+        <b>Escenario 2 (Unhappy Path): Notificación de Umbral Predictivo</b><br>
+        Dado que el sistema intenta enviar una alerta preventiva,<br>
+        Cuando el canal de comunicación principal (Push/SMS) falla,<br>
+        Entonces el sistema debe registrar el intento fallido y activar el canal secundario (Email corporativo) para garantizar que el aviso preventivo sea entregado.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US26</td>
+      <td>Escalamiento Automático de Incidentes no Atendidos</td>
+      <td>Como: Gerente de Operaciones. Quiero: Que el sistema aplique la política de escalamiento (Escalation Policy) si una alerta crítica no es reconocida en el tiempo establecido. Para: Garantizar que el personal de mayor jerarquía intervenga en situaciones de alto riesgo que no han sido gestionadas a tiempo.</td>
+      <td>
+        <b>Escenario 1 (Happy Path): Escalamiento a Nivel Superior</b><br>
+        Dado que se ha disparado una alerta crítica y han pasado 15 minutos sin que un técnico la "Reconozca",<br>
+        Cuando se cumple el tiempo límite de la política de escalamiento,<br>
+        Entonces el sistema debe notificar automáticamente al Coordinador de Sede y al Gerente de Operaciones con el detalle del incidente.<br><br>
+        <b>Escenario 2 (Unhappy Path): Interrupción del Escalamiento</b><br>
+        Dado que un técnico reconoce la alerta justo antes de que expire el tiempo de escalamiento,<br>
+        Cuando el sistema evalúa la siguiente acción,<br>
+        Entonces el proceso de escalamiento automático debe detenerse, registrando que el técnico X ha tomado control del incidente.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US27</td>
+      <td>Registro Obligatorio de Acciones Correctivas</td>
+      <td>Como: Técnico de Laboratorio. Quiero: Documentar formalmente las medidas tomadas para resolver una anomalía térmica. Para: Cumplir con los protocolos de trazabilidad y permitir el análisis de causa raíz en el futuro.</td>
+      <td>
+        <b>Escenario 1 (Happy Path): Cierre con Evidencia Técnica</b><br>
+        Dado que el técnico ha estabilizado la temperatura de una unidad,<br>
+        Cuando registra la Corrective Action detallando la solución aplicada (ej. "Cambio de compresor"),<br>
+        Entonces el sistema debe permitir el cierre del incidente y vincular la acción al log histórico de la unidad afectada.<br><br>
+        <b>Escenario 2 (Unhappy Path): Rechazo de Documentación Insuficiente</b><br>
+        Dado que el técnico intenta cerrar un incidente crítico con una descripción de menos de 10 caracteres o vacía,<br>
+        Cuando presiona "Confirmar Resolución",<br>
+        Entonces el sistema debe impedir el cierre y exigir una justificación técnica válida para asegurar la calidad de la auditoría.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US28</td>
+      <td>Generación de Reporte de Auditoría Regulatoria</td>
+      <td>Como: Director de Calidad / Auditor Externo. Quiero: Generar reportes consolidados e inmutables de todas las lecturas e incidentes de un periodo determinado. Para: Presentar evidencia ante entidades regulatorias (DIGEMID/ISO) que certifique la integridad de la cadena de frío.</td>
+      <td>
+        <b>Escenario 1 (Happy Path): Reporte con Sello Digital</b><br>
+        Dado que el auditor solicita el reporte de cumplimiento del último mes,<br>
+        Cuando el sistema procesa los datos y genera el PDF,<br>
+        Entonces el documento debe incluir un sello digital de integridad que certifique que los datos no han sido modificados manualmente.<br><br>
+        <b>Escenario 2 (Unhappy Path): Alerta por Datos Incompletos</b><br>
+        Dado que hubo periodos de desconexión donde no se capturaron datos por fallas de red,<br>
+        Cuando se genera el reporte de auditoría,<br>
+        Entonces el sistema debe resaltar claramente los "Gaps" o vacíos de información en el reporte, indicando que esos periodos no pueden ser certificados como seguros.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US29</td>
+      <td>Ejecución y Registro de Calibración de Sensores</td>
+      <td>Como: Técnico de Calibración / Soporte. Quiero: Ejecutar el proceso de calibración de los sensores directamente desde el panel de configuración. Para: Garantizar la precisión de las lecturas según la norma ISO 17025 y evitar desviaciones legales en los reportes de temperatura.</td>
+      <td>
+        <b>Escenario 1 (Happy Path): Actualización de certificado de calibración</b><br>
+        Dado que un sensor (ej. Ultra-Low Temp) muestra el estado "Needs Calibration",<br>
+        Cuando el técnico completa el proceso y presiona el botón "Calibrate",<br>
+        Entonces el sistema debe actualizar la fecha de "Last Cal", reiniciar el contador de cumplimiento y registrar el nuevo certificado.<br><br>
+        <b>Escenario 2 (Unhappy Path): Sensor fuera de tolerancia física</b><br>
+        Dado que el técnico intenta calibrar un sensor que reporta un error de hardware interno,<br>
+        Cuando el sistema detecta que la desviación es mayor a la permitida técnicamente,<br>
+        Entonces el sistema debe rechazar la calibración, marcar el sensor como "Out of Service" y emitir una alerta de reemplazo obligatorio.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US30</td>
+      <td>Personalización de Canales de Alerta y Resúmenes de Actividad</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Configurar los canales de recepción de alertas y la frecuencia de los reportes de actividad. Para: Optimizar la comunicación de incidentes según la gravedad y evitar la "fatiga de alertas" en el personal de turno.</td>
+      <td>
+        <b>Escenario 1 (Happy Path): Activación de notificaciones multicanal</b><br>
+        Dado que el Coordinador desea recibir alertas críticas en su móvil,<br>
+        Cuando activa los interruptores de "Email Notifications" e "In-App Notifications",<br>
+        Entonces el sistema debe aplicar la regla de envío inmediato para cualquier desviación categorizada como "Critical Level".<br><br>
+        <b>Escenario 2 (Unhappy Path): Configuración de umbral inconsistente</b><br>
+        Dado que el usuario intenta configurar un "Warning Level" mayor al "Critical Level",<br>
+        Cuando intenta guardar la configuración de umbrales,<br>
+        Entonces el sistema debe mostrar un error de validación lógica, impidiendo que la alerta de advertencia se dispare después de que el daño ya sea crítico.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US31</td>
+      <td>Fortalecimiento de Identidad mediante Autenticación de Dos Factores (2FA)</td>
+      <td>Como: Administrador del Sistema / Senior Lab Manager. Quiero: Habilitar el segundo factor de autenticación (2FA) para mi cuenta de SafeLab. Para: Añadir una capa extra de seguridad que proteja el acceso a datos sensibles de investigación contra intentos de acceso no autorizados.</td>
+      <td>
+        <b>Escenario 1 (Happy Path): Vinculación exitosa de dispositivo móvil</b><br>
+        Dado que el usuario se encuentra en el panel de "Security & Access",<br>
+        Cuando selecciona "Enable 2FA" y vincula su dispositivo móvil,<br>
+        Entonces el sistema debe exigir el código de verificación en el próximo inicio de sesión, validando que solo el dueño del dispositivo pueda acceder.<br><br>
+        <b>Escenario 2 (Unhappy Path): Intento de acceso con 2FA fallido</b><br>
+        Dado que un usuario ingresa la contraseña correcta pero el código de 2FA es erróneo,<br>
+        Cuando intenta finalizar el login,<br>
+        Entonces el sistema debe bloquear el acceso, registrar el intento fallido en el log de seguridad y notificar al usuario sobre una posible brecha de cuenta.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US32</td>
+      <td>Auditoría de Sesiones Activas y Control de Acceso Geográfico</td>
+      <td>Como: Responsable de Seguridad (Security Officer). Quiero: Monitorear las sesiones activas y el historial de login (ubicación e IP) de mi cuenta. Para: Identificar ingresos sospechosos desde ubicaciones inusuales y revocar sesiones que puedan comprometer la integridad del laboratorio.</td>
+      <td>
+        <b>Escenario 1 (Happy Path): Revocación de sesión remota</b><br>
+        Dado que el usuario visualiza una sesión activa en una ubicación desconocida (ej. "Zurich, CH"),<br>
+        Cuando selecciona la opción de cerrar dicha sesión remota,<br>
+        Entonces el sistema debe desconectar inmediatamente ese dispositivo y forzar un cambio de credenciales por seguridad.<br><br>
+        <b>Escenario 2 (Unhappy Path): Visibilidad de estado de cuenta degradado</b><br>
+        Dado que el sistema detecta que el usuario no ha actualizado su contraseña en el tiempo reglamentario,<br>
+        Cuando se visualiza el "Account Status",<br>
+        Entonces el sistema debe marcar el estado como "At Risk" (En Riesgo) y limitar el acceso a funciones críticas hasta que se cumpla con el protocolo de seguridad.
+      </td>
+      <td>EP04</td>
+    </tr>        
+    <tr>
+      <td>US33</td>
       <td>Búsqueda de laboratorios</td>
       <td>Como usuario, quiero buscar laboratorios por nombre para encontrarlos rápidamente.</td>
       <td>
@@ -1038,7 +1336,7 @@ Nota: Elaboración propia en Miro.
       <td>EP02</td>
     </tr>
     <tr>
-      <td>US23</td>
+      <td>US34</td>
       <td>Filtrado de alertas</td>
       <td>Como usuario, quiero filtrar alertas por diferentes criterios para priorizar mis necesidades.</td>
       <td>
@@ -1048,7 +1346,7 @@ Nota: Elaboración propia en Miro.
       <td>EP03</td>
     </tr>
     <tr>
-      <td>US24</td>
+      <td>US35</td>
       <td>Detalle completo de alerta</td>
       <td>Como usuario, quiero ver el detalle completo de una alerta para comprender el incidente.</td>
       <td>
@@ -1058,7 +1356,7 @@ Nota: Elaboración propia en Miro.
       <td>EP03</td>
     </tr>
     <tr>
-      <td>US25</td>
+      <td>US36</td>
       <td>Gestión de notificaciones por correo</td>
       <td>Como usuario, quiero activar o desactivar las notificaciones por correo para controlar cómo recibo las alertas de los laboratorios.</td>
       <td>
@@ -1069,7 +1367,7 @@ Nota: Elaboración propia en Miro.
       <td>EP04</td>
     </tr>
     <tr>
-      <td>US26</td>
+      <td>US37</td>
       <td>Visualización de tendencias históricas</td>
       <td>Como usuario, quiero visualizar tendencias de eventos para analizar patrones.</td>
       <td>
@@ -1079,7 +1377,7 @@ Nota: Elaboración propia en Miro.
       <td>EP03</td>
     </tr>
     <tr>
-      <td>US27</td>
+      <td>US38</td>
       <td>Edición de perfil de usuario</td>
       <td>Como usuario, quiero editar mi información personal para mantener mis datos actualizados.</td>
       <td>
@@ -1090,7 +1388,7 @@ Nota: Elaboración propia en Miro.
       <td>EP04</td>
     </tr>
     <tr>
-      <td>US28</td>
+      <td>US39</td>
       <td>Notificaciones del sistema en tiempo real</td>
       <td>Como usuario, quiero recibir notificaciones visuales tras acciones importantes.</td>
       <td>
@@ -1100,7 +1398,7 @@ Nota: Elaboración propia en Miro.
       <td>EP04</td>
     </tr>
     <tr>
-      <td>US29</td>
+      <td>US40</td>
       <td>Cierre de sesión</td>
       <td>Como usuario, quiero cerrar sesión para proteger el acceso a la plataforma.</td>
       <td>
@@ -1110,7 +1408,7 @@ Nota: Elaboración propia en Miro.
       <td>EP04</td>
     </tr>
     <tr>
-      <td>US30</td>
+      <td>US41</td>
       <td>Persistencia de sesión</td>
       <td>Como usuario, quiero mantener mi sesión activa para no iniciar sesión constantemente.</td>
       <td>
@@ -1325,7 +1623,7 @@ Algunas de las etiquetas principales de nuestras secciones serán las siguientes
 - `Filtros de búsqueda`
 - `Indicadores de tipo de evento`
 
-### 4.2.3. SEO Tags and Meta Tag
+### 4.2.3. SEO Tags and Meta Tags
 
 **Landing Page**:
 - Title (SEO Tag): Safelab | Smart Lab Management
@@ -1512,6 +1810,16 @@ Se muestra la actividad reciente del laboratorio, programaciones activas y los i
 ![Web Application - mockup 7](assets/chapter-iv/mockup-7.png)
   Nota: Elaboración propia en Figma.
 
+**Configuracion**
+- La sección de Settings de Safelab está diseñada como el centro neurálgico de personalización y control del sistema. Su objetivo principal es permitir que los responsables de laboratorio y administradores ajusten la precisión de los instrumentos de medición, gestionen la seguridad de los datos y personalicen la experiencia de usuario.
+![Web Application - mockup 7](assets/chapter-iv/settings1.png)
+![Web Application - mockup 7](assets/chapter-iv/settings2.png)
+![Web Application - mockup 7](assets/chapter-iv/settings3.png)
+![Web Application - mockup 7](assets/chapter-iv/settings4.png)
+
+Nota: Elaboración propia en Figma.
+
+
 ### 4.4.4. Web Applications User Flow Diagrams
 
 **Userflow 1**
@@ -1665,33 +1973,64 @@ Nota: Elaboración propia en Structurizr.
 
 El diagrama de clases de SafeLab representa la estructura estática del sistema, detallando las entidades fundamentales, sus atributos, comportamientos (métodos) y las relaciones que permiten la lógica de negocio. El diseño se ha organizado siguiendo los límites de los *Bounded Contexts* identificados en el *Event Storming*, asegurando que la implementación técnica respete el lenguaje ubicuo del dominio.
 
-Se destacan las jerarquías de monitoreo ($Laboratory \rightarrow Unidad \rightarrow Sensor$) y el desacoplamiento entre la captura de datos y la respuesta ante incidentes, permitiendo que el sistema sea escalable y mantenible.
+El siguiente Diagrama de Clases ha sido diseñado aplicando estrictamente los principios de Domain-Driven Design (DDD) para modelar el núcleo de negocio de SafeLab. A diferencia de un modelo de datos tradicional (CRUD), este diagrama refleja el comportamiento y las reglas de negocio de un sistema de misión crítica. La arquitectura se divide en Bounded Contexts (Contextos Delimitados) altamente desacoplados, comunicados mediante referencias por ID y Domain Events (Eventos de Dominio). Se ha hecho una clara distinción entre Aggregate Roots (raíces de agregación que garantizan la consistencia), Entities (objetos con identidad a lo largo del tiempo) y Value Objects (objetos inmutables que describen características).
 
-![Class Diagram](./assets/chapter-iv/uml.png)
-Nota: Elaboración propia en LucidChart.
+![Class Diagram](./assets/chapter-iv/diagramadeclasesfinal.png)
+Nota: Elaboración propia.
+
+### Laboratory Management
+Este es el contexto estructural del dominio. Modela la jerarquía física y operativa de la infraestructura a través del Aggregate Root Laboratory, que contiene StorageUnits (unidades de almacenamiento). Aquí residen las reglas de negocio sobre la integridad física y la capacidad de reaccionar ante emergencias, orquestando acciones como la activación de MitigationSystems (sistemas de ventilación o enfriamiento de respaldo) en base a los umbrales térmicos configurados.
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases1.png)
+Nota: Elaboración propia.
+
+### Monitoring
+El motor telemétrico de SafeLab. Gestionado por el Aggregate Root Sensor, este contexto procesa el flujo continuo de lecturas de temperatura. No solo almacena datos, sino que aplica lógica de hardware crítico: verifica el estado de la batería, administra los certificados de calibración técnica (CalibrationRecord) y, lo más importante, es el encargado de detectar desviaciones térmicas y emitir el evento de dominio ThermalExcursionDetected para alertar al resto del sistema.
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases2.png)
+Nota: Elaboración propia.
+
+### Incident Management
+Diseñado para la gestión reactiva y correctiva. Su Aggregate Root, Incident, escucha los eventos del contexto de monitoreo e inicia un ciclo de vida de resolución. Aplica reglas de negocio vitales como la EscalationPolicy (escalamiento jerárquico si una alerta no es atendida a tiempo) y exige el registro obligatorio de una CorrectiveAction (acción correctiva con sustento técnico) antes de permitir que un incidente crítico sea marcado como resuelto.
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases3.png)
+Nota: Elaboración propia.
+
+### Compliance
+El contexto legal y regulatorio. Es un entorno de solo lectura que consolida la información para auditorías. Registra un AuditTrail (trazabilidad forense inmutable) de cada acción crítica y resolución de incidentes, generando el ComplianceReport. Su diseño garantiza que los datos históricos no puedan ser manipulados, cumpliendo con las normativas ISO y los estándares de entidades reguladoras de salud.
+
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases4.png)
+Nota: Elaboración propia.
+
+### IAM
+Encargado de la seguridad perimetral y el control de acceso corporativo. Su Aggregate Root es User, el cual gestiona la autenticación, la protección contra fuerza bruta y el control de sesiones. Se incluyen funcionalidades avanzadas de seguridad como el estado de la cuenta (AccountStatus) y la activación del segundo factor de autenticación (enable2FA), garantizando que solo personal autorizado y con roles específicos pueda tomar decisiones operativas.
+
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases5.png)
+Nota: Elaboración propia.
+
+### Shared
+Este contexto actúa como el núcleo de tipos de datos compartidos en todo el sistema. Contiene Value Objects inmutables como TemperatureReading, Threshold y TimeRange. Al encapsular lógica de validación básica (como verificar si una temperatura excede un límite) dentro de estos objetos, evitamos la duplicación de código y garantizamos que los conceptos fundamentales del dominio se traten de manera uniforme en todos los demás contextos.
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases6.png)
+Nota: Elaboración propia.
+
 
 ## 4.8. Database Design
 
-### 4.8.1. Database Diagram
+### 4.8.1. Database Diagrams
 
 El diseño de la base de datos de **SafeLab** ha sido normalizado para garantizar la integridad referencial y la eficiencia en la consulta de grandes volúmenes de telemetría. A diferencia del diagrama de clases, este modelo se enfoca en la persistencia de datos mediante el uso de Claves Primarias (**PK**) y Claves Foráneas (**FK**).
 
-El modelo está diseñado para soportar la trazabilidad exigida por la norma **ISO 15189**, conectando cada lectura de sensor con su respectivo equipo y, en caso de anomalías, vinculando la alerta directamente con el registro de intervención del usuario. Los registros de auditoría (`audit_logs`) incluyen campos de hash para asegurar que la historia de operaciones no sea alterada, cumpliendo con los estándares de seguridad bioclínica.
+El siguiente Diagrama de Entidad-Relación (ERD) representa la persistencia física del modelo de dominio de SafeLab en una base de datos relacional (como PostgreSQL). El diseño traduce la arquitectura DDD en esquemas de datos altamente optimizados y normalizados. Como decisión arquitectónica clave, los Value Objects del modelo de dominio (como Location o Threshold) han sido aplanados (flattening); es decir, en lugar de crear tablas separadas que requerirían uniones (JOINs) costosas en rendimiento, sus propiedades se han integrado como columnas directas en las tablas de sus entidades anfitrionas (ej. threshold_min y threshold_max dentro de la tabla storage_units). Además, se mantiene el principio de desacoplamiento entre contextos mediante el uso estricto de Foreign Keys y el almacenamiento de datos semi-estructurados usando JSONB (para la gestión dinámica de permisos). La trazabilidad está garantizada mediante la tabla centralizada audit_trails, la cual indexa las acciones operativas sin acoplar rígidamente el contexto de Compliance con el resto del sistema, logrando así una base de datos robusta, escalable y lista para auditorías regulatorias.
 
-#### Puntos clave del diseño:
-
-* **Escalabilidad:** Las lecturas de telemetría están indexadas por tiempo y sensor para permitir búsquedas rápidas en grandes conjuntos de datos.
-
-* **Integridad:** Las relaciones foráneas aseguran que no existan alertas huérfanas sin una lectura de origen claramente identificada.
-
-* **Seguridad:** Los perfiles de usuario y logs están centralizados para facilitar las auditorías de acceso y el cumplimiento normativo.
-
-![Database Diagram](./assets/chapter-iv/BaseDatosDiagrama.png)
+![Database Diagram](./assets/chapter-iv/diagramabasedatosfinal.png)
 Nota: Elaboración propia.
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-# 5.1. Software Configuration Management
+## 5.1. Software Configuration Management
 
 ## 5.1.1. Software Development Environment Configuration
 
@@ -1750,7 +2089,7 @@ El control de versiones se realizará en GitHub bajo una organización pública.
 
 * **Landing Page Repository:** [https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page](https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page)
 
-### Estrategia de Branching (GitFlow)
+**A. Estrategia de Branching (GitFlow)**
 
 Se implementará el modelo GitFlow para asegurar un ciclo de vida de desarrollo robusto y ordenado:
 
@@ -1759,37 +2098,37 @@ Se implementará el modelo GitFlow para asegurar un ciclo de vida de desarrollo 
 * **develop branch:** Rama principal de integración donde reside el código más reciente de desarrollo.
 
 * **feature branches:** Ramas temporales para el desarrollo de nuevas User Stories.
-    * Convención: `feature/short-description` (ej. `feature/order-registration`).
+  * Convención: `feature/short-description` (ej. `feature/order-registration`).
 
 * **release branches:** Ramas de preparación para despliegues a producción, permitiendo correcciones menores y preparación de metadatos.
-    * Convención: `release/vX.Y.Z` (siguiendo Semantic Versioning).
+  * Convención: `release/vX.Y.Z` (siguiendo Semantic Versioning).
 
 * **hotfix branches:** Para correcciones críticas inmediatas en la rama main.
-    * Convención: `hotfix/issue-description`.
+  * Convención: `hotfix/issue-description`.
 
-### Mensajes de Commit (Conventional Commits)
+**B. Mensajes de Commit (Conventional Commits)**
 
 Para mantener un historial de cambios legible y facilitar la generación automática de changelogs, se utilizará el estándar de Conventional Commits:
 
 * **Estructura:** `<tipo>(<scope>): <descripción>`
 
 * **Tipos permitidos:**
-    * **feat:** Nueva funcionalidad.
-    * **fix:** Corrección de un error.
-    * **docs:** Cambios solo en la documentación.
-    * **style:** Cambios de formato (espacios, puntos y comas) que no afectan el código.
-    * **refactor:** Cambio de código que no corrige un error ni añade una función.
+  * **feat:** Nueva funcionalidad.
+  * **fix:** Corrección de un error.
+  * **docs:** Cambios solo en la documentación.
+  * **style:** Cambios de formato (espacios, puntos y comas) que no afectan el código.
+  * **refactor:** Cambio de código que no corrige un error ni añade una función.
 
 * **Ejemplos:**
-    * `feat(ordering): add automated order validation policy`
-    * `fix(auth): resolve token expiration on mobile devices`
-    * `docs(interviews): update stakeholder interview records`
+  * `feat(ordering): add automated order validation policy`
+  * `fix(auth): resolve token expiration on mobile devices`
+  * `docs(interviews): update stakeholder interview records`
 
 ## 5.1.3. Source Code Style Guide & Conventions
 
 Para garantizar la calidad, mantenibilidad y legibilidad del código de SafeLab, el equipo ha adoptado las siguientes convenciones de estilo. Siguiendo los estándares de la industria y las exigencias del curso, todo el código fuente (nombres de variables, clases, métodos y comentarios) se escribirá estrictamente en inglés.
 
-#### HTML & CSS
+**A. HTML & CSS**
 Se seguirá la **Google HTML/CSS Style Guide**.
 
 * **HTML:** Se utilizará una estructura semántica (uso de `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`). La indentación será de 2 espacios. Los atributos de los elementos deben estar en minúsculas y los valores entre comillas dobles.
@@ -1800,7 +2139,7 @@ Se seguirá la **Google HTML/CSS Style Guide**.
 
 * **Colors & Units:** Se priorizará el uso de variables CSS para la paleta de colores corporativa y unidades relativas (`rem`, `em`, `%`) para asegurar que el diseño sea adaptable (responsive).
 
-#### JavaScript & TypeScript
+**B. JavaScript & TypeScript**
 Se seguirá la **Google TypeScript Style Guide**.
 
 * **Variables y Funciones:** Se utilizará `camelCase` (ej. `getSensorReading`, `updateLaboratoryStatus`). Los nombres deben ser semánticos; se prefiere `isTemperatureHigh` sobre `tempCheck`.
@@ -1811,7 +2150,7 @@ Se seguirá la **Google TypeScript Style Guide**.
 
 * **Asincronía:** Se utilizará exclusivamente `async/await` para el manejo de peticiones al API, evitando el anidamiento de promesas.
 
-#### Java (Backend - Spring Boot)
+**C. Java (Backend - Spring Boot)**
 Se seguirá la **Google Java Style Guide** y las convenciones oficiales de **Spring Framework**.
 
 * **Naming:** `PascalCase` para clases (ej. `LaboratoryController`, `SensorService`) y `camelCase` para métodos y variables (ej. `calculateAverageHumidity`).
@@ -1822,7 +2161,7 @@ Se seguirá la **Google Java Style Guide** y las convenciones oficiales de **Spr
 
 * **Annotations:** Se emplearán anotaciones de **Lombok** (como `@Getter`, `@Setter`, `@NoArgsConstructor`) para mantener el código limpio y libre de boilerplate.
 
-#### Gherkin
+**D. Gherkin**
 Para las especificaciones de pruebas de aceptación, se aplicarán las **Gherkin Conventions**.
 
 * **Idioma:** Se redactarán en inglés para mantener la consistencia con el código fuente y las mejores prácticas de desarrollo open source.
@@ -1867,7 +2206,7 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
   </tbody>
 </table>
 
-#### Configuración por Componente:
+**CONFIGURACIÓN POR COMPONENTE:**
 
 **1. Landing Page:**
 * **Tecnología:** HTML5, CSS3 (SASS) y JavaScript.
@@ -1886,13 +2225,13 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
 
 * **Proceso:** Se ejecuta el comando `ng build --configuration production` para generar los archivos de distribución optimizados. Estos archivos son cargados en **Firebase Hosting**, aprovechando su red de entrega de contenidos (CDN) para asegurar que el Dashboard de monitoreo en tiempo real sea fluido y responsivo en cualquier dispositivo.
 
-#### Consideraciones de Seguridad y Dominio:
+**CONSIDERACIONES DE SEGURIDAD Y DOMINIO:**
 
 * **SSL/TLS:** Todos los productos cuentan con certificados de seguridad para garantizar que la transmisión de datos entre los sensores de laboratorio y la aplicación sea cifrada.
 
 * **Integración:** La Web Application está configurada para consumir los servicios del RESTful API mediante el intercambio de recursos de origen cruzado (**CORS**), permitiendo únicamente peticiones desde los dominios autorizados de la solución.
 
-# 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation
 
 ## 5.2.1. Sprint 1
 
@@ -2005,7 +2344,6 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
     </tr>
   </tbody>
 </table>
-
 
 ### 5.2.1.3. Sprint Backlog 1
 **Sprint Objective:**
@@ -2196,18 +2534,433 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
 - WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
 - Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
 
+## 5.2.2. Sprint 2
+
+### 5.2.2.1. Sprint Planning 2
+
+<table border="1" cellspacing="0" cellpadding="6">
+    <tr>
+        <th><strong>Sprint #</strong></th>
+        <td>Sprint 2</td>
+    </tr>
+    <tr>
+        <th><strong>Resumen del Sprint Planning</strong></th>
+        <td>Distribución de tareas y asignación de desarrollo de vistas incluyendo fake-api</td>
+    </tr>
+    <tr>
+        <th><strong>Fecha</strong></th>
+        <td>2026-05-02</td>
+    </tr>
+    <tr>
+        <th><strong>Hora</strong></th>
+        <td>1:00 PM</td>
+    </tr>
+    <tr>
+        <th><strong>Ubicación</strong></th>
+        <td>Google Meet</td>
+    </tr>
+    <tr>
+        <th><strong>Preparado por</strong></th>
+        <td>Manuel Angel Sanchez Arenas</td>
+    </tr>
+    <tr>
+        <th><strong>Asistentes a la reunión de planificación</strong></th>
+        <td>
+            - Manuel Angel Sanchez Arenas,<br>
+            - Jean Niels Arizabal Condori,<br>
+            - Esteban Eduardo Chavez Bardales,<br>
+            - Jhon Jordy Jaramillo Mayta
+        </td>
+    </tr>
+    <tr>
+        <th><strong>Resumen del Sprint 1 (Revisión)</strong></th>
+        <td>El Sprint 1 se enfocó en la implementación de la Landing Page de Safelab. Las tareas fueron completadas exitosamente. Las secciones requeridas en la página fueron desarrolladas y probadas.</td>
+    </tr>
+</table>
+
+**Objetivo del Sprint y User Stories**
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th><strong>Item</strong></th>
+    <th><strong>Descripción</strong></th>
+  </tr>
+  <tr>
+    <td><strong>Objetivo del Sprint 2</strong></td>
+    <td>
+      Nos enfocamos en la implementación de las vistas principales de la aplicación web.<br>
+      Creemos que este avance permitirá a nuestros usuarios mostrar las funcionalidades core de la plataforma.<br>
+      Esto se confirmará cuando las vistas estén desarrolladas, integradas con el backend y desplegadas en un entorno de staging para pruebas internas.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Velocidad del Sprint 2</strong></td>
+    <td>-- Story Points</td>
+  </tr>
+  <tr>
+    <td><strong>Suma de Story Points</strong></td>
+    <td>--</td>
+  </tr>
+</table>
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Miembro del equipo</th>
+      <th>Usuario de GitHub</th>
+      <th>Web Application (L/C)</th>
+      <th>Fake Api (L/C)</th>
+      <th>Documentación (L/C)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Manuel Sanchez</td>
+      <td>@manuels7a</td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Jean Arizabal</td>
+      <td>@JeanArizabal</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Esteban Chavez</td>
+      <td>@ECEB0704</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Jhon Jaramillo</td>
+      <td>@Marklnz1</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+### 5.2.2.3. Sprint Backlog 2
+**Sprint Objective:**
+Implementar las vistas principales (core) de la aplicación web.
+
+<h4>Tabla de Sprint Backlog</h4>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Historia de Usuario</th>
+      <th>Elemento de trabajo / Tarea</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US08</td>
+      <td>Trazabilidad de Alertas Críticas Recientes</td>
+      <td>Como: Auditor de Cumplimiento (Compliance Officer). Quiero: Supervisar el log de alertas recientes disparadas por el sistema en el Dashboard. Para: Verificar que cada evento de riesgo térmico tenga una trazabilidad clara y cumpla con los tiempos de respuesta exigidos por la normativa bioclínica.</td>
+      <td>6</td>
+      <td>Manuel Sanchez</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Respuesta Rápida ante Alertas desde el Dashboard</td>
+      <td>Como: Técnico de Laboratorio. Quiero: Interactuar con las alertas recientes directamente desde el panel del Dashboard. Para: Iniciar las acciones correctivas de forma inmediata sin navegar por menús complejos, reduciendo el tiempo de exposición al riesgo de las muestras.</td>
+      <td>7</td>
+      <td>Manuel Sanchez</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Gestión Preventiva basada en Métricas Ambientales</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Analizar las métricas combinadas (temperatura, vibraciones y humedad) para ejecutar acciones preventivas sobre los equipos de almacenamiento. Para: Mitigar riesgos antes de que ocurra una falla crítica en la cadena de frío y asegurar condiciones óptimas según el tipo de muestra.</td>
+      <td>8</td>
+      <td>Jean Arizabal</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Gestión Operativa y Control de Unidades de Almacenamiento</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Acceder al panel de control detallado de un laboratorio específico para gestionar sus unidades de almacenamiento y sensores. Para: Ejecutar decisiones operativas como el ajuste de umbrales o el mantenimiento preventivo de los equipos de frío.</td>
+      <td>8</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US13</td>
+      <td>Registro y Vinculación Técnica de Sensores</td>
+      <td>Como: Técnico de Laboratorio. Quiero: Registrar y vincular nuevos sensores a unidades de almacenamiento específicas (Racks/Refrigeradores). Para: Expandir la red de monitoreo y asegurar que cada activo biológico tenga un sensor asignado correctamente.</td>
+      <td>5</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US17</td>
+    <td>Gestión y Resolución de Incidentes Críticos</td>
+    <td>Como: Técnico de Laboratorio / Coordinador. Quiero: Gestionar las alertas activas mediante la ejecución y registro de acciones correctivas. Para: Mitigar el impacto de las excursiones térmicas y asegurar que el incidente sea resuelto bajo los protocolos de bioseguridad.</td>
+      <td>4</td>
+      <td>Manuel Sanchez</td>
+      <td>Finalizado</td>
+    </tr>
+    </tr>
+    <tr>
+      <td>US18</td>
+      <td>Gestión del Ciclo de Vida y Cierre de Incidentes</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Gestionar el estado de las alertas críticas hasta su cierre definitivo. Para: Mantener el control operativo del incidente y asegurar que se ha recuperado la estabilidad térmica en la unidad de almacenamiento.</td>
+      <td>6</td>
+      <td>Jean Arizabal</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US19</td>
+      <td>Trazabilidad y Auditoría de Cumplimiento Normativo</td>
+      <td>Como: Auditor de Calidad. Quiero: Consultar el historial detallado de eventos, alertas y acciones ejecutadas en el sistema. Para: Generar reportes de cumplimiento para entidades regulatorias (ej. ISO, DIGEMID) y verificar la integridad de la cadena de frío en periodos pasados.</td>
+      <td>8</td>
+      <td>Jean Arizabal</td>
+      <td>Finalizado</td>
+    </tr>
+    </tr>
+    <tr>
+      <td>US20</td>
+      <td>Inicialización de Entornos de Monitoreo (Crear Lab)</td>
+      <td>Como: Administrador de Laboratorio. Quiero: Registrar un nuevo laboratorio configurando sus parámetros técnicos y políticas de seguridad desde el inicio. Para: Establecer una infraestructura de monitoreo que cumpla con los estándares específicos de las muestras que se almacenarán.</td>
+      <td>6</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US33</td>
+      <td>Búsqueda de laboratorios</td>
+      <td>Como usuario, quiero buscar laboratorios por nombre para encontrarlos rápidamente.</td>
+      <td>4</td>
+      <td>Jean Arizabal</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US36</td>
+      <td>Gestión de notificaciones por correo</td>
+      <td>Como usuario, quiero activar o desactivar las notificaciones por correo para controlar cómo recibo las alertas de los laboratorios.</td>
+      <td>8</td>
+      <td>Esteban Chavez</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US37</td>
+      <td>Visualización de tendencias históricas</td>
+      <td>Como usuario, quiero visualizar tendencias de eventos para analizar patrones.</td>
+      <td>5</td>
+      <td>Jean Arizabal</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US39</td>
+      <td>Notificaciones del sistema en tiempo real</td>
+      <td>Como usuario, quiero recibir notificaciones visuales tras acciones importantes.</td>
+      <td>Esteban Chavez</td>
+      <td>7</td>
+      <td>Finalizado</td>
+    </tr>
+  </tbody>
+</table>
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+Esta tabla lista los commits realizados durante el sprint, incluyendo el desarrollo de la web app y documentación.
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción de Commit</th>
+      <th>Fecha de Commit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>frontend</td><td>develoment</td><td>d045080</td><td>fix: new max angular budget</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>develoment</td><td>4b2ebf6</td><td>feat: new fake-api provider</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>develoment</td><td>e5f1b62</td><td>fix: removed unused imports</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>develoment</td><td>62b6c2b</td><td>fix: db.json structure</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>develoment</td><td>1ff7bf1</td><td>Merge pull request #5 from upc-pre-1ASI0729-11834-Especialistas/feat/telemetry</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>develoment</td><td>8024832</td><td>Merge branch 'development' into feat/telemetry</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>develoment</td><td>ccafd82</td><td>Merge pull request #4 from upc-pre-1ASI0729-11834-Especialistas/feat/labs</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>develoment</td><td>a02f8ab</td><td>Merge branch 'development' into feat/labs</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>development</td><td>3b63717</td><td>Merge pull request #3 from upc-pre-1ASI0729-11834-Especialistas/feat/history</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>b5ef17c</td><td>Merge branch 'development' into feat/history</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>7d40b69</td><td>feat: add history endpoint path to environment configurations</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>7f2fe54</td><td>feat: populate history data with recent event records</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>9072d04</td><td>feat: update routing to use history page component for history view</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>74ec439</td><td>feat: create history page with summary cards, filters, and event details drawer</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>667cd28</td><td>feat: add history placeholder dialog component for functionalities not developed yet</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>d835a3f</td><td>feat: add history timeline component for displaying grouped history records</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>bee66c8</td><td>feat: implement history store for managing history records and operations</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>ee3f83a</td><td>feat: implement history api service for managing history records</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>5cba7f8</td><td>feat: add history apiendpoint for interacting with history records</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>2deb956</td><td>feat: implement history assembler for converting between entities and resources</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>a747a6c</td><td>feat: add history response interfaces for history records</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/history</td><td>5180e78</td><td>feat: add history record entity with properties and methods</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>development</td><td>0903f4b</td><td>Merge pull request #2 from upc-pre-1ASI0729-11834-Especialistas/feat/automation</td><td>-</td><td>14/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/labs</td><td>d6b930c</td><td>feat(labs): add breadcrumb navigation and action header to add-laboratory-page</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>5b02ab5</td><td>feat(automation): add NotificationPreferenceStore for managing notification preferences and loading state</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>4640ac7</td><td>feat(automation): add initial data structure for general settings, user profiles, sensor configurations, notification preferences, and security accesses</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>5b5454f</td><td>feat(automation): refactor SecurityAccess entity to manage permissions, roles, and audit information</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>2220eeb</td><td>feat(automation): add SettingsPageComponent with layout, styles, and logic for managing general settings and user profile</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>41005ab</td><td>feat(automation): refactor UserProfile entity to manage user information with fullName, role, email, and avatarUrl</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>86d9614</td><td>feat(automation): add SensorConfigurationPageComponent with template, styles, and logic for managing sensor configurations</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>de3bf08</td><td>feat(automation): add SecurityAccessPageComponent with template, styles, and logic for managing account credentials and security preferences</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>cba95bc</td><td>feat(automation): add AlertsNotificationsPageComponent with template, styles, and logic for configuring alerts and notifications</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>4cbff95</td><td>feat(automation): add UserProfileCardComponent with template, styles, and logic for displaying user profile information and editing actions</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>0ef679f</td><td>feat(automation): add SettingsCardComponent with template, styles, and logic for displaying settings information and actions</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>ecbbfea</td><td>feat(automation): add SensorListItemComponent with template, styles, and logic for displaying sensor details and actions</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>913a03d</td><td>feat(automation): add UserProfilesApi, UserProfilesApiEndpoint, UserProfileAssembler, and response models for managing user profiles</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>1ecba29</td><td>feat(automation): add SensorConfigurationsApi, SensorConfigurationsApiEndpoint, SensorConfigurationAssembler, and response models for managing sensor configurations</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>c7c8d0d</td><td>feat(automation): add SecurityAccessesApi, SecurityAccessesApiEndpoint, SecurityAccessAssembler, and response models for managing security access data</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>f519b48</td><td>feat(automation): add routing for settings, sensor configuration, alerts notifications, and security access pages</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>e4d0a3c</td><td>feat(automation): add NotificationPreferencesApi, NotificationPreferencesApiEndpoint, NotificationPreferenceAssembler, and response models for managing notification preferences</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>62d0652</td><td>feat(automation): add GeneralSettingsApi, GeneralSettingsApiEndpoint, GeneralSettingAssembler, and response models for managing general settings</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>8e1486e</td><td>fix(automation): correct import path for SecurityAccessStore</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>bfe0b4a</td><td>feat(automation): add SensorConfiguration and UserProfile entities for managing sensor and user profile data</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>e456518</td><td>feat(automation): add NotificationPreference entity for managing notification preferences</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>0f214d3</td><td>feat(automation): add GeneralSetting and NotificationPreference entities for managing general settings and notification preferences</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>8a3168e</td><td>feat(automation): add SensorConfigurationStore and UserProfileStore for managing sensor and user profile data</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>b04f044</td><td>feat(automation): add SecurityAccessStore for managing security access data</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>f299c5a</td><td>feat(automation): fix import path for NotificationPreferenceStore</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>98c7f1f</td><td>feat(settings): update import path for NotificationPreferenceStore</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/automation</td><td>ad23a20</td><td>feat(settings): implement automation store and general settings management</td><td>-</td><td>13/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/labs</td><td>16142a0</td><td>feat(labs): implement laboratory-detail-page with stats, alerts, schedules and shared components</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/labs</td><td>1cf043c</td><td>feat(labs): implement add-laboratory-page with stepper form components</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/labs</td><td>3247008</td><td>feat(labs): implement laboratories-page with list, toolbar, pagination and detail-card components</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/labs</td><td>7142e98</td><td>feat(labs): add laboratory store and mock data for JSON server</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/labs</td><td>952f411</td><td>feat(labs): implement infrastructure layer with DTOs, assembler and API service</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/labs</td><td>8756930</td><td>feat(labs): define domain model entities and environment configuration</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/telemetry</td><td>7b47a87</td><td>fix(telemetry): add missing apexcharts and ng-apexcharts dependencies to package.json</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/telemetry</td><td>ba0b292</td><td>feat(telemetry): implement dashboard page and integrate telemetry routes</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/telemetry</td><td>4b00171</td><td>feat(telemetry): implement laboratory-card, recent-alerts and temperature-chart components</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/telemetry</td><td>e61c484</td><td>feat(shared): add reusable card, icon-badge, stat-card and status-badge components</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/telemetry</td><td>1749224</td><td>feat(telemetry): add reactive signal stores and mock data for JSON server</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/telemetry</td><td>ee8e620</td><td>feat(telemetry): implement infrastructure layer with DTOs, assemblers and API services</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/telemetry</td><td>d0d6692</td><td>feat(telemetry): define domain entities and environment endpoints</td><td>-</td><td>12/05/2026</td></tr>
+    <tr><td>frontend</td><td>development</td><td>a5e4f4e</td><td>Merge pull request #1 from upc-pre-1ASI0729-11834-Especialistas/feat/alerts</td><td>-</td><td>08/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/alerts</td><td>9684920</td><td>fix: folder structure for ddd & angular material refactor</td><td>-</td><td>08/05/2026</td></tr>
+    <tr><td>frontend</td><td>feat/alerts</td><td>ddc62f5</td><td>feat: configured routes, defined layout, alerts page added</td><td>-</td><td>07/05/2026</td></tr>
+    <tr><td>frontend</td><td>main</td><td>1fcfd75</td><td>feat: initial ddd structure and basic packages added</td><td>-</td><td>06/05/2026</td></tr>
+    <tr><td>frontend</td><td>main</td><td>ae4c8f9</td><td>initial commit</td><td>-</td><td>06/05/2026</td></tr>
+  </tbody>
+</table>
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+Las vistas principales de la aplicación web fueron desarrolladas y desplegadas exitosamente. A continuación se presentan las evidencias correspondientes de la implementación.
+
+**Web Application Views:**
+<ul>
+  <li><strong>Dashboard View</strong><br><img src="./assets/chapter-v/evidence-dashboard-view.png" alt="Dashboard View"></li>
+  <li><strong>Laboratories View</strong><br><img src="./assets/chapter-v/evidence-laboratories-view.png" alt="Laboratories View"></li>
+  <li><strong>History View</strong><br><img src="./assets/chapter-v/evidence-history-view.png" alt="History View"></li>
+  <li><strong>Alerts View</strong><br><img src="./assets/chapter-v/evidence-alerts-view.png" alt="Alerts View"></li>
+  <li><strong>Settings View</strong><br><img src="./assets/chapter-v/evidence-settings-view.png" alt="Settings View"></li>
+</ul>
+
+<p><strong>Despliegue de la aplicación:</strong><br>
+<a href="https://frontend-jade-seven-fwvgy3syck.vercel.app/">Safelab Web Application</a></p>
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint, el equipo se centró en el desarrollo de las vistas principales de la aplicación web, por lo que no se implementaron ni documentaron endpoints relacionados a Web Services.
+Sin embargo, se establecieron las bases para la integración futura con el backend y con ello el desarrollo de una fake API para simular las interacciones con el sistema, lo que permitirá una documentación detallada de los servicios en los próximos Sprints.
+
+**Fake API Endpoints:**
+<ul>
+  <li><strong>Laboratories Endpoint</strong><br><img src="./assets/chapter-v/evidence-laboratories-endpoint.png" alt="Laboratories Endpoint"></li>
+  <li><strong>Telemetry Endpoint</strong><br><img src="./assets/chapter-v/evidence-telemetry-endpoint.png" alt="Telemetry Endpoint"></li>
+  <li><strong>History Endpoint</strong><br><img src="./assets/chapter-v/evidence-history-endpoint.png" alt="History Endpoint"></li>
+  <li><strong>Alerts Endpoint</strong><br><img src="./assets/chapter-v/evidence-alerts-endpoint.png" alt="Alerts Endpoint"></li>
+  <li><strong>Settings Endpoint</strong><br><img src="./assets/chapter-v/evidence-settings-endpoint.png" alt="Settings Endpoint"></li>
+</ul>
+
+<p><strong>Despliegue del fake API:</strong><br>
+<a href="https://fake-api-production-0033.up.railway.app/">Safelab Fake API</a></p>
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El primer despliegue de la web application se realizó exitosamente en Vercel, mientras que la fake API se desplegó en Railway, lo que permitió validar la funcionalidad de la aplicación y su integración con el backend simulado. A continuación se presentan las evidencias de ambos despliegues:
+
+**Web Application Deployment:**
+<ul>
+  <li>
+    <strong>URL de la Web Application:</strong>
+    <a href="https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/" target="_blank">https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/</a>
+  </li>
+  <li>
+    <strong>Repositorio:</strong>
+    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/frontend" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/frontend</a>
+  </li>
+  <li>
+    <strong>Despliegue en Vercel:</strong><br>
+    <img src="./assets/chapter-v/evidence-web-app-deployment.png" alt="Web Application Deployment">
+  </li>
+</ul>
+
+**Fake API Deployment:**
+<ul>
+  <li>
+    <strong>URL de la Fake API:</strong>
+    <a href="https://fake-api-production-0033.up.railway.app/" target="_blank">https://fake-api-production-0033.up.railway.app/</a>
+  </li>
+  <li>
+    <strong>Repositorio:</strong>
+    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/fake-api" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/fake-api</a>
+  </li>
+  <li>
+    <strong>Despliegue en Railway:</strong><br>
+    <img src="./assets/chapter-v/evidence-fake-api-deployment.png" alt="Fake API Deployment">
+</ul>
+
+### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsApp y Google Meet durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de la Web Application y documentación.
+
+**Evidencia de Colaboración:**
+
+![Team Collaboration Evidence](assets/chapter-v/evidence-team-collaboration-insights-sprint-2.png)
+
+**Principales Herramientas de Comunicación:**
+- Github: Para el control de versiones, gestión de issues y revisión de código.
+- WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
+- Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
+
 # Conclusiones
 
-En este primer Sprint, el equipo completó en el plazo establecido la implementación de la Landing Page de Safelab y documentó correctamente el proceso de desarrollo en el informe.
+Durante el Sprint 2, el equipo completó en el plazo establecido el desarrollo de las vistas principales de la aplicación web, así como el despliegue exitoso de la misma y de la fake API. Además, se establecieron las bases para la integración futura con el backend y se documentaron los endpoints de la fake API, lo que permitirá una documentación detallada de los servicios en los próximos Sprints.
 
-A partir de ello, llegamos a las siguientes conclusiones:
+A partir de este nuevo avance, llegamos a las siguientes conclusiones:
 
-- Siguiendo las convenciones establecidas, pudimos lograr un desarrollo ordenado sin obstaculizar la colaboración entre los miembros del equipo.
-- Para definir correctamente nuestra idea de negocio, fue necesario entender la necesidad de nuestro segmento de usuarios, lo que nos llevó a realizar entrevistas y elaborar artefactos de descubrimiento como User Personas y Empathy Maps.
-- Gracias al pronto desarrollo de la Landing Page, la documentación de Bounded Contexts, Diagramas de clase, etc. Es que pudimos realizar los wireframes y mockups de la interfaz de usuario, lo que nos permitió tener una visión clara de cómo se verá el producto final.
+- Gracias a gitflow, logramos segmentar los avances en ramas específicas para cada Bounded Context, lo que facilitó la gestión de tareas y la integración de funcionalidades.
+- La comunicación fluida a través de WhatsApp y Google Meet permitió resolver dudas rápidamente y mantener a todo el equipo alineado con los objetivos del Sprint.
+- La coordinación para definir los objetos y estructuras de datos de la fake API fue clave para asegurar que el desarrollo de la aplicación web se realizara de manera coherente y con una visión clara de las interacciones futuras con el backend.
 
 # Anexos
 
+**Repositorios**
 - Repositorio de la Landing Page: https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page
+- Repositorio del fake API: https://github.com/upc-pre-1ASI0729-11834-Especialistas/fake-api
+- Repositorio del frontend: https://github.com/upc-pre-1ASI0729-11834-Especialistas/frontend
 - Repositorio del informe: https://github.com/upc-pre-1ASI0729-11834-Especialistas/report
+
+**Despliegues**
 - Despliegue de la Landing Page: https://upc-pre-1asi0729-11834-especialistas.github.io/landing-page/
+- Despliegue del fake API: https://fake-api-production-0033.up.railway.app/
+- Despliegue de la Web Application: https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/

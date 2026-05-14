@@ -298,6 +298,16 @@ Se muestra la actividad reciente del laboratorio, programaciones activas y los i
 ![Web Application - mockup 7](assets/chapter-iv/mockup-7.png)
   Nota: Elaboración propia en Figma.
 
+**Configuracion**
+- La sección de Settings de Safelab está diseñada como el centro neurálgico de personalización y control del sistema. Su objetivo principal es permitir que los responsables de laboratorio y administradores ajusten la precisión de los instrumentos de medición, gestionen la seguridad de los datos y personalicen la experiencia de usuario.
+![Web Application - mockup 7](assets/chapter-iv/settings1.png)
+![Web Application - mockup 7](assets/chapter-iv/settings2.png)
+![Web Application - mockup 7](assets/chapter-iv/settings3.png)
+![Web Application - mockup 7](assets/chapter-iv/settings4.png)
+
+Nota: Elaboración propia en Figma.
+
+
 ### 4.4.4. Web Applications User Flow Diagrams
 
 **Userflow 1**
@@ -451,10 +461,49 @@ Nota: Elaboración propia en Structurizr.
 
 El diagrama de clases de SafeLab representa la estructura estática del sistema, detallando las entidades fundamentales, sus atributos, comportamientos (métodos) y las relaciones que permiten la lógica de negocio. El diseño se ha organizado siguiendo los límites de los *Bounded Contexts* identificados en el *Event Storming*, asegurando que la implementación técnica respete el lenguaje ubicuo del dominio.
 
-Se destacan las jerarquías de monitoreo ($Laboratory \rightarrow Unidad \rightarrow Sensor$) y el desacoplamiento entre la captura de datos y la respuesta ante incidentes, permitiendo que el sistema sea escalable y mantenible.
+El siguiente Diagrama de Clases ha sido diseñado aplicando estrictamente los principios de Domain-Driven Design (DDD) para modelar el núcleo de negocio de SafeLab. A diferencia de un modelo de datos tradicional (CRUD), este diagrama refleja el comportamiento y las reglas de negocio de un sistema de misión crítica. La arquitectura se divide en Bounded Contexts (Contextos Delimitados) altamente desacoplados, comunicados mediante referencias por ID y Domain Events (Eventos de Dominio). Se ha hecho una clara distinción entre Aggregate Roots (raíces de agregación que garantizan la consistencia), Entities (objetos con identidad a lo largo del tiempo) y Value Objects (objetos inmutables que describen características).
 
-![Class Diagram](./assets/chapter-iv/uml.png)
-Nota: Elaboración propia en LucidChart.
+![Class Diagram](./assets/chapter-iv/diagramadeclasesfinal.png)
+Nota: Elaboración propia.
+
+### Laboratory Management
+Este es el contexto estructural del dominio. Modela la jerarquía física y operativa de la infraestructura a través del Aggregate Root Laboratory, que contiene StorageUnits (unidades de almacenamiento). Aquí residen las reglas de negocio sobre la integridad física y la capacidad de reaccionar ante emergencias, orquestando acciones como la activación de MitigationSystems (sistemas de ventilación o enfriamiento de respaldo) en base a los umbrales térmicos configurados.
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases1.png)
+Nota: Elaboración propia.
+
+### Monitoring
+El motor telemétrico de SafeLab. Gestionado por el Aggregate Root Sensor, este contexto procesa el flujo continuo de lecturas de temperatura. No solo almacena datos, sino que aplica lógica de hardware crítico: verifica el estado de la batería, administra los certificados de calibración técnica (CalibrationRecord) y, lo más importante, es el encargado de detectar desviaciones térmicas y emitir el evento de dominio ThermalExcursionDetected para alertar al resto del sistema.
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases2.png)
+Nota: Elaboración propia.
+
+### Incident Management
+Diseñado para la gestión reactiva y correctiva. Su Aggregate Root, Incident, escucha los eventos del contexto de monitoreo e inicia un ciclo de vida de resolución. Aplica reglas de negocio vitales como la EscalationPolicy (escalamiento jerárquico si una alerta no es atendida a tiempo) y exige el registro obligatorio de una CorrectiveAction (acción correctiva con sustento técnico) antes de permitir que un incidente crítico sea marcado como resuelto.
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases3.png)
+Nota: Elaboración propia.
+
+### Compliance
+El contexto legal y regulatorio. Es un entorno de solo lectura que consolida la información para auditorías. Registra un AuditTrail (trazabilidad forense inmutable) de cada acción crítica y resolución de incidentes, generando el ComplianceReport. Su diseño garantiza que los datos históricos no puedan ser manipulados, cumpliendo con las normativas ISO y los estándares de entidades reguladoras de salud.
+
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases4.png)
+Nota: Elaboración propia.
+
+### IAM
+Encargado de la seguridad perimetral y el control de acceso corporativo. Su Aggregate Root es User, el cual gestiona la autenticación, la protección contra fuerza bruta y el control de sesiones. Se incluyen funcionalidades avanzadas de seguridad como el estado de la cuenta (AccountStatus) y la activación del segundo factor de autenticación (enable2FA), garantizando que solo personal autorizado y con roles específicos pueda tomar decisiones operativas.
+
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases5.png)
+Nota: Elaboración propia.
+
+### Shared
+Este contexto actúa como el núcleo de tipos de datos compartidos en todo el sistema. Contiene Value Objects inmutables como TemperatureReading, Threshold y TimeRange. Al encapsular lógica de validación básica (como verificar si una temperatura excede un límite) dentro de estos objetos, evitamos la duplicación de código y garantizamos que los conceptos fundamentales del dominio se traten de manera uniforme en todos los demás contextos.
+
+![Class Diagram](./assets/chapter-iv/diagramadeclases6.png)
+Nota: Elaboración propia.
+
 
 ## 4.8. Database Design
 
@@ -462,15 +511,7 @@ Nota: Elaboración propia en LucidChart.
 
 El diseño de la base de datos de **SafeLab** ha sido normalizado para garantizar la integridad referencial y la eficiencia en la consulta de grandes volúmenes de telemetría. A diferencia del diagrama de clases, este modelo se enfoca en la persistencia de datos mediante el uso de Claves Primarias (**PK**) y Claves Foráneas (**FK**).
 
-El modelo está diseñado para soportar la trazabilidad exigida por la norma **ISO 15189**, conectando cada lectura de sensor con su respectivo equipo y, en caso de anomalías, vinculando la alerta directamente con el registro de intervención del usuario. Los registros de auditoría (`audit_logs`) incluyen campos de hash para asegurar que la historia de operaciones no sea alterada, cumpliendo con los estándares de seguridad bioclínica.
+El siguiente Diagrama de Entidad-Relación (ERD) representa la persistencia física del modelo de dominio de SafeLab en una base de datos relacional (como PostgreSQL). El diseño traduce la arquitectura DDD en esquemas de datos altamente optimizados y normalizados. Como decisión arquitectónica clave, los Value Objects del modelo de dominio (como Location o Threshold) han sido aplanados (flattening); es decir, en lugar de crear tablas separadas que requerirían uniones (JOINs) costosas en rendimiento, sus propiedades se han integrado como columnas directas en las tablas de sus entidades anfitrionas (ej. threshold_min y threshold_max dentro de la tabla storage_units). Además, se mantiene el principio de desacoplamiento entre contextos mediante el uso estricto de Foreign Keys y el almacenamiento de datos semi-estructurados usando JSONB (para la gestión dinámica de permisos). La trazabilidad está garantizada mediante la tabla centralizada audit_trails, la cual indexa las acciones operativas sin acoplar rígidamente el contexto de Compliance con el resto del sistema, logrando así una base de datos robusta, escalable y lista para auditorías regulatorias.
 
-#### Puntos clave del diseño:
-
-* **Escalabilidad:** Las lecturas de telemetría están indexadas por tiempo y sensor para permitir búsquedas rápidas en grandes conjuntos de datos.
-
-* **Integridad:** Las relaciones foráneas aseguran que no existan alertas huérfanas sin una lectura de origen claramente identificada.
-
-* **Seguridad:** Los perfiles de usuario y logs están centralizados para facilitar las auditorías de acceso y el cumplimiento normativo.
-
-![Database Diagram](./assets/chapter-iv/BaseDatosDiagrama.png)
+![Database Diagram](./assets/chapter-iv/diagramabasedatosfinal.png)
 Nota: Elaboración propia.

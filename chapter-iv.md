@@ -1,10 +1,10 @@
-# Capítulo IV: Product Design
+# **Capítulo IV: Product Design**
 
-## 4.1. Style Guidelines
+## **4.1. Style Guidelines**
 
 En esta sección se presentan los estándares que definen el formato y el diseño de la solución, asegurando la calidad en su implementación.
 
-### 4.1.1. General Style Guidelines
+### **4.1.1. General Style Guidelines**
 
 **Color**
 
@@ -28,7 +28,7 @@ Bautizamos a la aplicación como Safelab, un nombre que transmite seguridad para
 
 Nota: Elaboración propia.
 
-### 4.1.2. Web Style Guidelines
+### **4.1.2. Web Style Guidelines**
 
 Esta sección define las pautas de diseño de la interfaz web de Safelab basadas en los mockups correspondientes.
 
@@ -47,9 +47,9 @@ Cada sección está diseñada para ser intuitiva, con botones y enlaces destacad
 
 La interfaz web de Safelab está diseñada para ser completamente responsive, adaptándose a diferentes tamaños de pantalla y dispositivos. En dispositivos móviles, el menú lateral se transforma en un menú desplegable accesible desde un ícono de hamburguesa, mientras que el contenido se reorganiza para mantener la legibilidad y funcionalidad. En tabletas, el diseño se ajusta para aprovechar el espacio adicional sin perder la claridad visual. Esta adaptabilidad garantiza que los usuarios puedan acceder a todas las funcionalidades de Safelab de manera eficiente, independientemente del dispositivo que estén utilizando.
 
-## 4.2. Information Architecture
+## **4.2. Information Architecture**
 
-### 4.2.1. Organization Systems
+### **4.2.1. Organization Systems**
 
 **Landing Page**
 
@@ -75,7 +75,7 @@ Los módulos en el flujo de trabajo incluyen:
 - History: Ofrece un historial detallado de las actividades y eventos relacionados con los laboratorios, permitiendo a los usuarios revisar acciones pasadas y generar reportes.
 - Settings: Permite a los usuarios configurar sus preferencias, gestionar su cuenta y ajustar las notificaciones.
 
-### 4.2.2. Labeling Systems
+### **4.2.2. Labeling Systems**
 
 Las etiquetas que utilizaremos para la página serán diseñadas para ser claras, directas y fáciles de entender, enfocándose en la eficiencia y simplicidad para usuarios con distintos niveles de experiencia tecnológica.
 
@@ -111,7 +111,7 @@ Algunas de las etiquetas principales de nuestras secciones serán las siguientes
 - `Filtros de búsqueda`
 - `Indicadores de tipo de evento`
 
-### 4.2.3. SEO Tags and Meta Tags
+### **4.2.3. SEO Tags and Meta Tags**
 
 **Landing Page**:
 - Title (SEO Tag): Safelab | Smart Lab Management
@@ -125,7 +125,7 @@ Algunas de las etiquetas principales de nuestras secciones serán las siguientes
 - Keywords (Meta Tag): Lab management, Monitoring, System Alerts, Scientific workflow
 - Author (Meta Tag): Safelab Team
 
-### 4.2.4. Searching Systems
+### **4.2.4. Searching Systems**
 
 Para garantizar navegación fluida y centrada al servicio del usuario, vamos a implementar los siguiente estándares tanto para la Landing Page como para la Web Application:
 
@@ -149,7 +149,7 @@ Para garantizar navegación fluida y centrada al servicio del usuario, vamos a i
     
     De esta forma, los usuarios realizarán sus tareas independientemente del dispositivo que utilicen.
 
-### 4.2.5. Navigation Systems
+### **4.2.5. Navigation Systems**
 
 **Landing Page**
 
@@ -161,13 +161,13 @@ Para la plataforma de Safelab implementaremos un sistema de navegación basado e
 
 Además, cada pantalla dentro de la aplicación web contará con una barra de filtros y opciones de navegación adicionales que permitirán a los usuarios refinar su búsqueda y acceder a funcionalidades específicas dentro de cada sección. Por ejemplo, en la sección de Laboratories, los usuarios podrán filtrar por tipo de laboratorio, estado o fecha de creación, mientras que en la sección de Alerts podrán filtrar por prioridad o tipo de alerta.
 
-## 4.3. Landing Page UI Design
+## **4.3. Landing Page UI Design**
 Para el diseño de la interfaz de la Landing Page de Safelab, el equipo ha traducido las necesidades de monitoreo crítico en una experiencia visual que transmite seguridad, limpieza y precisión.
 
 
 La arquitectura de información se estructuró siguiendo un modelo de **"AIDA" (Atención, Interés, Deseo y Acción)**, asegurando que los responsables de laboratorios encuentren rápidamente la propuesta de valor: la prevención de incidentes mediante inteligencia analítica. Se priorizó una navegación vertical fluida, donde cada sección refuerza la confianza del usuario antes de llegar a los planes de suscripción.
 
-### 4.3.1. Landing Page Wireframe
+### **4.3.1. Landing Page Wireframe**
 
 Los wireframes de Safelab fueron diseñados con un enfoque **Mobile-First**, garantizando que la jerarquía de contenido sea clara tanto en navegadores de escritorio como en dispositivos móviles.
 
@@ -184,7 +184,7 @@ Los wireframes de Safelab fueron diseñados con un enfoque **Mobile-First**, gar
 
 Nota: Elaboración propia en Figma.
 
-### 4.3.2. Landing Page Mock-up
+### **4.3.2. Landing Page Mock-up**
 
 El paso al Mock-up integra el *Design System* de Safelab, aplicando la paleta de colores azul y violeta para evocar profesionalismo tecnológico.
 
@@ -201,9 +201,9 @@ El paso al Mock-up integra el *Design System* de Safelab, aplicando la paleta de
 
 Nota: Elaboración propia en Figma.
 
-## 4.4. Web Applications UX/UI Design
+## **4.4. Web Applications UX/UI Design**
 
-### 4.4.1. Web Applications Wireframes
+### **4.4.1. Web Applications Wireframes**
 
 **Login**
 - Descripción: Esta pantalla muestra el formulario para que el usuario ingrese sus credenciales y acceda la pantalla de inicio de la aplicación.
@@ -240,7 +240,7 @@ Nota: Elaboración propia en Figma.
 ![Web Application - Wireframe 7](assets/chapter-iv/wireframe-7.png)
   Nota: Elaboración propia en Figma.
 
-### 4.4.2. Web Applications Wireflow Diagrams
+### **4.4.2. Web Applications Wireflow Diagrams**
 
 ### **Wireflow 1**
 - User Persona: Supervisor de laboratorio
@@ -260,7 +260,7 @@ Nota: Elaboración propia en Figma.
 ![wireflow 3](assets/chapter-iv/wireflow-3.png)
   Nota: Elaboración propia.
 
-### 4.4.3. Web Applications Mock-ups
+### **4.4.3. Web Applications Mock-ups**
 
 **Login**
 - Objetivo: Permitir al usuario ingresar sus credenciales y acceder a la aplicación.
@@ -307,8 +307,7 @@ Se muestra la actividad reciente del laboratorio, programaciones activas y los i
 
 Nota: Elaboración propia en Figma.
 
-
-### 4.4.4. Web Applications User Flow Diagrams
+### **4.4.4. Web Applications User Flow Diagrams**
 
 **Userflow 1**
 - User Persona: Supervisor de laboratorio
@@ -344,7 +343,7 @@ Nota: Elaboración propia.
 ![userflow 3](assets/chapter-iv/userflow-3.png)
 Nota: Elaboración propia.
 
-## 4.5. Web Applications Prototyping
+## **4.5. Web Applications Prototyping**
 
 **Landing Page Presentation**
 
@@ -352,9 +351,9 @@ Nota: Elaboración propia.
 
 [Link de la presentación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201817507_upc_edu_pe/IQCmLmkatLNfRodxmcXY4QRUAahuQUi-b5KDhY58uA4VZxE?e=Gj9ceu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-## 4.6. Domain-Driven Software Architecture
+## **4.6. Domain-Driven Software Architecture**
 
-### 4.6.1. Design-Level Event Storming
+### **4.6.1. Design-Level Event Storming**
 
 En esta fase, el equipo realizó una inmersión técnica de nivel detallado para refinar el flujo de trabajo de **SafeLab**. A diferencia de la etapa anterior, el *Design-Level Event Storming* permitió identificar no solo qué sucede en el sistema (**Eventos**), sino también quién inicia la acción (**Actores**), qué intención tienen (**Comandos**) y qué reglas rigen el comportamiento del software (**Políticas**).
 
@@ -394,21 +393,21 @@ Es el componente proactivo que permite a SafeLab ejecutar acciones correctivas a
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext5.jpg)
 Nota: Elaboración propia en Miro.
 
-### 4.6.2. Software Architecture Context Diagram
+### **4.6.2. Software Architecture Context Diagram**
 
 El diagrama de contexto del sistema muestra la relación entre el sistema y los actores externos, proporcionando una visión general de la arquitectura del sistema y sus interacciones con el entorno externo.
 
 ![Software Architecture Context Diagram](./assets/chapter-iv/4.6.2_Software_Architecture_Context_Diagram.png)
 Nota: Elaboración propia en Structurizr.
 
-### 4.6.3. Software Architecture Container Diagrams
+### **4.6.3. Software Architecture Container Diagrams**
 
 Los diagramas de contenedores representan los distintos elementos que conforman el sistema, como aplicaciones web, bases de datos o microservicios, y muestran cómo se relacionan entre ellos. Ofrecen una perspectiva general de la arquitectura, resaltando las funciones de cada contenedor y la forma en que interactúan.
 
 ![Software Architecture Container Diagrams](./assets/chapter-iv/4.6.3_Software_Architecture_Container_Diagrams.png)
 Nota: Elaboración propia en Structurizr.
 
-### 4.6.4. Software Architecture Components Diagrams
+### **4.6.4. Software Architecture Components Diagrams**
 
 En esta sección, se presentan los diagramas de componentes de la arquitectura de software. Estos diagramas detallan los diferentes componentes que conforman el sistema, sus responsabilidades y cómo interactúan entre sí. 
 
@@ -455,9 +454,9 @@ Este bounded context se encarga de ejecutar acciones mecánicas o lógicas de fo
 ![Bounded Context: Smart Automation & Scheduling](./assets/chapter-iv/Bounded_Context_Smart_Automation_Scheduling.png)
 Nota: Elaboración propia en Structurizr.
 
-## 4.7. Software Object-Oriented Design
+## **4.7. Software Object-Oriented Design**
 
-### 4.7.1. Class Diagrams
+### **4.7.1. Class Diagrams**
 
 El diagrama de clases de SafeLab representa la estructura estática del sistema, detallando las entidades fundamentales, sus atributos, comportamientos (métodos) y las relaciones que permiten la lógica de negocio. El diseño se ha organizado siguiendo los límites de los *Bounded Contexts* identificados en el *Event Storming*, asegurando que la implementación técnica respete el lenguaje ubicuo del dominio.
 
@@ -505,9 +504,9 @@ Este contexto actúa como el núcleo de tipos de datos compartidos en todo el si
 Nota: Elaboración propia.
 
 
-## 4.8. Database Design
+## **4.8. Database Design**
 
-### 4.8.1. Database Diagrams
+### **4.8.1. Database Diagrams**
 
 El diseño de la base de datos de **SafeLab** ha sido normalizado para garantizar la integridad referencial y la eficiencia en la consulta de grandes volúmenes de telemetría. A diferencia del diagrama de clases, este modelo se enfoca en la persistencia de datos mediante el uso de Claves Primarias (**PK**) y Claves Foráneas (**FK**).
 

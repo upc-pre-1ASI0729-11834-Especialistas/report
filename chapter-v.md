@@ -1,8 +1,8 @@
-# Capítulo V: Product Implementation, Validation & Deployment
+# **Capítulo V: Product Implementation, Validation & Deployment**
 
-## 5.1. Software Configuration Management
+## **5.1. Software Configuration Management**
 
-## 5.1.1. Software Development Environment Configuration
+## **5.1.1. Software Development Environment Configuration**
 
 Para el desarrollo de SafeLab, utilizaremos el siguiente conjunto de herramientas, respetando las restricciones tecnológicas del curso:
 
@@ -53,7 +53,7 @@ Para el desarrollo de SafeLab, utilizaremos el siguiente conjunto de herramienta
   </tbody>
 </table>
 
-## 5.1.2. Source Code Management
+## **5.1.2. Source Code Management**
 
 El control de versiones se realizará en GitHub bajo una organización pública. Se han implementado repositorios independientes para garantizar la modularidad y el despliegue continuo de cada componente:
 
@@ -94,7 +94,7 @@ Para mantener un historial de cambios legible y facilitar la generación automá
   * `fix(auth): resolve token expiration on mobile devices`
   * `docs(interviews): update stakeholder interview records`
 
-## 5.1.3. Source Code Style Guide & Conventions
+## **5.1.3. Source Code Style Guide & Conventions**
 
 Para garantizar la calidad, mantenibilidad y legibilidad del código de SafeLab, el equipo ha adoptado las siguientes convenciones de estilo. Siguiendo los estándares de la industria y las exigencias del curso, todo el código fuente (nombres de variables, clases, métodos y comentarios) se escribirá estrictamente en inglés.
 
@@ -145,7 +145,7 @@ Para las especificaciones de pruebas de aceptación, se aplicarán las **Gherkin
   * `When the system processes the signal`
   * `Then a critical alert should be generated`
 
-## 5.1.4. Software Deployment Configuration
+## **5.1.4. Software Deployment Configuration**
 
 En esta sección se especifica la configuración y los pasos necesarios para el despliegue de cada uno de los productos que conforman la solución SafeLab. Se ha adoptado un enfoque de despliegue continuo (**Continuous Deployment**) para asegurar que los cambios validados en los repositorios de GitHub se reflejen automáticamente en los entornos de producción.
 
@@ -201,11 +201,11 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
 
 * **Integración:** La Web Application está configurada para consumir los servicios del RESTful API mediante el intercambio de recursos de origen cruzado (**CORS**), permitiendo únicamente peticiones desde los dominios autorizados de la solución.
 
-## 5.2. Landing Page, Services & Applications Implementation
+## **5.2. Landing Page, Services & Applications Implementation**
 
-## 5.2.1. Sprint 1
+## **5.2.1. Sprint 1**
 
-### 5.2.1.1. Sprint Planning 1
+### **5.2.1.1. Sprint Planning 1**
 
 <table border="1" cellspacing="0" cellpadding="6">
     <tr>
@@ -276,7 +276,7 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
   </tr>
 </table>
 
-### 5.2.1.2. Aspect Leaders and Collaborators
+### **5.2.1.2. Aspect Leaders and Collaborators**
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -315,7 +315,8 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
   </tbody>
 </table>
 
-### 5.2.1.3. Sprint Backlog 1
+### **5.2.1.3. Sprint Backlog 1**
+
 **Sprint Objective:**
 Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, Pricing y Contacto.
 
@@ -325,7 +326,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
   <thead>
     <tr>
       <th>Historia de Usuario</th>
-      <th>Elemento de trabajo / Tarea</th>
+      <th>Tarea</th>
       <th>Descripción</th>
       <th>Estimación (Horas)</th>
       <th>Asignado a</th>
@@ -334,7 +335,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
   </thead>
   <tbody>
     <tr>
-      <td>US-01</td>
+      <td>US01</td>
       <td>Navegación a secciones principales</td>
       <td>Como visitante, quiero acceder a las distintas secciones informativas desde un menú principal para encontrar la información deseada rápidamente.</td>
       <td>3</td>
@@ -342,7 +343,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-02</td>
+      <td>US02</td>
       <td>Navegación en dispositivos móviles</td>
       <td>Como visitante desde móvil, quiero disponer de un menú adaptable para acceder a las secciones sin saturar la pantalla.</td>
       <td>7</td>
@@ -350,7 +351,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-03</td>
+      <td>US03</td>
       <td>Acceso a demo y características</td>
       <td>Como gerente de laboratorio, quiero solicitar una demo o ver características desde el primer vistazo.</td>
       <td>8</td>
@@ -358,7 +359,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Pendiente</td>
     </tr>
     <tr>
-      <td>US-04</td>
+      <td>US04</td>
       <td>Visualización de interfaz del sistema</td>
       <td>Como prospecto, quiero ver imágenes de la plataforma para conocer su apariencia.</td>
       <td>5</td>
@@ -366,7 +367,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-05</td>
+      <td>US05</td>
       <td>Consulta de herramientas</td>
       <td>Como investigador, quiero consultar funciones principales estructuradas.</td>
       <td>3</td>
@@ -374,7 +375,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-06</td>
+      <td>US06</td>
       <td>Comparativa de solución</td>
       <td>Como jefe de calidad, quiero comparar método tradicional vs plataforma.</td>
       <td>2</td>
@@ -383,7 +384,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
     </tr>
     </tr>
     <tr>
-      <td>US-07</td>
+      <td>US07</td>
       <td>Revisión de testimonios</td>
       <td>Como responsable de compras, quiero leer testimonios para ganar confianza.</td>
       <td>3</td>
@@ -391,7 +392,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-08</td>
+      <td>US08</td>
       <td>Consulta de planes y precios</td>
       <td>Como administrador, quiero comparar planes y funcionalidades.</td>
       <td>5</td>
@@ -400,7 +401,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
     </tr>
     </tr>
     <tr>
-      <td>US-09</td>
+      <td>US09</td>
       <td>Información legal y soporte</td>
       <td>Como visitante, quiero encontrar políticas y soporte en el footer.</td>
       <td>1</td>
@@ -408,7 +409,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-10</td>
+      <td>US10</td>
       <td>Acceso a portal de usuarios</td>
       <td>Como visitante, quiero acceder a login y registro.</td>
       <td>5</td>
@@ -418,7 +419,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
   </tbody>
 </table>
 
-### 5.2.1.4. Development Evidence for Sprint Review
+### **5.2.1.4. Development Evidence for Sprint Review**
 
 Esta tabla lista los commits realizados durante los primeros sprints de desarrollo, incluyendo el trabajo en la Landing Page, documentación y configuración del proyecto.
 
@@ -462,7 +463,7 @@ Esta tabla lista los commits realizados durante los primeros sprints de desarrol
   </tbody>
 </table>
 
-### 5.2.1.5. Execution Evidence for Sprint Review
+### **5.2.1.5. Execution Evidence for Sprint Review**
 
 Las principales secciones de la Landing Page de Safelab fueron desarrolladas y desplegadas exitosamente. A continuación se presentan las evidencias correspondientes de la implementación.
 
@@ -477,12 +478,12 @@ Las principales secciones de la Landing Page de Safelab fueron desarrolladas y d
 <p><strong>Enlace a Demo en Vivo:</strong><br>
 <a href="https://upc-pre-1asi0729-11834-especialistas.github.io/landing-page/#">Safelab Landing Page</a></p>
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review
+### **5.2.1.6. Services Documentation Evidence for Sprint Review**
 
 En este Sprint el equipo se enfocó en el desarrollo y el despliegue de la Landing Page de Safelab, motivo por el cual no se implementaron ni documentaron endpoints relacionados a Web Services.
 Los avances relacionados al desarrollo del frontend y backend, así como la documentación de la API con OpenAPI, están programados para los próximos Sprints, donde se abordarán las funcionalidades específicas del sistema de monitoreo de laboratorios y la integración con sensores IoT.
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review
+### **5.2.1.7. Software Deployment Evidence for Sprint Review**
 
 El despliegue inicial de la Landing Page de FuelTrack fue realizado exitosamente utilizando GitHub Pages.
 
@@ -491,7 +492,7 @@ El despliegue inicial de la Landing Page de FuelTrack fue realizado exitosamente
   <li><strong>Repositorio:</strong> <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page</a></li>
 </ul>
 
-### 5.2.1.8. Team Collaboration Insights during Sprint
+### **5.2.1.8. Team Collaboration Insights during Sprint**
 
 Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsApp y Google Meet durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de la Landing Page.
 
@@ -504,9 +505,9 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
 - WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
 - Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
 
-## 5.2.2. Sprint 2
+## **5.2.2. Sprint 2**
 
-### 5.2.2.1. Sprint Planning 2
+### **5.2.2.1. Sprint Planning 2**
 
 <table border="1" cellspacing="0" cellpadding="6">
     <tr>
@@ -573,7 +574,7 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
   </tr>
 </table>
 
-### 5.2.2.2. Aspect Leaders and Collaborators
+### **5.2.2.2. Aspect Leaders and Collaborators**
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -617,7 +618,8 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
   </tbody>
 </table>
 
-### 5.2.2.3. Sprint Backlog 2
+### **5.2.2.3. Sprint Backlog 2**
+
 **Sprint Objective:**
 Implementar las vistas principales (core) de la aplicación web.
 
@@ -627,7 +629,7 @@ Implementar las vistas principales (core) de la aplicación web.
   <thead>
     <tr>
       <th>Historia de Usuario</th>
-      <th>Elemento de trabajo / Tarea</th>
+      <th>Tarea</th>
       <th>Descripción</th>
       <th>Estimación (Horas)</th>
       <th>Asignado a</th>
@@ -744,7 +746,7 @@ Implementar las vistas principales (core) de la aplicación web.
   </tbody>
 </table>
 
-### 5.2.2.4. Development Evidence for Sprint Review
+### **5.2.2.4. Development Evidence for Sprint Review**
 
 Esta tabla lista los commits realizados durante el sprint, incluyendo el desarrollo de la web app y documentación.
 
@@ -831,7 +833,7 @@ Esta tabla lista los commits realizados durante el sprint, incluyendo el desarro
   </tbody>
 </table>
 
-### 5.2.2.5. Execution Evidence for Sprint Review
+### **5.2.2.5. Execution Evidence for Sprint Review**
 
 Las vistas principales de la aplicación web fueron desarrolladas y desplegadas exitosamente. A continuación se presentan las evidencias correspondientes de la implementación.
 
@@ -847,7 +849,7 @@ Las vistas principales de la aplicación web fueron desarrolladas y desplegadas 
 <p><strong>Despliegue de la aplicación:</strong><br>
 <a href="https://frontend-jade-seven-fwvgy3syck.vercel.app/">Safelab Web Application</a></p>
 
-### 5.2.2.6. Services Documentation Evidence for Sprint Review
+### **5.2.2.6. Services Documentation Evidence for Sprint Review**
 
 Durante este Sprint, el equipo se centró en el desarrollo de las vistas principales de la aplicación web, por lo que no se implementaron ni documentaron endpoints relacionados a Web Services.
 Sin embargo, se establecieron las bases para la integración futura con el backend y con ello el desarrollo de una fake API para simular las interacciones con el sistema, lo que permitirá una documentación detallada de los servicios en los próximos Sprints.
@@ -864,7 +866,7 @@ Sin embargo, se establecieron las bases para la integración futura con el backe
 <p><strong>Despliegue del fake API:</strong><br>
 <a href="https://fake-api-production-0033.up.railway.app/">Safelab Fake API</a></p>
 
-### 5.2.2.7. Software Deployment Evidence for Sprint Review
+### **5.2.2.7. Software Deployment Evidence for Sprint Review**
 
 El primer despliegue de la web application se realizó exitosamente en Vercel, mientras que la fake API se desplegó en Railway, lo que permitió validar la funcionalidad de la aplicación y su integración con el backend simulado. A continuación se presentan las evidencias de ambos despliegues:
 
@@ -899,7 +901,7 @@ El primer despliegue de la web application se realizó exitosamente en Vercel, m
     <img src="./assets/chapter-v/evidence-fake-api-deployment.png" alt="Fake API Deployment">
 </ul>
 
-### 5.2.2.8. Team Collaboration Insights during Sprint
+### **5.2.2.8. Team Collaboration Insights during Sprint**
 
 Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsApp y Google Meet durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de la Web Application y documentación.
 
@@ -912,7 +914,227 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
 - WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
 - Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
 
-# Conclusiones
+## **5.2.3. Sprint 3**
+
+### **5.2.3.1. Sprint Planning 3**
+
+<table border="1" cellspacing="0" cellpadding="6">
+    <tr>
+        <th><strong>Sprint #</strong></th>
+        <td>Sprint 3</td>
+    </tr>
+    <tr>
+        <th><strong>Resumen del Sprint Planning</strong></th>
+        <td>PENDIENTE</td>
+    </tr>
+    <tr>
+        <th><strong>Fecha</strong></th>
+        <td>2026-06-05</td>
+    </tr>
+    <tr>
+        <th><strong>Hora</strong></th>
+        <td>5:00 PM</td>
+    </tr>
+    <tr>
+        <th><strong>Ubicación</strong></th>
+        <td>Google Meet</td>
+    </tr>
+    <tr>
+        <th><strong>Preparado por</strong></th>
+        <td>Manuel Angel Sanchez Arenas</td>
+    </tr>
+    <tr>
+        <th><strong>Asistentes a la reunión de planificación</strong></th>
+        <td>
+            - Manuel Angel Sanchez Arenas,<br>
+            - Jean Niels Arizabal Condori,<br>
+            - Esteban Eduardo Chavez Bardales,<br>
+            - Jhon Jordy Jaramillo Mayta
+        </td>
+    </tr>
+    <tr>
+        <th><strong>Resumen del Sprint 2 (Revisión)</strong></th>
+        <td>PENDIENTE</td>
+    </tr>
+</table>
+
+### **5.2.3.2. Aspect Leaders and Collaborators**
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Miembro del equipo</th>
+      <th>Usuario de GitHub</th>
+      <th>Web Application (L/C)</th>
+      <th>Web Services (L/C)</th>
+      <th>Documentación (L/C)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Manuel Sanchez</td>
+      <td>@manuels7a</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Jean Arizabal</td>
+      <td>@JeanArizabal</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Esteban Chavez</td>
+      <td>@ECEB0704</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Jhon Jaramillo</td>
+      <td>@Marklnz1</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+  </tbody>
+</table>
+
+### **5.2.3.3. Sprint Backlog 3**
+
+**Sprint Objective:**
+Desarrollar los web services principales y modificar la web application para integrar estos servicios y mejorar la funcionalidad y la experiencia del usuario en el monitoreo de las condiciones y la gestión de alertas de los laboratorios.
+
+<h4>Tabla de Sprint Backlog</h4>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Historia de Usuario</th>
+      <th>Tarea</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>USXX</td>
+      <td>PENDIENTE</td>
+      <td>PENDIENTE</td>
+      <td>PENDIENTE</td>
+      <td>PENDIENTE</td>
+      <td>PENDIENTE</td>
+    </tr>
+  </tbody>
+</table>
+
+### **5.2.3.4. Development Evidence for Sprint Review**
+
+Esta tabla lista los commits realizados durante el sprint, incluyendo el desarrollo de los web services, actualización de la web application, landing page y documentación.
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción de Commit</th>
+      <th>Fecha de Commit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>REPO</td><td>RAMA</td><td>ID</td><td>MENSAJE</td><td>-</td><td>DD/MM/YYYY</td></tr>
+  </tbody>
+</table>
+
+### **5.2.3.5. Execution Evidence for Sprint Review**
+
+**Web Application:**
+
+Se modificó el poryecto web para integrar los web services desarrollados durante este Sprint. A continuación se presentan las evidencias correspondientes de la implementación.
+
+<ul>
+  <li><strong>Dashboard View</strong><br><img src="./assets/chapter-v/sprint-3-evidence-dashboard-view.png" alt="Dashboard View"></li>
+  <li><strong>Laboratories View</strong><br><img src="./assets/chapter-v/sprint-3-evidence-laboratories-view.png" alt="Laboratories View"></li>
+  <li><strong>History View</strong><br><img src="./assets/chapter-v/sprint-3-evidence-history-view.png" alt="History View"></li>
+  <li><strong>Alerts View</strong><br><img src="./assets/chapter-v/sprint-3-evidence-alerts-view.png" alt="Alerts View"></li>
+  <li><strong>Settings View</strong><br><img src="./assets/chapter-v/sprint-3-evidence-settings-view.png" alt="Settings View"></li>
+</ul>
+
+<p><strong>Despliegue de la aplicación web:</strong><br>
+<a href="https://frontend-jade-seven-fwvgy3syck.vercel.app/">Safelab Web Application</a></p>
+
+### **5.2.3.6. Web Services Documentation Evidence for Sprint Review**
+
+**Web Services:**
+
+Se desarrollaron los principales web services para las funcionalidades core de la aplicación web. A continuación, se presenta los endpoints documentados en swagger para cada uno de los servicios implementados:
+
+<ul>
+  <li><strong>Laboratories Endpoints</strong><br><img src="./assets/chapter-v/sprint-3-evidence-laboratories-endpoint.png" alt="Laboratories Endpoint"></li>
+  <li><strong>Telemetry Endpoints</strong><br><img src="./assets/chapter-v/sprint-3-evidence-telemetry-endpoint.png" alt="Telemetry Endpoint"></li>
+  <li><strong>History Endpoints</strong><br><img src="./assets/chapter-v/sprint-3-evidence-history-endpoint.png" alt="History Endpoint"></li>
+  <li><strong>Alerts Endpoints</strong><br><img src="./assets/chapter-v/sprint-3-evidence-alerts-endpoint.png" alt="Alerts Endpoint"></li>
+  <li><strong>Settings Endpoints</strong><br><img src="./assets/chapter-v/sprint-3-evidence-settings-endpoint.png" alt="Settings Endpoint"></li>
+</ul>
+
+<p><strong>Despliegue de la API:</strong><br>
+<a href="">Safelab API</a></p>
+
+### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+
+Se realizó un nuevo despliegue de la web application en Vercel. También se hizo el primer despliegue de la API de Safelab en Railway, logrando la integración entre frontend y backend. A continuación se presentan las evidencias de ambos despliegues:
+
+**Web Application Deployment:**
+<ul>
+  <li>
+    <strong>URL de la Web Application:</strong>
+    <a href="https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/" target="_blank">https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/</a>
+  </li>
+  <li>
+    <strong>Repositorio:</strong>
+    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/frontend" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/frontend</a>
+  </li>
+  <li>
+    <strong>Despliegue en Vercel:</strong><br>
+    <img src="./assets/chapter-v/evidence-web-app-deployment.png" alt="Web Application Deployment">
+  </li>
+</ul>
+
+**Web Services Deployment:**
+<ul>
+  <li>
+    <strong>URL de la API:</strong>
+    <a href="https://fake-api-production-0033.up.railway.app/" target="_blank">https://fake-api-production-0033.up.railway.app/</a>
+  </li>
+  <li>
+    <strong>Repositorio:</strong>
+    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/fake-api" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/fake-api</a>
+  </li>
+  <li>
+    <strong>Despliegue en Railway:</strong><br>
+    <img src="./assets/chapter-v/evidence-fake-api-deployment.png" alt="Fake API Deployment">
+</ul>
+
+### **5.2.3.8. Team Collaboration Insights during Sprint** 
+
+Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsApp y Google Meet durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de la Web Application y documentación.
+
+**Evidencia de Colaboración:**
+
+![Team Collaboration Evidence](assets/chapter-v/evidence-team-collaboration-insights-sprint-3.png)
+
+**Principales Herramientas de Comunicación:**
+- Github: Para el control de versiones, gestión de issues y revisión de código.
+- WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
+- Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
+
+# **Conclusiones**
 
 Durante el Sprint 2, el equipo completó en el plazo establecido el desarrollo de las vistas principales de la aplicación web, así como el despliegue exitoso de la misma y de la fake API. Además, se establecieron las bases para la integración futura con el backend y se documentaron los endpoints de la fake API, lo que permitirá una documentación detallada de los servicios en los próximos Sprints.
 
@@ -922,7 +1144,7 @@ A partir de este nuevo avance, llegamos a las siguientes conclusiones:
 - La comunicación fluida a través de WhatsApp y Google Meet permitió resolver dudas rápidamente y mantener a todo el equipo alineado con los objetivos del Sprint.
 - La coordinación para definir los objetos y estructuras de datos de la fake API fue clave para asegurar que el desarrollo de la aplicación web se realizara de manera coherente y con una visión clara de las interacciones futuras con el backend.
 
-# Anexos
+# **Anexos**
 
 **Repositorios**
 - Repositorio de la Landing Page: https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page
@@ -934,3 +1156,6 @@ A partir de este nuevo avance, llegamos a las siguientes conclusiones:
 - Despliegue de la Landing Page: https://upc-pre-1asi0729-11834-especialistas.github.io/landing-page/
 - Despliegue del fake API: https://fake-api-production-0033.up.railway.app/
 - Despliegue de la Web Application: https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/
+
+# **Bibliografía**
+

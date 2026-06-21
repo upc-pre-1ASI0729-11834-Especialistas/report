@@ -925,7 +925,7 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
     </tr>
     <tr>
         <th><strong>Resumen del Sprint Planning</strong></th>
-        <td>PENDIENTE</td>
+        <td>Se priorizarón 2 objetivos: El desarrollo del backend (web-servies), y su respectiva integración al frontend. Con el cumplimiento de estos objetivos, se busca formalizar el negocio mediante la actualización de los CTA de la Landing Page.</td>
     </tr>
     <tr>
         <th><strong>Fecha</strong></th>
@@ -954,7 +954,7 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
     </tr>
     <tr>
         <th><strong>Resumen del Sprint 2 (Revisión)</strong></th>
-        <td>PENDIENTE</td>
+        <td>Se realizó con éxito el sprint 2, cumpliendo con el desarrollo del frontend y la documentación respectiva.</td>
     </tr>
 </table>
 
@@ -968,6 +968,7 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
       <th>Web Application (L/C)</th>
       <th>Web Services (L/C)</th>
       <th>Documentación (L/C)</th>
+      <th>Landing Page (L/C)</th>
     </tr>
   </thead>
   <tbody>
@@ -975,14 +976,16 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
       <td>Manuel Sanchez</td>
       <td>@manuels7a</td>
       <td>C</td>
-      <td>L</td>
       <td>C</td>
+      <td>C</td>
+      <td>L</td>
     </tr>
     <tr>
       <td>Jean Arizabal</td>
       <td>@JeanArizabal</td>
-      <td>L</td>
       <td>C</td>
+      <td>C</td>
+      <td>L</td>
       <td>C</td>
     </tr>
     <tr>
@@ -991,13 +994,15 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
       <td>C</td>
       <td>C</td>
       <td>C</td>
+      <td>C</td>
     </tr>
     <tr>
       <td>Jhon Jaramillo</td>
       <td>@Marklnz1</td>
-      <td>C</td>
-      <td>C</td>
       <td>L</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
     </tr>
   </tbody>
 </table>
@@ -1022,12 +1027,84 @@ Desarrollar los web services principales y modificar la web application para int
   </thead>
   <tbody>
     <tr>
-      <td>USXX</td>
-      <td>PENDIENTE</td>
-      <td>PENDIENTE</td>
-      <td>PENDIENTE</td>
-      <td>PENDIENTE</td>
-      <td>PENDIENTE</td>
+      <td>US11</td>
+      <td>Gestión Priorizada de Sedes y Laboratorios</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Visualizar la lista de laboratorios con filtros avanzados por estado de criticidad y ubicación. Para: Identificar de inmediato qué sedes presentan anomalías térmicas y priorizar la supervisión en los puntos de mayor riesgo.</td>
+      <td>4</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Activación de Sistemas de Mitigación y Respuesta Automatizada</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Activar o desactivar los sistemas de mitigación (ventilación/refrigeración auxiliar) bajo reglas de validación técnica. Para: Reaccionar de forma segura ante una excursión térmica y estabilizar el ambiente sin comprometer la integridad de otros equipos.</td>
+      <td>8</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US26</td>
+      <td>Escalamiento Automático de Incidentes no Atendidos</td>
+      <td>Como: Gerente de Operaciones. Quiero: Que el sistema aplique la política de escalamiento (Escalation Policy) si una alerta crítica no es reconocida en el tiempo establecido. Para: Garantizar que el personal de mayor jerarquía intervenga en situaciones de alto riesgo que no han sido gestionadas a tiempo.</td>
+      <td>6</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US27</td>
+      <td>Registro Obligatorio de Acciones Correctivas</td>
+      <td>Como: Técnico de Laboratorio. Quiero: Documentar formalmente las medidas tomadas para resolver una anomalía térmica. Para: Cumplir con los protocolos de trazabilidad y permitir el análisis de causa raíz en el futuro.</td>
+      <td>5</td>
+      <td>Jean Arizabal</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US28</td>
+      <td>Generación de Reporte de Auditoría Regulatoria</td>
+      <td>Como: Director de Calidad / Auditor Externo. Quiero: Generar reportes consolidados e inmutables de todas las lecturas e incidentes de un periodo determinado. Para: Presentar evidencia ante entidades regulatorias (DIGEMID/ISO) que certifique la integridad de la cadena de frío.</td>
+      <td>7</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US30</td>
+      <td>Personalización de Canales de Alerta y Resúmenes de Actividad</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Configurar los canales de recepción de alertas y la frecuencia de los reportes de actividad. Para: Optimizar la comunicación de incidentes según la gravedad y evitar la "fatiga de alertas" en el personal de turno.</td>
+      <td>8</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US34</td>
+      <td>Filtrado de alertas</td>
+      <td>Como usuario, quiero filtrar alertas por diferentes criterios para priorizar mis necesidades.</td>
+      <td>3</td>
+      <td>Manuel Sanchez</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US35</td>
+      <td>Detalle completo de alerta</td>
+      <td>Como usuario, quiero ver el detalle completo de una alerta para comprender el incidente.</td>
+      <td>5</td>
+      <td>Esteban Chavez</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US40</td>
+      <td>Cierre de sesión</td>
+      <td>Como usuario, quiero cerrar sesión para proteger el acceso a la plataforma.</td>
+      <td>5</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US41</td>
+      <td>Persistencia de sesión</td>
+      <td>Como usuario, quiero mantener mi sesión activa para no iniciar sesión constantemente.</td>
+      <td>4</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
     </tr>
   </tbody>
 </table>
@@ -1048,7 +1125,694 @@ Esta tabla lista los commits realizados durante el sprint, incluyendo el desarro
     </tr>
   </thead>
   <tbody>
-    <tr><td>REPO</td><td>RAMA</td><td>ID</td><td>MENSAJE</td><td>-</td><td>DD/MM/YYYY</td></tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>main, origin/main</td>
+      <td>047ebbe</td>
+      <td>Merge pull request #2 from upc-pre-1ASI0729-11834-Especialistas/development Development</td>
+      <td>-</td>
+      <td>20/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>origin/development</td>
+      <td>9f3a326</td>
+      <td>Merge pull request #1 from upc-pre-1ASI0729-11834-Especialistas/feature/api-implementation Feature/api implementation</td>
+      <td>-</td>
+      <td>20/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>origin/feature/api-implementation</td>
+      <td>2f9899f</td>
+      <td>feat(seeder): seed additional laboratories, alerts, and telemetry readings</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>a53c56d</td>
+      <td>config(db): read DDL-auto property from environment variable in production</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>387ae66</td>
+      <td>config(cors): allow localhost and vercel origins globally and allow all headers</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>0297b51</td>
+      <td>config(db): set Hibernate DDL auto to update in production environment</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>786e829</td>
+      <td>fix(telemetry): improve MQTT subscription processing and telemetry payload assembly</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>c89cc82</td>
+      <td>refactor(db): extract temporary data seeding to a dedicated TemporarySeeder</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>3c7fc3b</td>
+      <td>feat(telemetry): implement TelemetrySimulationController mock publisher endpoint</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>89db521</td>
+      <td>feat(automation): add equipment mapping and threshold properties to SensorConfiguration</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>408917f</td>
+      <td>feat(api): enhance REST endpoints for pending invitations, user profiles, and threshold controllers</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>01eec32</td>
+      <td>feat(telemetry): update MQTT ingestion and query endpoints</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>cd45e93</td>
+      <td>feat(labs): extend laboratory command and query services</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>f9837ef</td>
+      <td>feat(iam): handle UserWorkspaceAccess setup in ApplicationReadyEventHandler</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>e5b2d78</td>
+      <td>feat(automation): add UserWorkspaceAccess entity, repository, and rules</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>b39fcdd</td>
+      <td>feat(workspace): introduce Workspace model, repository, and controller</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>57b3a33</td>
+      <td>chore(config): simplify allowed CORS origins using vercel wildcard</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>ce35f8a</td>
+      <td>fix(security): update cors configuration to support dynamic vercel preview domains</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>156f195</td>
+      <td>fix(config): disable hibernate ddl-auto in production to prevent connection deadlock</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>3abc65a</td>
+      <td>fix(config): limit Hikari pool size to prevent exceeding max connections in production</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>838f80b</td>
+      <td>feat(security): configure CORS allowed origins from properties and enable credentials</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>309421b</td>
+      <td>config: parameterize active Spring profile using environment variable</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>57c0c0d</td>
+      <td>config: parameterize MQTT host in production properties</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>4f7eed0</td>
+      <td>config: move development JWT secret to local dev properties</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>1de65d8</td>
+      <td>config: add application-prod.properties with environment variables placeholders</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>1a7a13c</td>
+      <td>ci: add multi-stage Dockerfile for Java 25 and configure dynamic port</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>8b99d4d</td>
+      <td>feat(iam): resolve role repository bean and entity name collisions and seed default profiles</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>87094fd</td>
+      <td>feat(iam): implement user authentication, role clash resolution, and profile seeding</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>83806dc</td>
+      <td>feat(alerts): expand alert metadata, integrate automation rules, and resolve status transitions - Update MqttTelemetrySubscriber to automatically generate global Alert and corresponding AlertMetric records (currentValue, threshold, exceededBy, sensorType, calibration, signal, status) when sensor configuration limits are breached.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>7358b2c</td>
+      <td>fix(labs): optimize metric subscriptions update and add maintenance days calculation - Refactor LaboratoryCommandServiceImpl to perform a delta update (remove, update, add) on laboratory metric subscriptions instead of clearing the collection.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>91eeaa7</td>
+      <td>chore(config): change hibernate ddl-auto to update Update the Hibernate DDL auto strategy to update instead of recreate in application.properties.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>175386f</td>
+      <td>refactor(telemetry): update MQTT ingestion and query endpoints to use MetricType Refactor MqttTelemetrySubscriber to reject unregistered metric keys, fetch unit/icon details from the MetricType catalog, and evaluate thresholds against active LabMetricSubscriptions. Update telemetry controller to serve generic historical readings by metric key, keeping the legacy temperature path for backward compatibility.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>44ba834</td>
+      <td>feat(labs): transition Laboratory sensors to dynamic metric subscriptions Remove hardcoded SensorConfig and SafetyThresholds from Laboratory aggregate and replace them with a dynamic LabMetricSubscription relationship, allowing custom min/max safety thresholds to be defined for individual metric types.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>ebb23a5</td>
+      <td>feat(telemetry): introduce MetricType catalog aggregate and REST API Add MetricType entity, repositories, command/query services, DTO resources, and REST controllers to manage the catalog of telemetry metric types (e.g. temperature, humidity, CO2). Includes a database seeder for initial metric types.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>13ba8b1</td>
+      <td>feat(telemetry): implement dynamic MQTT integration with EAV persistence and modernize temporal annotations</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>2b385dc</td>
+      <td>feat: implement sensor endpoints, telemetry updates, and MQTT integration properties - Add commands and REST endpoints for creating, updating, and calibrating sensor configurations.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>09d86fa</td>
+      <td>feat(api): implement REST endpoints for all bounded contexts - Created CRUD endpoints for laboratories, alerts, history records, and automation rules.</td>
+      <td>-</td>
+      <td>17/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>b341ba4</td>
+      <td>feat(domain): implement aggregates, entities, and repositories for bounded contexts</td>
+      <td>-</td>
+      <td>17/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>c14f1f5</td>
+      <td>chore: setup database configuration</td>
+      <td>-</td>
+      <td>17/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>08cca8f</td>
+      <td>feat: initial project structure for api</td>
+      <td>-</td>
+      <td>03/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/landing-page</td>
+      <td>main, origin/main, origin/HEAD</td>
+      <td>db59d24</td>
+      <td>update: cta links to web-app</td>
+      <td>-</td>
+      <td>20/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/landing-page</td>
+      <td>-</td>
+      <td>6626cb5</td>
+      <td>feat: about the product section added</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>main, origin/main</td>
+      <td>1c233c4</td>
+      <td>Merge pull request #26 from upc-pre-1ASI0729-11834-Especialistas/development Development</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>origin/development, development</td>
+      <td>d13e6f3</td>
+      <td>Merge pull request #25 from upc-pre-1ASI0729-11834-Especialistas/feature/frontend-implementation fix(dashboard): redirect equipment link to threshold configuration</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>cbbc82f</td>
+      <td>Merge pull request #24 from upc-pre-1ASI0729-11834-Especialistas/development Development</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>868ef40</td>
+      <td>Merge pull request #23 from upc-pre-1ASI0729-11834-Especialistas/feature/frontend-implementation Feature/frontend implementation</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>origin/feature/frontend-implementation</td>
+      <td>175328e</td>
+      <td>fix(dashboard): redirect equipment link to threshold configuration</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>4cb3d69</td>
+      <td>Merge pull request #22 from upc-pre-1ASI0729-11834-Especialistas/development Development</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>494a093</td>
+      <td>Merge pull request #21 from upc-pre-1ASI0729-11834-Especialistas/feature/frontend-implementation Feature/frontend implementation</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>24759a8</td>
+      <td>config(env): point development environment API base URL to render backend URL</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>d0189ab</td>
+      <td>fix(labs): translate hardcoded text in laboratory detail subcomponents</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>98f2e21</td>
+      <td>style(layout): add media query rules for topbar responsiveness on small screens</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>68441b6</td>
+      <td>style(labs): integrate laboratory details name, badge, and metadata directly in Topbar</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>12a9832</td>
+      <td>style(labs): clean up laboratory detail header and integrate simplified breadcrumbs in topbar</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>b9fb4c9</td>
+      <td>feat(alerts): implement alerts page and incident resolution view</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>1f81663</td>
+      <td>feat(shared): improve language switcher display layout</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>f3a4aba</td>
+      <td>feat(automation): develop settings dashboard, rules, threshold tables, and sensor management</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>646171e</td>
+      <td>feat(history): implement history log audit trail and shift report generation</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>a649668</td>
+      <td>feat(labs): build laboratory registration and details views</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>19062ad</td>
+      <td>feat(iam): implement authentication flow views for login and register</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>aec68e7</td>
+      <td>style(layout): update sidebar layout styling and workspace selection</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>78e12b7</td>
+      <td>feat(automation): integrate edit permissions dialog and store enhancements</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>3cc4c37</td>
+      <td>feat(iam): add registration page UI</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>9e87ae3</td>
+      <td>feat(workspace): introduce Workspace store and API service</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>8abc6d1</td>
+      <td>Merge pull request #20 from upc-pre-1ASI0729-11834-Especialistas/development Development</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>fea66d3</td>
+      <td>merge: sync main history into development using ours strategy</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>cb378ad</td>
+      <td>Merge pull request #19 from upc-pre-1ASI0729-11834-Especialistas/feat/backend-connection-setup Feat/backend connection setup</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>origin/feat/backend-connection-setup</td>
+      <td>ad9601b</td>
+      <td>fix: improve alerts tracking and update production backend api url</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>6d1d7d6</td>
+      <td>style: format history page template and fix character in handover notice</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>2383cee</td>
+      <td>Merge pull request #17 from upc-pre-1ASI0729-11834-Especialistas/feat/backend-connection-setup Feat/backend connection setup</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>e1bf36e</td>
+      <td>merge: integrate development branch history</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>fd49314</td>
+      <td>Merge pull request #16 from upc-pre-1ASI0729-11834-Especialistas/revert-15-feat/backend-connection-setup Revert "Feat/backend connection setup"</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>origin/revert-15-feat/backend-connection-setup</td>
+      <td>b3d90a9</td>
+      <td>Revert "Feat/backend connection setup"</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>2ba3565</td>
+      <td>Merge pull request #15 from upc-pre-1ASI0729-11834-Especialistas/feat/backend-connection-setup Feat/backend connection setup</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>bc9f8f7</td>
+      <td>feat: manual merge of development branch (i18n, app.config, json-server routing)</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>228d556</td>
+      <td>fix(env): remove trailing slash from platform provider api base url</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>3b2d66f</td>
+      <td>feat(iam): integrate profile settings, password update, and session metadata</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>e38a5af</td>
+      <td>feat: add login page</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>38166b4</td>
+      <td>feat(alerts/labs): bind incident views to backend telemetry and remove redundant status card - Extend Alert entity models, resource interfaces, and assembler mapping to include detailed telemetry metrics, timestamps, and sensor metadata from the backend.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>d00873f</td>
+      <td>feat(labs): implement laboratory editing, refactor detail page widgets, and improve dashboard resilience - Configure edit mode for AddLaboratoryPageComponent under the ':id/edit' route.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>7adb779</td>
+      <td>refactor(telemetry): support generic metric types in charts and dashboard Update the historical readings API client and store to query backend records dynamically by metric key. Enhance the dashboard and ApexCharts component to format units and titles dynamically based on the selected MetricType.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>11286b8</td>
+      <td>feat(labs): transition UI and routing to dynamic metric subscriptions Update laboratory models, assemblers, store, and config screens to replace binary sensor toggles with dynamic metric subscriptions featuring min/max safety threshold fields. Add a dedicated UI page and dialog for managing the system's Metric Types catalog.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>d6acdfe</td>
+      <td>feat(telemetry): introduce MetricType catalog domain model and state Implement the domain entity, API service, assembler, and Signal-based store for MetricType to fetch and manage the available metric definitions from the backend catalog.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>247bbd9</td>
+      <td>feat(telemetry): support dynamic multi-laboratory charts, sensor provisioning and system health banner</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>fc314fb</td>
+      <td>feat(backend-connection): integrate frontend UI components with state stores and API endpoints - Connected alerts, incident details, and resolution pages to AlertsStore.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>35a5b6b</td>
+      <td>feat(config): configure development environment endpoints for backend connection</td>
+      <td>-</td>
+      <td>17/06/2026</td>
+    </tr>
   </tbody>
 </table>
 
@@ -1067,7 +1831,7 @@ Se modificó el poryecto web para integrar los web services desarrollados durant
 </ul>
 
 <p><strong>Despliegue de la aplicación web:</strong><br>
-<a href="https://frontend-jade-seven-fwvgy3syck.vercel.app/">Safelab Web Application</a></p>
+<a href="https://frontend-iuj2kbsqn-manuel-sanchezs-projects-f772331f.vercel.app/">Safelab Web Application</a></p>
 
 ### **5.2.3.6. Web Services Documentation Evidence for Sprint Review**
 
@@ -1076,19 +1840,44 @@ Se modificó el poryecto web para integrar los web services desarrollados durant
 Se desarrollaron los principales web services para las funcionalidades core de la aplicación web. A continuación, se presenta los endpoints documentados en swagger para cada uno de los servicios implementados:
 
 <ul>
-  <li><strong>Laboratories Endpoints</strong><br><img src="./assets/chapter-v/sprint-3-evidence-laboratories-endpoint.png" alt="Laboratories Endpoint"></li>
-  <li><strong>Telemetry Endpoints</strong><br><img src="./assets/chapter-v/sprint-3-evidence-telemetry-endpoint.png" alt="Telemetry Endpoint"></li>
-  <li><strong>History Endpoints</strong><br><img src="./assets/chapter-v/sprint-3-evidence-history-endpoint.png" alt="History Endpoint"></li>
-  <li><strong>Alerts Endpoints</strong><br><img src="./assets/chapter-v/sprint-3-evidence-alerts-endpoint.png" alt="Alerts Endpoint"></li>
-  <li><strong>Settings Endpoints</strong><br><img src="./assets/chapter-v/sprint-3-evidence-settings-endpoint.png" alt="Settings Endpoint"></li>
+  <li><strong>Laboratories Endpoints</strong><img src="./assets/chapter-v/sprint-3-evidence-laboratories-endpoint.png" alt="Laboratories Endpoint"></li>
+  <li>
+    <strong>Telemetry Endpoints</strong>
+    <img src="./assets/chapter-v/sprint-3-evidence-1-telemetry-endpoint.png" alt="Telemetry Endpoint">
+    <img src="./assets/chapter-v/sprint-3-evidence-2-telemetry-endpoint.png" alt="Telemetry Endpoint">
+    <img src="./assets/chapter-v/sprint-3-evidence-3-telemetry-endpoint.png" alt="Telemetry Endpoint">
+  </li>
+  <li><strong>History Endpoints</strong><img src="./assets/chapter-v/sprint-3-evidence-history-endpoint.png" alt="History Endpoint"></li>
+  <li><strong>Alerts Endpoints</strong><img src="./assets/chapter-v/sprint-3-evidence-alerts-endpoint.png" alt="Alerts Endpoint"></li>
+  <li>
+    <strong>Settings Endpoints</strong>
+    <img src="./assets/chapter-v/sprint-3-evidence-1-settings-endpoint.png" alt="Settings Endpoint">
+    <img src="./assets/chapter-v/sprint-3-evidence-2-settings-endpoint.png" alt="Settings Endpoint">
+  </li>
+  <li><strong>Authentication Endpoints</strong><img src="./assets/chapter-v/sprint-3-evidence-authentication-endpoint.png" alt="Authentication Endpoint"></li>
 </ul>
 
-<p><strong>Despliegue de la API:</strong><br>
-<a href="">Safelab API</a></p>
+<p><strong>Despliegue de la API: </strong><a href="https://backend-5mih.onrender.com/swagger/swagger-ui/index.html#/">Safelab Web Services</a></p>
 
 ### **5.2.3.7. Software Deployment Evidence for Sprint Review**
 
-Se realizó un nuevo despliegue de la web application en Vercel. También se hizo el primer despliegue de la API de Safelab en Railway, logrando la integración entre frontend y backend. A continuación se presentan las evidencias de ambos despliegues:
+Se realizaron múltiples despliegue durante el Sprint 3: Aplicación web en Vercel, API de Safelab en Railway y Landing Page en GitHub Pages. A continuación se presentan las evidencias de cada uno de los despliegues realizados: 
+
+**Landing Page Deployment:**
+<ul>
+  <li>
+    <strong>URL de la Landing Page:</strong>
+    <a href="https://upc-pre-1asi0729-11834-especialistas.github.io/landing-page/" target="_blank">https://upc-pre-1asi0729-11834-especialistas.github.io/landing-page/</a>
+  </li>
+  <li>
+    <strong>Repositorio:</strong>
+    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page</a>
+  </li>
+  <li>
+    <strong>Despliegue en Github Pages:</strong><br>
+    <img src="./assets/chapter-v/evidence-landing-page-deployment.png" alt="Landing Page Deployment">
+  </li>
+</ul>
 
 **Web Application Deployment:**
 <ul>
@@ -1110,15 +1899,16 @@ Se realizó un nuevo despliegue de la web application en Vercel. También se hiz
 <ul>
   <li>
     <strong>URL de la API:</strong>
-    <a href="https://fake-api-production-0033.up.railway.app/" target="_blank">https://fake-api-production-0033.up.railway.app/</a>
+    <a href="https://backend-5mih.onrender.com/swagger/swagger-ui/index.html#/" target="_blank">https://backend-5mih.onrender.com/swagger/swagger-ui/index.html#/</a>
   </li>
   <li>
     <strong>Repositorio:</strong>
-    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/fake-api" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/fake-api</a>
+    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/backend" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/backend</a>
   </li>
   <li>
-    <strong>Despliegue en Railway:</strong><br>
-    <img src="./assets/chapter-v/evidence-fake-api-deployment.png" alt="Fake API Deployment">
+    <strong>Despliegue en Render:</strong><br>
+    <img src="./assets/chapter-v/evidence-backend-deployment.png" alt="Backend Deployment">
+  </li>
 </ul>
 
 ### **5.2.3.8. Team Collaboration Insights during Sprint** 
@@ -1134,28 +1924,46 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
 - WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
 - Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
 
+## **5.3. Validation Interviews**
+
+Durante el Sprint 3, se realizaron entrevistas de validación con usuarios potenciales para obtener feedback sobre la aplicación web y los servicios desarrollados. Las entrevistas se llevaron a cabo de manera remota, y se enfocaron en evaluar la usabilidad, funcionalidad y experiencia general del producto.
+
+### **5.3.1. Diseño de entrevistas**
+
+### **5.3.2. Registro de entrevistas**
+
+### **5.3.3. Evaluaciones según heuristicas**
+
+## **5.4 Video About-the-Product**
+
 # **Conclusiones**
 
-Durante el Sprint 2, el equipo completó en el plazo establecido el desarrollo de las vistas principales de la aplicación web, así como el despliegue exitoso de la misma y de la fake API. Además, se establecieron las bases para la integración futura con el backend y se documentaron los endpoints de la fake API, lo que permitirá una documentación detallada de los servicios en los próximos Sprints.
+En este Sprint 3, el equipo tuvo el mayor progreso en el desarrollo de la aplicación web, logrando implementar las vistas principales y establecer la conexión con los servicios web desarrollados en Java.
+
+Por último, conectamos los CTA de la Landing Page a la aplicación web, lo que permitió una experiencia de usuario fluida desde la presentación del producto hasta la interacción con la aplicación.
 
 A partir de este nuevo avance, llegamos a las siguientes conclusiones:
 
-- Gracias a gitflow, logramos segmentar los avances en ramas específicas para cada Bounded Context, lo que facilitó la gestión de tareas y la integración de funcionalidades.
-- La comunicación fluida a través de WhatsApp y Google Meet permitió resolver dudas rápidamente y mantener a todo el equipo alineado con los objetivos del Sprint.
-- La coordinación para definir los objetos y estructuras de datos de la fake API fue clave para asegurar que el desarrollo de la aplicación web se realizara de manera coherente y con una visión clara de las interacciones futuras con el backend.
+- Con la integración de los servicios web en la aplicación, y la presentación de la misma en la Landing Page, se logró un avance más tangible del producto, lo que permitió al equipo visualizar mejor el resultado final y realizar ajustes necesarios para mejorar la experiencia de usuario.
+- Durante este Sprint, el equipo se enfrentó a muchos cambios de ultimo momento debido a los avances simultáneos en el desarrollo del backend y frontend, generando desafíos en la coordinación y planificación. Sin embargo, se logró mantener una comunicación efectiva y adaptarse a los cambios para cumplir con los objetivos del Sprint.
 
 # **Anexos**
+
+**About the Product**
+- Link al video de presentación del producto: [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201817507_upc_edu_pe/IQC5o-GEjsfHS5SuthFVzlhWAalwcW_vlJT5VfBVj0VUozk?e=nUWtXh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Repositorios**
 - Repositorio de la Landing Page: https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page
 - Repositorio del fake API: https://github.com/upc-pre-1ASI0729-11834-Especialistas/fake-api
 - Repositorio del frontend: https://github.com/upc-pre-1ASI0729-11834-Especialistas/frontend
 - Repositorio del informe: https://github.com/upc-pre-1ASI0729-11834-Especialistas/report
+- Repositorio del backend: https://github.com/upc-pre-1ASI0729-11834-Especialistas/backend
 
 **Despliegues**
 - Despliegue de la Landing Page: https://upc-pre-1asi0729-11834-especialistas.github.io/landing-page/
 - Despliegue del fake API: https://fake-api-production-0033.up.railway.app/
 - Despliegue de la Web Application: https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/
+- Despliegue de los Web Services: https://backend-5mih.onrender.com/swagger/swagger-ui/index.html#/
 
 # **Bibliografía**
 

@@ -286,28 +286,28 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
         <strong>Manuel Sanchez</strong><br>
         <strong>AV1: </strong>Expongo con efectividad la propuestas del diseño de la aplicación.<br>
         <strong>TB1: </strong>A través de las reuniones de equipo, comparto las ideas y avances del proyecto.<br>
-        <strong>AV2: </strong>.<br>
+        <strong>AV2: </strong>Sustento verbalmente las propuestas para la integración del backend con el frontend y coordino con mi equipo la corrección de los errores que puede haber.<br>
         <br>
         <strong>Jean Arizabal</strong><br>
         <strong>AV1: </strong>Presento la propuesta de solución de forma detallada considerando los antecedentes, el perfil de la solución, el análisis competitivo y el needfinding.<br>
         <strong>TB1: </strong>Comunico a mi equipo mis ideas para el desarrollo del proyecto y para poder trabajar sin conflictos <br>
-        <strong>AV2: </strong>.<br>
+        <strong>AV2: </strong>Dirijo las entrevistas de validación con los usuarios finales, utilizando un lenguaje claro para obtener feedback sobre la plataforma integrada.<br>
         <br>
         <strong>Esteban Chavez</strong><br>
         <strong>AV1: </strong>Explico detalladamente el event storming, desde el inicio hasta el final, los diagramas, tanto de clase como de base de datos y el diseño de la landing page.<br>
         <strong>TB1: </strong>Explico a mis compañeros las modificaciones y correcciones de los requisitos del proyecto para ajustar el desarrollo de la aplicación.<br>
-        <strong>AV2: </strong>.<br>
+        <strong>AV2: </strong>Muestro al equipo los resultados de las evaluaciones heurísticas, detallando los problemas de usabilidad encontrados para priorizar los cambios en la interfaz.<br>
         <br>
         <strong>Jhon Jaramillo</strong><br>
         <strong>AV1: </strong>Expongo y sustento las decisiones arquitectónicas del proyecto utilizando los diagramas C4, además de presentar el diseño, flujo y propósito de la landing page al equipo.<br>
         <strong>TB1: </strong>Consulto mis dudas con mis compañeros y busco orientación para resolver los desafíos del proyecto.<br>
-        <strong>AV2: </strong>.<br>
+        <strong>AV2: </strong>Explico la lógica de los endpoints del backend desarrollados al equipo para asegurar una integración fluida.<br>
         <br>
       </td>
       <td>
         <strong>AV1:</strong> Para poder comunicar efectivamente nuestras ideas fue necesario trabajar en nuestra capacidad de expresión y en la claridad de nuestra comunicación.<br>
         <strong>TB1:</strong> Para poder entregar un producto alineado a los requisitos fue necesario comprender las modificaciones de los requisitos. Para ello, la comunicación entre los miembros del equipo fue fundamental.<br>
-        <strong>AV2:</strong> .<br>
+        <strong>AV2:</strong>La comunicación oral en este avance fue clave para interactuar con audiencias externas (usuarios en validaciones) y coordinar la integración técnica y las mejoras de usabilidad.<br>
       </td>
     </tr>
     <tr>
@@ -316,28 +316,27 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
         <strong>Manuel Sanchez</strong><br>
         <strong>AV1: </strong>Redacto documentos claros y objetivos sobre las historias de usuario de Safelab.<br>
         <strong>TB1: </strong>Redacto la documentación técnica del sprint del proyecto a través de estándares apropiados para su correcta lectura.<br>
-        <strong>AV2: </strong>.<br>
+        <strong>AV2: </strong>Documento las pruebas de integración del frontend y los ajustes realizados en el sprint.<br>
         <br>
         <strong>Jean Arizabal</strong><br>
         <strong>AV1: </strong>Redacto con detenimiento detalles sobre la startup, el perfil de la solución, el análisis competitivo y el needfinding.<br>
         <strong>TB1: </strong>Redacto propuestas de corrección para mejorar la calidad del producto. Hago correcciones puntutales para alinear el producto con los requisitos.<br>
-        <strong>AV2: </strong>.<br>
+        <strong>AV2: </strong>Diseño las preguntas para las entrevistas de validación y registro de forma analítica el reporte con los hallazgos y conclusiones de los usuarios.<br>
         <br>
         <strong>Esteban Chavez</strong><br>
         <strong>AV1: </strong>Escribo claramente la informacion necesaria que cada diagrama, e imagen necesita, de forma sencilla y tecnica, demostrando conocimientos especificos para las diferentes secciones.<br>
         <strong>TB1: </strong>Recibo el feeback y coordino las correcciones necesarias siguiendo los estándares del informe.<br>
-        <strong>AV2: </strong>.<br>
+        <strong>AV2: </strong>Redacto detalladamente el informe de evaluación por heurísticas del equipo adyacente, clasificando cada problema de usabilidad según su severidad bajo un formato técnico y formal.<br>
         <br>
         <strong>Jhon Jaramillo</strong><br>
         <strong>AV1: </strong>Redacto historias de usuario claras y detalladas para estructurar la landing page, y documento la arquitectura del sistema elaborando diagramas de contexto y contenedores bajo el modelo C4.<br>
         <strong>TB1: </strong>Documento las decisiones en las reuniones del equipo para asegurar la alineación y el progreso del proyecto.<br>
-        <strong>AV2: </strong>.<br>
-        <br>
+        <strong>AV2: </strong>Redacto la documentación técnica del backend, detallando el funcionamiento de los endpoints y respuestas de la API para el equipo y futuros desarrolladores que puedan involucrarse en el proyecto.<br><br>
       </td>
       <td>
         <strong>AV1: </strong>Para poder comunicar efectivamente nuestras ideas en el reporte fue necesario tener un bien planteada nuestra propuesta.<br>
         <strong>TB1: </strong>A través del feedback del informe, logramos optimizar lac comunicación de la propuesta de nuestro producto en el documento.<br>
-        <strong>AV2:</strong> .<br>
+        <strong>AV2:</strong>La documentación técnica y correcta redacción del reporte nos permitieron formalizar el progreso de la start-up y asegurar que la landing page comunique su valor comercial mediante los CTA correspondientes.<br>
       </td>
     </tr>
   </tbody>  

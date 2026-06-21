@@ -1930,11 +1930,313 @@ Durante el Sprint 3, se realizaron entrevistas de validación con usuarios poten
 
 ### **5.3.1. Diseño de entrevistas**
 
+*Segmento Objetivo: Supervisor de Laboratorio*
+
+***Userflow 1***:
+
+**User Goal**: Como supervisor de laboratorio, quiero registrar un nuevo laboratorio en el sistema, para poder monitorear sus métricas. Esto se confirmará cuando el nuevo laboratorio sea presentado en la sección “Laboratorios”.
+
+**Happy Path**:
+
+- El usuario se encuentra en la página principal, selecciona el botón “Laboratorios” del menú lateral.
+- En la página “Laboratorios”, selecciona el botón “Añadir Laboratorio”.
+- En el formulario de nuevo laboratorio, rellena la información necesaria, y selecciona el botón “Guardar Laboratorio”.
+- El nuevo laboratorio se muestra en la página “Laboratorios”.
+
+**Formulario de Preguntas**:
+
+- ¿Te fue fácil encontrar el menú Laboratorios?
+- ¿Te es fácil encontrar un laboratorio en específico?
+- Sobre los datos de los laboratorios, ¿crees que están ordenados de forma clara e intuitiva?
+- ¿Hay algún dato nuevo que quisieras añadir que no esté presente?
+
+***Userflow 2***:
+
+**User Goal**: Como supervisor de laboratorio, quiero revisar las alertas generadas por el sistema, para tomar acciones correctivas. Esto se confirmará cuando tenga acceso a los datos pertinentes.
+
+**Happy Path**:
+
+- El usuario se encuentra en la página principal, selecciona el botón “Laboratorios” del menú lateral.
+- En la página “Alertas”, visualiza la información básica de las alertas recientes, selecciona “Investigar” en una de ellas.
+- En la página de una alerta específica, visualiza toda la información relacionada.
+- Selecciona una de las acciones presentadas, como “Marcar como resuelto”.
+
+**Formulario de Preguntas**:
+
+- ¿Te fue fácil encontrar el menú Alertas?
+- ¿Crees que la información está bien estructurada y es intuitiva?
+- ¿Te es útil la información que te muestra el sistema?
+
 ### **5.3.2. Registro de entrevistas**
+
+**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919096_upc_edu_pe/IQDQsXUMJv6oT4MlEamYPpkzAUG69nGOv--2d8afKmeUftA?e=R75Y9W&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Segmento Objetivo: Supervisor de Laboratorio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Entrevista 1:</strong> Fabrizio Palomino</td>
+      <td><strong>Duración:</strong> 8 minutos y 30 segundos</td>
+    </tr>
+    <tr>
+      <td><strong>Instante en el que inicia:</strong> 0 minutos y 0 segundos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <strong>Screenshot:</strong><br>
+        <img src="./assets/chapter-v/validation-interview-1.png" alt="imagen de entrevistado">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <strong>Resumen de la entrevista:</strong><br>
+        El entrevistado, Fabrizio Palomino, un biólogo que labora en un hospital y dirige un laboratorio particular, compartió observaciones muy relevantes tras explorar el prototipo de la aplicación SafeLab. En primer lugar, señaló que la plataforma le resultó didáctica y fácil de comprender. Destacó que el proceso para añadir un nuevo laboratorio cuenta con campos de información útiles, como la ubicación y las fechas de mantenimiento, y valoró especialmente la configuración de los sensores. Consideró que la interfaz gráfica, apoyada en márgenes ajustables e imágenes descriptivas, es clara y le otorga la garantía necesaria para mantener el control sobre equipos críticos, como las refrigeradoras y estufas de sus cultivos biológicos.<br><br>
+        Durante la evaluación del panel de notificaciones, el entrevistado mencionó una oportunidad de mejora organizativa, sugiriendo que la visualización de los laboratorios debería contar con un orden alfabético para facilitar su búsqueda. Sin embargo, consideró muy acertado el uso de un código de colores (rojo para incidencias críticas y verde para estados normales), ya que permite identificar rápidamente los problemas. Asimismo, subrayó que el monitoreo constante y la recepción de alertas directamente en el celular representan una gran ventaja para su rutina laboral, permitiéndole actuar de forma inmediata ante cualquier eventualidad.<br><br>
+        En general, la percepción del biólogo fue muy positiva, destacando que el sistema está bien estructurado y es funcional para las necesidades de su sector. Finalmente, como sugerencia de cierre, recomendó asegurar que la aplicación cuente con actualizaciones constantes y un soporte técnico eficiente que garantice el respaldo necesario frente a cualquier eventualidad o defecto futuro en el sistema.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### **5.3.3. Evaluaciones según heuristicas**
 
+En esta sección, describe la evaluación de la experiencia de usuario de la propuesta, aplicando un análisis heurístico integral que considera principios de usabilidad, arquitectura de información e inclusive design. La evaluación tiene como objetivo identificar problemas potenciales en la interacción usuario-sistema antes de su desarrollo o implementación final.
+
+#### ESCALA DE SEVERIDAD:
+
+<table border="1" cellspacing="0" cellpadding="6">
+    <thead>
+        <tr align="center">
+          <td><strong>Nivel</strong></td>
+          <td><strong>Descripción</strong></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+        </tr>
+    </tbody>
+</table>
+
+#### TABLA RESUMEN:
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Problema</th>
+      <th>Escala de severidad</th>
+      <th>Heurística / Principio violada(o)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>La descarga del reporte de turno en PDF no funciona correctamente</td>
+      <td>4</td>
+      <td>Usability: Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>La pantalla de Laboratorios muestra 'Cargando laboratorios...' indefinidamente en la carga inicial</td>
+      <td>3</td>
+      <td>Usability: Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Las tarjetas de estadísticas muestran '[object Object]' en lugar de valores reales</td>
+      <td>4</td>
+      <td>Usability: Consistencia y estándares</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>El formulario 'Nuevo Laboratorio' mezcla etiquetas en inglés e español</td>
+      <td>2</td>
+      <td>Usability: Consistencia y estándares</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>No existe confirmación visual al resolver una alerta crítica</td>
+      <td>3</td>
+      <td>Usability: Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>El módulo de usuarios muestra 0 permisos para todos los roles definidos</td>
+      <td>3</td>
+      <td>Usability: Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>No hay un mecanismo de 'deshacer' al marcar una alerta como resuelta</td>
+      <td>3</td>
+      <td>Usability: Libertad y control del usuario</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>La búsqueda global no filtra en tiempo real mientras el usuario escribe</td>
+      <td>2</td>
+      <td>Information Architecture: Is it findable?</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Los sensores no muestran tendencia histórica en la vista de listado</td>
+      <td>2</td>
+      <td>Information Architecture: Is it useful?</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>El dashboard no indica la última vez que los datos fueron actualizados</td>
+      <td>2</td>
+      <td>Usability: Visibilidad del estado del sistema</td>
+    </tr>
+  </tbody>
+</table>
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+#### **PROBLEMA #1: La descarga del reporte de turno en PDF no funciona**
+* **Severidad:** 4
+* **Heurística violada:** Usability - Visibilidad del estado del sistema
+* **Tarea relacionada:** Generación y descarga de reporte de turno
+* **Descripción del problema:** En la pantalla de 'Cronología del Turno', el sistema presenta opciones 'Preview PDF' y 'Download PDF Report'. Al hacer clic en 'Download PDF Report', el archivo no se descarga. No se muestra ningún mensaje de error, indicador de carga, ni retroalimentación alguna al usuario sobre el resultado de la acción. El usuario desconoce si la acción se está procesando, si falló o si debe repetirla.
+* **Recomendación:**
+  * Mostrar un spinner o barra de progreso durante la generación del PDF.
+  * Presentar un mensaje de error claro si el proceso falla (ej. *'No se pudo generar el PDF. Intente nuevamente.'*).
+  * Confirmar la descarga exitosa mediante una notificación tipo toast o alerta verde.
+  * Habilitar un modo de reintento sin perder las notas del turno ya ingresadas.
+
+---
+
+#### **PROBLEMA #2: Pantalla de Laboratorios carga indefinidamente**
+* **Severidad:** 3
+* **Heurística violada:** Usability - Visibilidad del estado del sistema
+* **Tarea relacionada:** Filtrado y visualización de laboratorios
+* **Descripción del problema:** La pantalla de Laboratorios muestra el mensaje 'Cargando laboratorios...' junto a un indicador de spinner de forma indefinida, sin llegar a mostrar el contenido. El contador indica '0 Laboratorios' pero existen 12 en el sistema. Esto ocurre especialmente en la carga inicial o al navegar hacia esta vista desde el dashboard.
+* **Recomendación:**
+  * Definir un timeout máximo (ej. 10 segundos) tras el cual mostrar un mensaje de error con opción de reintento.
+  * Mostrar el número real de laboratorios tan pronto se reciban los primeros datos (*lazy loading*).
+  * Agregar un mensaje de estado: *'Recuperando 12 laboratorios del servidor...'* para contextualizar la espera.
+
+---
+
+#### **PROBLEMA #3: Tarjetas del dashboard muestran '[object Object]'**
+* **Severidad:** 4
+* **Heurística violada:** Usability - Consistencia y estándares
+* **Tarea relacionada:** Visualización del dashboard y alertas
+* **Descripción del problema:** Las tarjetas de estadísticas de la vista de Alertas (*Critical, Warning, Informational, Resolved Today*) muestran '[object Object]' en lugar del texto descriptivo correspondiente. Esto es resultado de un error de renderizado donde un objeto JavaScript es convertido implícitamente a cadena de texto sin la propiedad correcta.
+* **Recomendación:**
+  * Revisar la propiedad accedida en los componentes de tarjeta de resumen (ej. usar `item.label` en lugar de `item`).
+  * Implementar pruebas de integración que validen el renderizado de componentes con datos reales.
+  * Aplicar validaciones de tipo en tiempo de compilación (TypeScript) para evitar errores similares.
+
+---
+
+#### **PROBLEMA #4: Formulario 'Nuevo Laboratorio' mezcla idiomas**
+* **Severidad:** 2
+* **Heurística violada:** Usability - Consistencia y estándares
+* **Tarea relacionada:** Registro de un nuevo laboratorio
+* **Descripción del problema:** El formulario de creación de nuevo laboratorio presenta un título en inglés (*'New Laboratory', 'Basic Information', 'Save Laboratory'*) mientras que la interfaz general del sistema está configurada en español. Los campos del formulario como *'Laboratory Name', 'Lab ID / Code', 'Select building', 'Room Number'* y *'Select type'* tampoco están traducidos.
+* **Recomendación:**
+  * Asegurar que todos los textos del formulario pasen por el sistema de internacionalización (i18n) de la aplicación.
+  * Realizar una auditoría de todos los formularios para identificar cadenas de texto hardcodeadas en inglés.
+  * Agregar pruebas automatizadas que verifiquen la traducción completa al cambiar el idioma.
+
+---
+
+#### **PROBLEMA #5: Sin confirmación visual al resolver alerta crítica**
+* **Severidad:** 3
+* **Heurística violada:** Usability - Visibilidad del estado del sistema
+* **Tarea relacionada:** Resolución de alertas críticas
+* **Descripción del problema:** En la pantalla de detalle del incidente activo, el botón 'Mark as Resolved' permite al operador resolver la alerta. Sin embargo, al pulsarlo, no existe ningún diálogo de confirmación que solicite al usuario que ingrese una nota de acción correctiva, a pesar de que la propia interfaz indica: *'Resolving requires a note describing the corrective action taken'*.
+* **Recomendación:**
+  * Implementar un modal de confirmación obligatorio antes de marcar como resuelta la alerta. El modal debe incluir un campo de texto requerido para la nota de acción correctiva.
+  * Deshabilitar el botón de confirmación hasta que el campo de notas contenga al menos un mínimo de caracteres.
+  * Registrar automáticamente fecha, hora, operador y nota en el historial del incidente.
+
+---
+
+#### **PROBLEMA #6: Roles con 0 permisos definidos en gestión de usuarios**
+* **Severidad:** 3
+* **Heurística violada:** Usability - Ayuda a reconocer, diagnosticar y recuperarse de errores
+* **Tarea relacionada:** Gestión de usuarios y permisos
+* **Descripción del problema:** En la sección de Usuarios y Permisos, el panel lateral 'Role definitions' muestra los roles 'Administrator' y 'Operator' con '0 permissions' cada uno. Esto indica que los roles no tienen permisos configurados, lo cual es una condición anómala que puede derivar en que usuarios con rol Administrador o Supervisor no tengan acceso a funciones esenciales del sistema.
+* **Recomendación:**
+  * Mostrar una advertencia prominente cuando un rol tenga 0 permisos asignados (*'Este rol no tiene permisos configurados. Los usuarios no podrán realizar acciones.'*).
+  * Proporcionar un enlace directo desde la tarjeta del rol hacia la pantalla de configuración de permisos.
+  * Definir permisos predeterminados razonables para cada rol en la configuración inicial del sistema.
+
+---
+
+#### **PROBLEMA #7: No existe opción de deshacer al resolver una alerta**
+* **Severidad:** 3
+* **Heurística violada:** Usability - Libertad y control del usuario
+* **Tarea relacionada:** Resolución y escalada de alertas
+* **Descripción del problema:** Una vez que el operador marca una alerta como 'Resuelta', no existe ningún mecanismo para revertir esta acción en caso de error. Si el operador resuelve accidentalmente una alerta que aún está activa, el sistema no ofrece forma de reabrirla desde la misma interfaz, y la alerta desaparece de la lista de activas.
+* **Recomendación:**
+  * Agregar un botón 'Reabrir Incidente' en la vista de alertas resueltas.
+  * Implementar un período de gracia (ej. 5 minutos) con opción de deshacer mediante una notificación tipo toast: *'Alerta marcada como resuelta. Deshacer'*.
+  * Mantener las alertas resueltas visibles con estado diferenciado en lugar de eliminarlas de la vista.
+
+---
+
+#### **PROBLEMA #8: La búsqueda global no filtra en tiempo real**
+* **Severidad:** 2
+* **Heurística violada:** Information Architecture - Is it findable?
+* **Tarea relacionada:** Búsqueda de laboratorios o alertas
+* **Descripción del problema:** El campo 'Buscar laboratorios o alertas...' en el encabezado global no muestra resultados mientras el usuario escribe. No se aprecia ningún feedback visual de búsqueda en tiempo real, y no queda claro si la búsqueda requiere presionar Enter o si simplemente no funciona en determinadas vistas.
+* **Recomendación:**
+  * Implementar búsqueda con debounce (300ms) que filtre resultados mientras el usuario escribe.
+  * Mostrar un dropdown con sugerencias inmediatas (laboratorios, alertas, sensores) al comenzar a escribir.
+  * Indicar con un ícono de spinner cuando la búsqueda está procesando resultados.
+
+---
+
+#### **PROBLEMA #9: Sensores sin tendencia histórica en vista de listado**
+* **Severidad:** 2
+* **Heurística violada:** Information Architecture – Is it useful?
+* **Tarea relacionada:** Configuración de sensores y calibración
+* **Descripción del problema:** La pantalla de configuración de sensores lista los sensores con información básica (tipo, unidad, última calibración, laboratorio y última conexión). Sin embargo, no muestra ninguna indicación de tendencia o variación reciente de los valores medidos. El operador debe acceder al detalle de cada sensor para ver si hay anomalías emergentes.
+* **Recomendación:**
+  * Agregar una columna de 'Último Valor' con el reading más reciente del sensor.
+  * Incluir un microchip o sparkline (mini gráfico) que muestre la tendencia de las últimas 2 horas.
+  * Aplicar código de color al valor del sensor según si está dentro o fuera del umbral configurado.
+
+---
+
+#### **PROBLEMA #10: Dashboard no indica cuándo fueron actualizados los datos**
+* **Severidad:** 2
+* **Heurística violada:** Usability – Visibilidad del estado del sistema
+* **Tarea relacionada:** Visualización del dashboard principal
+* **Descripción del problema:** La sección 'Estado del Equipo' del dashboard muestra lecturas de temperatura de equipos como ULT Freezer F-07, Refrigerator B2, CO2 Incubator CM-01, etc. Sin embargo, no existe ningún indicador de timestamp ni de frecuencia de actualización que informe al operador si los datos son en tiempo real o corresponden a una captura antigua.
+* **Recomendación:**
+  * Agregar un indicador *'Última actualización: hace X segundos'* junto a cada sección de datos en tiempo real.
+  * Definir una alerta o aviso si la conexión con el servidor de telemetría se pierde por más de un intervalo de tiempo prudencial.
+
+
 ## **5.4 Video About-the-Product**
+
+Evidencia de la elaboración del video About the Product: ![Evidencia About the Product](./assets/chapter-v/evidence-about-the-product.png)
+
+Link del video: [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201817507_upc_edu_pe/IQC5o-GEjsfHS5SuthFVzlhWAalwcW_vlJT5VfBVj0VUozk?e=Ru1mGl)
 
 # **Conclusiones**
 

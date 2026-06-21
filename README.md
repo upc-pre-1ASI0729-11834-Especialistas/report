@@ -41,56 +41,84 @@
 
 <p align="center"><strong>Mes y Año:</strong> Abril 2025</p>
 
-## Registro de Versiones del Informe
+## **Registro de Versiones del Informe**
 
 <table border="1" cellpadding="6" cellspacing="0">
-    <thead>
-        <tr>
-            <th>Versión</th>
-            <th>Fecha</th>
-            <th>Autor(es)</th>
-            <th>Descripción de Modificación</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><strong>1.0</strong></td>
-          <td>2026-04-25</td>
-          <td>
-              - Sanchez Arenas, Manuel Angel<br>
-              - Arizabal Condori, Jean Niels<br>
-              - Chavez Bardales, Esteban Eduardo<br>
-              - Jaramillo Mayta, Jhon Jordy
-          </td>
-          <td>
-              <strong>Se incluye:</strong><br>
-              -Carátula, Registro de versiones, Student Outcome y Contenido de Informe<br>
-              -Capitulo I: Introducción<br>
-              -Capitulo II: Requirements Elicitation & Analysis<br>
-              -Capitulo III: Especificación de Requerimientos<br>
-              -Capitulo IV: Diseño del Producto<br>
-              -Capitulo V: Implementación, Validación y Despliegue del Producto<br>
-          </td>
-        </tr>
-        <tr>
-          <td><strong>2.0</strong></td>
-          <td>2026-05-14</td>
-          <td>
-              - Sanchez Arenas, Manuel Angel<br>
-              - Arizabal Condori, Jean Niels<br>
-              - Chavez Bardales, Esteban Eduardo<br>
-              - Jaramillo Mayta, Jhon Jordy
-          </td>
-          <td>
-              <strong>Se incluye:</strong><br>
-              -Corrección de Capitulo III: User Stories<br>
-              -Capitulo V: Documentación del Sprint 2 (Sprint Backlog, Deployment Evidence, Software Documentation)<br>
-          </td>
-        </tr>
-    </tbody>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor(es)</th>
+      <th>Descripción de Modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1.0</strong></td>
+      <td>2026-04-25</td>
+      <td>
+        <ul>
+          <li>Sanchez Arenas, Manuel Angel</li>
+          <li>Arizabal Condori, Jean Niels</li>
+          <li>Chavez Bardales, Esteban Eduardo</li>
+          <li>Jaramillo Mayta, Jhon Jordy</li>
+        </ul>
+      </td>
+      <td>
+        <strong>Se incluye:</strong>
+        <ul>
+          <li>Carátula, Registro de versiones, Student Outcome y Contenido de Informe</li>
+          <li>Capitulo I: Introducción</li>
+          <li>Capitulo II: Requirements Elicitation & Analysis</li>
+          <li>Capitulo III: Especificación de Requerimientos</li>
+          <li>Capitulo IV: Diseño del Producto</li>
+          <li>Capitulo V: Implementación, Validación y Despliegue del Producto</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>2.0</strong></td>
+      <td>2026-05-14</td>
+      <td>
+        <ul>
+          <li>Sanchez Arenas, Manuel Angel</li>
+          <li>Arizabal Condori, Jean Niels</li>
+          <li>Chavez Bardales, Esteban Eduardo</li>
+          <li>Jaramillo Mayta, Jhon Jordy</li>
+        </ul>
+      </td>
+      <td>
+        <strong>Se incluye:</strong><br>
+        <ul>
+          <li>Corrección de Capitulo III: User Stories<br></li>
+          <li>Capitulo V: Documentación del Sprint 2 (Sprint Backlog, Deployment Evidence, Software Documentation)<br></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>3.0</strong></td>
+      <td>2026-06-14</td>
+      <td>
+        <ul>
+          <li>Sanchez Arenas, Manuel Angel</li>
+          <li>Arizabal Condori, Jean Niels</li>
+          <li>Chavez Bardales, Esteban Eduardo</li>
+          <li>Jaramillo Mayta, Jhon Jordy</li>
+        </ul>
+      </td>
+      <td>
+        <strong>Se incluye:</strong><br>
+        <ul>
+          <li>Heurísticas<br></li>
+          <li>Entrevistas de validación del producto<br></li>
+          <li>Capitulo V: Documentación del Sprint 3 (Sprint Backlog, Deployment Evidence, Software Documentation)<br></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-## Project Report Collaboration Insights
+## **Project Report Collaboration Insights**
 
 **URL del Repositorio:**  
 [Repositorio de GitHub](https://github.com/upc-pre-1ASI0729-11834-Especialistas/report)
@@ -111,27 +139,27 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
     <tr>
       <td>Manuel Sanchez</td>
       <td>@manuels7a</td>
-      <td>Desarrollo de secciones del capítulo V relacionadas a la documentación del Sprint 2 (Desarollo y despliegue de la aplicación web y fake API)</td>
+      <td>Desarrollo de secciones del capítulo V relacionadas a la documentación del Sprint 3 (Nuevo despliegue de la aplicación web y los Web Services).</td>
     </tr>
     <tr>
       <td>Jean Niels Arizabal Condori</td>
       <td>@JeanArizabal</td>
-      <td>Coordinación de la estructura de la fake API a usar en la aplicación web</td>
+      <td>Coordinación del desarrollo del backend que será integrado en la aplicación web.</td>
     </tr>
     <tr>
       <td>Esteban Eduardo Chavez Bardales</td>
       <td>@ECEB0704</td>
-      <td>Correcciones de las User Stories y Rediseño de los Event Storming para mejorar la calidad de los requerimientos</td>
+      <td>Correcciones de estructura del informe y revisión de heurísticas.</td>
     </tr>
     <tr>
       <td>Jhon Jordy Jaramillo Mayta</td>
       <td>@Marklnz1</td>
-      <td>Desarrollo del Bounded Context Telemetry y Labs. Correcciones de la carpeta Shared.</td>
+      <td>Documentación de las actualizaciones a la aplicación web y landing page.</td>
     </tr>
   </tbody>
 </table>
 
-## Contenido
+## **Contenido**
 
 - [Carátula](#carátula)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
@@ -221,11 +249,25 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
       - [5.2.2.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3 Sprint 3](#523-sprint-3)
+      - [5.2.3.1 Sprint Planning](#5231-sprint-planning-3)
+      - [5.2.3.2 Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3 Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heuristicas](#533-evaluaciones-según-heuristicas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Anexos](#anexos)
-- [Bibliografia](#bibliografia)
+- [Bibliografía](#bibliografía)
 
-## Student Outcome
+## **Student Outcome**
 
 > Criterio: El estudiante comunica resultados y proceso de ingeniería aplicado para el ciclo de desarrollo y despliegue de una solución web distribuida bajo una arquitectura orientada a servicios, que satisface requisitos para empresas o público en general, con un enfoque innovador e inclusivo, desplegada sobre plataformas Server Side o Cloud, haciendo uso de tecnologías open-source basadas en el lenguaje de programación Java para la lógica de lado servidor y tecnologías open-source para los componentes de la aplicación.
 
@@ -242,42 +284,59 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
       <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <strong>Manuel Sanchez</strong><br>
-        AV1: Expongo con efectividad la propuestas del diseño de la aplicación.<br>
-        AV2: A través de las reuniones de equipo, comparto las ideas y avances del proyecto.<br><br>
+        <strong>AV1: </strong>Expongo con efectividad la propuestas del diseño de la aplicación.<br>
+        <strong>TB1: </strong>A través de las reuniones de equipo, comparto las ideas y avances del proyecto.<br>
+        <strong>AV2: </strong>Sustento verbalmente las propuestas para la integración del backend con el frontend y coordino con mi equipo la corrección de los errores que puede haber.<br>
+        <br>
         <strong>Jean Arizabal</strong><br>
-        AV1: Presento la propuesta de solución de forma detallada considerando los antecedentes, el perfil de la solución, el análisis competitivo y el needfinding.<br>
-        AV2: Comunico a mi equipo mis ideas para el desarrollo del proyecto y para poder trabajar sin conflictos <br><br>
+        <strong>AV1: </strong>Presento la propuesta de solución de forma detallada considerando los antecedentes, el perfil de la solución, el análisis competitivo y el needfinding.<br>
+        <strong>TB1: </strong>Comunico a mi equipo mis ideas para el desarrollo del proyecto y para poder trabajar sin conflictos <br>
+        <strong>AV2: </strong>Dirijo las entrevistas de validación con los usuarios finales, utilizando un lenguaje claro para obtener feedback sobre la plataforma integrada.<br>
+        <br>
         <strong>Esteban Chavez</strong><br>
-        AV1: Explico detalladamente el event storming, desde el inicio hasta el final, los diagramas, tanto de clase como de base de datos y el diseño de la landing page.<br>
-        AV2: Explico a mis compañeros las modificaciones y correcciones de los requisitos del proyecto para ajustar el desarrollo de la aplicación.<br><br>
+        <strong>AV1: </strong>Explico detalladamente el event storming, desde el inicio hasta el final, los diagramas, tanto de clase como de base de datos y el diseño de la landing page.<br>
+        <strong>TB1: </strong>Explico a mis compañeros las modificaciones y correcciones de los requisitos del proyecto para ajustar el desarrollo de la aplicación.<br>
+        <strong>AV2: </strong>Muestro al equipo los resultados de las evaluaciones heurísticas, detallando los problemas de usabilidad encontrados para priorizar los cambios en la interfaz.<br>
+        <br>
         <strong>Jhon Jaramillo</strong><br>
-        AV1: Expongo y sustento las decisiones arquitectónicas del proyecto utilizando los diagramas C4, además de presentar el diseño, flujo y propósito de la landing page al equipo.<br>
-        AV2: Consulto mis dudas con mis compañeros y busco orientación para resolver los desafíos del proyecto.<br><br>
+        <strong>AV1: </strong>Expongo y sustento las decisiones arquitectónicas del proyecto utilizando los diagramas C4, además de presentar el diseño, flujo y propósito de la landing page al equipo.<br>
+        <strong>TB1: </strong>Consulto mis dudas con mis compañeros y busco orientación para resolver los desafíos del proyecto.<br>
+        <strong>AV2: </strong>Explico la lógica de los endpoints del backend desarrollados al equipo para asegurar una integración fluida.<br>
+        <br>
       </td>
       <td>
         <strong>AV1:</strong> Para poder comunicar efectivamente nuestras ideas fue necesario trabajar en nuestra capacidad de expresión y en la claridad de nuestra comunicación.<br>
-        <strong>AV2:</strong> Para poder entregar un producto alineado a los requisitos fue necesario comprender las modificaciones de los requisitos. Para ello, la comunicación entre los miembros del equipo fue fundamental.<br>
+        <strong>TB1:</strong> Para poder entregar un producto alineado a los requisitos fue necesario comprender las modificaciones de los requisitos. Para ello, la comunicación entre los miembros del equipo fue fundamental.<br>
+        <strong>AV2:</strong>La comunicación oral en este avance fue clave para interactuar con audiencias externas (usuarios en validaciones) y coordinar la integración técnica y las mejoras de usabilidad.<br>
       </td>
     </tr>
     <tr>
       <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <strong>Manuel Sanchez</strong><br>
-        AV1: Redacto documentos claros y objetivos sobre las historias de usuario de Safelab.<br>
-        AV2: Redacto la documentación técnica del sprint del proyecto a través de estándares apropiados para su correcta lectura.<br><br>
+        <strong>AV1: </strong>Redacto documentos claros y objetivos sobre las historias de usuario de Safelab.<br>
+        <strong>TB1: </strong>Redacto la documentación técnica del sprint del proyecto a través de estándares apropiados para su correcta lectura.<br>
+        <strong>AV2: </strong>Documento las pruebas de integración del frontend y los ajustes realizados en el sprint.<br>
+        <br>
         <strong>Jean Arizabal</strong><br>
-        AV1: Redacto con detenimiento detalles sobre la startup, el perfil de la solución, el análisis competitivo y el needfinding.<br>
-        AV2: Redacto propuestas de corrección para mejorar la calidad del producto. Hago correcciones puntutales para alinear el producto con los requisitos.<br><br>
+        <strong>AV1: </strong>Redacto con detenimiento detalles sobre la startup, el perfil de la solución, el análisis competitivo y el needfinding.<br>
+        <strong>TB1: </strong>Redacto propuestas de corrección para mejorar la calidad del producto. Hago correcciones puntutales para alinear el producto con los requisitos.<br>
+        <strong>AV2: </strong>Diseño las preguntas para las entrevistas de validación y registro de forma analítica el reporte con los hallazgos y conclusiones de los usuarios.<br>
+        <br>
         <strong>Esteban Chavez</strong><br>
-        AV1: Escribo claramente la informacion necesaria que cada diagrama, e imagen necesita, de forma sencilla y tecnica, demostrando conocimientos especificos para las diferentes secciones.<br>
-        AV2: Recibo el feeback y coordino las correcciones necesarias siguiendo los estándares del informe.<br><br>
+        <strong>AV1: </strong>Escribo claramente la informacion necesaria que cada diagrama, e imagen necesita, de forma sencilla y tecnica, demostrando conocimientos especificos para las diferentes secciones.<br>
+        <strong>TB1: </strong>Recibo el feeback y coordino las correcciones necesarias siguiendo los estándares del informe.<br>
+        <strong>AV2: </strong>Redacto detalladamente el informe de evaluación por heurísticas del equipo adyacente, clasificando cada problema de usabilidad según su severidad bajo un formato técnico y formal.<br>
+        <br>
         <strong>Jhon Jaramillo</strong><br>
-        AV1: Redacto historias de usuario claras y detalladas para estructurar la landing page, y documento la arquitectura del sistema elaborando diagramas de contexto y contenedores bajo el modelo C4.<br>
-        AV2: Documento las decisiones en las reuniones del equipo para asegurar la alineación y el progreso del proyecto.<br><br>
+        <strong>AV1: </strong>Redacto historias de usuario claras y detalladas para estructurar la landing page, y documento la arquitectura del sistema elaborando diagramas de contexto y contenedores bajo el modelo C4.<br>
+        <strong>TB1: </strong>Documento las decisiones en las reuniones del equipo para asegurar la alineación y el progreso del proyecto.<br>
+        <strong>AV2: </strong>Redacto la documentación técnica del backend, detallando el funcionamiento de los endpoints y respuestas de la API para el equipo y futuros desarrolladores que puedan involucrarse en el proyecto.<br><br>
       </td>
       <td>
         <strong>AV1: </strong>Para poder comunicar efectivamente nuestras ideas en el reporte fue necesario tener un bien planteada nuestra propuesta.<br>
-        <strong>AV2: </strong>A través del feedback del informe, logramos optimizar lac comunicación de la propuesta de nuestro producto en el documento.<br>
+        <strong>TB1: </strong>A través del feedback del informe, logramos optimizar lac comunicación de la propuesta de nuestro producto en el documento.<br>
+        <strong>AV2:</strong>La documentación técnica y correcta redacción del reporte nos permitieron formalizar el progreso de la start-up y asegurar que la landing page comunique su valor comercial mediante los CTA correspondientes.<br>
       </td>
     </tr>
   </tbody>  
@@ -796,9 +855,9 @@ Nota: Elaboración propia en Miro.
   </tbody>
 </table>
 
-# Capítulo III: Requirements Specification
+# **Capítulo III: Requirements Specification**
 
-## Epics
+## **Epics**
 
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
@@ -832,7 +891,7 @@ Nota: Elaboración propia en Miro.
   </tbody>
 </table>
 
-## 3.1 User Stories
+## **3.1 User Stories**
 
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
@@ -1420,11 +1479,11 @@ Nota: Elaboración propia en Miro.
   </tbody>
 </table>
 
-## 3.2 Impact Mapping
+## **3.2 Impact Mapping**
 
 ![Impact Map](assets/chapter-iii/impact-mapping.png)
 
-## 3.3 Product Backlog
+## **3.3 Product Backlog**
 
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
@@ -1510,13 +1569,13 @@ Nota: Elaboración propia en Miro.
   </tbody>
 </table>
 
-# Capítulo IV: Product Design
+# **Capítulo IV: Product Design**
 
-## 4.1. Style Guidelines
+## **4.1. Style Guidelines**
 
 En esta sección se presentan los estándares que definen el formato y el diseño de la solución, asegurando la calidad en su implementación.
 
-### 4.1.1. General Style Guidelines
+### **4.1.1. General Style Guidelines**
 
 **Color**
 
@@ -1540,7 +1599,7 @@ Bautizamos a la aplicación como Safelab, un nombre que transmite seguridad para
 
 Nota: Elaboración propia.
 
-### 4.1.2. Web Style Guidelines
+### **4.1.2. Web Style Guidelines**
 
 Esta sección define las pautas de diseño de la interfaz web de Safelab basadas en los mockups correspondientes.
 
@@ -1559,9 +1618,9 @@ Cada sección está diseñada para ser intuitiva, con botones y enlaces destacad
 
 La interfaz web de Safelab está diseñada para ser completamente responsive, adaptándose a diferentes tamaños de pantalla y dispositivos. En dispositivos móviles, el menú lateral se transforma en un menú desplegable accesible desde un ícono de hamburguesa, mientras que el contenido se reorganiza para mantener la legibilidad y funcionalidad. En tabletas, el diseño se ajusta para aprovechar el espacio adicional sin perder la claridad visual. Esta adaptabilidad garantiza que los usuarios puedan acceder a todas las funcionalidades de Safelab de manera eficiente, independientemente del dispositivo que estén utilizando.
 
-## 4.2. Information Architecture
+## **4.2. Information Architecture**
 
-### 4.2.1. Organization Systems
+### **4.2.1. Organization Systems**
 
 **Landing Page**
 
@@ -1587,7 +1646,7 @@ Los módulos en el flujo de trabajo incluyen:
 - History: Ofrece un historial detallado de las actividades y eventos relacionados con los laboratorios, permitiendo a los usuarios revisar acciones pasadas y generar reportes.
 - Settings: Permite a los usuarios configurar sus preferencias, gestionar su cuenta y ajustar las notificaciones.
 
-### 4.2.2. Labeling Systems
+### **4.2.2. Labeling Systems**
 
 Las etiquetas que utilizaremos para la página serán diseñadas para ser claras, directas y fáciles de entender, enfocándose en la eficiencia y simplicidad para usuarios con distintos niveles de experiencia tecnológica.
 
@@ -1623,7 +1682,7 @@ Algunas de las etiquetas principales de nuestras secciones serán las siguientes
 - `Filtros de búsqueda`
 - `Indicadores de tipo de evento`
 
-### 4.2.3. SEO Tags and Meta Tags
+### **4.2.3. SEO Tags and Meta Tags**
 
 **Landing Page**:
 - Title (SEO Tag): Safelab | Smart Lab Management
@@ -1637,7 +1696,7 @@ Algunas de las etiquetas principales de nuestras secciones serán las siguientes
 - Keywords (Meta Tag): Lab management, Monitoring, System Alerts, Scientific workflow
 - Author (Meta Tag): Safelab Team
 
-### 4.2.4. Searching Systems
+### **4.2.4. Searching Systems**
 
 Para garantizar navegación fluida y centrada al servicio del usuario, vamos a implementar los siguiente estándares tanto para la Landing Page como para la Web Application:
 
@@ -1661,7 +1720,7 @@ Para garantizar navegación fluida y centrada al servicio del usuario, vamos a i
     
     De esta forma, los usuarios realizarán sus tareas independientemente del dispositivo que utilicen.
 
-### 4.2.5. Navigation Systems
+### **4.2.5. Navigation Systems**
 
 **Landing Page**
 
@@ -1673,13 +1732,13 @@ Para la plataforma de Safelab implementaremos un sistema de navegación basado e
 
 Además, cada pantalla dentro de la aplicación web contará con una barra de filtros y opciones de navegación adicionales que permitirán a los usuarios refinar su búsqueda y acceder a funcionalidades específicas dentro de cada sección. Por ejemplo, en la sección de Laboratories, los usuarios podrán filtrar por tipo de laboratorio, estado o fecha de creación, mientras que en la sección de Alerts podrán filtrar por prioridad o tipo de alerta.
 
-## 4.3. Landing Page UI Design
+## **4.3. Landing Page UI Design**
 Para el diseño de la interfaz de la Landing Page de Safelab, el equipo ha traducido las necesidades de monitoreo crítico en una experiencia visual que transmite seguridad, limpieza y precisión.
 
 
 La arquitectura de información se estructuró siguiendo un modelo de **"AIDA" (Atención, Interés, Deseo y Acción)**, asegurando que los responsables de laboratorios encuentren rápidamente la propuesta de valor: la prevención de incidentes mediante inteligencia analítica. Se priorizó una navegación vertical fluida, donde cada sección refuerza la confianza del usuario antes de llegar a los planes de suscripción.
 
-### 4.3.1. Landing Page Wireframe
+### **4.3.1. Landing Page Wireframe**
 
 Los wireframes de Safelab fueron diseñados con un enfoque **Mobile-First**, garantizando que la jerarquía de contenido sea clara tanto en navegadores de escritorio como en dispositivos móviles.
 
@@ -1696,7 +1755,7 @@ Los wireframes de Safelab fueron diseñados con un enfoque **Mobile-First**, gar
 
 Nota: Elaboración propia en Figma.
 
-### 4.3.2. Landing Page Mock-up
+### **4.3.2. Landing Page Mock-up**
 
 El paso al Mock-up integra el *Design System* de Safelab, aplicando la paleta de colores azul y violeta para evocar profesionalismo tecnológico.
 
@@ -1713,9 +1772,9 @@ El paso al Mock-up integra el *Design System* de Safelab, aplicando la paleta de
 
 Nota: Elaboración propia en Figma.
 
-## 4.4. Web Applications UX/UI Design
+## **4.4. Web Applications UX/UI Design**
 
-### 4.4.1. Web Applications Wireframes
+### **4.4.1. Web Applications Wireframes**
 
 **Login**
 - Descripción: Esta pantalla muestra el formulario para que el usuario ingrese sus credenciales y acceda la pantalla de inicio de la aplicación.
@@ -1752,7 +1811,7 @@ Nota: Elaboración propia en Figma.
 ![Web Application - Wireframe 7](assets/chapter-iv/wireframe-7.png)
   Nota: Elaboración propia en Figma.
 
-### 4.4.2. Web Applications Wireflow Diagrams
+### **4.4.2. Web Applications Wireflow Diagrams**
 
 ### **Wireflow 1**
 - User Persona: Supervisor de laboratorio
@@ -1772,7 +1831,7 @@ Nota: Elaboración propia en Figma.
 ![wireflow 3](assets/chapter-iv/wireflow-3.png)
   Nota: Elaboración propia.
 
-### 4.4.3. Web Applications Mock-ups
+### **4.4.3. Web Applications Mock-ups**
 
 **Login**
 - Objetivo: Permitir al usuario ingresar sus credenciales y acceder a la aplicación.
@@ -1819,8 +1878,7 @@ Se muestra la actividad reciente del laboratorio, programaciones activas y los i
 
 Nota: Elaboración propia en Figma.
 
-
-### 4.4.4. Web Applications User Flow Diagrams
+### **4.4.4. Web Applications User Flow Diagrams**
 
 **Userflow 1**
 - User Persona: Supervisor de laboratorio
@@ -1856,7 +1914,7 @@ Nota: Elaboración propia.
 ![userflow 3](assets/chapter-iv/userflow-3.png)
 Nota: Elaboración propia.
 
-## 4.5. Web Applications Prototyping
+## **4.5. Web Applications Prototyping**
 
 **Landing Page Presentation**
 
@@ -1864,9 +1922,9 @@ Nota: Elaboración propia.
 
 [Link de la presentación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201817507_upc_edu_pe/IQCmLmkatLNfRodxmcXY4QRUAahuQUi-b5KDhY58uA4VZxE?e=Gj9ceu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-## 4.6. Domain-Driven Software Architecture
+## **4.6. Domain-Driven Software Architecture**
 
-### 4.6.1. Design-Level Event Storming
+### **4.6.1. Design-Level Event Storming**
 
 En esta fase, el equipo realizó una inmersión técnica de nivel detallado para refinar el flujo de trabajo de **SafeLab**. A diferencia de la etapa anterior, el *Design-Level Event Storming* permitió identificar no solo qué sucede en el sistema (**Eventos**), sino también quién inicia la acción (**Actores**), qué intención tienen (**Comandos**) y qué reglas rigen el comportamiento del software (**Políticas**).
 
@@ -1906,21 +1964,21 @@ Es el componente proactivo que permite a SafeLab ejecutar acciones correctivas a
 ![EventStorming_Desing-Level](assets/chapter-iv/BoundedContext5.jpg)
 Nota: Elaboración propia en Miro.
 
-### 4.6.2. Software Architecture Context Diagram
+### **4.6.2. Software Architecture Context Diagram**
 
 El diagrama de contexto del sistema muestra la relación entre el sistema y los actores externos, proporcionando una visión general de la arquitectura del sistema y sus interacciones con el entorno externo.
 
 ![Software Architecture Context Diagram](./assets/chapter-iv/4.6.2_Software_Architecture_Context_Diagram.png)
 Nota: Elaboración propia en Structurizr.
 
-### 4.6.3. Software Architecture Container Diagrams
+### **4.6.3. Software Architecture Container Diagrams**
 
 Los diagramas de contenedores representan los distintos elementos que conforman el sistema, como aplicaciones web, bases de datos o microservicios, y muestran cómo se relacionan entre ellos. Ofrecen una perspectiva general de la arquitectura, resaltando las funciones de cada contenedor y la forma en que interactúan.
 
 ![Software Architecture Container Diagrams](./assets/chapter-iv/4.6.3_Software_Architecture_Container_Diagrams.png)
 Nota: Elaboración propia en Structurizr.
 
-### 4.6.4. Software Architecture Components Diagrams
+### **4.6.4. Software Architecture Components Diagrams**
 
 En esta sección, se presentan los diagramas de componentes de la arquitectura de software. Estos diagramas detallan los diferentes componentes que conforman el sistema, sus responsabilidades y cómo interactúan entre sí. 
 
@@ -1967,9 +2025,9 @@ Este bounded context se encarga de ejecutar acciones mecánicas o lógicas de fo
 ![Bounded Context: Smart Automation & Scheduling](./assets/chapter-iv/Bounded_Context_Smart_Automation_Scheduling.png)
 Nota: Elaboración propia en Structurizr.
 
-## 4.7. Software Object-Oriented Design
+## **4.7. Software Object-Oriented Design**
 
-### 4.7.1. Class Diagrams
+### **4.7.1. Class Diagrams**
 
 El diagrama de clases de SafeLab representa la estructura estática del sistema, detallando las entidades fundamentales, sus atributos, comportamientos (métodos) y las relaciones que permiten la lógica de negocio. El diseño se ha organizado siguiendo los límites de los *Bounded Contexts* identificados en el *Event Storming*, asegurando que la implementación técnica respete el lenguaje ubicuo del dominio.
 
@@ -2017,9 +2075,9 @@ Este contexto actúa como el núcleo de tipos de datos compartidos en todo el si
 Nota: Elaboración propia.
 
 
-## 4.8. Database Design
+## **4.8. Database Design**
 
-### 4.8.1. Database Diagrams
+### **4.8.1. Database Diagrams**
 
 El diseño de la base de datos de **SafeLab** ha sido normalizado para garantizar la integridad referencial y la eficiencia en la consulta de grandes volúmenes de telemetría. A diferencia del diagrama de clases, este modelo se enfoca en la persistencia de datos mediante el uso de Claves Primarias (**PK**) y Claves Foráneas (**FK**).
 
@@ -2028,11 +2086,11 @@ El siguiente Diagrama de Entidad-Relación (ERD) representa la persistencia fís
 ![Database Diagram](./assets/chapter-iv/diagramabasedatosfinal.png)
 Nota: Elaboración propia.
 
-# Capítulo V: Product Implementation, Validation & Deployment
+# **Capítulo V: Product Implementation, Validation & Deployment**
 
-## 5.1. Software Configuration Management
+## **5.1. Software Configuration Management**
 
-## 5.1.1. Software Development Environment Configuration
+## **5.1.1. Software Development Environment Configuration**
 
 Para el desarrollo de SafeLab, utilizaremos el siguiente conjunto de herramientas, respetando las restricciones tecnológicas del curso:
 
@@ -2083,7 +2141,7 @@ Para el desarrollo de SafeLab, utilizaremos el siguiente conjunto de herramienta
   </tbody>
 </table>
 
-## 5.1.2. Source Code Management
+## **5.1.2. Source Code Management**
 
 El control de versiones se realizará en GitHub bajo una organización pública. Se han implementado repositorios independientes para garantizar la modularidad y el despliegue continuo de cada componente:
 
@@ -2124,7 +2182,7 @@ Para mantener un historial de cambios legible y facilitar la generación automá
   * `fix(auth): resolve token expiration on mobile devices`
   * `docs(interviews): update stakeholder interview records`
 
-## 5.1.3. Source Code Style Guide & Conventions
+## **5.1.3. Source Code Style Guide & Conventions**
 
 Para garantizar la calidad, mantenibilidad y legibilidad del código de SafeLab, el equipo ha adoptado las siguientes convenciones de estilo. Siguiendo los estándares de la industria y las exigencias del curso, todo el código fuente (nombres de variables, clases, métodos y comentarios) se escribirá estrictamente en inglés.
 
@@ -2175,7 +2233,7 @@ Para las especificaciones de pruebas de aceptación, se aplicarán las **Gherkin
   * `When the system processes the signal`
   * `Then a critical alert should be generated`
 
-## 5.1.4. Software Deployment Configuration
+## **5.1.4. Software Deployment Configuration**
 
 En esta sección se especifica la configuración y los pasos necesarios para el despliegue de cada uno de los productos que conforman la solución SafeLab. Se ha adoptado un enfoque de despliegue continuo (**Continuous Deployment**) para asegurar que los cambios validados en los repositorios de GitHub se reflejen automáticamente en los entornos de producción.
 
@@ -2231,11 +2289,11 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
 
 * **Integración:** La Web Application está configurada para consumir los servicios del RESTful API mediante el intercambio de recursos de origen cruzado (**CORS**), permitiendo únicamente peticiones desde los dominios autorizados de la solución.
 
-## 5.2. Landing Page, Services & Applications Implementation
+## **5.2. Landing Page, Services & Applications Implementation**
 
-## 5.2.1. Sprint 1
+## **5.2.1. Sprint 1**
 
-### 5.2.1.1. Sprint Planning 1
+### **5.2.1.1. Sprint Planning 1**
 
 <table border="1" cellspacing="0" cellpadding="6">
     <tr>
@@ -2306,7 +2364,7 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
   </tr>
 </table>
 
-### 5.2.1.2. Aspect Leaders and Collaborators
+### **5.2.1.2. Aspect Leaders and Collaborators**
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -2345,7 +2403,8 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
   </tbody>
 </table>
 
-### 5.2.1.3. Sprint Backlog 1
+### **5.2.1.3. Sprint Backlog 1**
+
 **Sprint Objective:**
 Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, Pricing y Contacto.
 
@@ -2355,7 +2414,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
   <thead>
     <tr>
       <th>Historia de Usuario</th>
-      <th>Elemento de trabajo / Tarea</th>
+      <th>Tarea</th>
       <th>Descripción</th>
       <th>Estimación (Horas)</th>
       <th>Asignado a</th>
@@ -2364,7 +2423,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
   </thead>
   <tbody>
     <tr>
-      <td>US-01</td>
+      <td>US01</td>
       <td>Navegación a secciones principales</td>
       <td>Como visitante, quiero acceder a las distintas secciones informativas desde un menú principal para encontrar la información deseada rápidamente.</td>
       <td>3</td>
@@ -2372,7 +2431,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-02</td>
+      <td>US02</td>
       <td>Navegación en dispositivos móviles</td>
       <td>Como visitante desde móvil, quiero disponer de un menú adaptable para acceder a las secciones sin saturar la pantalla.</td>
       <td>7</td>
@@ -2380,7 +2439,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-03</td>
+      <td>US03</td>
       <td>Acceso a demo y características</td>
       <td>Como gerente de laboratorio, quiero solicitar una demo o ver características desde el primer vistazo.</td>
       <td>8</td>
@@ -2388,7 +2447,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Pendiente</td>
     </tr>
     <tr>
-      <td>US-04</td>
+      <td>US04</td>
       <td>Visualización de interfaz del sistema</td>
       <td>Como prospecto, quiero ver imágenes de la plataforma para conocer su apariencia.</td>
       <td>5</td>
@@ -2396,7 +2455,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-05</td>
+      <td>US05</td>
       <td>Consulta de herramientas</td>
       <td>Como investigador, quiero consultar funciones principales estructuradas.</td>
       <td>3</td>
@@ -2404,7 +2463,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-06</td>
+      <td>US06</td>
       <td>Comparativa de solución</td>
       <td>Como jefe de calidad, quiero comparar método tradicional vs plataforma.</td>
       <td>2</td>
@@ -2413,7 +2472,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
     </tr>
     </tr>
     <tr>
-      <td>US-07</td>
+      <td>US07</td>
       <td>Revisión de testimonios</td>
       <td>Como responsable de compras, quiero leer testimonios para ganar confianza.</td>
       <td>3</td>
@@ -2421,7 +2480,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-08</td>
+      <td>US08</td>
       <td>Consulta de planes y precios</td>
       <td>Como administrador, quiero comparar planes y funcionalidades.</td>
       <td>5</td>
@@ -2430,7 +2489,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
     </tr>
     </tr>
     <tr>
-      <td>US-09</td>
+      <td>US09</td>
       <td>Información legal y soporte</td>
       <td>Como visitante, quiero encontrar políticas y soporte en el footer.</td>
       <td>1</td>
@@ -2438,7 +2497,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
       <td>Finalizado</td>
     </tr>
     <tr>
-      <td>US-10</td>
+      <td>US10</td>
       <td>Acceso a portal de usuarios</td>
       <td>Como visitante, quiero acceder a login y registro.</td>
       <td>5</td>
@@ -2448,7 +2507,7 @@ Implementar las secciones de la Landing Page como Funcionalidades, Beneficios, P
   </tbody>
 </table>
 
-### 5.2.1.4. Development Evidence for Sprint Review
+### **5.2.1.4. Development Evidence for Sprint Review**
 
 Esta tabla lista los commits realizados durante los primeros sprints de desarrollo, incluyendo el trabajo en la Landing Page, documentación y configuración del proyecto.
 
@@ -2492,7 +2551,7 @@ Esta tabla lista los commits realizados durante los primeros sprints de desarrol
   </tbody>
 </table>
 
-### 5.2.1.5. Execution Evidence for Sprint Review
+### **5.2.1.5. Execution Evidence for Sprint Review**
 
 Las principales secciones de la Landing Page de Safelab fueron desarrolladas y desplegadas exitosamente. A continuación se presentan las evidencias correspondientes de la implementación.
 
@@ -2507,12 +2566,12 @@ Las principales secciones de la Landing Page de Safelab fueron desarrolladas y d
 <p><strong>Enlace a Demo en Vivo:</strong><br>
 <a href="https://upc-pre-1asi0729-11834-especialistas.github.io/landing-page/#">Safelab Landing Page</a></p>
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review
+### **5.2.1.6. Services Documentation Evidence for Sprint Review**
 
 En este Sprint el equipo se enfocó en el desarrollo y el despliegue de la Landing Page de Safelab, motivo por el cual no se implementaron ni documentaron endpoints relacionados a Web Services.
 Los avances relacionados al desarrollo del frontend y backend, así como la documentación de la API con OpenAPI, están programados para los próximos Sprints, donde se abordarán las funcionalidades específicas del sistema de monitoreo de laboratorios y la integración con sensores IoT.
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review
+### **5.2.1.7. Software Deployment Evidence for Sprint Review**
 
 El despliegue inicial de la Landing Page de FuelTrack fue realizado exitosamente utilizando GitHub Pages.
 
@@ -2521,7 +2580,7 @@ El despliegue inicial de la Landing Page de FuelTrack fue realizado exitosamente
   <li><strong>Repositorio:</strong> <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page</a></li>
 </ul>
 
-### 5.2.1.8. Team Collaboration Insights during Sprint
+### **5.2.1.8. Team Collaboration Insights during Sprint**
 
 Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsApp y Google Meet durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de la Landing Page.
 
@@ -2534,9 +2593,9 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
 - WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
 - Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
 
-## 5.2.2. Sprint 2
+## **5.2.2. Sprint 2**
 
-### 5.2.2.1. Sprint Planning 2
+### **5.2.2.1. Sprint Planning 2**
 
 <table border="1" cellspacing="0" cellpadding="6">
     <tr>
@@ -2603,7 +2662,7 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
   </tr>
 </table>
 
-### 5.2.2.2. Aspect Leaders and Collaborators
+### **5.2.2.2. Aspect Leaders and Collaborators**
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -2647,7 +2706,8 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
   </tbody>
 </table>
 
-### 5.2.2.3. Sprint Backlog 2
+### **5.2.2.3. Sprint Backlog 2**
+
 **Sprint Objective:**
 Implementar las vistas principales (core) de la aplicación web.
 
@@ -2657,7 +2717,7 @@ Implementar las vistas principales (core) de la aplicación web.
   <thead>
     <tr>
       <th>Historia de Usuario</th>
-      <th>Elemento de trabajo / Tarea</th>
+      <th>Tarea</th>
       <th>Descripción</th>
       <th>Estimación (Horas)</th>
       <th>Asignado a</th>
@@ -2774,7 +2834,7 @@ Implementar las vistas principales (core) de la aplicación web.
   </tbody>
 </table>
 
-### 5.2.2.4. Development Evidence for Sprint Review
+### **5.2.2.4. Development Evidence for Sprint Review**
 
 Esta tabla lista los commits realizados durante el sprint, incluyendo el desarrollo de la web app y documentación.
 
@@ -2861,7 +2921,7 @@ Esta tabla lista los commits realizados durante el sprint, incluyendo el desarro
   </tbody>
 </table>
 
-### 5.2.2.5. Execution Evidence for Sprint Review
+### **5.2.2.5. Execution Evidence for Sprint Review**
 
 Las vistas principales de la aplicación web fueron desarrolladas y desplegadas exitosamente. A continuación se presentan las evidencias correspondientes de la implementación.
 
@@ -2877,7 +2937,7 @@ Las vistas principales de la aplicación web fueron desarrolladas y desplegadas 
 <p><strong>Despliegue de la aplicación:</strong><br>
 <a href="https://frontend-jade-seven-fwvgy3syck.vercel.app/">Safelab Web Application</a></p>
 
-### 5.2.2.6. Services Documentation Evidence for Sprint Review
+### **5.2.2.6. Services Documentation Evidence for Sprint Review**
 
 Durante este Sprint, el equipo se centró en el desarrollo de las vistas principales de la aplicación web, por lo que no se implementaron ni documentaron endpoints relacionados a Web Services.
 Sin embargo, se establecieron las bases para la integración futura con el backend y con ello el desarrollo de una fake API para simular las interacciones con el sistema, lo que permitirá una documentación detallada de los servicios en los próximos Sprints.
@@ -2894,7 +2954,7 @@ Sin embargo, se establecieron las bases para la integración futura con el backe
 <p><strong>Despliegue del fake API:</strong><br>
 <a href="https://fake-api-production-0033.up.railway.app/">Safelab Fake API</a></p>
 
-### 5.2.2.7. Software Deployment Evidence for Sprint Review
+### **5.2.2.7. Software Deployment Evidence for Sprint Review**
 
 El primer despliegue de la web application se realizó exitosamente en Vercel, mientras que la fake API se desplegó en Railway, lo que permitió validar la funcionalidad de la aplicación y su integración con el backend simulado. A continuación se presentan las evidencias de ambos despliegues:
 
@@ -2929,7 +2989,7 @@ El primer despliegue de la web application se realizó exitosamente en Vercel, m
     <img src="./assets/chapter-v/evidence-fake-api-deployment.png" alt="Fake API Deployment">
 </ul>
 
-### 5.2.2.8. Team Collaboration Insights during Sprint
+### **5.2.2.8. Team Collaboration Insights during Sprint**
 
 Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsApp y Google Meet durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de la Web Application y documentación.
 
@@ -2942,25 +3002,1357 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
 - WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
 - Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
 
-# Conclusiones
+## **5.2.3. Sprint 3**
 
-Durante el Sprint 2, el equipo completó en el plazo establecido el desarrollo de las vistas principales de la aplicación web, así como el despliegue exitoso de la misma y de la fake API. Además, se establecieron las bases para la integración futura con el backend y se documentaron los endpoints de la fake API, lo que permitirá una documentación detallada de los servicios en los próximos Sprints.
+### **5.2.3.1. Sprint Planning 3**
+
+<table border="1" cellspacing="0" cellpadding="6">
+    <tr>
+        <th><strong>Sprint #</strong></th>
+        <td>Sprint 3</td>
+    </tr>
+    <tr>
+        <th><strong>Resumen del Sprint Planning</strong></th>
+        <td>Se priorizarón 2 objetivos: El desarrollo del backend (web-servies), y su respectiva integración al frontend. Con el cumplimiento de estos objetivos, se busca formalizar el negocio mediante la actualización de los CTA de la Landing Page.</td>
+    </tr>
+    <tr>
+        <th><strong>Fecha</strong></th>
+        <td>2026-06-05</td>
+    </tr>
+    <tr>
+        <th><strong>Hora</strong></th>
+        <td>5:00 PM</td>
+    </tr>
+    <tr>
+        <th><strong>Ubicación</strong></th>
+        <td>Google Meet</td>
+    </tr>
+    <tr>
+        <th><strong>Preparado por</strong></th>
+        <td>Manuel Angel Sanchez Arenas</td>
+    </tr>
+    <tr>
+        <th><strong>Asistentes a la reunión de planificación</strong></th>
+        <td>
+            - Manuel Angel Sanchez Arenas,<br>
+            - Jean Niels Arizabal Condori,<br>
+            - Esteban Eduardo Chavez Bardales,<br>
+            - Jhon Jordy Jaramillo Mayta
+        </td>
+    </tr>
+    <tr>
+        <th><strong>Resumen del Sprint 2 (Revisión)</strong></th>
+        <td>Se realizó con éxito el sprint 2, cumpliendo con el desarrollo del frontend y la documentación respectiva.</td>
+    </tr>
+</table>
+
+### **5.2.3.2. Aspect Leaders and Collaborators**
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Miembro del equipo</th>
+      <th>Usuario de GitHub</th>
+      <th>Web Application (L/C)</th>
+      <th>Web Services (L/C)</th>
+      <th>Documentación (L/C)</th>
+      <th>Landing Page (L/C)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Manuel Sanchez</td>
+      <td>@manuels7a</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Jean Arizabal</td>
+      <td>@JeanArizabal</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Esteban Chavez</td>
+      <td>@ECEB0704</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Jhon Jaramillo</td>
+      <td>@Marklnz1</td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+### **5.2.3.3. Sprint Backlog 3**
+
+**Sprint Objective:**
+Desarrollar los web services principales y modificar la web application para integrar estos servicios y mejorar la funcionalidad y la experiencia del usuario en el monitoreo de las condiciones y la gestión de alertas de los laboratorios.
+
+<h4>Tabla de Sprint Backlog</h4>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Historia de Usuario</th>
+      <th>Tarea</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US11</td>
+      <td>Gestión Priorizada de Sedes y Laboratorios</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Visualizar la lista de laboratorios con filtros avanzados por estado de criticidad y ubicación. Para: Identificar de inmediato qué sedes presentan anomalías térmicas y priorizar la supervisión en los puntos de mayor riesgo.</td>
+      <td>4</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Activación de Sistemas de Mitigación y Respuesta Automatizada</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Activar o desactivar los sistemas de mitigación (ventilación/refrigeración auxiliar) bajo reglas de validación técnica. Para: Reaccionar de forma segura ante una excursión térmica y estabilizar el ambiente sin comprometer la integridad de otros equipos.</td>
+      <td>8</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US26</td>
+      <td>Escalamiento Automático de Incidentes no Atendidos</td>
+      <td>Como: Gerente de Operaciones. Quiero: Que el sistema aplique la política de escalamiento (Escalation Policy) si una alerta crítica no es reconocida en el tiempo establecido. Para: Garantizar que el personal de mayor jerarquía intervenga en situaciones de alto riesgo que no han sido gestionadas a tiempo.</td>
+      <td>6</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US27</td>
+      <td>Registro Obligatorio de Acciones Correctivas</td>
+      <td>Como: Técnico de Laboratorio. Quiero: Documentar formalmente las medidas tomadas para resolver una anomalía térmica. Para: Cumplir con los protocolos de trazabilidad y permitir el análisis de causa raíz en el futuro.</td>
+      <td>5</td>
+      <td>Jean Arizabal</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US28</td>
+      <td>Generación de Reporte de Auditoría Regulatoria</td>
+      <td>Como: Director de Calidad / Auditor Externo. Quiero: Generar reportes consolidados e inmutables de todas las lecturas e incidentes de un periodo determinado. Para: Presentar evidencia ante entidades regulatorias (DIGEMID/ISO) que certifique la integridad de la cadena de frío.</td>
+      <td>7</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US30</td>
+      <td>Personalización de Canales de Alerta y Resúmenes de Actividad</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Configurar los canales de recepción de alertas y la frecuencia de los reportes de actividad. Para: Optimizar la comunicación de incidentes según la gravedad y evitar la "fatiga de alertas" en el personal de turno.</td>
+      <td>8</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US34</td>
+      <td>Filtrado de alertas</td>
+      <td>Como usuario, quiero filtrar alertas por diferentes criterios para priorizar mis necesidades.</td>
+      <td>3</td>
+      <td>Manuel Sanchez</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US35</td>
+      <td>Detalle completo de alerta</td>
+      <td>Como usuario, quiero ver el detalle completo de una alerta para comprender el incidente.</td>
+      <td>5</td>
+      <td>Esteban Chavez</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US40</td>
+      <td>Cierre de sesión</td>
+      <td>Como usuario, quiero cerrar sesión para proteger el acceso a la plataforma.</td>
+      <td>5</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US41</td>
+      <td>Persistencia de sesión</td>
+      <td>Como usuario, quiero mantener mi sesión activa para no iniciar sesión constantemente.</td>
+      <td>4</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+  </tbody>
+</table>
+
+### **5.2.3.4. Development Evidence for Sprint Review**
+
+Esta tabla lista los commits realizados durante el sprint, incluyendo el desarrollo de los web services, actualización de la web application, landing page y documentación.
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción de Commit</th>
+      <th>Fecha de Commit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>main, origin/main</td>
+      <td>047ebbe</td>
+      <td>Merge pull request #2 from upc-pre-1ASI0729-11834-Especialistas/development Development</td>
+      <td>-</td>
+      <td>20/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>origin/development</td>
+      <td>9f3a326</td>
+      <td>Merge pull request #1 from upc-pre-1ASI0729-11834-Especialistas/feature/api-implementation Feature/api implementation</td>
+      <td>-</td>
+      <td>20/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>origin/feature/api-implementation</td>
+      <td>2f9899f</td>
+      <td>feat(seeder): seed additional laboratories, alerts, and telemetry readings</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>a53c56d</td>
+      <td>config(db): read DDL-auto property from environment variable in production</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>387ae66</td>
+      <td>config(cors): allow localhost and vercel origins globally and allow all headers</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>0297b51</td>
+      <td>config(db): set Hibernate DDL auto to update in production environment</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>786e829</td>
+      <td>fix(telemetry): improve MQTT subscription processing and telemetry payload assembly</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>c89cc82</td>
+      <td>refactor(db): extract temporary data seeding to a dedicated TemporarySeeder</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>3c7fc3b</td>
+      <td>feat(telemetry): implement TelemetrySimulationController mock publisher endpoint</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>89db521</td>
+      <td>feat(automation): add equipment mapping and threshold properties to SensorConfiguration</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>408917f</td>
+      <td>feat(api): enhance REST endpoints for pending invitations, user profiles, and threshold controllers</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>01eec32</td>
+      <td>feat(telemetry): update MQTT ingestion and query endpoints</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>cd45e93</td>
+      <td>feat(labs): extend laboratory command and query services</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>f9837ef</td>
+      <td>feat(iam): handle UserWorkspaceAccess setup in ApplicationReadyEventHandler</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>e5b2d78</td>
+      <td>feat(automation): add UserWorkspaceAccess entity, repository, and rules</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>b39fcdd</td>
+      <td>feat(workspace): introduce Workspace model, repository, and controller</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>57b3a33</td>
+      <td>chore(config): simplify allowed CORS origins using vercel wildcard</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>ce35f8a</td>
+      <td>fix(security): update cors configuration to support dynamic vercel preview domains</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>156f195</td>
+      <td>fix(config): disable hibernate ddl-auto in production to prevent connection deadlock</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>3abc65a</td>
+      <td>fix(config): limit Hikari pool size to prevent exceeding max connections in production</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>838f80b</td>
+      <td>feat(security): configure CORS allowed origins from properties and enable credentials</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>309421b</td>
+      <td>config: parameterize active Spring profile using environment variable</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>57c0c0d</td>
+      <td>config: parameterize MQTT host in production properties</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>4f7eed0</td>
+      <td>config: move development JWT secret to local dev properties</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>1de65d8</td>
+      <td>config: add application-prod.properties with environment variables placeholders</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>1a7a13c</td>
+      <td>ci: add multi-stage Dockerfile for Java 25 and configure dynamic port</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>8b99d4d</td>
+      <td>feat(iam): resolve role repository bean and entity name collisions and seed default profiles</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>87094fd</td>
+      <td>feat(iam): implement user authentication, role clash resolution, and profile seeding</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>83806dc</td>
+      <td>feat(alerts): expand alert metadata, integrate automation rules, and resolve status transitions - Update MqttTelemetrySubscriber to automatically generate global Alert and corresponding AlertMetric records (currentValue, threshold, exceededBy, sensorType, calibration, signal, status) when sensor configuration limits are breached.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>7358b2c</td>
+      <td>fix(labs): optimize metric subscriptions update and add maintenance days calculation - Refactor LaboratoryCommandServiceImpl to perform a delta update (remove, update, add) on laboratory metric subscriptions instead of clearing the collection.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>91eeaa7</td>
+      <td>chore(config): change hibernate ddl-auto to update Update the Hibernate DDL auto strategy to update instead of recreate in application.properties.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>175386f</td>
+      <td>refactor(telemetry): update MQTT ingestion and query endpoints to use MetricType Refactor MqttTelemetrySubscriber to reject unregistered metric keys, fetch unit/icon details from the MetricType catalog, and evaluate thresholds against active LabMetricSubscriptions. Update telemetry controller to serve generic historical readings by metric key, keeping the legacy temperature path for backward compatibility.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>44ba834</td>
+      <td>feat(labs): transition Laboratory sensors to dynamic metric subscriptions Remove hardcoded SensorConfig and SafetyThresholds from Laboratory aggregate and replace them with a dynamic LabMetricSubscription relationship, allowing custom min/max safety thresholds to be defined for individual metric types.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>ebb23a5</td>
+      <td>feat(telemetry): introduce MetricType catalog aggregate and REST API Add MetricType entity, repositories, command/query services, DTO resources, and REST controllers to manage the catalog of telemetry metric types (e.g. temperature, humidity, CO2). Includes a database seeder for initial metric types.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>13ba8b1</td>
+      <td>feat(telemetry): implement dynamic MQTT integration with EAV persistence and modernize temporal annotations</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>2b385dc</td>
+      <td>feat: implement sensor endpoints, telemetry updates, and MQTT integration properties - Add commands and REST endpoints for creating, updating, and calibrating sensor configurations.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>09d86fa</td>
+      <td>feat(api): implement REST endpoints for all bounded contexts - Created CRUD endpoints for laboratories, alerts, history records, and automation rules.</td>
+      <td>-</td>
+      <td>17/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>b341ba4</td>
+      <td>feat(domain): implement aggregates, entities, and repositories for bounded contexts</td>
+      <td>-</td>
+      <td>17/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>c14f1f5</td>
+      <td>chore: setup database configuration</td>
+      <td>-</td>
+      <td>17/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>08cca8f</td>
+      <td>feat: initial project structure for api</td>
+      <td>-</td>
+      <td>03/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/landing-page</td>
+      <td>main, origin/main, origin/HEAD</td>
+      <td>db59d24</td>
+      <td>update: cta links to web-app</td>
+      <td>-</td>
+      <td>20/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/landing-page</td>
+      <td>-</td>
+      <td>6626cb5</td>
+      <td>feat: about the product section added</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>main, origin/main</td>
+      <td>1c233c4</td>
+      <td>Merge pull request #26 from upc-pre-1ASI0729-11834-Especialistas/development Development</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>origin/development, development</td>
+      <td>d13e6f3</td>
+      <td>Merge pull request #25 from upc-pre-1ASI0729-11834-Especialistas/feature/frontend-implementation fix(dashboard): redirect equipment link to threshold configuration</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>cbbc82f</td>
+      <td>Merge pull request #24 from upc-pre-1ASI0729-11834-Especialistas/development Development</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>868ef40</td>
+      <td>Merge pull request #23 from upc-pre-1ASI0729-11834-Especialistas/feature/frontend-implementation Feature/frontend implementation</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>origin/feature/frontend-implementation</td>
+      <td>175328e</td>
+      <td>fix(dashboard): redirect equipment link to threshold configuration</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>4cb3d69</td>
+      <td>Merge pull request #22 from upc-pre-1ASI0729-11834-Especialistas/development Development</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>494a093</td>
+      <td>Merge pull request #21 from upc-pre-1ASI0729-11834-Especialistas/feature/frontend-implementation Feature/frontend implementation</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>24759a8</td>
+      <td>config(env): point development environment API base URL to render backend URL</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>d0189ab</td>
+      <td>fix(labs): translate hardcoded text in laboratory detail subcomponents</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>98f2e21</td>
+      <td>style(layout): add media query rules for topbar responsiveness on small screens</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>68441b6</td>
+      <td>style(labs): integrate laboratory details name, badge, and metadata directly in Topbar</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>12a9832</td>
+      <td>style(labs): clean up laboratory detail header and integrate simplified breadcrumbs in topbar</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>b9fb4c9</td>
+      <td>feat(alerts): implement alerts page and incident resolution view</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>1f81663</td>
+      <td>feat(shared): improve language switcher display layout</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>f3a4aba</td>
+      <td>feat(automation): develop settings dashboard, rules, threshold tables, and sensor management</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>646171e</td>
+      <td>feat(history): implement history log audit trail and shift report generation</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>a649668</td>
+      <td>feat(labs): build laboratory registration and details views</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>19062ad</td>
+      <td>feat(iam): implement authentication flow views for login and register</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>aec68e7</td>
+      <td>style(layout): update sidebar layout styling and workspace selection</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>78e12b7</td>
+      <td>feat(automation): integrate edit permissions dialog and store enhancements</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>3cc4c37</td>
+      <td>feat(iam): add registration page UI</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>9e87ae3</td>
+      <td>feat(workspace): introduce Workspace store and API service</td>
+      <td>-</td>
+      <td>19/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>8abc6d1</td>
+      <td>Merge pull request #20 from upc-pre-1ASI0729-11834-Especialistas/development Development</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>fea66d3</td>
+      <td>merge: sync main history into development using ours strategy</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>cb378ad</td>
+      <td>Merge pull request #19 from upc-pre-1ASI0729-11834-Especialistas/feat/backend-connection-setup Feat/backend connection setup</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>origin/feat/backend-connection-setup</td>
+      <td>ad9601b</td>
+      <td>fix: improve alerts tracking and update production backend api url</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>6d1d7d6</td>
+      <td>style: format history page template and fix character in handover notice</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>2383cee</td>
+      <td>Merge pull request #17 from upc-pre-1ASI0729-11834-Especialistas/feat/backend-connection-setup Feat/backend connection setup</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>e1bf36e</td>
+      <td>merge: integrate development branch history</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>fd49314</td>
+      <td>Merge pull request #16 from upc-pre-1ASI0729-11834-Especialistas/revert-15-feat/backend-connection-setup Revert "Feat/backend connection setup"</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>origin/revert-15-feat/backend-connection-setup</td>
+      <td>b3d90a9</td>
+      <td>Revert "Feat/backend connection setup"</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>2ba3565</td>
+      <td>Merge pull request #15 from upc-pre-1ASI0729-11834-Especialistas/feat/backend-connection-setup Feat/backend connection setup</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>bc9f8f7</td>
+      <td>feat: manual merge of development branch (i18n, app.config, json-server routing)</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>228d556</td>
+      <td>fix(env): remove trailing slash from platform provider api base url</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>3b2d66f</td>
+      <td>feat(iam): integrate profile settings, password update, and session metadata</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>e38a5af</td>
+      <td>feat: add login page</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>38166b4</td>
+      <td>feat(alerts/labs): bind incident views to backend telemetry and remove redundant status card - Extend Alert entity models, resource interfaces, and assembler mapping to include detailed telemetry metrics, timestamps, and sensor metadata from the backend.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>d00873f</td>
+      <td>feat(labs): implement laboratory editing, refactor detail page widgets, and improve dashboard resilience - Configure edit mode for AddLaboratoryPageComponent under the ':id/edit' route.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>7adb779</td>
+      <td>refactor(telemetry): support generic metric types in charts and dashboard Update the historical readings API client and store to query backend records dynamically by metric key. Enhance the dashboard and ApexCharts component to format units and titles dynamically based on the selected MetricType.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>11286b8</td>
+      <td>feat(labs): transition UI and routing to dynamic metric subscriptions Update laboratory models, assemblers, store, and config screens to replace binary sensor toggles with dynamic metric subscriptions featuring min/max safety threshold fields. Add a dedicated UI page and dialog for managing the system's Metric Types catalog.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>d6acdfe</td>
+      <td>feat(telemetry): introduce MetricType catalog domain model and state Implement the domain entity, API service, assembler, and Signal-based store for MetricType to fetch and manage the available metric definitions from the backend catalog.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>247bbd9</td>
+      <td>feat(telemetry): support dynamic multi-laboratory charts, sensor provisioning and system health banner</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>fc314fb</td>
+      <td>feat(backend-connection): integrate frontend UI components with state stores and API endpoints - Connected alerts, incident details, and resolution pages to AlertsStore.</td>
+      <td>-</td>
+      <td>18/06/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>35a5b6b</td>
+      <td>feat(config): configure development environment endpoints for backend connection</td>
+      <td>-</td>
+      <td>17/06/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+### **5.2.3.5. Execution Evidence for Sprint Review**
+
+**Web Application:**
+
+Se modificó el poryecto web para integrar los web services desarrollados durante este Sprint. A continuación se presentan las evidencias correspondientes de la implementación.
+
+<ul>
+  <li><strong>Dashboard View</strong><br><img src="./assets/chapter-v/sprint-3-evidence-dashboard-view.png" alt="Dashboard View"></li>
+  <li><strong>Laboratories View</strong><br><img src="./assets/chapter-v/sprint-3-evidence-laboratories-view.png" alt="Laboratories View"></li>
+  <li><strong>History View</strong><br><img src="./assets/chapter-v/sprint-3-evidence-history-view.png" alt="History View"></li>
+  <li><strong>Alerts View</strong><br><img src="./assets/chapter-v/sprint-3-evidence-alerts-view.png" alt="Alerts View"></li>
+  <li><strong>Settings View</strong><br><img src="./assets/chapter-v/sprint-3-evidence-settings-view.png" alt="Settings View"></li>
+</ul>
+
+<p><strong>Despliegue de la aplicación web:</strong><br>
+<a href="https://frontend-iuj2kbsqn-manuel-sanchezs-projects-f772331f.vercel.app/">Safelab Web Application</a></p>
+
+### **5.2.3.6. Web Services Documentation Evidence for Sprint Review**
+
+**Web Services:**
+
+Se desarrollaron los principales web services para las funcionalidades core de la aplicación web. A continuación, se presenta los endpoints documentados en swagger para cada uno de los servicios implementados:
+
+<ul>
+  <li><strong>Laboratories Endpoints</strong><img src="./assets/chapter-v/sprint-3-evidence-laboratories-endpoint.png" alt="Laboratories Endpoint"></li>
+  <li>
+    <strong>Telemetry Endpoints</strong>
+    <img src="./assets/chapter-v/sprint-3-evidence-1-telemetry-endpoint.png" alt="Telemetry Endpoint">
+    <img src="./assets/chapter-v/sprint-3-evidence-2-telemetry-endpoint.png" alt="Telemetry Endpoint">
+    <img src="./assets/chapter-v/sprint-3-evidence-3-telemetry-endpoint.png" alt="Telemetry Endpoint">
+  </li>
+  <li><strong>History Endpoints</strong><img src="./assets/chapter-v/sprint-3-evidence-history-endpoint.png" alt="History Endpoint"></li>
+  <li><strong>Alerts Endpoints</strong><img src="./assets/chapter-v/sprint-3-evidence-alerts-endpoint.png" alt="Alerts Endpoint"></li>
+  <li>
+    <strong>Settings Endpoints</strong>
+    <img src="./assets/chapter-v/sprint-3-evidence-1-settings-endpoint.png" alt="Settings Endpoint">
+    <img src="./assets/chapter-v/sprint-3-evidence-2-settings-endpoint.png" alt="Settings Endpoint">
+  </li>
+  <li><strong>Authentication Endpoints</strong><img src="./assets/chapter-v/sprint-3-evidence-authentication-endpoint.png" alt="Authentication Endpoint"></li>
+</ul>
+
+<p><strong>Despliegue de la API: </strong><a href="https://backend-5mih.onrender.com/swagger/swagger-ui/index.html#/">Safelab Web Services</a></p>
+
+### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+
+Se realizaron múltiples despliegue durante el Sprint 3: Aplicación web en Vercel, API de Safelab en Railway y Landing Page en GitHub Pages. A continuación se presentan las evidencias de cada uno de los despliegues realizados: 
+
+**Landing Page Deployment:**
+<ul>
+  <li>
+    <strong>URL de la Landing Page:</strong>
+    <a href="https://upc-pre-1asi0729-11834-especialistas.github.io/landing-page/" target="_blank">https://upc-pre-1asi0729-11834-especialistas.github.io/landing-page/</a>
+  </li>
+  <li>
+    <strong>Repositorio:</strong>
+    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page</a>
+  </li>
+  <li>
+    <strong>Despliegue en Github Pages:</strong><br>
+    <img src="./assets/chapter-v/evidence-landing-page-deployment.png" alt="Landing Page Deployment">
+  </li>
+</ul>
+
+**Web Application Deployment:**
+<ul>
+  <li>
+    <strong>URL de la Web Application:</strong>
+    <a href="https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/" target="_blank">https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/</a>
+  </li>
+  <li>
+    <strong>Repositorio:</strong>
+    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/frontend" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/frontend</a>
+  </li>
+  <li>
+    <strong>Despliegue en Vercel:</strong><br>
+    <img src="./assets/chapter-v/evidence-web-app-deployment.png" alt="Web Application Deployment">
+  </li>
+</ul>
+
+**Web Services Deployment:**
+<ul>
+  <li>
+    <strong>URL de la API:</strong>
+    <a href="https://backend-5mih.onrender.com/swagger/swagger-ui/index.html#/" target="_blank">https://backend-5mih.onrender.com/swagger/swagger-ui/index.html#/</a>
+  </li>
+  <li>
+    <strong>Repositorio:</strong>
+    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/backend" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/backend</a>
+  </li>
+  <li>
+    <strong>Despliegue en Render:</strong><br>
+    <img src="./assets/chapter-v/evidence-backend-deployment.png" alt="Backend Deployment">
+  </li>
+</ul>
+
+### **5.2.3.8. Team Collaboration Insights during Sprint** 
+
+Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsApp y Google Meet durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de la Web Application y documentación.
+
+**Evidencia de Colaboración:**
+
+![Team Collaboration Evidence](assets/chapter-v/evidence-team-collaboration-insights-sprint-3.png)
+
+**Principales Herramientas de Comunicación:**
+- Github: Para el control de versiones, gestión de issues y revisión de código.
+- WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
+- Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
+
+## **5.3. Validation Interviews**
+
+Durante el Sprint 3, se realizaron entrevistas de validación con usuarios potenciales para obtener feedback sobre la aplicación web y los servicios desarrollados. Las entrevistas se llevaron a cabo de manera remota, y se enfocaron en evaluar la usabilidad, funcionalidad y experiencia general del producto.
+
+### **5.3.1. Diseño de entrevistas**
+
+*Segmento Objetivo: Supervisor de Laboratorio*
+
+***Userflow 1***:
+
+**User Goal**: Como supervisor de laboratorio, quiero registrar un nuevo laboratorio en el sistema, para poder monitorear sus métricas. Esto se confirmará cuando el nuevo laboratorio sea presentado en la sección “Laboratorios”.
+
+**Happy Path**:
+
+- El usuario se encuentra en la página principal, selecciona el botón “Laboratorios” del menú lateral.
+- En la página “Laboratorios”, selecciona el botón “Añadir Laboratorio”.
+- En el formulario de nuevo laboratorio, rellena la información necesaria, y selecciona el botón “Guardar Laboratorio”.
+- El nuevo laboratorio se muestra en la página “Laboratorios”.
+
+**Formulario de Preguntas**:
+
+- ¿Te fue fácil encontrar el menú Laboratorios?
+- ¿Te es fácil encontrar un laboratorio en específico?
+- Sobre los datos de los laboratorios, ¿crees que están ordenados de forma clara e intuitiva?
+- ¿Hay algún dato nuevo que quisieras añadir que no esté presente?
+
+***Userflow 2***:
+
+**User Goal**: Como supervisor de laboratorio, quiero revisar las alertas generadas por el sistema, para tomar acciones correctivas. Esto se confirmará cuando tenga acceso a los datos pertinentes.
+
+**Happy Path**:
+
+- El usuario se encuentra en la página principal, selecciona el botón “Laboratorios” del menú lateral.
+- En la página “Alertas”, visualiza la información básica de las alertas recientes, selecciona “Investigar” en una de ellas.
+- En la página de una alerta específica, visualiza toda la información relacionada.
+- Selecciona una de las acciones presentadas, como “Marcar como resuelto”.
+
+**Formulario de Preguntas**:
+
+- ¿Te fue fácil encontrar el menú Alertas?
+- ¿Crees que la información está bien estructurada y es intuitiva?
+- ¿Te es útil la información que te muestra el sistema?
+
+### **5.3.2. Registro de entrevistas**
+
+**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919096_upc_edu_pe/IQDQsXUMJv6oT4MlEamYPpkzAUG69nGOv--2d8afKmeUftA?e=R75Y9W&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Segmento Objetivo: Supervisor de Laboratorio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Entrevista 1:</strong> Fabrizio Palomino</td>
+      <td><strong>Duración:</strong> 8 minutos y 30 segundos</td>
+    </tr>
+    <tr>
+      <td><strong>Instante en el que inicia:</strong> 0 minutos y 0 segundos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <strong>Screenshot:</strong><br>
+        <img src="./assets/chapter-v/validation-interview-1.png" alt="imagen de entrevistado">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <strong>Resumen de la entrevista:</strong><br>
+        El entrevistado, Fabrizio Palomino, un biólogo que labora en un hospital y dirige un laboratorio particular, compartió observaciones muy relevantes tras explorar el prototipo de la aplicación SafeLab. En primer lugar, señaló que la plataforma le resultó didáctica y fácil de comprender. Destacó que el proceso para añadir un nuevo laboratorio cuenta con campos de información útiles, como la ubicación y las fechas de mantenimiento, y valoró especialmente la configuración de los sensores. Consideró que la interfaz gráfica, apoyada en márgenes ajustables e imágenes descriptivas, es clara y le otorga la garantía necesaria para mantener el control sobre equipos críticos, como las refrigeradoras y estufas de sus cultivos biológicos.<br><br>
+        Durante la evaluación del panel de notificaciones, el entrevistado mencionó una oportunidad de mejora organizativa, sugiriendo que la visualización de los laboratorios debería contar con un orden alfabético para facilitar su búsqueda. Sin embargo, consideró muy acertado el uso de un código de colores (rojo para incidencias críticas y verde para estados normales), ya que permite identificar rápidamente los problemas. Asimismo, subrayó que el monitoreo constante y la recepción de alertas directamente en el celular representan una gran ventaja para su rutina laboral, permitiéndole actuar de forma inmediata ante cualquier eventualidad.<br><br>
+        En general, la percepción del biólogo fue muy positiva, destacando que el sistema está bien estructurado y es funcional para las necesidades de su sector. Finalmente, como sugerencia de cierre, recomendó asegurar que la aplicación cuente con actualizaciones constantes y un soporte técnico eficiente que garantice el respaldo necesario frente a cualquier eventualidad o defecto futuro en el sistema.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### **5.3.3. Evaluaciones según heuristicas**
+
+En esta sección, describe la evaluación de la experiencia de usuario de la propuesta, aplicando un análisis heurístico integral que considera principios de usabilidad, arquitectura de información e inclusive design. La evaluación tiene como objetivo identificar problemas potenciales en la interacción usuario-sistema antes de su desarrollo o implementación final.
+
+#### ESCALA DE SEVERIDAD:
+
+<table border="1" cellspacing="0" cellpadding="6">
+    <thead>
+        <tr align="center">
+          <td><strong>Nivel</strong></td>
+          <td><strong>Descripción</strong></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+        </tr>
+    </tbody>
+</table>
+
+#### TABLA RESUMEN:
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Problema</th>
+      <th>Escala de severidad</th>
+      <th>Heurística / Principio violada(o)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>La descarga del reporte de turno en PDF no funciona correctamente</td>
+      <td>4</td>
+      <td>Usability: Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>La pantalla de Laboratorios muestra 'Cargando laboratorios...' indefinidamente en la carga inicial</td>
+      <td>3</td>
+      <td>Usability: Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Las tarjetas de estadísticas muestran '[object Object]' en lugar de valores reales</td>
+      <td>4</td>
+      <td>Usability: Consistencia y estándares</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>El formulario 'Nuevo Laboratorio' mezcla etiquetas en inglés e español</td>
+      <td>2</td>
+      <td>Usability: Consistencia y estándares</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>No existe confirmación visual al resolver una alerta crítica</td>
+      <td>3</td>
+      <td>Usability: Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>El módulo de usuarios muestra 0 permisos para todos los roles definidos</td>
+      <td>3</td>
+      <td>Usability: Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>No hay un mecanismo de 'deshacer' al marcar una alerta como resuelta</td>
+      <td>3</td>
+      <td>Usability: Libertad y control del usuario</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>La búsqueda global no filtra en tiempo real mientras el usuario escribe</td>
+      <td>2</td>
+      <td>Information Architecture: Is it findable?</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Los sensores no muestran tendencia histórica en la vista de listado</td>
+      <td>2</td>
+      <td>Information Architecture: Is it useful?</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>El dashboard no indica la última vez que los datos fueron actualizados</td>
+      <td>2</td>
+      <td>Usability: Visibilidad del estado del sistema</td>
+    </tr>
+  </tbody>
+</table>
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+#### **PROBLEMA #1: La descarga del reporte de turno en PDF no funciona**
+* **Severidad:** 4
+* **Heurística violada:** Usability - Visibilidad del estado del sistema
+* **Tarea relacionada:** Generación y descarga de reporte de turno
+* **Descripción del problema:** En la pantalla de 'Cronología del Turno', el sistema presenta opciones 'Preview PDF' y 'Download PDF Report'. Al hacer clic en 'Download PDF Report', el archivo no se descarga. No se muestra ningún mensaje de error, indicador de carga, ni retroalimentación alguna al usuario sobre el resultado de la acción. El usuario desconoce si la acción se está procesando, si falló o si debe repetirla.
+* **Recomendación:**
+  * Mostrar un spinner o barra de progreso durante la generación del PDF.
+  * Presentar un mensaje de error claro si el proceso falla (ej. *'No se pudo generar el PDF. Intente nuevamente.'*).
+  * Confirmar la descarga exitosa mediante una notificación tipo toast o alerta verde.
+  * Habilitar un modo de reintento sin perder las notas del turno ya ingresadas.
+
+---
+
+#### **PROBLEMA #2: Pantalla de Laboratorios carga indefinidamente**
+* **Severidad:** 3
+* **Heurística violada:** Usability - Visibilidad del estado del sistema
+* **Tarea relacionada:** Filtrado y visualización de laboratorios
+* **Descripción del problema:** La pantalla de Laboratorios muestra el mensaje 'Cargando laboratorios...' junto a un indicador de spinner de forma indefinida, sin llegar a mostrar el contenido. El contador indica '0 Laboratorios' pero existen 12 en el sistema. Esto ocurre especialmente en la carga inicial o al navegar hacia esta vista desde el dashboard.
+* **Recomendación:**
+  * Definir un timeout máximo (ej. 10 segundos) tras el cual mostrar un mensaje de error con opción de reintento.
+  * Mostrar el número real de laboratorios tan pronto se reciban los primeros datos (*lazy loading*).
+  * Agregar un mensaje de estado: *'Recuperando 12 laboratorios del servidor...'* para contextualizar la espera.
+
+---
+
+#### **PROBLEMA #3: Tarjetas del dashboard muestran '[object Object]'**
+* **Severidad:** 4
+* **Heurística violada:** Usability - Consistencia y estándares
+* **Tarea relacionada:** Visualización del dashboard y alertas
+* **Descripción del problema:** Las tarjetas de estadísticas de la vista de Alertas (*Critical, Warning, Informational, Resolved Today*) muestran '[object Object]' en lugar del texto descriptivo correspondiente. Esto es resultado de un error de renderizado donde un objeto JavaScript es convertido implícitamente a cadena de texto sin la propiedad correcta.
+* **Recomendación:**
+  * Revisar la propiedad accedida en los componentes de tarjeta de resumen (ej. usar `item.label` en lugar de `item`).
+  * Implementar pruebas de integración que validen el renderizado de componentes con datos reales.
+  * Aplicar validaciones de tipo en tiempo de compilación (TypeScript) para evitar errores similares.
+
+---
+
+#### **PROBLEMA #4: Formulario 'Nuevo Laboratorio' mezcla idiomas**
+* **Severidad:** 2
+* **Heurística violada:** Usability - Consistencia y estándares
+* **Tarea relacionada:** Registro de un nuevo laboratorio
+* **Descripción del problema:** El formulario de creación de nuevo laboratorio presenta un título en inglés (*'New Laboratory', 'Basic Information', 'Save Laboratory'*) mientras que la interfaz general del sistema está configurada en español. Los campos del formulario como *'Laboratory Name', 'Lab ID / Code', 'Select building', 'Room Number'* y *'Select type'* tampoco están traducidos.
+* **Recomendación:**
+  * Asegurar que todos los textos del formulario pasen por el sistema de internacionalización (i18n) de la aplicación.
+  * Realizar una auditoría de todos los formularios para identificar cadenas de texto hardcodeadas en inglés.
+  * Agregar pruebas automatizadas que verifiquen la traducción completa al cambiar el idioma.
+
+---
+
+#### **PROBLEMA #5: Sin confirmación visual al resolver alerta crítica**
+* **Severidad:** 3
+* **Heurística violada:** Usability - Visibilidad del estado del sistema
+* **Tarea relacionada:** Resolución de alertas críticas
+* **Descripción del problema:** En la pantalla de detalle del incidente activo, el botón 'Mark as Resolved' permite al operador resolver la alerta. Sin embargo, al pulsarlo, no existe ningún diálogo de confirmación que solicite al usuario que ingrese una nota de acción correctiva, a pesar de que la propia interfaz indica: *'Resolving requires a note describing the corrective action taken'*.
+* **Recomendación:**
+  * Implementar un modal de confirmación obligatorio antes de marcar como resuelta la alerta. El modal debe incluir un campo de texto requerido para la nota de acción correctiva.
+  * Deshabilitar el botón de confirmación hasta que el campo de notas contenga al menos un mínimo de caracteres.
+  * Registrar automáticamente fecha, hora, operador y nota en el historial del incidente.
+
+---
+
+#### **PROBLEMA #6: Roles con 0 permisos definidos en gestión de usuarios**
+* **Severidad:** 3
+* **Heurística violada:** Usability - Ayuda a reconocer, diagnosticar y recuperarse de errores
+* **Tarea relacionada:** Gestión de usuarios y permisos
+* **Descripción del problema:** En la sección de Usuarios y Permisos, el panel lateral 'Role definitions' muestra los roles 'Administrator' y 'Operator' con '0 permissions' cada uno. Esto indica que los roles no tienen permisos configurados, lo cual es una condición anómala que puede derivar en que usuarios con rol Administrador o Supervisor no tengan acceso a funciones esenciales del sistema.
+* **Recomendación:**
+  * Mostrar una advertencia prominente cuando un rol tenga 0 permisos asignados (*'Este rol no tiene permisos configurados. Los usuarios no podrán realizar acciones.'*).
+  * Proporcionar un enlace directo desde la tarjeta del rol hacia la pantalla de configuración de permisos.
+  * Definir permisos predeterminados razonables para cada rol en la configuración inicial del sistema.
+
+---
+
+#### **PROBLEMA #7: No existe opción de deshacer al resolver una alerta**
+* **Severidad:** 3
+* **Heurística violada:** Usability - Libertad y control del usuario
+* **Tarea relacionada:** Resolución y escalada de alertas
+* **Descripción del problema:** Una vez que el operador marca una alerta como 'Resuelta', no existe ningún mecanismo para revertir esta acción en caso de error. Si el operador resuelve accidentalmente una alerta que aún está activa, el sistema no ofrece forma de reabrirla desde la misma interfaz, y la alerta desaparece de la lista de activas.
+* **Recomendación:**
+  * Agregar un botón 'Reabrir Incidente' en la vista de alertas resueltas.
+  * Implementar un período de gracia (ej. 5 minutos) con opción de deshacer mediante una notificación tipo toast: *'Alerta marcada como resuelta. Deshacer'*.
+  * Mantener las alertas resueltas visibles con estado diferenciado en lugar de eliminarlas de la vista.
+
+---
+
+#### **PROBLEMA #8: La búsqueda global no filtra en tiempo real**
+* **Severidad:** 2
+* **Heurística violada:** Information Architecture - Is it findable?
+* **Tarea relacionada:** Búsqueda de laboratorios o alertas
+* **Descripción del problema:** El campo 'Buscar laboratorios o alertas...' en el encabezado global no muestra resultados mientras el usuario escribe. No se aprecia ningún feedback visual de búsqueda en tiempo real, y no queda claro si la búsqueda requiere presionar Enter o si simplemente no funciona en determinadas vistas.
+* **Recomendación:**
+  * Implementar búsqueda con debounce (300ms) que filtre resultados mientras el usuario escribe.
+  * Mostrar un dropdown con sugerencias inmediatas (laboratorios, alertas, sensores) al comenzar a escribir.
+  * Indicar con un ícono de spinner cuando la búsqueda está procesando resultados.
+
+---
+
+#### **PROBLEMA #9: Sensores sin tendencia histórica en vista de listado**
+* **Severidad:** 2
+* **Heurística violada:** Information Architecture – Is it useful?
+* **Tarea relacionada:** Configuración de sensores y calibración
+* **Descripción del problema:** La pantalla de configuración de sensores lista los sensores con información básica (tipo, unidad, última calibración, laboratorio y última conexión). Sin embargo, no muestra ninguna indicación de tendencia o variación reciente de los valores medidos. El operador debe acceder al detalle de cada sensor para ver si hay anomalías emergentes.
+* **Recomendación:**
+  * Agregar una columna de 'Último Valor' con el reading más reciente del sensor.
+  * Incluir un microchip o sparkline (mini gráfico) que muestre la tendencia de las últimas 2 horas.
+  * Aplicar código de color al valor del sensor según si está dentro o fuera del umbral configurado.
+
+---
+
+#### **PROBLEMA #10: Dashboard no indica cuándo fueron actualizados los datos**
+* **Severidad:** 2
+* **Heurística violada:** Usability – Visibilidad del estado del sistema
+* **Tarea relacionada:** Visualización del dashboard principal
+* **Descripción del problema:** La sección 'Estado del Equipo' del dashboard muestra lecturas de temperatura de equipos como ULT Freezer F-07, Refrigerator B2, CO2 Incubator CM-01, etc. Sin embargo, no existe ningún indicador de timestamp ni de frecuencia de actualización que informe al operador si los datos son en tiempo real o corresponden a una captura antigua.
+* **Recomendación:**
+  * Agregar un indicador *'Última actualización: hace X segundos'* junto a cada sección de datos en tiempo real.
+  * Definir una alerta o aviso si la conexión con el servidor de telemetría se pierde por más de un intervalo de tiempo prudencial.
+
+
+## **5.4 Video About-the-Product**
+
+Evidencia de la elaboración del video About the Product: ![Evidencia About the Product](./assets/chapter-v/evidence-about-the-product.png)
+
+Link del video: [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201817507_upc_edu_pe/IQC5o-GEjsfHS5SuthFVzlhWAalwcW_vlJT5VfBVj0VUozk?e=Ru1mGl)
+
+# **Conclusiones**
+
+En este Sprint 3, el equipo tuvo el mayor progreso en el desarrollo de la aplicación web, logrando implementar las vistas principales y establecer la conexión con los servicios web desarrollados en Java.
+
+Por último, conectamos los CTA de la Landing Page a la aplicación web, lo que permitió una experiencia de usuario fluida desde la presentación del producto hasta la interacción con la aplicación.
 
 A partir de este nuevo avance, llegamos a las siguientes conclusiones:
 
-- Gracias a gitflow, logramos segmentar los avances en ramas específicas para cada Bounded Context, lo que facilitó la gestión de tareas y la integración de funcionalidades.
-- La comunicación fluida a través de WhatsApp y Google Meet permitió resolver dudas rápidamente y mantener a todo el equipo alineado con los objetivos del Sprint.
-- La coordinación para definir los objetos y estructuras de datos de la fake API fue clave para asegurar que el desarrollo de la aplicación web se realizara de manera coherente y con una visión clara de las interacciones futuras con el backend.
+- Con la integración de los servicios web en la aplicación, y la presentación de la misma en la Landing Page, se logró un avance más tangible del producto, lo que permitió al equipo visualizar mejor el resultado final y realizar ajustes necesarios para mejorar la experiencia de usuario.
+- Durante este Sprint, el equipo se enfrentó a muchos cambios de ultimo momento debido a los avances simultáneos en el desarrollo del backend y frontend, generando desafíos en la coordinación y planificación. Sin embargo, se logró mantener una comunicación efectiva y adaptarse a los cambios para cumplir con los objetivos del Sprint.
 
-# Anexos
+# **Anexos**
+
+**About the Product**
+- Link al video de presentación del producto: [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201817507_upc_edu_pe/IQC5o-GEjsfHS5SuthFVzlhWAalwcW_vlJT5VfBVj0VUozk?e=nUWtXh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Repositorios**
 - Repositorio de la Landing Page: https://github.com/upc-pre-1ASI0729-11834-Especialistas/landing-page
 - Repositorio del fake API: https://github.com/upc-pre-1ASI0729-11834-Especialistas/fake-api
 - Repositorio del frontend: https://github.com/upc-pre-1ASI0729-11834-Especialistas/frontend
 - Repositorio del informe: https://github.com/upc-pre-1ASI0729-11834-Especialistas/report
+- Repositorio del backend: https://github.com/upc-pre-1ASI0729-11834-Especialistas/backend
 
 **Despliegues**
 - Despliegue de la Landing Page: https://upc-pre-1asi0729-11834-especialistas.github.io/landing-page/
 - Despliegue del fake API: https://fake-api-production-0033.up.railway.app/
 - Despliegue de la Web Application: https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/
+- Despliegue de los Web Services: https://backend-5mih.onrender.com/swagger/swagger-ui/index.html#/
+
+# **Bibliografía**

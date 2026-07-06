@@ -139,7 +139,7 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
     <tr>
       <td>Manuel Sanchez</td>
       <td>@manuels7a</td>
-      <td>Desarrollo de secciones del capítulo V relacionadas a la documentación del Sprint 3 (Nuevo despliegue de la aplicación web y los Web Services).</td>
+      <td>Desarrollo de secciones del capítulo V relacionadas a la documentación del Sprint 4 (Nuevo despliegue de la aplicación web, Web Services y Landing page).</td>
     </tr>
     <tr>
       <td>Jean Niels Arizabal Condori</td>
@@ -258,6 +258,15 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
       - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4 Sprint 4](#524-sprint-4)
+      - [5.2.4.1 Sprint Planning](#5241-sprint-planning-4)
+      - [5.2.4.2 Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3 Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4 Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5 Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6 Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7 Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8 Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
@@ -287,27 +296,32 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
         <strong>AV1: </strong>Expongo con efectividad la propuestas del diseño de la aplicación.<br>
         <strong>TB1: </strong>A través de las reuniones de equipo, comparto las ideas y avances del proyecto.<br>
         <strong>AV2: </strong>Sustento verbalmente las propuestas para la integración del backend con el frontend y coordino con mi equipo la corrección de los errores que puede haber.<br>
+        <strong>TB2:</strong> Expongo los resultados finales en el video "About the Team" y sustento el despliegue final y la arquitectura orientada a servicios de forma clara ante el jurado evaluador.<br><br>
         <br>
         <strong>Jean Arizabal</strong><br>
         <strong>AV1: </strong>Presento la propuesta de solución de forma detallada considerando los antecedentes, el perfil de la solución, el análisis competitivo y el needfinding.<br>
         <strong>TB1: </strong>Comunico a mi equipo mis ideas para el desarrollo del proyecto y para poder trabajar sin conflictos <br>
         <strong>AV2: </strong>Dirijo las entrevistas de validación con los usuarios finales, utilizando un lenguaje claro para obtener feedback sobre la plataforma integrada.<br>
+        <strong>TB2:</strong> Conduzco la demostración del producto en el video "About the Product", utilizando un tono comercial enfocado en soluciones B2B para captar la atención de clientes potenciales.<br><br>
         <br>
         <strong>Esteban Chavez</strong><br>
         <strong>AV1: </strong>Explico detalladamente el event storming, desde el inicio hasta el final, los diagramas, tanto de clase como de base de datos y el diseño de la landing page.<br>
         <strong>TB1: </strong>Explico a mis compañeros las modificaciones y correcciones de los requisitos del proyecto para ajustar el desarrollo de la aplicación.<br>
         <strong>AV2: </strong>Muestro al equipo los resultados de las evaluaciones heurísticas, detallando los problemas de usabilidad encontrados para priorizar los cambios en la interfaz.<br>
+        <strong>TB2:</strong> Sustento las mejoras implementadas a partir del feedback de validación en la presentación final y expongo mis aprendizajes clave en el video retrospectivo del equipo.<br><br>
         <br>
         <strong>Jhon Jaramillo</strong><br>
         <strong>AV1: </strong>Expongo y sustento las decisiones arquitectónicas del proyecto utilizando los diagramas C4, además de presentar el diseño, flujo y propósito de la landing page al equipo.<br>
         <strong>TB1: </strong>Consulto mis dudas con mis compañeros y busco orientación para resolver los desafíos del proyecto.<br>
         <strong>AV2: </strong>Explico la lógica de los endpoints del backend desarrollados al equipo para asegurar una integración fluida.<br>
+        <strong>TB2:</strong> Articulo el proceso de despliegue continuo (Continuous Deployment en Vercel y Render) en la exposición final, dirigiéndome de forma precisa a una audiencia técnica.<br>
         <br>
       </td>
       <td>
         <strong>AV1:</strong> Para poder comunicar efectivamente nuestras ideas fue necesario trabajar en nuestra capacidad de expresión y en la claridad de nuestra comunicación.<br>
         <strong>TB1:</strong> Para poder entregar un producto alineado a los requisitos fue necesario comprender las modificaciones de los requisitos. Para ello, la comunicación entre los miembros del equipo fue fundamental.<br>
         <strong>AV2:</strong>La comunicación oral en este avance fue clave para interactuar con audiencias externas (usuarios en validaciones) y coordinar la integración técnica y las mejoras de usabilidad.<br>
+        <strong>TB2:</strong> Consolidamos nuestra capacidad de comunicar el valor comercial y técnico del producto SaaS a través de videos profesionales y una sustentación final argumentada con solidez.<br>
       </td>
     </tr>
     <tr>
@@ -317,26 +331,31 @@ Este informe ha sido desarrollado de forma colaborativa mediante GitHub, emplean
         <strong>AV1: </strong>Redacto documentos claros y objetivos sobre las historias de usuario de Safelab.<br>
         <strong>TB1: </strong>Redacto la documentación técnica del sprint del proyecto a través de estándares apropiados para su correcta lectura.<br>
         <strong>AV2: </strong>Documento las pruebas de integración del frontend y los ajustes realizados en el sprint.<br>
+        <strong>TB2:</strong> Redacto las conclusiones finales del proyecto, consolido el registro de versiones y valido rigurosamente la ortografía y gramática técnica de la entrega final.<br><br>
         <br>
         <strong>Jean Arizabal</strong><br>
         <strong>AV1: </strong>Redacto con detenimiento detalles sobre la startup, el perfil de la solución, el análisis competitivo y el needfinding.<br>
         <strong>TB1: </strong>Redacto propuestas de corrección para mejorar la calidad del producto. Hago correcciones puntutales para alinear el producto con los requisitos.<br>
         <strong>AV2: </strong>Diseño las preguntas para las entrevistas de validación y registro de forma analítica el reporte con los hallazgos y conclusiones de los usuarios.<br>
+        <strong>TB2:</strong> Documento las recomendaciones a futuro y redacto los guiones (técnicos y comerciales) que sirven como base para la grabación de los videos "About the Product" y "About the Team".<br><br>
         <br>
         <strong>Esteban Chavez</strong><br>
         <strong>AV1: </strong>Escribo claramente la informacion necesaria que cada diagrama, e imagen necesita, de forma sencilla y tecnica, demostrando conocimientos especificos para las diferentes secciones.<br>
         <strong>TB1: </strong>Recibo el feeback y coordino las correcciones necesarias siguiendo los estándares del informe.<br>
         <strong>AV2: </strong>Redacto detalladamente el informe de evaluación por heurísticas del equipo adyacente, clasificando cada problema de usabilidad según su severidad bajo un formato técnico y formal.<br>
+        <strong>TB2:</strong> Redacto el informe final de desempeño del equipo (Performance Report) y aseguro la correcta citación en formato APA en las secciones de bibliografía y anexos.<br><br>
         <br>
         <strong>Jhon Jaramillo</strong><br>
         <strong>AV1: </strong>Redacto historias de usuario claras y detalladas para estructurar la landing page, y documento la arquitectura del sistema elaborando diagramas de contexto y contenedores bajo el modelo C4.<br>
         <strong>TB1: </strong>Documento las decisiones en las reuniones del equipo para asegurar la alineación y el progreso del proyecto.<br>
         <strong>AV2: </strong>Redacto la documentación técnica del backend, detallando el funcionamiento de los endpoints y respuestas de la API para el equipo y futuros desarrolladores que puedan involucrarse en el proyecto.<br><br>
+        <strong>TB2:</strong> Elaboro la documentación detallada de la configuración del despliegue final (Software Deployment Configuration) e integro las evidencias de los 4 Sprints garantizando la cohesión del documento final.<br>
       </td>
       <td>
         <strong>AV1: </strong>Para poder comunicar efectivamente nuestras ideas en el reporte fue necesario tener un bien planteada nuestra propuesta.<br>
         <strong>TB1: </strong>A través del feedback del informe, logramos optimizar lac comunicación de la propuesta de nuestro producto en el documento.<br>
         <strong>AV2:</strong>La documentación técnica y correcta redacción del reporte nos permitieron formalizar el progreso de la start-up y asegurar que la landing page comunique su valor comercial mediante los CTA correspondientes.<br>
+        <strong>TB2:</strong> Alcanzamos un nivel profesional en la redacción de informes de ingeniería, logrando transmitir el ciclo de vida completo y la arquitectura de la solución distribuida a audiencias técnicas y de negocio.<br>
       </td>
     </tr>
   </tbody>  

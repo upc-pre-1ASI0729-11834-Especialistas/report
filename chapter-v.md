@@ -1924,6 +1924,356 @@ Nuestro grupo, Especialistas, gestionó los entregables mediante GitHub, WhatsAp
 - WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
 - Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
 
+## **5.2.4. Sprint 4**
+
+### **5.2.4.1. Sprint Planning 4**
+
+<table border="1" cellspacing="0" cellpadding="6">
+    <tr>
+        <th><strong>Sprint #</strong></th>
+        <td>Sprint 4</td>
+    </tr>
+    <tr>
+        <th><strong>Resumen del Sprint Planning</strong></th>
+        <td>Establecimos como objetivo principal realizar correcciones en la aplicación web y servicios backend. Se tomó en cuenta el feeback recibido en el sprint pasado y las features restantes.</td>
+    </tr>
+    <tr>
+        <th><strong>Fecha</strong></th>
+        <td>2026-07-01</td>
+    </tr>
+    <tr>
+        <th><strong>Hora</strong></th>
+        <td>1:00 PM</td>
+    </tr>
+    <tr>
+        <th><strong>Ubicación</strong></th>
+        <td>Google Meet</td>
+    </tr>
+    <tr>
+        <th><strong>Preparado por</strong></th>
+        <td>Manuel Angel Sanchez Arenas</td>
+    </tr>
+    <tr>
+        <th><strong>Asistentes a la reunión de planificación</strong></th>
+        <td>
+            - Manuel Angel Sanchez Arenas<br>
+            - Jean Niels Arizabal Condori<br>
+            - Esteban Eduardo Chavez Bardales<br>
+            - Jhon Jordy Jaramillo Mayta
+        </td>
+    </tr>
+    <tr>
+        <th><strong>Resumen del Sprint 3 (Revisión)</strong></th>
+        <td>Los objetivos de integrar el frontend y el backend se cumplieron con éxito.</td>
+    </tr>
+</table>
+
+### **5.2.4.2. Aspect Leaders and Collaborators**
+
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Miembro del equipo</th>
+      <th>Usuario de GitHub</th>
+      <th>Frontend (L/C)</th>
+      <th>Backend (L/C)</th>
+      <th>Documentación (L/C)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Manuel Sanchez</td>
+      <td>@manuels7a</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Jean Arizabal</td>
+      <td>@JeanArizabal</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Esteban Chavez</td>
+      <td>@ECEB0704</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Jhon Jaramillo</td>
+      <td>@Marklnz1</td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### **5.2.4.3. Sprint Backlog 4**
+
+**Sprint Objective:**
+Desarrollo de las features restantes de la aplicación web y servicios backend, incluyendo correcciones y mejoras basadas en el feedback recibido.
+
+<h4>Tabla de Sprint Backlog</h4>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Historia de Usuario</th>
+      <th>Tarea</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US14</td>
+      <td>Monitoreo de Salud y Calibración de Dispositivos</td>
+      <td>Como: Jefe de Mantenimiento. Quiero: Consultar el estado de batería y la fecha de última calibración de cada sensor. Para: Programar servicios técnicos preventivos y evitar interrupciones en la captura de datos críticos.</td>
+      <td>7</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td>Archivado y Custodia de Historial de Laboratorios</td>
+      <td>Como: Administrador de Laboratorio. Quiero: Archivar o dar de baja laboratorios que ya no están operativos. Para: Mantener la organización del sistema sin perder la trazabilidad histórica de los datos térmicos exigida por las auditorías.</td>
+      <td>5</td>
+      <td>Jhon Jaramillo</td>
+      <td>Pendiente</td>
+    </tr>
+    <tr>
+      <td>US21</td>
+      <td>Actualización de Parámetros Técnicos y Normativos</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Modificar la configuración técnica y los parámetros de seguridad de un laboratorio. Para: Adaptar el monitoreo a nuevos protocolos de bioseguridad o cambios en la infraestructura física de la sede.</td>
+      <td>5</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US24</td>
+      <td>Detección Automática de Excursión Térmica</td>
+      <td>Como: Sistema de Monitoreo Inteligente. Quiero: Analizar las lecturas de los sensores en tiempo real contra los umbrales de seguridad definidos (Safe Thresholds). Para: Identificar automáticamente excursiones térmicas y prevenir el uso de reactivos o muestras cuya integridad haya sido comprometida.</td>
+      <td>8</td>
+      <td>Jhon Jaramillo</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US25</td>
+      <td>Generación de Alertas Preventivas basadas en Tendencias</td>
+      <td>Como: Coordinador de Laboratorio. Quiero: Recibir notificaciones preventivas cuando la tendencia de temperatura indique una proximidad al límite crítico. Para: Ejecutar acciones de mitigación antes de que ocurra una pérdida real de material biológico.</td>
+      <td>5</td>
+      <td>Jean Arizabal</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US29</td>
+      <td>Ejecución y Registro de Calibración de Sensores</td>
+      <td>Como: Técnico de Calibración / Soporte. Quiero: Ejecutar el proceso de calibración de los sensores directamente desde el panel de configuración. Para: Garantizar la precisión de las lecturas según la norma ISO 17025 y evitar desviaciones legales en los reportes de temperatura.</td>
+      <td>6</td>
+      <td>Esteban Chavez</td>
+      <td>Finalizado</td>
+    </tr>
+    <tr>
+      <td>US32</td>
+      <td>Auditoría de Sesiones Activas y Control de Acceso Geográfico</td>
+      <td>Como: Responsable de Seguridad (Security Officer). Quiero: Monitorear las sesiones activas y el historial de login (ubicación e IP) de mi cuenta. Para: Identificar ingresos sospechosos desde ubicaciones inusuales y revocar sesiones que puedan comprometer la integridad del laboratorio.</td>
+      <td>7</td>
+      <td>Jhon Jaramillo</td>
+      <td>Pendiente</td>
+    </tr>
+    <tr>
+      <td>US38</td>
+      <td>Edición de perfil de usuario</td>
+      <td>Como usuario, quiero editar mi información personal para mantener mis datos actualizados.</td>
+      <td>6</td>
+      <td>Manuel Sanchez</td>
+      <td>Finalizado</td>
+    </tr>
+  </tbody>
+</table>
+
+### **5.2.4.4. Development Evidence for Sprint Review**
+
+Esta tabla lista los commits realizados durante el sprint, incluyendo aplicación de feeback en los web services y frontend.
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción de Commit</th>
+      <th>Fecha de Commit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>3e4d87d</td>
+      <td>fix: update code backend</td>
+      <td>-</td>
+      <td>05/07/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>2ae05e2</td>
+      <td>fix: telemetry endpoint</td>
+      <td>-</td>
+      <td>05/07/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>2ea1827</td>
+      <td>fix: comment documentation</td>
+      <td>-</td>
+      <td>05/07/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>37c4bf4</td>
+      <td>fix: update clean code</td>
+      <td>-</td>
+      <td>05/07/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/backend</td>
+      <td>-</td>
+      <td>b3c0c9</td>
+      <td>feat(iam): implement Resend email confirmation flow and test cleanup utilities</td>
+      <td>-</td>
+      <td>05/07/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>cc2f7b5</td>
+      <td>fix: correct styleUrl to styleUrls in multiple component files of shared bounded context</td>
+      <td>-</td>
+      <td>05/07/2026</td>
+    </tr>
+    <tr>
+      <td>upc-pre-1ASI0729-11834-Especialistas/frontend</td>
+      <td>-</td>
+      <td>1b92396</td>
+      <td>feat(iam): implement account verification page and test user cleanup triggers</td>
+      <td>-</td>
+      <td>05/07/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+### **5.2.4.5. Execution Evidence for Sprint Review**
+
+**Web Application:**
+
+Se implementó el feeback solicitado junto a las features restantes del product backlog. A continuación se presentan las evidencias correspondientes de la implementación.
+
+<ul>
+  <li><strong>Dashboard View</strong><br><img src="./assets/chapter-v/sprint-4-evidence-dashboard-view.png" alt="Dashboard View"></li>
+  <li><strong>Laboratories View</strong><br><img src="./assets/chapter-v/sprint-4-evidence-laboratories-view.png" alt="Laboratories View"></li>
+  <li><strong>History View</strong><br><img src="./assets/chapter-v/sprint-4-evidence-history-view.png" alt="History View"></li>
+  <li><strong>Alerts View</strong><br><img src="./assets/chapter-v/sprint-4-evidence-alerts-view.png" alt="Alerts View"></li>
+  <li><strong>Settings View</strong><br><img src="./assets/chapter-v/sprint-4-evidence-settings-view.png" alt="Settings View"></li>
+</ul>
+
+<p><strong>Despliegue de la aplicación web:</strong><br>
+<a href="https://frontend-iuj2kbsqn-manuel-sanchezs-projects-f772331f.vercel.app/">Safelab Web Application</a></p>
+
+### **5.2.4.6. Services Documentation Evidence for Sprint Review**
+
+**Backend:**
+
+Se hicieron correcciones en los web services existentes. A continuación, se presentan las evidencias correspondientes de la implementación.
+
+<ul>
+  <li><strong>Laboratories Endpoints</strong><img src="./assets/chapter-v/sprint-4-evidence-laboratories-endpoint.png" alt="Laboratories Endpoint"></li>
+  <li>
+    <strong>Telemetry Endpoints</strong>
+    <img src="./assets/chapter-v/sprint-4-evidence-1-telemetry-endpoint.png" alt="Telemetry Endpoint">
+    <img src="./assets/chapter-v/sprint-4-evidence-2-telemetry-endpoint.png" alt="Telemetry Endpoint">
+    <img src="./assets/chapter-v/sprint-4-evidence-3-telemetry-endpoint.png" alt="Telemetry Endpoint">
+    <img src="./assets/chapter-v/sprint-4-evidence-4-telemetry-endpoint.png" alt="Telemetry Endpoint">
+  </li>
+  <li><strong>History Endpoints</strong><img src="./assets/chapter-v/sprint-4-evidence-history-endpoint.png" alt="History Endpoint"></li>
+  <li><strong>Alerts Endpoints</strong><img src="./assets/chapter-v/sprint-4-evidence-alerts-endpoint.png" alt="Alerts Endpoint"></li>
+  <li>
+    <strong>Settings Endpoints</strong>
+    <img src="./assets/chapter-v/sprint-4-evidence-1-settings-endpoint.png" alt="Settings Endpoint">
+    <img src="./assets/chapter-v/sprint-4-evidence-2-settings-endpoint.png" alt="Settings Endpoint">
+    <img src="./assets/chapter-v/sprint-4-evidence-3-settings-endpoint.png" alt="Settings Endpoint">
+    <img src="./assets/chapter-v/sprint-4-evidence-4-settings-endpoint.png" alt="Settings Endpoint">
+  </li>
+  <li>
+    <strong>Authentication Endpoints</strong>
+    <img src="./assets/chapter-v/sprint-4-evidence-1-authentication-endpoint.png" alt="Authentication Endpoint">
+    <img src="./assets/chapter-v/sprint-4-evidence-2-authentication-endpoint.png" alt="Authentication Endpoint">
+    <img src="./assets/chapter-v/sprint-4-evidence-3-authentication-endpoint.png" alt="Authentication Endpoint">
+    <img src="./assets/chapter-v/sprint-4-evidence-4-authentication-endpoint.png" alt="Authentication Endpoint">
+  </li>
+</ul>
+
+### **5.2.4.7. Software Deployment Evidence for Sprint Review**
+
+Se realizaron nuevos despliegues para el Sprint 4: Aplicación web en Vercel y API de Safelab en Render. Presentamos los links que evidencian el despliegue de la aplicación web y los servicios web mejorados en el Sprint.
+
+**Web Application Deployment:**
+<ul>
+  <li>
+    <strong>URL de la Web Application:</strong>
+    <a href="https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/" target="_blank">https://frontend-j71vgadc7-manuel-sanchezs-projects-f772331f.vercel.app/</a>
+  </li>
+  <li>
+    <strong>Repositorio:</strong>
+    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/frontend" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/frontend</a>
+  </li>
+  <li>
+    <strong>Despliegue en Vercel:</strong><br>
+    <img src="./assets/chapter-v/evidence-sprint-4-web-app-deployment.png" alt="Web Application Deployment">
+  </li>
+</ul>
+
+**Web Services Deployment:**
+<ul>
+  <li>
+    <strong>URL de la API:</strong>
+    <a href="https://backend-5mih.onrender.com/swagger/swagger-ui/index.html#/" target="_blank">https://backend-5mih.onrender.com/swagger/swagger-ui/index.html#/</a>
+  </li>
+  <li>
+    <strong>Repositorio:</strong>
+    <a href="https://github.com/upc-pre-1ASI0729-11834-Especialistas/backend" target="_blank">https://github.com/upc-pre-1ASI0729-11834-Especialistas/backend</a>
+  </li>
+  <li>
+    <strong>Despliegue en Render:</strong><br>
+    <img src="./assets/chapter-v/evidence-sprint-4-backend-deployment.png" alt="Backend Deployment">
+  </li>
+</ul>
+
+### **5.2.4.8. Team Collaboration Insights during Sprint**
+
+Nuestro equipo gestionó los entregables mediante GitHub, WhatsApp y Google Meet durante el Sprint. Las actividades principales se centraron en la web application y los web services.
+
+**Evidencia de Colaboración:**
+
+![Team Collaboration Evidence](assets/chapter-v/evidence-team-collaboration-insights-sprint-4.png)
+
+**Principales Herramientas de Comunicación:**
+- Github: Para el control de versiones, gestión de issues y revisión de código.
+- WhatsApp: Para comunicación rápida, coordinación de tareas y apoyo mutuo.
+- Google Meet: Para reuniones de planificación, revisión de avances y aclaración de dudas específicas.
+
 ## **5.3. Validation Interviews**
 
 Durante el Sprint 3, se realizaron entrevistas de validación con usuarios potenciales para obtener feedback sobre la aplicación web y los servicios desarrollados. Las entrevistas se llevaron a cabo de manera remota, y se enfocaron en evaluar la usabilidad, funcionalidad y experiencia general del producto.
@@ -2240,14 +2590,12 @@ Link del video: [About the Product](https://upcedupe-my.sharepoint.com/:v:/g/per
 
 # **Conclusiones**
 
-En este Sprint 3, el equipo tuvo el mayor progreso en el desarrollo de la aplicación web, logrando implementar las vistas principales y establecer la conexión con los servicios web desarrollados en Java.
-
-Por último, conectamos los CTA de la Landing Page a la aplicación web, lo que permitió una experiencia de usuario fluida desde la presentación del producto hasta la interacción con la aplicación.
+En este Sprint 4, el equipo implementó las correcciones finales al proyecto en conjunto, consiguiendo un producto más completo y funcional.
 
 A partir de este nuevo avance, llegamos a las siguientes conclusiones:
 
-- Con la integración de los servicios web en la aplicación, y la presentación de la misma en la Landing Page, se logró un avance más tangible del producto, lo que permitió al equipo visualizar mejor el resultado final y realizar ajustes necesarios para mejorar la experiencia de usuario.
-- Durante este Sprint, el equipo se enfrentó a muchos cambios de ultimo momento debido a los avances simultáneos en el desarrollo del backend y frontend, generando desafíos en la coordinación y planificación. Sin embargo, se logró mantener una comunicación efectiva y adaptarse a los cambios para cumplir con los objetivos del Sprint.
+- Debido a lo conseguido en el proceso de desarrollo del Sprint pasado, los cambios a realizar en el Sprint 4 fueron menores, permitiendo al equipo enfocarse en la implementación de las funcionalidades restantes y la corrección de errores detectados durante las pruebas de validación.
+- Del mismo modo, logramos identificar oportunidades de mejora en la experiencia de usuario, las cuales fueron documentadas y priorizadas para su corrección en el Sprint 4.
 
 # **Anexos**
 
@@ -2269,3 +2617,6 @@ A partir de este nuevo avance, llegamos a las siguientes conclusiones:
 
 # **Bibliografía**
 
+- Vargas Vergara, Z. V. (2013). Sistema de control de acceso y monitoreo con la tecnología RFID para el departamento de sistemas de la universidad Politécnica Salesiana sede Guayaquil (Bachelor's thesis).
+
+- Arce-Poveda, K. F. Desarrollo de un sistema de monitoreo en tiempo real para el registro y la gestión del mantenimiento del sistema de ventilación del laboratorio de medicina de alta complejidad en el Hospital de las Mujeres Dr. Adolfo Carit Eva.

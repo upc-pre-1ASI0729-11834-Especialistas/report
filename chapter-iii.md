@@ -1,6 +1,6 @@
-# Capítulo III: Requirements Specification
+# **Capítulo III: Requirements Specification**
 
-## Epics
+## **Epics**
 
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
@@ -34,7 +34,7 @@
   </tbody>
 </table>
 
-## 3.1 User Stories
+## **3.1 User Stories**
 
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
@@ -622,11 +622,11 @@
   </tbody>
 </table>
 
-## 3.2 Impact Mapping
+## **3.2 Impact Mapping**
 
 ![Impact Map](assets/chapter-iii/impact-mapping.png)
 
-## 3.3 Product Backlog
+## **3.3 Product Backlog**
 
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
